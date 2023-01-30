@@ -1,6 +1,6 @@
 var map = new maplibregl.Map({
     container: 'map',
-    style: './resources/styles/index_map_1.json', // stylesheet location
+    style: './resources/styles/index_map.json', // stylesheet location
     center: [-69.2, 5.2], // starting position [lng, lat]
     zoom: 7 // starting zoom
 });
