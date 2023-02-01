@@ -1,0 +1,32 @@
+[
+	{
+		"id": "titulo_index",
+		"class": "index_popup main bg_white",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -69.2,
+			"lat": 5.2
+		},
+		"html": "<h1><i>Inventar Colombia</i></h1><h4><i>Una mirada desde el Orinoco</i></h4>"
+	},
+	{
+		"id": "siglo_XVIII",
+		"class": "index_popup sub bg_red",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -66.6,
+			"lat": 4.1
+		},
+		"html": "<img src='./resources/images/index/index_siglo_XIII.png'><h1><i>El Siglo XVIII</h1></i><h2><a href='#'>Ir a sección</a></h2>"
+	},
+	{
+		"id": "documentos",
+		"class": "index_popup sub bg_red",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -68.6,
+			"lat": 6.6
+		},
+		"html": "<img src='./resources/images/index/index_siglo_XIII.png'><h1><i>Documentos</h1></i><h2><a href='#'>Ir a sección</a></h2>"
+	}
+]
