@@ -23,60 +23,84 @@ html, body {
 
 /* FUENTES */
 @font-face {
-  font-family: 'Cormorant';
-  src: url('./resources/fonts/OTF/Cormorant-Regular.otf') format('opentype')
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'cormorant';
+	src: url('../resources/fonts/OTF/Cormorant-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Cormorant';
-  src: url('./resources/fonts/OTF/Cormorant-Bold.otf') format('opentype')
-  font-weight: bold;
-  font-style: normal;
+	font-family: 'cormorant';
+	src: url('../resources/fonts/OTF/Cormorant-Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'Cormorant';
-  src: url('./resources/fonts/OTF/Cormorant-Italic.otf') format('opentype')
-  font-weight: normal;
-  font-style: italic;
+	font-family: 'cormorant';
+	src: url('../resources/fonts/OTF/Cormorant-Italic.otf') format('opentype');
+	font-weight: normal;
+	font-style: italic;
 }
 
 @font-face {
-  font-family: 'Cormorant';
-  src: url('./resources/fonts/OTF/Cormorant-BoldItalic.otf') format('opentype')
-  font-weight: bold;
-  font-style: italic;
+	font-family: 'cormorant';
+	src: url('../resources/fonts/OTF/Cormorant-BoldItalic.otf') format('opentype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'cormorant-up';
+	src: url('../resources/fonts/OTF/CormorantUpright-Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cormorant-up';
+	src: url('../resources/fonts/OTF/CormorantUpright-Light.otf') format('opentype');
+	font-weight: lighter;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cormorant-up';
+	src: url('../resources/fonts/OTF/CormorantUpright-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 
 
 /* TEXTO */
 a {
-  outline: 0;
+	outline: 0;
 }
 
 a:link {
-  transition: color .2s linear;
-  color: #555555;
-  text-decoration: none;
+	transition: color .2s linear;
+	color: #241d15;
+	text-decoration: none;
 }
 
 a:visited {
-  color: #555555;
-  text-decoration: none;
+	color: #241d15;
+	text-decoration: none;
 }
 
 a:hover {
-  color: #241d15;
-  text-decoration: underline;
+	color: #241d15;
+	text-decoration: underline;
 }
 
 
 
 /* INDEX POPUPS */
-.index_popup,
+.index_popup {
+	border: double #241d15;
+}
+
 .index_popup > .maplibregl-popup-content,
 .index_popup > .mapboxgl-popup-content {
 	padding: 20px;
@@ -87,20 +111,20 @@ a:hover {
 }
 
 .main {
-	font-family: Cormorant;
+	font-family: cormorant-up;
 	font-size: 2em;
 }
 
 .sub {
-	font-family: Cormorant;
-	font-size: 0.8em;
+	font-family: cormorant-up;
+	font-size: 1em;
 }
 
-.sub img {
+#image1 {
 	position: absolute;
-	width: 100%;
-	top: -100px;
-	left: 0;
+  display: none;
+  pointer-events: none;
+  z-index: 100000;
 }
 
 .bg_white > .maplibregl-popup-content,
@@ -111,4 +135,19 @@ a:hover {
 .bg_red > .maplibregl-popup-content,
 .bg_red > .mapboxgl-popup-content {
 	background: #d4978b;
+}
+
+.bg_blue > .maplibregl-popup-content,
+.bg_blue > .mapboxgl-popup-content {
+	background: #92a9a4;
+}
+
+.bg_yellow > .maplibregl-popup-content,
+.bg_yellow > .mapboxgl-popup-content {
+	background: #f2dea0;
+}
+
+.bg_green > .maplibregl-popup-content,
+.bg_green > .mapboxgl-popup-content {
+	background: #98a280;
 }

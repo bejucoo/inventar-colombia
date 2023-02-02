@@ -7,17 +7,17 @@
 			"lng": -69.2,
 			"lat": 5.2
 		},
-		"html": "<h1><i>Inventar Colombia</i></h1><h4><i>Una mirada desde el Orinoco</i></h4>"
+		"html": "<h1><b>Inventar Colombia</b></h1><p>Una mirada desde el Orinoco</p>"
 	},
 	{
 		"id": "siglo_XVIII",
 		"class": "index_popup sub bg_red",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -66.6,
-			"lat": 4.1
+			"lng": -64.9,
+			"lat": 5.0
 		},
-		"html": "<img src='./resources/images/index/index_siglo_XIII.png'><h1><i>El Siglo XVIII</h1></i><h2><a href='#'>Ir a sección</a></h2>"
+		"html": "<h1><a href='#'>El Siglo XVIII</a></h1>"
 	},
 	{
 		"id": "documentos",
@@ -27,6 +27,96 @@
 			"lng": -68.6,
 			"lat": 6.6
 		},
-		"html": "<img src='./resources/images/index/index_siglo_XIII.png'><h1><i>Documentos</h1></i><h2><a href='#'>Ir a sección</a></h2>"
+		"html": "<h1><a href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Documentos</a></h1>"
+	},
+	{
+		"id": "metodologia",
+		"class": "index_popup sub bg_red",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -66.9,
+			"lat": 5.2
+		},
+		"html": "<h1><a href='#'>Metodología</a></h1>"
+	},
+	{
+		"id": "experimentos",
+		"class": "index_popup sub bg_red",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -66.5,
+			"lat": 6.8
+		},
+		"html": "<h1><a href='#'>Experimentos</a></h1>"
+	},
+	{
+		"id": "curaduria",
+		"class": "index_popup sub bg_yellow",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -73.2,
+			"lat": 6.4
+		},
+		"html": "<h1><a href='#'>Curaduría de Fragmentos</a></h1>"
+	},
+	{
+		"id": "mapas",
+		"class": "index_popup sub bg_yellow",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -71.8,
+			"lat": 5.4
+		},
+		"html": "<h1><a href='#'>Mapas y Datos</a></h1>"
+	},
+	{
+		"id": "narrativa",
+		"class": "index_popup sub bg_yellow",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -70.8,
+			"lat": 7.1
+		},
+		"html": "<h1><a href='#'>Narrativa Cartográfica</a></h1>"
+	},
+	{
+		"id": "ensayo",
+		"class": "index_popup sub bg_blue",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -67.1,
+			"lat": 4.0
+		},
+		"html": "<h1><a href='#'>Ensayo Interactivo</a></h1>"
+	},
+	{
+		"id": "equipo",
+		"class": "index_popup sub bg_green",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -73.2,
+			"lat": 3.8
+		},
+		"html": "<h1><a href='#'>Equipo</a></h1>"
+	},
+	{
+		"id": "sobre",
+		"class": "index_popup sub bg_green",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -71.7,
+			"lat": 4.1
+		},
+		"html": "<h1><a href='#'>Sobre el Proyecto</a></h1>"
+	},
+	{
+		"id": "citar",
+		"class": "index_popup sub bg_green",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -70.2,
+			"lat": 3.5
+		},
+		"html": "<h1><a href='#'>Citar este Proyecto</a></h1>"
 	}
 ]
