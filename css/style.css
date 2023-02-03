@@ -74,6 +74,8 @@ html, body {
 
 
 /* TEXTO */
+
+/* Links */
 a {
 	outline: 0;
 }
@@ -96,7 +98,27 @@ a:hover {
 
 
 
-/* INDEX POPUPS */
+/* INDEX */
+
+/* Botón Centrar */
+#home_button {
+	position: fixed;
+	top: 5%;
+	right: 2.5%;
+	background: #f4f2f2;
+	border: double #241d15;
+	font-family: cormorant-up;
+	font-size: 1em;
+	padding: 5px;
+}
+
+#home_button:hover {
+	cursor: pointer;
+	border: solid;
+}
+
+
+/* Popups */
 .index_popup {
 	border: double #241d15;
 }
@@ -118,13 +140,6 @@ a:hover {
 .sub {
 	font-family: cormorant-up;
 	font-size: 1em;
-}
-
-#image1 {
-	position: absolute;
-  display: none;
-  pointer-events: none;
-  z-index: 100000;
 }
 
 .bg_white > .maplibregl-popup-content,

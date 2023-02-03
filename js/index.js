@@ -4,19 +4,22 @@ var map = new maplibregl.Map({
     center: [-69.2, 5.2],
     zoom: 7.4,
     minZoom: 7
-}); 
+});
 
-var xml_popups = new XMLHttpRequest();
+var popupImgStyle = document.createElement("style");
+document.head.append(popupImgStyle);
 
-xml_popups.onreadystatechange = function() {
+var xmlPopups = new XMLHttpRequest();
+
+xmlPopups.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
         var popups_arr = JSON.parse(this.responseText);
         addIndexPopups(popups_arr)
     }
 };
 
-xml_popups.open("GET", "./resources/json/index_popups.json"); 
-xml_popups.send();
+xmlPopups.open("GET", "./resources/json/index_popups.json"); 
+xmlPopups.send();
 
 function addIndexPopups(json){
     json.forEach(function(e){
@@ -30,34 +33,51 @@ function addIndexPopups(json){
         .setLngLat(e.lnglat)
         .setHTML(e.html)
         .addTo(map);
+
+        if (e.id === "titulo"){
+            return;
+        } else {
+            popupImgStyle.innerHTML += '#' + e.id + '_image {position: absolute;  display: none;pointer-events: none;z-index: 100000;}'
+
+            const popupImg = document.createElement("div");
+            popupImg.id = e.id + '_image';
+            popupImg.innerHTML = '<img src="./resources/images/index/' + e.id + '.jpg">'
+            document.body.appendChild(popupImg);
+        } 
     })
 }
 
-let attached = false;
-let imageContainer = document.querySelector("#image1");
-
+let popupImgShown = false;
 
 function getElmtImage(elmt) {
-  return elmt.querySelector("img");
+  return document.querySelector('#' + elmt.id + '_image');
 }
 
-function followMouse(event) {
-    imageContainer.style.left = event.x + 10 + 'px';
-    imageContainer.style.top = event.y + 10 + 'px';
+function followMouse(e) {
+    const image = getElmtImage(e.srcElement);
+    image.style.left = e.x + 'px';
+    image.style.top = e.y + 'px';
 }
 
 function showImage(elmt) {
-    const image = getElmtImage(elmt)
-    if (!attached) {
-        attached = true;
-        imageContainer.style.display = "block";
+    const image = getElmtImage(elmt);
+    if (!popupImgShown) {
+        popupImgShown = true;
+        image.style.display = "block";
         document.addEventListener("mousemove", followMouse);
     }
 }
 
 function hideImage(elmt) {
-    const image = getElmtImage(elmt)
-    attached = false;
-    imageContainer.style.display = "none";
+    const image = getElmtImage(elmt);
+    popupImgShown = false;
+    image.style.display = "none";
     document.removeEventListener("mousemove", followMouse);
 }
+
+document.getElementById('home_button').addEventListener('click', function(){
+    map.flyTo({
+        center: [-69.2, 5.2],
+        zoom: 7.4, 
+    })
+})

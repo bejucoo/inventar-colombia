@@ -1,6 +1,6 @@
 [
 	{
-		"id": "titulo_index",
+		"id": "titulo",
 		"class": "index_popup main bg_white",
 		"maxWidth": "none",
 		"lnglat": {
@@ -17,7 +17,7 @@
 			"lng": -64.9,
 			"lat": 5.0
 		},
-		"html": "<h1><a href='#'>El Siglo XVIII</a></h1>"
+		"html": "<h1><a id='siglo_XVIII' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>El Siglo XVIII</a></h1>"
 	},
 	{
 		"id": "documentos",
@@ -27,7 +27,7 @@
 			"lng": -68.6,
 			"lat": 6.6
 		},
-		"html": "<h1><a href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Documentos</a></h1>"
+		"html": "<h1><a id='documentos' href='./sections/documentos.html' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Documentos</a></h1>"
 	},
 	{
 		"id": "metodologia",
@@ -37,7 +37,7 @@
 			"lng": -66.9,
 			"lat": 5.2
 		},
-		"html": "<h1><a href='#'>Metodología</a></h1>"
+		"html": "<h1><a id='metodologia' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Metodología</a></h1>"
 	},
 	{
 		"id": "experimentos",
@@ -47,7 +47,7 @@
 			"lng": -66.5,
 			"lat": 6.8
 		},
-		"html": "<h1><a href='#'>Experimentos</a></h1>"
+		"html": "<h1><a id='experimentos' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Experimentos</a></h1>"
 	},
 	{
 		"id": "curaduria",
@@ -57,7 +57,7 @@
 			"lng": -73.2,
 			"lat": 6.4
 		},
-		"html": "<h1><a href='#'>Curaduría de Fragmentos</a></h1>"
+		"html": "<h1><a id='curaduria' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Curaduría de Fragmentos</a></h1>"
 	},
 	{
 		"id": "mapas",
@@ -67,7 +67,7 @@
 			"lng": -71.8,
 			"lat": 5.4
 		},
-		"html": "<h1><a href='#'>Mapas y Datos</a></h1>"
+		"html": "<h1><a id='mapas' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Mapas y Datos</a></h1>"
 	},
 	{
 		"id": "narrativa",
@@ -77,7 +77,7 @@
 			"lng": -70.8,
 			"lat": 7.1
 		},
-		"html": "<h1><a href='#'>Narrativa Cartográfica</a></h1>"
+		"html": "<h1><a id='narrativa' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Narrativa Cartográfica</a></h1>"
 	},
 	{
 		"id": "ensayo",
@@ -87,7 +87,7 @@
 			"lng": -67.1,
 			"lat": 4.0
 		},
-		"html": "<h1><a href='#'>Ensayo Interactivo</a></h1>"
+		"html": "<h1><a id='ensayo' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Ensayo Interactivo</a></h1>"
 	},
 	{
 		"id": "equipo",
@@ -97,7 +97,7 @@
 			"lng": -73.2,
 			"lat": 3.8
 		},
-		"html": "<h1><a href='#'>Equipo</a></h1>"
+		"html": "<h1><a id='equipo' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Equipo</a></h1>"
 	},
 	{
 		"id": "sobre",
@@ -107,7 +107,7 @@
 			"lng": -71.7,
 			"lat": 4.1
 		},
-		"html": "<h1><a href='#'>Sobre el Proyecto</a></h1>"
+		"html": "<h1><a id='sobre' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Sobre el Proyecto</a></h1>"
 	},
 	{
 		"id": "citar",
@@ -117,6 +117,6 @@
 			"lng": -70.2,
 			"lat": 3.5
 		},
-		"html": "<h1><a href='#'>Citar este Proyecto</a></h1>"
+		"html": "<h1><a id='citar' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Citar este Proyecto</a></h1>"
 	}
 ]

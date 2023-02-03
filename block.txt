@@ -1,3 +1,0 @@
-<img src='./resources/images/index/index_siglo_XIII.png'>
-
-onpointerenter='showImage(this)' onpointerleave='hideImage(this)'
