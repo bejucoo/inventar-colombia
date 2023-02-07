@@ -1,7 +1,7 @@
 [
 	{
 		"id": "titulo",
-		"class": "index_popup main bg_white",
+		"class": "indexPopup indexPopup_main bg_white",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -69.2,
@@ -11,7 +11,7 @@
 	},
 	{
 		"id": "siglo_XVIII",
-		"class": "index_popup sub bg_red",
+		"class": "indexPopup indexPopup_sub bg_red",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -64.9,
@@ -21,17 +21,17 @@
 	},
 	{
 		"id": "documentos",
-		"class": "index_popup sub bg_red",
+		"class": "indexPopup indexPopup_sub bg_red",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -68.6,
 			"lat": 6.6
 		},
-		"html": "<h1><a id='documentos' href='./sections/documentos.html' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Documentos</a></h1>"
+		"html": "<h1><a id='documentos' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Documentos</a></h1>"
 	},
 	{
 		"id": "metodologia",
-		"class": "index_popup sub bg_red",
+		"class": "indexPopup indexPopup_sub bg_red",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -66.9,
@@ -41,7 +41,7 @@
 	},
 	{
 		"id": "experimentos",
-		"class": "index_popup sub bg_red",
+		"class": "indexPopup indexPopup_sub bg_red",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -66.5,
@@ -51,17 +51,17 @@
 	},
 	{
 		"id": "curaduria",
-		"class": "index_popup sub bg_yellow",
+		"class": "indexPopup indexPopup_sub bg_yellow",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -73.2,
 			"lat": 6.4
 		},
-		"html": "<h1><a id='curaduria' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Curaduría de Fragmentos</a></h1>"
+		"html": "<h1><a id='curaduria' href='./sections/fragmentos.html' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Curaduría de Fragmentos</a></h1>"
 	},
 	{
 		"id": "mapas",
-		"class": "index_popup sub bg_yellow",
+		"class": "indexPopup indexPopup_sub bg_yellow",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -71.8,
@@ -71,7 +71,7 @@
 	},
 	{
 		"id": "narrativa",
-		"class": "index_popup sub bg_yellow",
+		"class": "indexPopup indexPopup_sub bg_yellow",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -70.8,
@@ -81,7 +81,7 @@
 	},
 	{
 		"id": "ensayo",
-		"class": "index_popup sub bg_blue",
+		"class": "indexPopup indexPopup_sub bg_blue",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -67.1,
@@ -91,7 +91,7 @@
 	},
 	{
 		"id": "equipo",
-		"class": "index_popup sub bg_green",
+		"class": "indexPopup indexPopup_sub bg_green",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -73.2,
@@ -101,7 +101,7 @@
 	},
 	{
 		"id": "sobre",
-		"class": "index_popup sub bg_green",
+		"class": "indexPopup indexPopup_sub bg_green",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -71.7,
@@ -111,7 +111,7 @@
 	},
 	{
 		"id": "citar",
-		"class": "index_popup sub bg_green",
+		"class": "indexPopup indexPopup_sub bg_green",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -70.2,

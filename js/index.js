@@ -75,7 +75,7 @@ function hideImage(elmt) {
     document.removeEventListener("mousemove", followMouse);
 }
 
-document.getElementById('home_button').addEventListener('click', function(){
+document.getElementById('centerMap').addEventListener('click', function(){
     map.flyTo({
         center: [-69.2, 5.2],
         zoom: 7.4, 
