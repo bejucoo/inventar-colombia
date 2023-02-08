@@ -14,7 +14,7 @@ var xmlPopups = new XMLHttpRequest();
 xmlPopups.onreadystatechange = function() {
     if (this.readyState === 4 && this.status === 200) {
         var popups_arr = JSON.parse(this.responseText);
-        addIndexPopups(popups_arr)
+        addIndexPopups(popups_arr);
     }
 };
 

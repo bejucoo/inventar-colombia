@@ -1,0 +1,24 @@
+[
+	{
+		"id": "1",
+		"cita": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"tags": [
+			"Animales",
+			"Oso",
+			"Descripción"
+		],
+		"referencia": "Refe 1",
+		"pagina": "1"
+	},
+	{
+		"id": "2",
+		"cita": "Feugiat pretium nibh ipsum consequat. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam.",
+		"tags": [
+			"Comida",
+			"Plantas",
+			"Agua"
+		],
+		"referencia": "Refe 2",
+		"pagina": "2"
+	}
+]

@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <script src="../js/libraries/jquery-3.6.3.min.js"></script>
+  <script src="../js/libraries/filter.js"></script>
   <title>Documentos</title>
 </head>
 <body>
@@ -16,11 +18,20 @@
       <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum et sollicitudin ac orci. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Faucibus vitae aliquet nec ullamcorper sit amet risus. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Feugiat pretium nibh ipsum consequat. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Lectus urna duis convallis convallis tellus id interdum velit. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium.</h1>
     </div>
     <div id="rightColumn">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum et sollicitudin ac orci. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Faucibus vitae aliquet nec ullamcorper sit amet risus. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Feugiat pretium nibh ipsum consequat. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Lectus urna duis convallis convallis tellus id interdum velit. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Sed vulputate odio ut enim blandit. Cum sociis natoque penatibus et magnis dis parturient montes nascetur. Pulvinar neque laoreet suspendisse interdum consectetur. Viverra orci sagittis eu volutpat odio facilisis mauris. Aliquet risus feugiat in ante metus dictum. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Scelerisque in dictum non consectetur a erat nam at lectus. Aliquet risus feugiat in ante metus dictum at. Pharetra massa massa ultricies mi quis hendrerit dolor magna eget. Nisi lacus sed viverra tellus.
-      </p>
+      <div id="fragmentos"></div>
     </div>
   </div>
+  <script id="template_fragmentos" type="text/html">
+    <div class="fragmento">
+      <p><%= cita %></p>
+      <span>Tags: <%= tags %></span>
+      <br>
+      <span>Referencia: <%= referencia %></span>
+      <br>
+      <span>Página: <%= pagina %></span>
+    </div>
+  </script>
   <script src="../js/sectionsMenu.js"></script>
+  <script src="../js/fragmentos.js"></script>
 </body>
 </html>
