@@ -9,17 +9,14 @@ var map = new maplibregl.Map({
 var popupImgStyle = document.createElement("style");
 document.head.append(popupImgStyle);
 
-var xmlPopups = new XMLHttpRequest();
-
-xmlPopups.onreadystatechange = function() {
-    if (this.readyState === 4 && this.status === 200) {
-        var popups_arr = JSON.parse(this.responseText);
-        addIndexPopups(popups_arr);
-    }
-};
-
-xmlPopups.open("GET", "./resources/json/index_popups.json"); 
-xmlPopups.send();
+fetch("./resources/json/index_popups.json")
+.then(function (response) {
+  return response.json();
+})
+.then(function (data) {
+  console.log(data);
+  addIndexPopups(data);
+});
 
 function addIndexPopups(json){
     json.forEach(function(e){

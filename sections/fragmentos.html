@@ -15,20 +15,24 @@
   </div>
   <div id="sectionContent">
     <div id="leftColumn">
-      <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum et sollicitudin ac orci. In ornare quam viverra orci sagittis eu volutpat odio facilisis. Faucibus vitae aliquet nec ullamcorper sit amet risus. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Feugiat pretium nibh ipsum consequat. Fusce id velit ut tortor pretium viverra suspendisse potenti nullam. Lectus urna duis convallis convallis tellus id interdum velit. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium.</h1>
+      <h1>Curaduría de Fragmentos</h1>
+      <h3>Repellat dolorem incidunt qui ut dicta. Sit id optio dolorem asperiores a. Accusantium laboriosam ipsa voluptatem molestias.</h3>
+      <p>Architecto earum quos molestias asperiores aut eius sit. Porro atque reiciendis impedit rerum hic facere. Voluptatem qui quis quos autem voluptatem et qui. Alias velit aut perferendis ad. Temporibus aut dignissimos autem est. At provident et ut beatae.</p>
+      <div id="controlFragmentos">
+        <fieldset id="tagsFragmentos">
+          <legend>Tags</legend>
+        </fieldset>
+      </div>
     </div>
     <div id="rightColumn">
       <div id="fragmentos"></div>
     </div>
   </div>
-  <script id="template_fragmentos" type="text/html">
+  <script id="templateFragmentos" type="text/html">
     <div class="fragmento">
-      <p><%= cita %></p>
-      <span>Tags: <%= tags %></span>
-      <br>
-      <span>Referencia: <%= referencia %></span>
-      <br>
-      <span>Página: <%= pagina %></span>
+      <div class="cita"><%= cita %></div>
+      <p><b><%= referencia %></b></p>
+      <p>Páginas: <%= pagina %></p>
     </div>
   </script>
   <script src="../js/sectionsMenu.js"></script>

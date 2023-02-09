@@ -1,21 +1,40 @@
-var xmlFragmentos = new XMLHttpRequest();
+fetch("../resources/json/fragmentos.json")
+.then(function (response) {
+  return response.json();
+})
+.then(function (data) {
+  var tagsArrays = [];
+  var allTags;
+  var filteredTags;
 
-xmlFragmentos.onreadystatechange = function() {
-  if (this.readyState === 4 && this.status === 200) {
-    var fragmentosJSON = [];
-    JSON.parse(this.responseText).forEach(function(e){
-      fragmentosJSON.push(e);
-    })
-    filterJSON(fragmentosJSON);
-  }
-};
+  data.forEach(function(e, i){
+    tagsArrays.push(e.tags); 
+  });
 
-xmlFragmentos.open("GET", "../resources/json/fragmentos.json"); 
-xmlFragmentos.send();
+  allTags = tagsArrays.flat();
+  filteredTags = [...new Set(allTags)];
+
+  addTagsCheck(filteredTags)
+  filterJSON(data);
+});
 
 function filterJSON(data){
-  console.log(data);
   var filter = FilterJS(data, '#fragmentos', {
-    template: '#template_fragmentos'
+    template: '#templateFragmentos',
+    criterias: [{
+      field: 'tags',
+      ele: '#tagsFragmentos input:checkbox',
+      all: 'all'
+    }]
   });
+}
+
+function addTagsCheck(tags){
+  const checkboxElm = document.getElementById('tagsFragmentos');
+  tags.forEach(function(e){
+    var tagCheckbox = document.createElement('div');
+    tagCheckbox.classList.add('checkbox');
+    tagCheckbox.innerHTML = `<input type="checkbox" name="${e}" value="${e}"><label for="${e}">${e}</label>`;
+    checkboxElm.appendChild(tagCheckbox);
+  })
 }
