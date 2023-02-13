@@ -1,21 +1,21 @@
 var map = new maplibregl.Map({
     container: 'map',
     style: './resources/map_styles/index_map.json',
-    center: [-69.2, 5.2],
-    zoom: 7.4,
-    minZoom: 7
+    center: [-67.55, 6.2],
+    zoom: 10,
+    pitch: 60,
+    bearing: 61.69
 });
 
-var popupImgStyle = document.createElement("style");
-document.head.append(popupImgStyle);
+map.scrollZoom.disable();
 
 fetch("./resources/json/index_popups.json")
 .then(function (response) {
   return response.json();
 })
 .then(function (data) {
-  console.log(data);
   addIndexPopups(data);
+  scrollToPoint(data);
 });
 
 function addIndexPopups(json){
@@ -30,51 +30,25 @@ function addIndexPopups(json){
         .setLngLat(e.lnglat)
         .setHTML(e.html)
         .addTo(map);
-
-        if (e.id === "titulo"){
-            return;
-        } else {
-            popupImgStyle.innerHTML += '#' + e.id + '_image {position: absolute;  display: none;pointer-events: none;z-index: 100000;}'
-
-            const popupImg = document.createElement("div");
-            popupImg.id = e.id + '_image';
-            popupImg.innerHTML = '<img src="./resources/images/index/' + e.id + '.jpg">'
-            document.body.appendChild(popupImg);
-        } 
     })
-}
+};
 
-let popupImgShown = false;
-
-function getElmtImage(elmt) {
-  return document.querySelector('#' + elmt.id + '_image');
-}
-
-function followMouse(e) {
-    const image = getElmtImage(e.srcElement);
-    image.style.left = e.x + 'px';
-    image.style.top = e.y + 'px';
-}
-
-function showImage(elmt) {
-    const image = getElmtImage(elmt);
-    if (!popupImgShown) {
-        popupImgShown = true;
-        image.style.display = "block";
-        document.addEventListener("mousemove", followMouse);
-    }
-}
-
-function hideImage(elmt) {
-    const image = getElmtImage(elmt);
-    popupImgShown = false;
-    image.style.display = "none";
-    document.removeEventListener("mousemove", followMouse);
-}
-
-document.getElementById('centerMap').addEventListener('click', function(){
-    map.flyTo({
-        center: [-69.2, 5.2],
-        zoom: 7.4, 
+function scrollToPoint(json){
+    const scroller = scrollama();
+    scroller
+    .setup({
+        step: ".step",
     })
-})
+    .onStepEnter((response) => {
+        map.flyTo({
+            center: json[response.index].lnglat,
+            zoom: json[response.index].zoom,
+            pitch: json[response.index].pitch,
+            bearing: json[response.index].bearing,
+            curve: 0.24,
+            speed: 0.24
+        });
+    })
+    .onStepExit((response) => {
+    });
+};

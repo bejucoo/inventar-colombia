@@ -4,119 +4,51 @@
 		"class": "indexPopup indexPopup_main bg_white",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -69.2,
-			"lat": 5.2
+			"lng": -67.55,
+			"lat": 6.2
 		},
+		"zoom": 10,
+		"pitch": 60,
+		"bearing": 61.69,
 		"html": "<h1><b>Inventar Colombia</b></h1><p>Una mirada desde el Orinoco</p>"
 	},
 	{
-		"id": "siglo_XVIII",
+		"id": "section_1",
 		"class": "indexPopup indexPopup_sub bg_red",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -64.9,
-			"lat": 5.0
+			"lng": -65.5,
+			"lat": 7.5
 		},
-		"html": "<h1><a id='siglo_XVIII' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>El Siglo XVIII</a></h1>"
+		"zoom": 10,
+		"pitch": 60,
+		"bearing": 61.69,
+		"html": "<h1>Sección 1</h1><p><a href=#'>El Siglo XVIII</a></p> • <a href='#'>Metodología</a> • <a href='#'>Experimentos</a> • <a href='#'>Documentos</a></p>"
 	},
 	{
-		"id": "documentos",
-		"class": "indexPopup indexPopup_sub bg_red",
-		"maxWidth": "none",
-		"lnglat": {
-			"lng": -68.6,
-			"lat": 6.6
-		},
-		"html": "<h1><a id='documentos' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Documentos</a></h1>"
-	},
-	{
-		"id": "metodologia",
-		"class": "indexPopup indexPopup_sub bg_red",
-		"maxWidth": "none",
-		"lnglat": {
-			"lng": -66.9,
-			"lat": 5.2
-		},
-		"html": "<h1><a id='metodologia' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Metodología</a></h1>"
-	},
-	{
-		"id": "experimentos",
-		"class": "indexPopup indexPopup_sub bg_red",
-		"maxWidth": "none",
-		"lnglat": {
-			"lng": -66.5,
-			"lat": 6.8
-		},
-		"html": "<h1><a id='experimentos' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Experimentos</a></h1>"
-	},
-	{
-		"id": "curaduria",
+		"id": "section_2",
 		"class": "indexPopup indexPopup_sub bg_yellow",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -73.2,
-			"lat": 6.4
+			"lng": -63.19,
+			"lat": 7.8
 		},
-		"html": "<h1><a id='curaduria' href='./sections/fragmentos.html' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Curaduría de Fragmentos</a></h1>"
+		"zoom": 10,
+		"pitch": 60,
+		"bearing": 61.69,
+		"html": "<h1>Sección 2</h1><p><a href='./sections/fragmentos.html'>Curaduría de Fragmentos</a></p> • <a href='#'>Mapas y Datos</a> • <a href='#'>Narrativa Cartográfica</a></p>"
 	},
 	{
-		"id": "mapas",
-		"class": "indexPopup indexPopup_sub bg_yellow",
-		"maxWidth": "none",
-		"lnglat": {
-			"lng": -71.8,
-			"lat": 5.4
-		},
-		"html": "<h1><a id='mapas' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Mapas y Datos</a></h1>"
-	},
-	{
-		"id": "narrativa",
-		"class": "indexPopup indexPopup_sub bg_yellow",
-		"maxWidth": "none",
-		"lnglat": {
-			"lng": -70.8,
-			"lat": 7.1
-		},
-		"html": "<h1><a id='narrativa' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Narrativa Cartográfica</a></h1>"
-	},
-	{
-		"id": "ensayo",
+		"id": "section_3",
 		"class": "indexPopup indexPopup_sub bg_blue",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -67.1,
-			"lat": 4.0
+			"lng": -61.0,
+			"lat": 8.5
 		},
-		"html": "<h1><a id='ensayo' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Ensayo Interactivo</a></h1>"
-	},
-	{
-		"id": "equipo",
-		"class": "indexPopup indexPopup_sub bg_green",
-		"maxWidth": "none",
-		"lnglat": {
-			"lng": -73.2,
-			"lat": 3.8
-		},
-		"html": "<h1><a id='equipo' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Equipo</a></h1>"
-	},
-	{
-		"id": "sobre",
-		"class": "indexPopup indexPopup_sub bg_green",
-		"maxWidth": "none",
-		"lnglat": {
-			"lng": -71.7,
-			"lat": 4.1
-		},
-		"html": "<h1><a id='sobre' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Sobre el Proyecto</a></h1>"
-	},
-	{
-		"id": "citar",
-		"class": "indexPopup indexPopup_sub bg_green",
-		"maxWidth": "none",
-		"lnglat": {
-			"lng": -70.2,
-			"lat": 3.5
-		},
-		"html": "<h1><a id='citar' href='#' onpointerenter='showImage(this)' onpointerleave='hideImage(this)'>Citar este Proyecto</a></h1>"
+		"zoom": 10,
+		"pitch": 60,
+		"bearing": 61.69,
+		"html": "<h1>Sección 3</h1><p><a href='#'>Ensayo Interactivo</a></p>"
 	}
 ]

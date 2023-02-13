@@ -1,14 +1,8 @@
 html, body {
-	width:100%;
-	height:100%;
 	margin:0;
 	padding:0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	background: #e9e9e9;
 }
-
 
 
 /* LINKS */
@@ -34,34 +28,64 @@ a:hover {
 
 
 
+
+
+/* MENU */
+#sectionMenu {
+	display: flex;
+	flex-flow: row;
+	position: fixed;
+	width: 15%;
+	height: 100vh;
+	top: 0;
+	left: -13%;
+	border-right: double;
+	border-width: 3px;
+	font-family: cormorant-up;
+	background: #e9e9e9;
+	transition: left 0.4s;
+	z-index: 1;
+}
+
+#sectionMenu.active {
+	left: 0;
+}
+
+#menuContent {
+	width: calc(100% - 2rem);
+}
+
+#menuToggle {
+	width: 2rem;
+	display: flex;
+	cursor: pointer;
+	font-size: 1.7em;
+	padding: 2% 0 0 0;
+}
+
+
+
+
+
+/* INDEX */
 /* INDEX MAP */
+#mapIntro {
+	width: 100vw;
+}
+
 #map {
 	width:100%;
-	height:100%;
+	min-height: 100vh;
+	position: sticky;
+	top: 0;
 }
 
 .maplibregl-popup-tip, .mapboxgl-popup-tip {
 	display: none;
 }
 
-
-
-/* INDEX */
-/* CENTER BUTTON */
-#centerMap {
-	position: fixed;
-	top: 5%;
-	right: 2.5%;
-	background: #f4f2f2;
-	border: double #241d15;
-	font-family: cormorant-up;
-	font-size: 1em;
-	padding: 5px;
-}
-
-#centerMap:hover {
-	cursor: pointer;
-	border: solid;
+.step {
+	height: 1000px;
 }
 
 
@@ -81,12 +105,12 @@ a:hover {
 
 .indexPopup_main {
 	font-family: cormorant-up;
-	font-size: 2em;
+	font-size: 2.5em;
 }
 
 .indexPopup_sub {
 	font-family: cormorant-up;
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 .bg_white > .maplibregl-popup-content,
@@ -115,49 +139,25 @@ a:hover {
 }
 
 
+/* INFO */
+#infoIntro {
+	width: 100vw;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	font-family: 'cormorant-up';
+	font-size: 1.5em;
+}
+
+
+
+
+
 
 /* SECTIONS */
-/* MENU */
-#sectionMenu {
-	display: flex;
-	flex-flow: row;
-	position: fixed;
-	width: 15%;
-	height: 100vh;
-	top: 0;
-	left: -13%;
-	border-right: double;
-	border-width: 3px;
-	font-family: cormorant-up;
-	background: #e9e9e9;
-	transition: left 0.4s;
-}
-
-#sectionMenu.active {
-	left: 0;
-}
-
-#menuContent {
-	width: calc(100% - 2rem);
-}
-
-#menuToggle {
-	width: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	cursor: pointer;
-}
-
-#menuToggle span {
-	transform: rotate(-90deg);
-}
-
-
-
 /* CONTENT */
 #sectionContent {
-	width: 100%;
+	max-width: 100vw;
 	height: 100vh;
 	margin: 0;
 	padding: 0 2% 0 4%;
@@ -183,8 +183,8 @@ a:hover {
 	overflow: scroll;
 	font-family: cormorant;
 	background: #e9e9e9;
+	scroll-behavior: smooth;
 }
-
 
 
 /* FRAGMENTOS */
@@ -204,6 +204,8 @@ a:hover {
 	max-height: 300px;
 	overflow: scroll;
 }
+
+
 
 
 
@@ -236,6 +238,8 @@ a:hover {
 	#menuToggle {
 		width: 100%;
 		height: 2rem;
+		justify-content: center;
+		padding: 0 0 2% 0;
 	}
 
 	#menuToggle span {
@@ -259,6 +263,9 @@ a:hover {
 		grid-template-columns: repeat(1, 1fr);
 	}
 }
+
+
+
 
 
 /* FONTS */

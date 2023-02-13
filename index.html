@@ -4,12 +4,47 @@
   <meta charset="utf-8">
   <title>Inventar Colombia</title>
   <link href='./css/style.css' rel='stylesheet'>
-  <script src='./js/libraries/maplibre-gl.js'></script>
   <link href='./css/libraries/maplibre-gl.css' rel='stylesheet'/>
+  <script src='./js/libraries/maplibre-gl.js'></script>
+  <script src="./js/libraries/scrollama.js"></script>
 </head>
 <body>
-  <div id='map'></div>
-  <div id='centerMap'><b>🟆 CENTRAR 🟆</b></div>
+  <div id="sectionMenu">
+    <div id="menuContent"></div>
+    <div id="menuToggle">
+      <span>
+        <b>☰</b>
+      </span>
+    </div>
+  </div>
+
+  <div id="introContent">
+    <section id="mapIntro">
+      <div id='map'></div>
+      <!--<div id='centerMap'><b>🟆 CENTRAR 🟆</b></div>-->
+
+      <div id="stepsMapIntro">
+        <div class="step"></div>
+        <div class="step"></div>
+        <div class="step"></div>
+        <div class="step"></div>
+      </div>
+    </section>
+
+    <section id="infoIntro">
+      <div id="sobre">
+        <h1>Sobre el Proyecto</h1>
+      </div>
+      <div id="equipo">
+        <h1>Equipo</h1>
+      </div>
+      <div id="citar">
+        <h1>Citar el Proyecto</h1>
+      </div>
+    </section>
+  </div>
+
+  <script src="./js/menu.js"></script>
   <script src="./js/index.js"></script>
 </body>
 </html>
