@@ -8,6 +8,8 @@ var map = new maplibregl.Map({
 });
 
 map.scrollZoom.disable();
+map.dragPan.disable();
+map.touchZoomRotate.disable();
 
 fetch("./resources/json/index_popups.json")
 .then(function (response) {
