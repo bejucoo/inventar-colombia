@@ -1,7 +1,7 @@
 [
 	{
 		"id": "titulo",
-		"class": "indexPopup indexPopup_main bg_white",
+		"class": "indexPopup indexPopup_main bg_white bd_doubleThick",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -67.55,
@@ -14,7 +14,7 @@
 	},
 	{
 		"id": "section_1",
-		"class": "indexPopup indexPopup_sub bg_red",
+		"class": "indexPopup indexPopup_sub bg_red bd_double",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -65.5,
@@ -27,7 +27,7 @@
 	},
 	{
 		"id": "section_2",
-		"class": "indexPopup indexPopup_sub bg_yellow",
+		"class": "indexPopup indexPopup_sub bg_yellow bd_double",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -63.19,
@@ -40,7 +40,7 @@
 	},
 	{
 		"id": "section_3",
-		"class": "indexPopup indexPopup_sub bg_blue",
+		"class": "indexPopup indexPopup_sub bg_blue bd_double",
 		"maxWidth": "none",
 		"lnglat": {
 			"lng": -61.0,

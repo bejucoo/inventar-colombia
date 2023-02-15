@@ -1,0 +1,32 @@
+[
+	{
+		"id": "C1",
+		"link": "<a href='#cita1'>Cita 1</a>",
+		"categories": [
+			"Animales",
+			"Otra"
+		],
+		"ref": "Joseph Gumilla, Orinoco Ilustrado V.1, 1741",
+		"pags": "268-269"
+	},
+	{
+		"id": "C2",
+		"link": "<a href='#cita2'>Cita 2</a>",
+		"categories": [
+			"Animales",
+			"Otra"
+		],
+		"ref": "Joseph Gumilla, Orinoco Ilustrado V.1, 1741",
+		"pags": "147"
+	},
+	{
+		"id": "C3",
+		"link": "<a href='#cita3'>Cita 3</a>",
+		"categories": [
+			"Animales",
+			"Otra"
+		],
+		"ref": "Joseph Gumilla, Orinoco Ilustrado V.1, 1741",
+		"pags": "269"
+	}
+]

@@ -1,7 +1,7 @@
 html, body {
 	margin:0;
 	padding:0;
-	background: #e9e9e9;
+	background: #f2efe5;
 }
 
 
@@ -27,6 +27,21 @@ a:hover {
 }
 
 
+/* BORDERS */
+.bd_double {
+	border: double #241d15;
+}
+
+.bd_doubleThick {
+	border: thick double #241d15;
+}
+
+
+/* PADDING */
+
+
+
+
 
 
 
@@ -39,10 +54,9 @@ a:hover {
 	height: 100vh;
 	top: 0;
 	left: -13%;
-	border-right: double;
-	border-width: 3px;
+	border-right: thick double #241d15;
 	font-family: cormorant-up;
-	background: #e9e9e9;
+	background: #f2efe5;
 	transition: left 0.4s;
 	z-index: 1;
 }
@@ -71,6 +85,7 @@ a:hover {
 /* INDEX MAP */
 #mapIntro {
 	width: 100vw;
+	border-bottom: thick double #241d15;
 }
 
 #map {
@@ -85,18 +100,14 @@ a:hover {
 }
 
 .step {
-	height: 1000px;
+	height: 2000px;
 }
 
 
 /* POPUPS */
-.indexPopup {
-	border: double #241d15;
-}
-
 .indexPopup > .maplibregl-popup-content,
 .indexPopup > .mapboxgl-popup-content {
-	padding: 20px;
+	padding: 30px;
 	border-radius: 0;
 	box-shadow: none;
 	color: #241d15;
@@ -115,7 +126,7 @@ a:hover {
 
 .bg_white > .maplibregl-popup-content,
 .bg_white > .mapboxgl-popup-content {
-	background: #f4f2f2;
+	background: #f2f0ea;
 }
 
 .bg_red > .maplibregl-popup-content,
@@ -141,12 +152,16 @@ a:hover {
 
 /* INFO */
 #infoIntro {
-	width: 100vw;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
+	max-width: 100vw;
+	padding: 2% 5%;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	gap: 120px;
 	font-family: 'cormorant-up';
-	font-size: 1.5em;
+	font-size: 1.2em;
+}
+
+.infoIntroDiv {
 }
 
 
@@ -156,43 +171,58 @@ a:hover {
 
 /* SECTIONS */
 /* CONTENT */
+.twoCol_1-2 {
+	grid-template-columns: 1fr 2fr;
+}
+
+.threeCol_1-1-2 {
+	grid-template-columns: 1fr 1fr 2fr;
+}
+
+.col_1 {
+	padding: 5% 5% 0 5%;
+	overflow: scroll;
+	font-family: cormorant-up;
+	background: #f2efe5;
+}
+
+.col_2 {
+	padding: 2% 5% 0 5%;
+	overflow: scroll;
+	font-family: cormorant;
+	background: #f2efe5;
+	scroll-behavior: smooth;
+}
+
 #sectionContent {
 	max-width: 100vw;
 	height: 100vh;
 	margin: 0;
-	padding: 0 2% 0 4%;
-	display: flex;
-	flex-flow: row;
-	font-size: 1.5em;
-	background: #e9e9e9;
+	padding: 0 0 0 4%;
+	display: grid;
+	font-size: 1.2em;
+	background: #f2efe5;
 }
 
-#sectionContent > #leftColumn {
-	width: 30%;
-	padding: 0 2% 0 0;
-	overflow: scroll;
-	border-right: double;
-	border-width: 3px;
-	font-family: cormorant-up;
-	background: #e9e9e9;
+#sectionContent h1 {
+	font-size: 3.5em;
+	margin-top: 5%;
 }
 
-#sectionContent > #rightColumn {
-	width: 70%;
-	padding: 2% 0 0 2%;
-	overflow: scroll;
-	font-family: cormorant;
-	background: #e9e9e9;
-	scroll-behavior: smooth;
-}
+
+
 
 
 /* FRAGMENTOS */
+#controlFragmentos {
+	padding: 0 0 10% 0;
+}
+
 #fragmentos {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 	gap: 30px;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 .fragmento {
@@ -203,6 +233,15 @@ a:hover {
 .cita {
 	max-height: 300px;
 	overflow: scroll;
+}
+
+#miniMap {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 96px;
+	height: 100%;
+	z-index: 100;
 }
 
 
@@ -219,10 +258,7 @@ a:hover {
 		height: 100vh;
 		top: -94%;
 		left: 0;
-		border-bottom: double;
-		border-width: 4px;
-		font-family: cormorant-up;
-		background: #e9e9e9;
+		border-bottom: thick double;
 		transition: top 0.4s;
 	}
 
@@ -246,13 +282,49 @@ a:hover {
 		transform: rotate(0);
 	}
 
-	#sectionContent {
-		flex-flow: column;
-		padding: 0 2%;
+
+
+
+
+	.step {
+		height: 1000px;
 	}
 
-	#sectionContent > #rightColumn,
-	#sectionContent > #leftColumn {
+
+
+
+
+	#infoIntro {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 30px;
+	}
+
+
+
+
+
+	.indexPopup > .maplibregl-popup-content,
+	.indexPopup > .mapboxgl-popup-content {
+		padding: 15px;
+		box-shadow: none;
+		color: #241d15;
+		text-align: center;
+	}
+
+	.indexPopup_main {
+		font-size: 2em;
+	}
+
+
+
+
+
+	#sectionContent {
+		grid-template-columns: repeat(1, 1fr);
+		padding: 10% 5%;
+	}
+
+	.col_1, .col_2 {
 		width: 100%;
 		overflow: unset;
 		padding: 5% 0 0 0;
@@ -261,6 +333,13 @@ a:hover {
 
 	#fragmentos {
 		grid-template-columns: repeat(1, 1fr);
+	}
+
+
+
+
+	#miniMap {
+		display: none;
 	}
 }
 
