@@ -1,4 +1,4 @@
-### [Home](/index.html)
+### [Home](index.html)
 <br>
 
 - ### Intro
@@ -9,7 +9,7 @@
 <br><br>
 
 - ### Orinoco
-	- ⭑[Curaduría de Fragmentos](/sections/fragmentos.html)
+	- ⭑[Curaduría de Fragmentos](sections/fragmentos.html)
 	- ⭑[Mapas y Datos](#)
 	- ⭑[Narrativa Cartográfica](#)
 <br><br>
@@ -18,4 +18,4 @@
 	- ⭑[Ensayo Interactivo](#)
 <br><br><br>
 
-### [Acerca de](/index.html#infoIntro)
+### [Acerca de](index.html#infoIntro)
