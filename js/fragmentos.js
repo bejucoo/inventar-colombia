@@ -1,3 +1,4 @@
+// Obtener el archivo de los fragmentos y ejecutar las funciones.
 fetch("../resources/json/fragmentos_1.json")
 .then(function (response) {
   return response.json();
@@ -8,6 +9,7 @@ fetch("../resources/json/fragmentos_1.json")
   addFullText();
 });
 
+// Obtener todas las categorías y filtrar las repetidas.
 function flatCategories(fragmentos){
   var categoriesArrays = [];
   var allCategories;
@@ -22,6 +24,7 @@ function flatCategories(fragmentos){
   return filteredCategories;
 }
 
+// Agregar el checklist de categorías.
 function addCategoryCheck(categories){
   const checkboxField = document.getElementById('fieldCategorias');
   const toggleAllElm = document.getElementById('allCategories');
@@ -33,6 +36,7 @@ function addCategoryCheck(categories){
   });
 }
 
+// Agregar las citas y los filtros.
 function filterJSON(fragmentos){
   var filter = FilterJS(fragmentos, '#fragmentos', {
     template: '#templateFragmentos',
@@ -48,6 +52,7 @@ function filterJSON(fragmentos){
   });
 }
 
+// Agregar el cuerpo de texto según el elemento de selección.
 function addFullText(){
   var selectElm = document.querySelector('#cuerpoDeTexto');
   const textElm = document.querySelector('#fragmentosCol3');
@@ -65,16 +70,15 @@ function addFullText(){
     } else {
       console.log('Error al cargar pagemap');
     }
-  }, 5000);
+  }, 3600);
 }
 
+// Agregar el miniMap del cuerpo de texto.
 function miniMapText(){
   pagemap(document.querySelector('#miniMap'), {
     viewport: document.querySelector('#fragmentosCol3'),
     styles: {
-      'header,footer,section,article': 'rgba(0,0,0,0.08)',
-      'h1,a': 'rgba(0,0,0,0.10)',
-      'h2,h3,h4': 'rgba(0,0,0,0.08)',
+      'h1, h2, h3, h4': 'rgba(0,0,0,0.2)',
       'p': 'rgba(0, 0, 0, 0.05)',
       'mark': 'rgba(255, 255, 0, 0.5)'
     },

@@ -44,6 +44,7 @@ a:hover {
 
 fieldset {
 	border: none;
+	padding: 0;
 }
 
 select {
@@ -97,7 +98,7 @@ select {
 	top: 0;
 	left: -13%;
 	border-right: thick double var(--black);
-	font-family: cormorant-up;
+	font-family: cormorant-sc;
 	background: var(--white1);
 	transition: left 0.4s;
 	z-index: 1;
@@ -108,6 +109,22 @@ select {
 }
 
 #menuContent {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#menuContent ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menuContent li {
+	margin-bottom: 10px;
 }
 
 #menuToggle {
@@ -247,6 +264,10 @@ select {
 /* FRAGMENTOS */
 #seleccionTexto, #seleccionCategorias {
 	padding: 0 0 10% 0;
+}
+
+#seleccionTexto {
+	margin-top: 25px;
 }
 
 #fragmentos {
@@ -393,6 +414,8 @@ select {
 	font-style: italic;
 }
 
+
+
 @font-face {
 	font-family: 'cormorant-up';
 	src: url('../resources/fonts/OTF/CormorantUpright-Bold.otf') format('opentype');
@@ -411,5 +434,29 @@ select {
 	font-family: 'cormorant-up';
 	src: url('../resources/fonts/OTF/CormorantUpright-Regular.otf') format('opentype');
 	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'cormorant-sc';
+	src: url('../resources/fonts/OTF/CormorantSC-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'cormorant-sc';
+	src: url('../resources/fonts/OTF/CormorantSC-Light.otf') format('opentype');
+	font-weight: lighter;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cormorant-sc';
+	src: url('../resources/fonts/OTF/CormorantSC-Bold.otf') format('opentype');
+	font-weight: bold;
 	font-style: normal;
 }

@@ -1,14 +1,15 @@
+// Elementos del menú (contenido y toggle).
 const menuDiv = document.getElementById('sectionMenu');
-var menuToggle = false;
+const menuToggleDiv = document.getElementById('menuToggle')
+var menuOpen = false;
 
+// Al hacer click, abrir o cerrar el menú.
 menuDiv.addEventListener('click', function(){
-	if (!menuToggle) {
-		menuToggle = true;
+	if (!menuOpen) {
+		menuOpen = true;
 		menuDiv.classList.add('active');
-		console.log(menuToggle);
 	} else {
-		menuToggle = false
+		menuOpen = false
 		menuDiv.classList.remove('active')
-		console.log(menuToggle);	
 	}
 });
