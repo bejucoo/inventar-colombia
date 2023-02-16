@@ -1,32 +1,44 @@
 [
 	{
-		"id": "C1",
+		"id": "C1_1",
 		"link": "<a href='#cita1'>Cita 1</a>",
-		"categories": [
-			"Animales",
-			"Otra"
-		],
-		"ref": "Joseph Gumilla, Orinoco Ilustrado V.1, 1741",
+		"categories": "Animales",
+		"ref": "orinocoIlustrado_1",
 		"pags": "268-269"
 	},
 	{
-		"id": "C2",
+		"id": "C1_2",
+		"link": "TEST 1",
+		"categories": "Otra",
+		"ref": "orinocoIlustrado_1",
+		"pags": "268-269"
+	},
+	{
+		"id": "C2_1",
 		"link": "<a href='#cita2'>Cita 2</a>",
-		"categories": [
-			"Animales",
-			"Otra"
-		],
-		"ref": "Joseph Gumilla, Orinoco Ilustrado V.1, 1741",
+		"categories": "Animales",
+		"ref": "orinocoIlustrado_2",
 		"pags": "147"
 	},
 	{
-		"id": "C3",
+		"id": "C2_2",
+		"link": "TEST 2",
+		"categories": "Otra",
+		"ref": "orinocoIlustrado_2",
+		"pags": "147"
+	},
+	{
+		"id": "C3_1",
 		"link": "<a href='#cita3'>Cita 3</a>",
-		"categories": [
-			"Animales",
-			"Otra"
-		],
-		"ref": "Joseph Gumilla, Orinoco Ilustrado V.1, 1741",
+		"categories": "Animales",
+		"ref": "orinocoIlustrado_3",
+		"pags": "269"
+	},
+	{
+		"id": "C3_2",
+		"link": "TEST 3",
+		"categories": "Otra",
+		"ref": "orinocoIlustrado_3",
 		"pags": "269"
 	}
 ]

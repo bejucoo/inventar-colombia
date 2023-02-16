@@ -1,7 +1,22 @@
+:root {
+	--black: #241d15;
+	--gray1: #484848;
+	--white1: #f2efe5;
+	--white2: #f2f0ea;
+	--red1: #d4978b;
+	--blue1: #92a9a4;
+	--yellow1: #f2dea0;
+	--green1: #98a280;
+}
+
+
+
+
+/* BODY */
 html, body {
-	margin:0;
-	padding:0;
-	background: #f2efe5;
+	margin: 0;
+	padding: 0;
+	background: var(--white1);
 }
 
 
@@ -12,34 +27,60 @@ a {
 
 a:link {
 	transition: color .2s linear;
-	color: #241d15;
+	color: var(--gray1);
 	text-decoration: none;
 }
 
 a:visited {
-	color: #241d15;
+	color: var(--gray1);
 	text-decoration: none;
 }
 
 a:hover {
-	color: #241d15;
+	color: var(--black);
 	text-decoration: underline;
+}
+
+
+fieldset {
+	border: none;
+}
+
+select {
+	background: var(--white1);
+	border: solid 1px var(--black);
+	padding: 20px;
+	width: 100%;
+	font-family: 'cormorant-up';
+	font-size: 1em;
 }
 
 
 /* BORDERS */
 .bd_double {
-	border: double #241d15;
+	border: double var(--black);
 }
 
 .bd_doubleThick {
-	border: thick double #241d15;
+	border: thick double var(--black);
 }
 
 
-/* PADDING */
+/* GRID */
+.oneCol {
+	display: grid;
+	grid-template-columns: 1fr;
+}
 
+.twoCol_1-2 {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
 
+.threeCol_1-1-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+}
 
 
 
@@ -47,16 +88,17 @@ a:hover {
 
 /* MENU */
 #sectionMenu {
-	display: flex;
-	flex-flow: row;
+	display: grid;
+	grid-template-columns: 7fr 1fr;
+	grid-template-rows: 1fr;
 	position: fixed;
 	width: 15%;
 	height: 100vh;
 	top: 0;
 	left: -13%;
-	border-right: thick double #241d15;
+	border-right: thick double var(--black);
 	font-family: cormorant-up;
-	background: #f2efe5;
+	background: var(--white1);
 	transition: left 0.4s;
 	z-index: 1;
 }
@@ -66,15 +108,14 @@ a:hover {
 }
 
 #menuContent {
-	width: calc(100% - 2rem);
 }
 
 #menuToggle {
-	width: 2rem;
 	display: flex;
+	justify-content: center;
 	cursor: pointer;
-	font-size: 1.7em;
-	padding: 2% 0 0 0;
+	font-size: 1.5em;
+	padding: 10px 0 0 0;
 }
 
 
@@ -85,7 +126,7 @@ a:hover {
 /* INDEX MAP */
 #mapIntro {
 	width: 100vw;
-	border-bottom: thick double #241d15;
+	border-bottom: thick double var(--black);
 }
 
 #map {
@@ -110,7 +151,7 @@ a:hover {
 	padding: 30px;
 	border-radius: 0;
 	box-shadow: none;
-	color: #241d15;
+	color: var(--black);
 	text-align: center;
 }
 
@@ -126,27 +167,27 @@ a:hover {
 
 .bg_white > .maplibregl-popup-content,
 .bg_white > .mapboxgl-popup-content {
-	background: #f2f0ea;
+	background: var(--white2);
 }
 
 .bg_red > .maplibregl-popup-content,
 .bg_red > .mapboxgl-popup-content {
-	background: #d4978b;
+	background: var(--red1);
 }
 
 .bg_blue > .maplibregl-popup-content,
 .bg_blue > .mapboxgl-popup-content {
-	background: #92a9a4;
+	background: var(--blue1);
 }
 
 .bg_yellow > .maplibregl-popup-content,
 .bg_yellow > .mapboxgl-popup-content {
-	background: #f2dea0;
+	background: var(--yellow1);
 }
 
 .bg_green > .maplibregl-popup-content,
 .bg_green > .mapboxgl-popup-content {
-	background: #98a280;
+	background: var(--green1);
 }
 
 
@@ -168,29 +209,20 @@ a:hover {
 
 
 
-
 /* SECTIONS */
 /* CONTENT */
-.twoCol_1-2 {
-	grid-template-columns: 1fr 2fr;
-}
-
-.threeCol_1-1-2 {
-	grid-template-columns: 1fr 1fr 2fr;
-}
-
 .col_1 {
 	padding: 5% 5% 0 5%;
 	overflow: scroll;
 	font-family: cormorant-up;
-	background: #f2efe5;
+	background: var(--white1);
 }
 
 .col_2 {
 	padding: 2% 5% 0 5%;
 	overflow: scroll;
 	font-family: cormorant;
-	background: #f2efe5;
+	background: var(--white1);
 	scroll-behavior: smooth;
 }
 
@@ -199,9 +231,8 @@ a:hover {
 	height: 100vh;
 	margin: 0;
 	padding: 0 0 0 4%;
-	display: grid;
 	font-size: 1.2em;
-	background: #f2efe5;
+	background: var(--white1);
 }
 
 #sectionContent h1 {
@@ -214,25 +245,18 @@ a:hover {
 
 
 /* FRAGMENTOS */
-#controlFragmentos {
+#seleccionTexto, #seleccionCategorias {
 	padding: 0 0 10% 0;
 }
 
 #fragmentos {
-	display: grid;
-	grid-template-columns: repeat(1, 1fr);
 	gap: 30px;
 	font-size: 1em;
+
 }
 
 .fragmento {
-	border: double black 3px;
 	padding: 10px;
-}
-
-.cita {
-	max-height: 300px;
-	overflow: scroll;
 }
 
 #miniMap {
@@ -253,7 +277,8 @@ a:hover {
 @media only screen and (max-width: 480px) {
 	#sectionMenu {
 		position: fixed;
-		flex-flow: column;
+		grid-template-columns: 1fr;
+		grid-template-rows: 9fr 0.5fr;
 		width: 100%;
 		height: 100vh;
 		top: -94%;
@@ -267,19 +292,11 @@ a:hover {
 	}
 
 	#menuContent {
-		width: 100%;
-		height: calc(100% - 2rem);
 	}
 
 	#menuToggle {
-		width: 100%;
-		height: 2rem;
-		justify-content: center;
-		padding: 0 0 2% 0;
-	}
-
-	#menuToggle span {
-		transform: rotate(0);
+		align-items: center;
+		padding: 0;
 	}
 
 
@@ -295,7 +312,7 @@ a:hover {
 
 
 	#infoIntro {
-		grid-template-columns: repeat(1, 1fr);
+		grid-template-columns: 1fr;
 		gap: 30px;
 	}
 
@@ -307,7 +324,7 @@ a:hover {
 	.indexPopup > .mapboxgl-popup-content {
 		padding: 15px;
 		box-shadow: none;
-		color: #241d15;
+		color: var(--black);
 		text-align: center;
 	}
 
@@ -320,7 +337,7 @@ a:hover {
 
 
 	#sectionContent {
-		grid-template-columns: repeat(1, 1fr);
+		grid-template-columns: 1fr;
 		padding: 10% 5%;
 	}
 
@@ -332,7 +349,7 @@ a:hover {
 	}
 
 	#fragmentos {
-		grid-template-columns: repeat(1, 1fr);
+		grid-template-columns: 1fr;
 	}
 
 

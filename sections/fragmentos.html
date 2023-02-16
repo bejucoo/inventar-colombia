@@ -25,23 +25,34 @@
     </div>
 
     <div class="col_1" id="fragmentosCol2">
-      <div id="controlFragmentos">
-        <fieldset id="categoriaFragmentos">
-          <legend>Categorías</legend>
+      <div id="seleccionTexto">
+        <fieldset id="fieldTexto">
+          <legend><b>Cuerpo de Texto</b></legend>
+          <select name="cuerpoDeTexto" id="cuerpoDeTexto">
+            <option value="orinocoIlustrado_1">Orinoco Ilustrado, Vol. 1</option>
+            <option value="orinocoIlustrado_2">Orinoco Ilustrado, Vol. 2</option>
+            <option value="orinocoIlustrado_3">Orinoco Ilustrado, Vol. 3</option>
+          </select>
         </fieldset>
       </div>
-      <div id="fragmentos"></div>
+
+      <div id="seleccionCategorias">
+        <fieldset id="fieldCategorias">
+          <legend><b>Categorías</b></legend>
+        </fieldset>
+      </div>
+
+      <div class="oneCol" id="fragmentos"></div>
     </div>
 
-    <div class="col_2" id="fragmentosCol3">
-      <md-block id="orinocoIlustrado" src="../resources/md/gumilla.md"></md-block>
-      <canvas id='miniMap'></canvas>
-    </div>
+    <div class="col_2" id="fragmentosCol3"></div>
+
+    <canvas id='miniMap'></canvas>
   </div>
 
   <script id="templateFragmentos" type="text/html">
-    <div class="fragmento">
-      <div class="cita"><b><%= link %></b></div>
+    <div class="fragmento bd_double">
+      <div><b><%= link %></b></div>
       Páginas: <%= pags %>
     </div>
   </script>

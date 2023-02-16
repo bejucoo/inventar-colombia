@@ -3,21 +3,10 @@ fetch("../resources/json/fragmentos_1.json")
   return response.json();
 })
 .then(function (fragmentos) {
-  filterJSON(fragmentos);
   addCategoryCheck(flatCategories(fragmentos));
-  document.onLoad = miniMapText();
+  filterJSON(fragmentos);
+  addFullText();
 });
-
-function filterJSON(fragmentos){
-  var filter = FilterJS(fragmentos, '#fragmentos', {
-    template: '#templateFragmentos',
-    criterias: [{
-      field: 'categories',
-      ele: '#categoriaFragmentos input:checkbox',
-      all: 'all'
-    }]
-  });
-}
 
 function flatCategories(fragmentos){
   var categoriesArrays = [];
@@ -34,17 +23,52 @@ function flatCategories(fragmentos){
 }
 
 function addCategoryCheck(categories){
-  const checkboxElm = document.getElementById('categoriaFragmentos');
+  const checkboxField = document.getElementById('fieldCategorias');
+  const toggleAllElm = document.getElementById('allCategories');
+
   categories.forEach(function(e){
     var categoryCheckbox = document.createElement('div');
-    categoryCheckbox.classList.add('checkbox');
-    categoryCheckbox.innerHTML = `<input type="checkbox" name="${e}" value="${e}"><label for="${e}">${e}</label>`;
-    checkboxElm.appendChild(categoryCheckbox);
-  })
+    categoryCheckbox.innerHTML = `<input type="checkbox" name="${e}" value="${e}" class="categoryCheckbox"><label for="${e}">${e}</label>`;
+    checkboxField.appendChild(categoryCheckbox);
+  });
+}
+
+function filterJSON(fragmentos){
+  var filter = FilterJS(fragmentos, '#fragmentos', {
+    template: '#templateFragmentos',
+    filter_on_init: true,
+    criterias: [{
+      field: 'categories',
+      ele: '#seleccionCategorias input:checkbox'
+    },
+    {
+      field: 'ref',
+      ele: '#cuerpoDeTexto'
+    }]
+  });
+}
+
+function addFullText(){
+  var selectElm = document.querySelector('#cuerpoDeTexto');
+  const textElm = document.querySelector('#fragmentosCol3');
+
+  textElm.innerHTML = `<md-block id="textoCompleto" src="../resources/md/${selectElm.value}.md"></md-block>`;
+  
+  selectElm.addEventListener('change', function(){
+    textElm.innerHTML = `<md-block id="textoCompleto" src="../resources/md/${selectElm.value}.md"></md-block>`;
+  });
+
+  setTimeout(function(){
+    const mdElm = document.querySelector('#textoCompleto');
+    if (mdElm.rendered === 'remote') {
+      miniMapText()
+    } else {
+      console.log('Error al cargar pagemap');
+    }
+  }, 5000);
 }
 
 function miniMapText(){
-  const canvas = document.querySelector('#miniMap');
   pagemap(document.querySelector('#miniMap'), {
     viewport: document.querySelector('#fragmentosCol3'),
     styles: {
@@ -59,9 +83,4 @@ function miniMapText(){
     drag: 'rgba(0,0,0,0.10)',
     interval: null
   });
-    
-  setTimeout(function(){
-    canvas.click();
-    console.log('ya');
-  }, 5000);
 }
