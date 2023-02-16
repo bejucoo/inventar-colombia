@@ -1,7 +1,7 @@
 // Agregar un nuevo mapa de MapLibre GL JS.
 var map = new maplibregl.Map({
     container: 'map',
-    style: './resources/map_styles/index_map.json',
+    style: './resources/json/map_styles/index_map.json',
     center: [-67.55, 6.2],
     zoom: 10,
     pitch: 60,
@@ -14,7 +14,7 @@ map.dragPan.disable();
 map.touchZoomRotate.disable();
 
 // Obtener el archivo de los popups y ejecutar las funciones.
-fetch("./resources/json/index_popups.json")
+fetch("./resources/json/index/index_popups.json")
 .then(function (response) {
   return response.json();
 })

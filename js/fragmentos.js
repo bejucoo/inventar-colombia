@@ -1,5 +1,5 @@
 // Obtener el archivo de los fragmentos y ejecutar las funciones.
-fetch("../resources/json/fragmentos_1.json")
+fetch("./resources/json/fragmentos/fragmentos_1.json")
 .then(function (response) {
   return response.json();
 })
@@ -57,10 +57,10 @@ function addFullText(){
   var selectElm = document.querySelector('#cuerpoDeTexto');
   const textElm = document.querySelector('#fragmentosCol3');
 
-  textElm.innerHTML = `<md-block id="textoCompleto" src="../resources/md/${selectElm.value}.md"></md-block>`;
+  textElm.innerHTML = `<md-block id="textoCompleto" src="./resources/md/fragmentos/${selectElm.value}.md"></md-block>`;
   
   selectElm.addEventListener('change', function(){
-    textElm.innerHTML = `<md-block id="textoCompleto" src="../resources/md/${selectElm.value}.md"></md-block>`;
+    textElm.innerHTML = `<md-block id="textoCompleto" src="./resources/md/fragmentos/${selectElm.value}.md"></md-block>`;
   });
 
   setTimeout(function(){

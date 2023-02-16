@@ -9,7 +9,7 @@
 <br><br>
 
 - ### Orinoco
-	- ⭑[Curaduría de Fragmentos](sections/fragmentos.html)
+	- ⭑[Curaduría de Fragmentos](fragmentos.html)
 	- ⭑[Mapas y Datos](#)
 	- ⭑[Narrativa Cartográfica](#)
 <br><br>
