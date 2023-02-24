@@ -1,54 +1,54 @@
 [
 	{
 		"id": "titulo",
-		"class": "indexPopup indexPopup_main bg_white bd_doubleThick",
+		"class": "indexPopup indexPopup_main bg_transparent",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -67.55,
-			"lat": 6.2
+			"lng": -67.38,
+			"lat": 3.95
 		},
 		"zoom": 10,
 		"pitch": 60,
-		"bearing": 61.69,
-		"html": "<h1><b>Inventar Colombia</b></h1><p>Una mirada desde el Orinoco</p>"
+		"bearing": -49.77,
+		"html": "<img src='./resources/images/index/popup_1.svg'><h1><b>Inventar Colombia</b></h1><p>Una mirada desde el Orinoco</p>"
 	},
 	{
 		"id": "section_1",
-		"class": "indexPopup indexPopup_sub bg_red bd_double",
+		"class": "indexPopup indexPopup_sub bg_transparent",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -65.5,
-			"lat": 7.5
+			"lng": -67.00,
+			"lat": 7.07
 		},
 		"zoom": 10,
 		"pitch": 60,
-		"bearing": 61.69,
-		"html": "<h1>Sección 1</h1><p><a href=#'>El Siglo XVIII</a></p> • <a href='#'>Metodología</a> • <a href='#'>Experimentos</a> • <a href='#'>Documentos</a></p>"
+		"bearing": -34.40,
+		"html": "<img src='./resources/images/index/popup_2.svg'><h1>Sección 1</h1><p><a href=#'>El Siglo XVIII</a></p> • <a href='#'>Metodología</a> • <a href='#'>Experimentos</a> • <a href='#'>Documentos</a></p>"
 	},
 	{
 		"id": "section_2",
-		"class": "indexPopup indexPopup_sub bg_yellow bd_double",
+		"class": "indexPopup indexPopup_sub bg_transparent",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -63.19,
-			"lat": 7.8
+			"lng": -63.17,
+			"lat": 8.14
 		},
 		"zoom": 10,
 		"pitch": 60,
-		"bearing": 61.69,
-		"html": "<h1>Sección 2</h1><p><a href='./sections/fragmentos.html'>Curaduría de Fragmentos</a></p> • <a href='#'>Mapas y Datos</a> • <a href='#'>Narrativa Cartográfica</a></p>"
+		"bearing": -16,
+		"html": "<img src='./resources/images/index/popup_3.svg'><h1>Sección 2</h1><p><a href='./fragmentos.html'>Curaduría de Fragmentos</a></p> • <a href='#'>Mapas y Datos</a> • <a href='#'>Narrativa Cartográfica</a></p>"
 	},
 	{
 		"id": "section_3",
-		"class": "indexPopup indexPopup_sub bg_blue bd_double",
+		"class": "indexPopup indexPopup_sub bg_transparent",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -61.0,
-			"lat": 8.5
+			"lng": -61.10,
+			"lat": 8.68
 		},
 		"zoom": 10,
 		"pitch": 60,
-		"bearing": 61.69,
-		"html": "<h1>Sección 3</h1><p><a href='#'>Ensayo Interactivo</a></p>"
+		"bearing": 47.29,
+		"html": "<img src='./resources/images/index/popup_4.svg'><h1>Sección 3</h1><p><a href='#'>Ensayo Interactivo</a></p>"
 	}
 ]

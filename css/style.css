@@ -7,7 +7,9 @@
 	--blue1: #92a9a4;
 	--yellow1: #f2dea0;
 	--green1: #98a280;
+	--transparent: rbga(0,0,0,0);
 }
+
 
 
 
@@ -172,6 +174,13 @@ select {
 	text-align: center;
 }
 
+.indexPopup img {
+	max-width: 700px;
+	position: absolute;
+	transform: translate(-50%, -35%);
+	z-index: -1;
+}
+
 .indexPopup_main {
 	font-family: cormorant-up;
 	font-size: 2.5em;
@@ -180,6 +189,11 @@ select {
 .indexPopup_sub {
 	font-family: cormorant-up;
 	font-size: 1.5em;
+}
+
+.bg_transparent > .maplibregl-popup-content,
+.bg_transparent > .mapboxgl-popup-content {
+	background: var(--transparent);
 }
 
 .bg_white > .maplibregl-popup-content,
@@ -264,10 +278,15 @@ select {
 /* FRAGMENTOS */
 #seleccionTexto, #seleccionCategorias {
 	padding: 0 0 10% 0;
+	font-size: 1.3em;
 }
 
 #seleccionTexto {
 	margin-top: 25px;
+}
+
+#fieldCategorias div, legend {
+	padding-bottom: 15px;
 }
 
 #fragmentos {
@@ -280,6 +299,14 @@ select {
 	padding: 10px;
 }
 
+.cita_animales {
+	background-color: var(--blue1);
+}
+
+.cita_otra {
+	background-color: var(--red1);
+}
+	
 #miniMap {
 	position: fixed;
 	top: 0;
@@ -351,6 +378,11 @@ select {
 
 	.indexPopup_main {
 		font-size: 2em;
+	}
+
+	.indexPopup img {
+		max-width: 500px;
+		transform: translate(-50%, -30%);
 	}
 
 

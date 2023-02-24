@@ -22,7 +22,7 @@ Ut placerat orci nulla pellentesque dignissim enim sit amet venenatis. Proin nib
 
 Enim blandit volutpat maecenas volutpat blandit. Senectus et netus et malesuada fames ac turpis. Posuere lorem ipsum dolor sit amet consectetur. Ultricies leo integer malesuada nunc vel risus commodo viverra. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tincidunt ornare massa eget egestas purus. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Eleifend donec pretium vulputate sapien. Risus quis varius quam quisque id diam vel quam elementum. Turpis egestas integer eget aliquet nibh. At augue eget arcu dictum varius. Risus feugiat in ante metus dictum at tempor.
 
-<mark id="cita2">
+<mark id="cita2" class="cita_animales">
 	<b>2</b>
 	multitud de gusanos blancos, del tamaño del dedo pulgar, que no son otra cosa, que una manteca viva; y quitado el asco natural que causa tal potaje, es vianda muy sabrosa, y "muy sustancial. He visto españoles, que de solo ver el guiso de los tales gusanos, se les descomponía el estómago con violentas ansias; y reducidos, después de muchos ruegos, a probar uno de aquellos gusanos, todo el plato lleno les parecía poco.
 </mark>

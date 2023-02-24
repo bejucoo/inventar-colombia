@@ -2,10 +2,10 @@
 var map = new maplibregl.Map({
     container: 'map',
     style: './resources/json/map_styles/index_map.json',
-    center: [-67.55, 6.2],
+    center: [-67.38, 3.95],
     zoom: 10,
     pitch: 60,
-    bearing: 61.69
+    bearing: -49.77
 });
 
 // Desactivar el zoom por scroll, el paneo por drag y el zoom por rotación.

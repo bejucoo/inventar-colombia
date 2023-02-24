@@ -10,7 +10,7 @@ Ut placerat orci nulla pellentesque dignissim enim sit amet venenatis. Proin nib
 
 Enim blandit volutpat maecenas volutpat blandit. Senectus et netus et malesuada fames ac turpis. Posuere lorem ipsum dolor sit amet consectetur. Ultricies leo integer malesuada nunc vel risus commodo viverra. Orci sagittis eu volutpat odio facilisis mauris sit amet. Tincidunt ornare massa eget egestas purus. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Eleifend donec pretium vulputate sapien. Risus quis varius quam quisque id diam vel quam elementum. Turpis egestas integer eget aliquet nibh. At augue eget arcu dictum varius. Risus feugiat in ante metus dictum at tempor.
 
-<mark id="cita1">
+<mark id="cita1" class="cita_animales">
 	<b>1</b>
 	Pericoligero es un animal del tamaño de un perro lanudo, su pelo muy suave, y sutil, y en la espalda, y en el pecho dos manchas pardas cuadrangulares; la cara, y cabeza de hechura de tortuga; pero tiene orejas, las que no tiene la tortuga; su pecho, y barriga tiene contra el suelo, y los dos brazos, y piernas tendias a uno, y otro lado, como una rana: se llama ligero, parque la mayor jornada de todo un día será un cuarto de legua; para levantar una mano, gasta tanto tiempo, que se puede rezar un credo de espacio. De día duerme, y de noche en las selvas no deja dormir;  y luego de otros sitios responden otros muchos en el mismo tono de fa-sol-la: y con esta música se ahuyenta el sueño
 </mark>

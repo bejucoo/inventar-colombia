@@ -31,7 +31,7 @@ function addCategoryCheck(categories){
 
   categories.forEach(function(e){
     var categoryCheckbox = document.createElement('div');
-    categoryCheckbox.innerHTML = `<input type="checkbox" name="${e}" value="${e}" class="categoryCheckbox"><label for="${e}">${e}</label>`;
+    categoryCheckbox.innerHTML = `<input type="checkbox" name="${e}" value="${e}" class="categoryCheckbox"><label for="${e}" class="cita_${e.toLowerCase()}"><b>${e}</b></label>`;
     checkboxField.appendChild(categoryCheckbox);
   });
 }
@@ -80,7 +80,8 @@ function miniMapText(){
     styles: {
       'h1, h2, h3, h4': 'rgba(0,0,0,0.2)',
       'p': 'rgba(0, 0, 0, 0.05)',
-      'mark': 'rgba(255, 255, 0, 0.5)'
+      //'mark': 'rgba(255, 255, 0, 0.5)'
+      '.cita_animales': '#92a9a4aa'
     },
     back: 'rgba(0,0,0,0.02)',
     view: 'rgba(0,0,0,0.05)',
