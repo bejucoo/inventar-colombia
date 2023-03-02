@@ -9,28 +9,23 @@
   <script src="./js/libraries/filter.js"></script>
   <script type="module" src="./js/libraries/md-block.js"></script>
   <script src="./js/libraries/pagemap.min.js"></script>
-  <title>Documentos</title>
 </head>
 <body>
-  <div id="sectionMenu">
-    <div id="menuContent">
-      <md-block id="textoCompleto" src="./resources/md/menu.md"></md-block>
+  <div id="menuDiv" class="h100vh p_fix">
+    <div id="menuContent" class="h100vh d_flex flex_column t_center">
+      <md-block id="menuMDBlock" src="./resources/md/menu.md"></md-block>
     </div>
-    <div id="menuToggle">
+    <div id="menuToggle" class="p_abs">
       <span>
         <b>☰</b>
       </span>
     </div>
   </div>
 
-  <div class="threeCol_1-1-2" id="sectionContent">
-    <div class="col_1" id="fragmentosCol1">
+  <div id="sectionContent" class="w100vw mw100vw h100vh mh100vh d_grid grid_twoCol_2-3 pad_0-3-2-5">
+    <div id="fragmentosCol1" class="over_scroll">
       <h1>Curaduría de Fragmentos</h1>
-      <h3>Repellat dolorem incidunt qui ut dicta. Sit id optio dolorem asperiores a. Accusantium laboriosam ipsa voluptatem molestias.</h3>
-      <p>Architecto earum quos molestias asperiores aut eius sit. Porro atque reiciendis impedit rerum hic facere. Voluptatem qui quis quos autem voluptatem et qui. Alias velit aut perferendis ad. Temporibus aut dignissimos autem est. At provident et ut beatae.</p>
-    </div>
 
-    <div class="col_1" id="fragmentosCol2">
       <div id="seleccionTexto">
         <fieldset id="fieldTexto">
           <legend><b>Cuerpo de Texto</b></legend>
@@ -48,10 +43,11 @@
         </fieldset>
       </div>
 
-      <div class="oneCol" id="fragmentos"></div>
+      <div id="fragmentos" class="d_grid grid_threeCol_1"></div>
     </div>
 
-    <div class="col_2" id="fragmentosCol3"></div>
+    <div id="fragmentosCol2" class="over_scroll">
+    </div>
 
     <canvas id='miniMap'></canvas>
   </div>

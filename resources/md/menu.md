@@ -1,21 +1,23 @@
-### [Home](index.html)
+## ~ [Home](index.html) ~
 <br>
 
-- ### Intro
-	- ⭑[El Siglo XVIII](#)
-	- ⭑[Documentos](#)
-	- ⭑[Meotodología](#)
-	- ⭑[Experimentos](#)
-<br><br>
+## ~ [Introducción](#) ~
+<br>
 
-- ### Orinoco
-	- ⭑[Curaduría de Fragmentos](fragmentos.html)
-	- ⭑[Mapas y Datos](#)
-	- ⭑[Narrativa Cartográfica](#)
-<br><br>
-
-- ### Epílogo
-	- ⭑[Ensayo Interactivo](#)
+- ## ~ Orinoco ~
+- [Curaduría de Fragmentos](fragmentos.html)
+- [Narrativa Cartográfica](#)
 <br><br><br>
 
-### [Acerca de](index.html#infoIntro)
+- ## ~ Investigación ~
+- [Metodología](#)
+- [Documentos](#)
+- [Publicaciones](#)
+- [Bibliografía](#)
+<br><br><br>
+
+- ## ~ Epílogo ~
+- [Ensayo Interactivo](#)
+<br><br><br>
+
+## ~ [Acerca del Proyecto](#) ~

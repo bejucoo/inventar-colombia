@@ -1,5 +1,5 @@
 // Elementos del menú (contenido y toggle).
-const menuDiv = document.getElementById('sectionMenu');
+const menuDiv = document.getElementById('menuDiv');
 const menuToggleDiv = document.getElementById('menuToggle')
 var menuOpen = false;
 
@@ -9,7 +9,7 @@ menuDiv.addEventListener('click', function(){
 		menuOpen = true;
 		menuDiv.classList.add('active');
 	} else {
-		menuOpen = false
-		menuDiv.classList.remove('active')
+		menuOpen = false;
+		menuDiv.classList.remove('active');
 	}
 });

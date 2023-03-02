@@ -10,7 +10,7 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": -49.77,
-		"html": "<img src='./resources/images/index/popup_1.svg'><h1><b>Inventar Colombia</b></h1><p>Una mirada desde el Orinoco</p>"
+		"html": "<img src='./resources/images/index/popup_1.svg'><div><h1>Inventar Colombia</h1><h3 style='font-weight: lighter;'>Una mirada desde el Orinoco</h3><p style='font-size: 0.8em;'><a href='#'>Introducción</a> • <a href='#'>Acerca del proyecto</a></p></div>"
 	},
 	{
 		"id": "section_1",
@@ -23,7 +23,7 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": -34.40,
-		"html": "<img src='./resources/images/index/popup_2.svg'><h1>Sección 1</h1><p><a href=#'>El Siglo XVIII</a></p> • <a href='#'>Metodología</a> • <a href='#'>Experimentos</a> • <a href='#'>Documentos</a></p>"
+		"html": "<img src='./resources/images/index/popup_2.svg'><div><h1>Orinoco</h1><p style='font-size: 0.8em;'><a href='#'>Curaduría de Fragmentos</a> • <a href='#'>Narrativa Cartográfica</a></p></div>"
 	},
 	{
 		"id": "section_2",
@@ -36,7 +36,7 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": -16,
-		"html": "<img src='./resources/images/index/popup_3.svg'><h1>Sección 2</h1><p><a href='./fragmentos.html'>Curaduría de Fragmentos</a></p> • <a href='#'>Mapas y Datos</a> • <a href='#'>Narrativa Cartográfica</a></p>"
+		"html": "<img src='./resources/images/index/popup_2.svg'><div><h1>Investigación</h1><p style='font-size: 0.8em;'><a href='#'>Metodología</a> • <a href='#'> Documentos </a> • <a href='#'>Publicaciones</a> • <a href='#'>Bibliografía</a></p></div>"
 	},
 	{
 		"id": "section_3",
@@ -49,6 +49,6 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": 47.29,
-		"html": "<img src='./resources/images/index/popup_4.svg'><h1>Sección 3</h1><p><a href='#'>Ensayo Interactivo</a></p>"
+		"html": "<img src='./resources/images/index/popup_2.svg'><div><h1>Epílogo</h1><p style='font-size: 0.8em;'><a href='#'>Ensayo Interactivo</a></p></div>"
 	}
 ]

@@ -1,12 +1,15 @@
 // Obtener el archivo de los fragmentos y ejecutar las funciones.
 fetch("./resources/json/fragmentos/fragmentos_1.json")
-.then(function (response) {
+.then(function (response){
   return response.json();
 })
-.then(function (fragmentos) {
+.then(function (fragmentos){
   addCategoryCheck(flatCategories(fragmentos));
   filterJSON(fragmentos);
   addFullText();
+})
+.catch(function(e){
+  console.log('Error al cargar archivo JSON de los fragmentos:', e);
 });
 
 // Obtener todas las categorías y filtrar las repetidas.
@@ -55,7 +58,7 @@ function filterJSON(fragmentos){
 // Agregar el cuerpo de texto según el elemento de selección.
 function addFullText(){
   var selectElm = document.querySelector('#cuerpoDeTexto');
-  const textElm = document.querySelector('#fragmentosCol3');
+  const textElm = document.querySelector('#fragmentosCol2');
 
   textElm.innerHTML = `<md-block id="textoCompleto" src="./resources/md/fragmentos/${selectElm.value}.md"></md-block>`;
   
@@ -76,7 +79,7 @@ function addFullText(){
 // Agregar el miniMap del cuerpo de texto.
 function miniMapText(){
   pagemap(document.querySelector('#miniMap'), {
-    viewport: document.querySelector('#fragmentosCol3'),
+    viewport: document.querySelector('#fragmentosCol2'),
     styles: {
       'h1, h2, h3, h4': 'rgba(0,0,0,0.2)',
       'p': 'rgba(0, 0, 0, 0.05)',

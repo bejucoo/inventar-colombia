@@ -1,0 +1,75 @@
+/* FONTS */
+@font-face {
+	font-family: 'cormorant';
+	src: url('../resources/fonts/OTF/Cormorant-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cormorant';
+	src: url('../resources/fonts/OTF/Cormorant-Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cormorant';
+	src: url('../resources/fonts/OTF/Cormorant-Italic.otf') format('opentype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'cormorant';
+	src: url('../resources/fonts/OTF/Cormorant-BoldItalic.otf') format('opentype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+
+@font-face {
+	font-family: 'cormorant-up';
+	src: url('../resources/fonts/OTF/CormorantUpright-Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cormorant-up';
+	src: url('../resources/fonts/OTF/CormorantUpright-Light.otf') format('opentype');
+	font-weight: lighter;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cormorant-up';
+	src: url('../resources/fonts/OTF/CormorantUpright-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'cormorant-sc';
+	src: url('../resources/fonts/OTF/CormorantSC-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'cormorant-sc';
+	src: url('../resources/fonts/OTF/CormorantSC-Light.otf') format('opentype');
+	font-weight: lighter;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cormorant-sc';
+	src: url('../resources/fonts/OTF/CormorantSC-Bold.otf') format('opentype');
+	font-weight: bold;
+	font-style: normal;
+}

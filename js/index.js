@@ -15,12 +15,15 @@ map.touchZoomRotate.disable();
 
 // Obtener el archivo de los popups y ejecutar las funciones.
 fetch("./resources/json/index/index_popups.json")
-.then(function (response) {
+.then(function(response) {
   return response.json();
 })
-.then(function (data) {
+.then(function(data) {
   addIndexPopups(data);
   scrollToPoint(data);
+})
+.catch(function(e) {
+    console.log('Error al cargar archivo JSON de los popups:', e);
 });
 
 // Agregar los popups al mapa.

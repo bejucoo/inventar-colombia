@@ -11,11 +11,11 @@
   <script src="./js/libraries/scrollama.js"></script>
 </head>
 <body>
-  <div id="sectionMenu">
-    <div id="menuContent">
-      <md-block id="textoCompleto" src="./resources/md/menu.md"></md-block>
+  <div id="menuDiv" class="h100vh p_fix">
+    <div id="menuContent" class="h100vh d_flex flex_column t_center">
+      <md-block id="menuMDBlock" src="./resources/md/menu.md"></md-block>
     </div>
-    <div id="menuToggle">
+    <div id="menuToggle" class="p_abs">
       <span>
         <b>☰</b>
       </span>
@@ -23,7 +23,7 @@
   </div>
 
   <div id="introContent">
-    <section id="mapIntro">
+    <section id="mapIntro" class="w100vw">
       <div id="map"></div>
 
       <div id="stepsMapIntro">
@@ -34,35 +34,78 @@
       </div>
     </section>
 
-    <section id="infoIntro">
-      <div class="infoIntroDiv" id="sobre">
+    <section id="infoIntro" class="mw100vw d_grid grid_twoCol_3-2 pad_2-3-2-5">
+      <div>
         <h1>Sobre el Proyecto</h1>
         <p>
-          Mollitia minima veniam sapiente distinctio debitis et. Doloribus tenetur rerum dolorum illum aut cupiditate. Aut autem asperiores non iste odit. Eveniet atque eligendi unde velit sed. Consequatur odit harum assumenda unde. Consequatur iure neque et nihil. Laudantium expedita est consequuntur hic enim unde velit. Enim quidem ab velit. Repellendus deserunt debitis itaque non adipisci ea suscipit. Saepe veritatis doloremque voluptate illo maiores libero ullam. Quasi harum voluptas ut. Omnis unde ipsum molestiae et. Nulla ullam ut excepturi. Nemo occaecati error possimus architecto possimus harum aut voluptatem. Odio molestiae recusandae esse quod. Dicta quia et illo quasi cupiditate voluptas aut modi. Quibusdam voluptas ab aut reiciendis. Sunt non aut ut possimus hic. Dignissimos eos aut atque. Porro laborum voluptate sunt asperiores molestiae ipsum. Laborum maiores nulla nihil. Qui a consequatur ut iure enim vitae.
+          <i>Inventar Colombia: Una mirada desde el Orinoco</i> es un producto digital de investigación interactivo abierto. En su desarrollo participó un equipo interdisciplinario de investigadores, estudiantes, diseñadores, programadores e ingenieros de sistemas de la Universidad de los Andes (Bogotá, Colombia).
+        </p>
+        <p>
+          Además, es la culminación de un proyecto financiado por el Fondo de Apoyo a Profesores Asistentes (FAPA) de la Universidad de los Andes y la Beca a Estrategias de Producción y Circulación del Patrimonio Bibliográfico y Documental Colombiano de la Biblioteca Nacional de Colombia y el Ministerio de Cultura.
+        </p>
+        <br>
+
+        <h2>Citar el Proyecto</h2>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          <img alt="Creative Commons License" style="border-width:0" src="./resources/images/index/creativecommons.png"/>
+        </a>
+        <br>
+        Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+        <p>
+          Para citar o atribuir este sitio, le recomendamos que utilice el siguiente formato (siguiendo el estilo MLA):
+          <br><br>
+          Para todo el sitio: Inventar Colombia: una mirada desde el Orinoco. Editado por Maria José Afanador-Llach, Santiago González y Laura Romero. Universidad de los Andes, 2023. URL. Consultado el [día-mes-año].
         </p>
       </div>
-      <div class="infoIntroDiv" id="equipo">
+
+      <div>
         <h1>Equipo</h1>
         <p>
-          <b>Uno</b>
+          <b>Directora e investigadora principal:</b>
           <br>
-          Descripción
-        </p>
-        <p>
-          <b>Dos</b>
+          Maria José Afanador-Llach
           <br>
-          Descripción
+          Profesora asistente en humanidades digitales, Universidad de los Andes
         </p>
+
         <p>
-          <b>Tres</b>
+          <b>Investigación histórica y curaduría documental:</b>
           <br>
-          Descripción
+          Laura Romero Ortiz
+          <br>
+          Historiadora y politóloga, Universidad de los Andes
         </p>
-      </div>
-      <div class="infoIntroDiv" id="citar">
-        <h1>Citar el Proyecto</h1>
+
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu scelerisque augue. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          <b>Cartografía e investigación geoespacial:</b>
+          <br>
+          Santiago González Rodríguez
+          <br>
+          Maestro en Geografía, Universidad de los Andes
+        </p>
+
+        <p>
+          <b>Diseño de interfaces y programación web:</b>
+          <br>
+          Pierre Puentes Gómez
+          <br>
+          Diseñador, Universidad de los Andes
+        </p>
+
+        <p>
+          <b>Asistentes de investigación:</b>
+          <br>
+          Isis Beleño, Maestría en Humandidades Digitales<br>
+          Santiago Velasco, Departamento de Historia<br>
+          David Echeverry, Departamento de Historia del Arte<br>
+          Liliana Cobos, Centro de Estudios en Periodismo<br>
+          Santiago Rangel, Departamento de Ingeniería de Sistemas
+        </p>
+
+        <p>
+          <b>Agradecimientos: </b>
+          <br>
+          Natalia Lozada, Haydemar Núñez
         </p>
       </div>
     </section>
@@ -72,5 +115,3 @@
   <script src="./js/index.js"></script>
 </body>
 </html>
-
-<img src="">

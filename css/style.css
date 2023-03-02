@@ -1,3 +1,7 @@
+@import "fonts.css";
+
+/* COMMON */
+/* COLORS */
 :root {
 	--black: #241d15;
 	--gray1: #484848;
@@ -8,17 +12,74 @@
 	--yellow1: #f2dea0;
 	--green1: #98a280;
 	--transparent: rbga(0,0,0,0);
+
+	--bd_double: thick double var(--black);
+	--bd_solid: thick solid var(--black);
 }
 
 
-
-
-
-/* BODY */
+/* MAIN CONTAINER */
 html, body {
+	width: 100%;
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	background: var(--white1);
+}
+
+
+/* BOX SIZE */
+* {
+	box-sizing: border-box;
+}
+
+
+/* WIDTH & HEIGHT */
+.w100vw {
+	width: 100vw;
+}
+
+.mw100vw {
+	max-width: 100vw;
+}
+
+.h100vh {
+	height: 100vh;
+}
+
+.mh100vh {
+	max-height: 100vh;
+}
+
+
+/* MARGIN & PADDING */
+.pad_1-5 {
+	padding: 1% 5%;
+}
+
+.pad_2-5 {
+	padding: 2% 5%;
+}
+
+.pad_2-3-2-5 {
+	padding: 2% 3% 2% 5%
+}
+
+.pad_0-3-2-5 {
+	padding: 0 3% 2% 5%
+}
+
+
+/* OVERFLOW */
+.over_scroll {
+	overflow: scroll;
+	scroll-behavior: smooth;
+}
+
+
+/* TEXT ALIGN */
+.t_center {
+	text-align: center;
 }
 
 
@@ -44,6 +105,7 @@ a:hover {
 }
 
 
+/* INPUTS */
 fieldset {
 	border: none;
 	padding: 0;
@@ -70,19 +132,52 @@ select {
 
 
 /* GRID */
-.oneCol {
+.d_grid {
 	display: grid;
+}
+
+.grid_oneCol {
 	grid-template-columns: 1fr;
 }
 
-.twoCol_1-2 {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
+.grid_twoCol_3-2 {
+	grid-template-columns: 3fr 2fr;
 }
 
-.threeCol_1-1-2 {
-	display: grid;
-	grid-template-columns: 1fr 1fr 2fr;
+.grid_twoCol_2-3 {
+	grid-template-columns: 2fr 3fr;
+}
+
+.grid_threeCol_1 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+
+/* FLEXBOX */
+.d_flex {
+	display: flex;
+}
+
+.flex_column {
+	flex-flow: column;
+}
+
+
+/* POSITION */
+.p_abs {
+	position: absolute;
+}
+
+.p_fix {
+	position: fixed;
+}
+
+.p_rel {
+	position: relative;
+}
+
+.p_stk {
+	position: sticky;
 }
 
 
@@ -90,33 +185,25 @@ select {
 
 
 /* MENU */
-#sectionMenu {
-	display: grid;
-	grid-template-columns: 7fr 1fr;
-	grid-template-rows: 1fr;
-	position: fixed;
-	width: 15%;
-	height: 100vh;
-	top: 0;
-	left: -13%;
-	border-right: thick double var(--black);
-	font-family: cormorant-sc;
+#menuDiv {
+	width: 20.3%;
+	left: -18%;
+	border-right: var(--bd_solid);
 	background: var(--white1);
 	transition: left 0.4s;
-	z-index: 1;
+	z-index: 10;
+	font-family: 'cormorant-up';
 }
 
-#sectionMenu.active {
+#menuDiv.active {
 	left: 0;
 }
 
 #menuContent {
-	display: flex;
-	flex-flow: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	font-size: 1.2em;
+	justify-content: start;
+	font-size: 1.3em;
+	line-height: 1em;
+	overflow: scroll;
 }
 
 #menuContent ul {
@@ -125,16 +212,16 @@ select {
 	padding: 0;
 }
 
-#menuContent li {
-	margin-bottom: 10px;
+#menuContent #menuMDBlock {
+	margin: auto;
 }
 
 #menuToggle {
-	display: flex;
-	justify-content: center;
+	top: 0;
+	right: 0;
 	cursor: pointer;
 	font-size: 1.5em;
-	padding: 10px 0 0 0;
+	padding: 2%;
 }
 
 
@@ -144,8 +231,7 @@ select {
 /* INDEX */
 /* INDEX MAP */
 #mapIntro {
-	width: 100vw;
-	border-bottom: thick double var(--black);
+	border-bottom: var(--bd_solid);
 }
 
 #map {
@@ -164,7 +250,7 @@ select {
 }
 
 
-/* POPUPS */
+/* INDEX MAP POPUPS */
 .indexPopup > .maplibregl-popup-content,
 .indexPopup > .mapboxgl-popup-content {
 	padding: 30px;
@@ -175,9 +261,9 @@ select {
 }
 
 .indexPopup img {
-	max-width: 700px;
+	max-width: 800px;
 	position: absolute;
-	transform: translate(-50%, -35%);
+	transform: translate(-50%, -34%);
 	z-index: -1;
 }
 
@@ -188,7 +274,7 @@ select {
 
 .indexPopup_sub {
 	font-family: cormorant-up;
-	font-size: 1.5em;
+	font-size: 2.3em;
 }
 
 .bg_transparent > .maplibregl-popup-content,
@@ -222,18 +308,11 @@ select {
 }
 
 
-/* INFO */
+/* INDEX ABOUT */
 #infoIntro {
-	max-width: 100vw;
-	padding: 2% 5%;
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
 	gap: 120px;
-	font-family: 'cormorant-up';
-	font-size: 1.2em;
-}
-
-.infoIntroDiv {
+	font-family: 'cormorant';
+	font-size: 1.3em;
 }
 
 
@@ -242,33 +321,15 @@ select {
 
 /* SECTIONS */
 /* CONTENT */
-.col_1 {
-	padding: 5% 5% 0 5%;
-	overflow: scroll;
-	font-family: cormorant-up;
-	background: var(--white1);
-}
-
-.col_2 {
-	padding: 2% 5% 0 5%;
-	overflow: scroll;
-	font-family: cormorant;
-	background: var(--white1);
-	scroll-behavior: smooth;
-}
-
 #sectionContent {
-	max-width: 100vw;
-	height: 100vh;
-	margin: 0;
-	padding: 0 0 0 4%;
+	gap: 60px;
 	font-size: 1.2em;
 	background: var(--white1);
+	font-family: 'cormorant-up';
 }
 
 #sectionContent h1 {
-	font-size: 3.5em;
-	margin-top: 5%;
+	font-size: 3em;
 }
 
 
@@ -292,7 +353,6 @@ select {
 #fragmentos {
 	gap: 30px;
 	font-size: 1em;
-
 }
 
 .fragmento {
@@ -306,7 +366,7 @@ select {
 .cita_otra {
 	background-color: var(--red1);
 }
-	
+
 #miniMap {
 	position: fixed;
 	top: 0;
@@ -323,26 +383,34 @@ select {
 /* RESPONSIVE */
 /* MOBILE */
 @media only screen and (max-width: 480px) {
-	#sectionMenu {
-		position: fixed;
+	/* MENU */
+	#menuDiv {
+		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 9fr 0.5fr;
 		width: 100%;
-		height: 100vh;
 		top: -94%;
 		left: 0;
-		border-bottom: thick double;
+		border-right: none;
+		border-bottom: var(--bd_solid);
 		transition: top 0.4s;
 	}
 
-	#sectionMenu.active {
+	#menuDiv.active {
 		top: 0;
 	}
 
 	#menuContent {
+		height: unset;
+		font-size: 1.2em;
 	}
 
 	#menuToggle {
+		position: unset;
+		top: unset;
+		right: unset;
+		display: flex;
+		justify-content: center;
 		align-items: center;
 		padding: 0;
 	}
@@ -350,23 +418,10 @@ select {
 
 
 
-
+	/* INDEX MAP */
 	.step {
 		height: 1000px;
 	}
-
-
-
-
-
-	#infoIntro {
-		grid-template-columns: 1fr;
-		gap: 30px;
-	}
-
-
-
-
 
 	.indexPopup > .maplibregl-popup-content,
 	.indexPopup > .mapboxgl-popup-content {
@@ -377,118 +432,47 @@ select {
 	}
 
 	.indexPopup_main {
-		font-size: 2em;
+		font-size: 1.7em;
 	}
 
 	.indexPopup img {
-		max-width: 500px;
-		transform: translate(-50%, -30%);
+		width: 140vw;
+		transform: translate(-50%, -31%);
+	}
+
+
+	/* INDEX INFO */
+	#infoIntro {
+		grid-template-columns: 1fr;
+		gap: 30px;
 	}
 
 
 
 
 
+	/* SECTIONS */
 	#sectionContent {
 		grid-template-columns: 1fr;
+		gap: 30px;
 		padding: 10% 5%;
 	}
 
-	.col_1, .col_2 {
-		width: 100%;
+	#sectionContent .over_scroll {
 		overflow: unset;
-		padding: 5% 0 0 0;
-		border-style: none none double none;
+		border-style: none none solid none;
 	}
 
+
+
+
+
+	/* FRAGMENTOS */
 	#fragmentos {
 		grid-template-columns: 1fr;
 	}
 
-
-
-
 	#miniMap {
 		display: none;
 	}
-}
-
-
-
-
-
-/* FONTS */
-@font-face {
-	font-family: 'cormorant';
-	src: url('../resources/fonts/OTF/Cormorant-Regular.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'cormorant';
-	src: url('../resources/fonts/OTF/Cormorant-Bold.otf') format('opentype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'cormorant';
-	src: url('../resources/fonts/OTF/Cormorant-Italic.otf') format('opentype');
-	font-weight: normal;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'cormorant';
-	src: url('../resources/fonts/OTF/Cormorant-BoldItalic.otf') format('opentype');
-	font-weight: bold;
-	font-style: italic;
-}
-
-
-
-@font-face {
-	font-family: 'cormorant-up';
-	src: url('../resources/fonts/OTF/CormorantUpright-Bold.otf') format('opentype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'cormorant-up';
-	src: url('../resources/fonts/OTF/CormorantUpright-Light.otf') format('opentype');
-	font-weight: lighter;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'cormorant-up';
-	src: url('../resources/fonts/OTF/CormorantUpright-Regular.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-
-
-@font-face {
-	font-family: 'cormorant-sc';
-	src: url('../resources/fonts/OTF/CormorantSC-Regular.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-
-@font-face {
-	font-family: 'cormorant-sc';
-	src: url('../resources/fonts/OTF/CormorantSC-Light.otf') format('opentype');
-	font-weight: lighter;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'cormorant-sc';
-	src: url('../resources/fonts/OTF/CormorantSC-Bold.otf') format('opentype');
-	font-weight: bold;
-	font-style: normal;
 }
