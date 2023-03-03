@@ -12,6 +12,7 @@ fetch("./resources/json/fragmentos/fragmentos_1.json")
   console.log('Error al cargar archivo JSON de los fragmentos:', e);
 });
 
+
 // Obtener todas las categorías y filtrar las repetidas.
 function flatCategories(fragmentos){
   var categoriesArrays = [];
@@ -27,6 +28,7 @@ function flatCategories(fragmentos){
   return filteredCategories;
 }
 
+
 // Agregar el checklist de categorías.
 function addCategoryCheck(categories){
   const checkboxField = document.getElementById('fieldCategorias');
@@ -38,6 +40,7 @@ function addCategoryCheck(categories){
     checkboxField.appendChild(categoryCheckbox);
   });
 }
+
 
 // Agregar las citas y los filtros.
 function filterJSON(fragmentos){
@@ -54,6 +57,7 @@ function filterJSON(fragmentos){
     }]
   });
 }
+
 
 // Agregar el cuerpo de texto según el elemento de selección.
 function addFullText(){
@@ -75,6 +79,7 @@ function addFullText(){
     }
   }, 3600);
 }
+
 
 // Agregar el miniMap del cuerpo de texto.
 function miniMapText(){

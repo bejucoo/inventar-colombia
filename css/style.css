@@ -1,7 +1,6 @@
 @import "fonts.css";
 
-/* COMMON */
-/* COLORS */
+/* GLOBAL COLORS AND BORDERS */
 :root {
 	--black: #241d15;
 	--gray1: #484848;
@@ -14,6 +13,7 @@
 	--transparent: rbga(0,0,0,0);
 
 	--bd_double: thick double var(--black);
+	--bd_doubleSimple: double var(--black);
 	--bd_solid: thick solid var(--black);
 }
 
@@ -39,39 +39,21 @@ html, body {
 	width: 100vw;
 }
 
-.mw100vw {
-	max-width: 100vw;
-}
-
 .h100vh {
 	height: 100vh;
 }
 
-.mh100vh {
-	max-height: 100vh;
-}
-
 
 /* MARGIN & PADDING */
-.pad_1-5 {
-	padding: 1% 5%;
+.izq {
+	padding: 0 60px 0 0;
+	overflow: scroll;
+	scroll-behavior: smooth;
+	border-right: var(--bd_doubleSimple);
 }
 
-.pad_2-5 {
-	padding: 2% 5%;
-}
-
-.pad_2-3-2-5 {
-	padding: 2% 3% 2% 5%
-}
-
-.pad_0-3-2-5 {
-	padding: 0 3% 2% 5%
-}
-
-
-/* OVERFLOW */
-.over_scroll {
+.der {
+	padding: 0 60px;
 	overflow: scroll;
 	scroll-behavior: smooth;
 }
@@ -121,16 +103,6 @@ select {
 }
 
 
-/* BORDERS */
-.bd_double {
-	border: double var(--black);
-}
-
-.bd_doubleThick {
-	border: thick double var(--black);
-}
-
-
 /* GRID */
 .d_grid {
 	display: grid;
@@ -140,16 +112,36 @@ select {
 	grid-template-columns: 1fr;
 }
 
-.grid_twoCol_3-2 {
-	grid-template-columns: 3fr 2fr;
+.grid_twoCol_1-1 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid_twoCol_1-3 {
+	grid-template-columns: 1fr 3fr;
 }
 
 .grid_twoCol_2-3 {
 	grid-template-columns: 2fr 3fr;
 }
 
+.grid_twoCol_3-2 {
+	grid-template-columns: 3fr 2fr;
+}
+
 .grid_threeCol_1 {
 	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid_gap_0 {
+	gap: 0;
+}
+
+.grid_gap_60px {
+	gap: 60px;
+}
+
+.grid_gap_120px {
+	gap: 120px;
 }
 
 
@@ -160,6 +152,10 @@ select {
 
 .flex_column {
 	flex-flow: column;
+}
+
+.flex_al_center {
+	align-items: center;
 }
 
 
@@ -186,13 +182,14 @@ select {
 
 /* MENU */
 #menuDiv {
-	width: 20.3%;
+	width: 20%;
 	left: -18%;
-	border-right: var(--bd_solid);
+	border-right: var(--bd_double);
 	background: var(--white1);
 	transition: left 0.4s;
 	z-index: 10;
 	font-family: 'cormorant-up';
+	height: 100vh;
 }
 
 #menuDiv.active {
@@ -220,7 +217,7 @@ select {
 	top: 0;
 	right: 0;
 	cursor: pointer;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	padding: 2%;
 }
 
@@ -230,11 +227,11 @@ select {
 
 /* INDEX */
 /* INDEX MAP */
-#mapIntro {
-	border-bottom: var(--bd_solid);
+#indexMap {
+	border-bottom: var(--bd_double);
 }
 
-#map {
+#indexMapElm {
 	width:100%;
 	min-height: 100vh;
 	position: sticky;
@@ -245,7 +242,7 @@ select {
 	display: none;
 }
 
-.step {
+.indexMapStep {
 	height: 2000px;
 }
 
@@ -261,9 +258,9 @@ select {
 }
 
 .indexPopup img {
-	max-width: 800px;
+	max-width: 900px;
 	position: absolute;
-	transform: translate(-50%, -34%);
+	transform: translate(-50%, -36%);
 	z-index: -1;
 }
 
@@ -309,8 +306,8 @@ select {
 
 
 /* INDEX ABOUT */
-#infoIntro {
-	gap: 120px;
+#indexAbout {
+	padding: 2% 0 2% 5%;
 	font-family: 'cormorant';
 	font-size: 1.3em;
 }
@@ -322,16 +319,40 @@ select {
 /* SECTIONS */
 /* CONTENT */
 #sectionContent {
-	gap: 60px;
-	font-size: 1.2em;
-	background: var(--white1);
+	height: 100vh;
+	padding: 0 0 0 5%;
 	font-family: 'cormorant-up';
+	font-size: 1.3em;
+	background: var(--white1);
+	overflow: hidden;
 }
 
 #sectionContent h1 {
 	font-size: 3em;
 }
 
+#sectionContent p {
+	font-family: 'cormorant';
+}
+
+
+
+
+
+/* INTRO */
+#introTexto {
+	padding-top: 55%;
+}
+
+#introTituloH1 {
+	position: sticky;
+	top: 0;
+	margin: 0;
+}
+
+.introTituloStep {
+	height: 1000px;
+}
 
 
 
@@ -357,6 +378,7 @@ select {
 
 .fragmento {
 	padding: 10px;
+	border: var(--bd_doubleSimple);
 }
 
 .cita_animales {
@@ -383,6 +405,12 @@ select {
 /* RESPONSIVE */
 /* MOBILE */
 @media only screen and (max-width: 480px) {
+	.izq, .der {
+		padding: 0 0 30px 0;
+		border-right: none;
+	}
+
+
 	/* MENU */
 	#menuDiv {
 		display: grid;
@@ -418,8 +446,8 @@ select {
 
 
 
-	/* INDEX MAP */
-	.step {
+	/* INDEX */
+	.indexMapStep {
 		height: 1000px;
 	}
 
@@ -442,9 +470,9 @@ select {
 
 
 	/* INDEX INFO */
-	#infoIntro {
+	#indexAbout {
 		grid-template-columns: 1fr;
-		gap: 30px;
+		padding: 2% 5%;
 	}
 
 
@@ -453,14 +481,18 @@ select {
 
 	/* SECTIONS */
 	#sectionContent {
+		height: unset;
 		grid-template-columns: 1fr;
-		gap: 30px;
 		padding: 10% 5%;
 	}
 
-	#sectionContent .over_scroll {
-		overflow: unset;
-		border-style: none none solid none;
+
+
+
+
+	/* INTRO */
+	#introTexto {
+		height: 100vh;
 	}
 
 

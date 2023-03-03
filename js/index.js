@@ -1,6 +1,6 @@
 // Agregar un nuevo mapa de MapLibre GL JS.
 var map = new maplibregl.Map({
-    container: 'map',
+    container: 'indexMapElm',
     style: './resources/json/map_styles/index_map.json',
     center: [-67.38, 3.95],
     zoom: 10,
@@ -8,10 +8,12 @@ var map = new maplibregl.Map({
     bearing: -49.77
 });
 
+
 // Desactivar el zoom por scroll, el paneo por drag y el zoom por rotación.
 map.scrollZoom.disable();
 map.dragPan.disable();
 map.touchZoomRotate.disable();
+
 
 // Obtener el archivo de los popups y ejecutar las funciones.
 fetch("./resources/json/index/index_popups.json")
@@ -25,6 +27,7 @@ fetch("./resources/json/index/index_popups.json")
 .catch(function(e) {
     console.log('Error al cargar archivo JSON de los popups:', e);
 });
+
 
 // Agregar los popups al mapa.
 function addIndexPopups(json){
@@ -42,12 +45,13 @@ function addIndexPopups(json){
     })
 };
 
+
 // Ir a cada popup según la posición del scroll.
 function scrollToPoint(json){
     const scroller = scrollama();
     scroller
     .setup({
-        step: ".step",
+        step: ".indexMapStep",
     })
     .onStepEnter((response) => {
         map.flyTo({

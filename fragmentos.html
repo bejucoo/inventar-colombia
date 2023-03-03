@@ -11,7 +11,7 @@
   <script src="./js/libraries/pagemap.min.js"></script>
 </head>
 <body>
-  <div id="menuDiv" class="h100vh p_fix">
+  <div id="menuDiv" class="p_fix">
     <div id="menuContent" class="h100vh d_flex flex_column t_center">
       <md-block id="menuMDBlock" src="./resources/md/menu.md"></md-block>
     </div>
@@ -22,8 +22,8 @@
     </div>
   </div>
 
-  <div id="sectionContent" class="w100vw mw100vw h100vh mh100vh d_grid grid_twoCol_2-3 pad_0-3-2-5">
-    <div id="fragmentosCol1" class="over_scroll">
+  <div id="sectionContent" class="w100vw d_grid grid_twoCol_1-3">
+    <div id="fragmentosCol1" class="izq">
       <h1>Curaduría de Fragmentos</h1>
 
       <div id="seleccionTexto">
@@ -43,17 +43,17 @@
         </fieldset>
       </div>
 
-      <div id="fragmentos" class="d_grid grid_threeCol_1"></div>
+      <div id="fragmentos" class="d_grid grid_twoCol_1-1"></div>
     </div>
 
-    <div id="fragmentosCol2" class="over_scroll">
+    <div id="fragmentosCol2" class="der">
     </div>
 
     <canvas id='miniMap'></canvas>
   </div>
 
   <script id="templateFragmentos" type="text/html">
-    <div class="fragmento bd_double">
+    <div class="fragmento">
       <div><b><%= link %></b></div>
       Páginas: <%= pags %>
     </div>
