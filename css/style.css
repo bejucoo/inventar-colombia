@@ -49,6 +49,7 @@ html, body {
 	padding: 0 60px 0 0;
 	overflow: scroll;
 	scroll-behavior: smooth;
+	border-right: var(--bd_doubleSimple);
 }
 
 .der {
