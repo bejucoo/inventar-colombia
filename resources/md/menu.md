@@ -20,4 +20,4 @@
 - [Ensayo Interactivo](#)
 <br><br><br>
 
-## ~ [Acerca del Proyecto](#) ~
+## ~ [Acerca del Proyecto](about.html) ~

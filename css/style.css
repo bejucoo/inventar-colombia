@@ -49,7 +49,6 @@ html, body {
 	padding: 0 60px 0 0;
 	overflow: scroll;
 	scroll-behavior: smooth;
-	border-right: var(--bd_doubleSimple);
 }
 
 .der {
@@ -305,6 +304,30 @@ select {
 }
 
 
+@keyframes upDown {
+	0% {
+		transform: translateY(10px);
+	}
+	
+	100% {
+		transform: translateY(-10px);
+	}
+}
+
+#scrollAnim {
+	bottom: 45px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 10;
+	animation: upDown 1s infinite alternate;
+}
+
+#scrollAnim.hidden {
+	display: none;
+}
+
+
 /* INDEX ABOUT */
 #indexAbout {
 	padding: 2% 0 2% 5%;
@@ -339,9 +362,19 @@ select {
 
 
 
+/* ABOUT */
+#aboutTexto2 {
+	padding-top: 16.5%;
+}
+
+
+
+
+
 /* INTRO */
 #introTexto {
 	padding-top: 55%;
+	padding-bottom: 20%;
 }
 
 #introTituloH1 {

@@ -1,53 +1,53 @@
 <!DOCTYPE html>
-<html lang="">
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Inventar Colombia</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/libraries/maplibre-gl.css"/>
-  <script type="module" src="./js/libraries/md-block.js"></script>
-  <script src="./js/libraries/maplibre-gl.js"></script>
-  <script src="./js/libraries/scrollama.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Acerca del Proyecto</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script type="module" src="./js/libraries/md-block.js"></script>
 </head>
 <body>
-  <div id="menuDiv" class="h100vh p_fix">
-    <div id="menuContent" class="h100vh d_flex flex_column t_center">
-      <md-block id="menuMDBlock" src="./resources/md/menu.md"></md-block>
-    </div>
-    <div id="menuToggle" class="p_abs">
-      <span>
-        <b>☰</b>
-      </span>
-    </div>
-  </div>
+	<div id="menuDiv" class="h100vh p_fix">
+		<div id="menuContent" class="h100vh d_flex flex_column t_center">
+			<md-block id="menuMDBlock" src="./resources/md/menu.md"></md-block>
+		</div>
+		<div id="menuToggle" class="p_abs">
+			<span>
+				<b>☰</b>
+			</span>
+		</div>
+	</div>
 
-  <div id="indexContent">
-    <section id="indexMap" class="w100vw">
-      <div id="indexMapElm">
-        <img id="scrollAnim" class="p_abs" src="./resources/images/index/scroll.svg" alt="Scroll Indicator">
-      </div>
+	<div id="sectionContent" class="w100vw d_grid grid_twoCol_3-2">
+		<div id="aboutTexto1" class="izq">
+			<h1>Acerca del Proyecto</h1>
+			<p>
+				<i>Inventar Colombia: Una mirada desde el Orinoco</i> es un producto digital de investigación interactivo abierto. En su desarrollo participó un equipo interdisciplinario de investigadores, estudiantes, diseñadores, programadores e ingenieros de sistemas de la Universidad de los Andes (Bogotá, Colombia).
+			</p>
 
-      <div id="stepsIndexMap">
-        <div class="indexMapStep"></div>
-        <div class="indexMapStep"></div>
-        <div class="indexMapStep"></div>
-        <div class="indexMapStep"></div>
-      </div>
-    </section>
+			<p>
+				Es la culminación de un proyecto financiado por el Fondo de Apoyo a Profesores Asistentes (FAPA) de la Universidad de los Andes y con la Beca a Estrategias de Producción y Circulación del Patrimonio Bibliográfico y Documental Colombiano de la Biblioteca Nacional de Colombia y el Ministerio de Cultura.
+			</p>
 
-    <section id="indexAbout" class="mw100vw d_grid grid_twoCol_3-2">
-      <div class="izq">
-        <h1>Sobre el Proyecto</h1>
-        <p>
-          <i>Inventar Colombia: Una mirada desde el Orinoco</i> es un producto digital de investigación interactivo abierto. En su desarrollo participó un equipo interdisciplinario de investigadores, estudiantes, diseñadores, programadores e ingenieros de sistemas de la Universidad de los Andes (Bogotá, Colombia).
-        </p>
-        <p>
-          Además, es la culminación de un proyecto financiado por el Fondo de Apoyo a Profesores Asistentes (FAPA) de la Universidad de los Andes y la Beca a Estrategias de Producción y Circulación del Patrimonio Bibliográfico y Documental Colombiano de la Biblioteca Nacional de Colombia y el Ministerio de Cultura.
-        </p>
-        <br>
+			<br>
 
-        <h2>Citar el Proyecto</h2>
+			<p>
+				<h2>Nuestros objetivos son:</h2>
+				<ul>
+					<li>
+						Uno:
+					</li>
+				</ul>
+			</p>
+
+			<p>
+				Los principios del diseño de interface del proyecto buscan ofrecer una experiencia de navegación que replique en un nivel básico la experiencia de recorrer el territorio.
+			</p>
+
+			<br>
+
+			<h2>Citar el Proyecto</h2>
         <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
           <img alt="Creative Commons License" style="border-width:0" src="./resources/images/index/creativecommons.png"/>
         </a>
@@ -58,10 +58,10 @@
           <br><br>
           Para todo el sitio: Inventar Colombia: una mirada desde el Orinoco. Editado por Maria José Afanador-Llach, Santiago González y Laura Romero. Universidad de los Andes, 2023. URL. Consultado el [día-mes-año].
         </p>
-      </div>
+		</div>
 
-      <div class="der">
-        <h1>Equipo</h1>
+		<div id="aboutTexto2" class="der">
+			<h2>Equipo</h2>
         <p>
           <b>Directora e investigadora principal:</b>
           <br>
@@ -109,11 +109,8 @@
           <br>
           Natalia Lozada, Haydemar Núñez
         </p>
-      </div>
-    </section>
-  </div>
-
-  <script src="./js/menu.js"></script>
-  <script src="./js/index.js"></script>
+		</div>
+	</div>
+	<script src="./js/menu.js"></script>
 </body>
 </html>

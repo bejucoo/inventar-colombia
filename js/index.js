@@ -5,14 +5,10 @@ var map = new maplibregl.Map({
     center: [-67.38, 3.95],
     zoom: 10,
     pitch: 60,
-    bearing: -49.77
+    bearing: -49.77,
+    interactive: false,
+    attributionControl: false
 });
-
-
-// Desactivar el zoom por scroll, el paneo por drag y el zoom por rotación.
-map.scrollZoom.disable();
-map.dragPan.disable();
-map.touchZoomRotate.disable();
 
 
 // Obtener el archivo de los popups y ejecutar las funciones.
@@ -46,8 +42,11 @@ function addIndexPopups(json){
 };
 
 
-// Ir a cada popup según la posición del scroll.
+// Ir a cada popup y dibujar o quitar el ícono de scroll según la posición del scroll 
 function scrollToPoint(json){
+    const scrollIcon = document.getElementById('scrollAnim');
+    var scrollIconHidden = false;
+
     const scroller = scrollama();
     scroller
     .setup({
@@ -62,7 +61,13 @@ function scrollToPoint(json){
             curve: 0.24,
             speed: 0.24
         });
-    })
-    .onStepExit((response) => {
+
+        if (response.index != 0) {
+            scrollIconHidden = true;
+            scrollIcon.classList.add('hidden');
+        } else {
+            scrollIconHidden = false;
+            scrollIcon.classList.remove('hidden');
+        }
     });
 };
