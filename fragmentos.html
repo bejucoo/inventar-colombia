@@ -22,13 +22,43 @@
     </div>
   </div>
 
+  <dialog id="instructionsDialog">
+    <h2>
+      <b>¿Cómo usar esta herramienta?</b>
+    </h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    <p>
+      <ol>
+        <li>
+          Seleccione el cuerpo de texto que quiera explorar.
+        </li>
+        <li>
+          Filtre los fragmentos seleciconando las categorías que desee.
+        </li>
+        <li>
+          Haga click sobre el nombre del fragmento ir a su ubicación dentro del cuerpo de texto.
+        </li>
+      </ol>
+    </p>
+    <button id="closeDialog" value="close">Cerrar</button>
+  </dialog>
+
   <div id="sectionContent" class="w100vw d_grid grid_twoCol_1-3">
-    <div id="fragmentosCol1" class="izq">
+    <div id="fragmentosCol1" class="izq padTop30px">
       <h1>Curaduría de Fragmentos</h1>
+      <p>
+        Quia totam porro natus. Quo sint qui non voluptatem. Asperiores consequuntur voluptatum laboriosam est nobis. Dignissimos impedit est et culpa ipsam sit.
+      </p>
+      <p>
+        <button id="openDialog">¿Cómo usar esta herramienta?</button>
+      </p>
+      <br>
 
       <div id="seleccionTexto">
         <fieldset id="fieldTexto">
-          <legend><b>Cuerpo de Texto</b></legend>
+          <legend><b>Cuerpo de Texto:</b></legend>
           <select name="cuerpoDeTexto" id="cuerpoDeTexto">
             <option value="orinocoIlustrado_1">Orinoco Ilustrado, Vol. 1</option>
             <option value="orinocoIlustrado_2">Orinoco Ilustrado, Vol. 2</option>
@@ -39,14 +69,16 @@
 
       <div id="seleccionCategorias">
         <fieldset id="fieldCategorias">
-          <legend><b>Categorías</b></legend>
+          <legend><b>Categorías:</b></legend>
         </fieldset>
       </div>
 
-      <div id="fragmentos" class="d_grid grid_twoCol_1-1"></div>
+      <div id="fragmentos" class="d_grid grid_oneCol">
+        <legend><b>Fragmentos:</b></legend>
+      </div>
     </div>
 
-    <div id="fragmentosCol2" class="der">
+    <div id="fragmentosCol2" class="der padTop30px">
     </div>
 
     <canvas id='miniMap'></canvas>

@@ -4,6 +4,7 @@ fetch("./resources/json/fragmentos/fragmentos_1.json")
   return response.json();
 })
 .then(function (fragmentos){
+  openInstructions();
   addCategoryCheck(flatCategories(fragmentos));
   filterJSON(fragmentos);
   addFullText();
@@ -11,6 +12,20 @@ fetch("./resources/json/fragmentos/fragmentos_1.json")
 .catch(function(e){
   console.log('Error al cargar archivo JSON de los fragmentos:', e);
 });
+
+function openInstructions (){
+  const openButton = document.getElementById('openDialog');
+  const closeButton = document.getElementById('closeDialog');
+  const dialog = document.getElementById('instructionsDialog');
+
+  openButton.addEventListener('click', function(){
+    dialog.showModal();
+  });
+
+  closeButton.addEventListener('click', function(){
+    dialog.close();
+  });
+}
 
 
 // Obtener todas las categorías y filtrar las repetidas.
