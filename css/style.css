@@ -449,7 +449,7 @@ dialog :is(h1, h2),
 
 dialog :is(p, ol, ul),
 #indexAbout :is(a, p),
-#sectionContent :is(a, p, mark),
+#sectionContent :is(a, p, mark, ol, ul),
 .fragmento {
 	font-family: 'cormorant';
 }
