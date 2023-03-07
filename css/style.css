@@ -535,7 +535,7 @@ dialog :is(p, ol, ul),
 	}
 
 	.indexPopup_main img {
-		max-width: 140vw
+		max-width: 140vw;
 		transform: translate(-50%, -30%);
 	}
 
