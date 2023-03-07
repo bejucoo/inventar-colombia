@@ -36,7 +36,7 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": -16,
-		"html": "<img src='./resources/images/index/popup_2.svg' alt=''><div><h2>Investigación</h2><p style='font-size: 0.8em;'><a href='#'>Metodología</a> • <a href='#'> Documentos </a> • <a href='#'>Publicaciones</a> • <a href='#'>Bibliografía</a></p></div>"
+		"html": "<img src='./resources/images/index/popup_3.svg' alt=''><div><h2>Investigación</h2><p style='font-size: 0.8em;'><a href='#'>Metodología</a> • <a href='#'> Documentos </a> • <a href='#'>Publicaciones</a> • <a href='#'>Bibliografía</a></p></div>"
 	},
 	{
 		"id": "section_3",
@@ -49,6 +49,6 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": 47.29,
-		"html": "<img src='./resources/images/index/popup_2.svg' alt=''><div><h2>Epílogo</h2><p style='font-size: 0.8em;'><a href='#'>Ensayo Interactivo</a></p></div>"
+		"html": "<img src='./resources/images/index/popup_4.svg' alt=''><div><h2>Epílogo</h2><p style='font-size: 0.8em;'><a href='#'>Ensayo Interactivo</a></p></div>"
 	}
 ]

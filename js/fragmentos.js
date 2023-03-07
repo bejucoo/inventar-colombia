@@ -10,7 +10,7 @@ fetch("./resources/json/fragmentos/fragmentos_1.json")
   addFullText();
 })
 .catch(function(e){
-  console.log('Error al cargar archivo JSON de los fragmentos:', e);
+  console.log(e);
 });
 
 function openInstructions (){

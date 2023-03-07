@@ -293,10 +293,17 @@ button:hover {
 	text-align: center;
 }
 
-.indexPopup img {
+.indexPopup_main img {
 	max-width: 900px;
 	position: absolute;
 	transform: translate(-50%, -36%);
+	z-index: -1;
+}
+
+.indexPopup_sub img {
+	max-width: 900px;
+	position: absolute;
+	transform: translate(-50%, -25%);
 	z-index: -1;
 }
 

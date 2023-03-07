@@ -21,7 +21,7 @@ fetch("./resources/json/index/index_popups.json")
   scrollToPoint(data);
 })
 .catch(function(e) {
-    console.log('Error al cargar archivo JSON de los popups:', e);
+    console.log(e);
 });
 
 
