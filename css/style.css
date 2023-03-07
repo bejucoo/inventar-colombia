@@ -55,6 +55,10 @@ dialog h2 {
 	height: 100vh;
 }
 
+.h100 {
+	height: 100%;
+}
+
 
 /* MARGIN & PADDING */
 .izq {
@@ -221,7 +225,6 @@ button:hover {
 	background: var(--white1);
 	transition: left 0.4s;
 	z-index: 10;
-	height: 100vh;
 }
 
 #menuDiv.active {
@@ -531,9 +534,14 @@ dialog :is(p, ol, ul),
 		font-size: 1.7em;
 	}
 
-	.indexPopup img {
-		width: 140vw;
-		transform: translate(-50%, -31%);
+	.indexPopup_main img {
+		max-width: 1.4vw
+		transform: translate(-50%, -30%);
+	}
+
+	.indexPopup_sub img {
+		max-width: 1.4vw;
+		transform: translate(-50%, -20%);
 	}
 
 
