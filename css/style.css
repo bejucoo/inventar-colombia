@@ -306,7 +306,7 @@ button:hover {
 .indexPopup_sub img {
 	max-width: 900px;
 	position: absolute;
-	transform: translate(-50%, -25%);
+	transform: translate(-50%, -23%);
 	z-index: -1;
 }
 
