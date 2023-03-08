@@ -7,9 +7,12 @@
 	--white1: #f2efe5;
 	--white2: #f2f0ea;
 	--red1: #d4978b;
+	--red2: #e4bfb7ff;
 	--blue1: #92a9a4;
+	--blue2: #bccac7ff;
 	--yellow1: #f2dea0;
 	--green1: #98a280;
+	--green2: #c6cbb8ff;
 	--transparent: rbga(0,0,0,0);
 	--bd_double: thick double var(--black);
 	--bd_doubleSimple: double var(--black);
@@ -24,6 +27,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	background: var(--white1);
+	color: var(--black);
 }
 
 
@@ -55,6 +59,10 @@ dialog h2 {
 	height: 100vh;
 }
 
+.w100 {
+	width: 100%;
+}
+
 .h100 {
 	height: 100%;
 }
@@ -71,6 +79,10 @@ dialog h2 {
 	padding: 0 60px;
 	overflow: scroll;
 	scroll-behavior: smooth;
+}
+
+.mar0 {
+	margin: 0;
 }
 
 .padTop30px {
@@ -413,6 +425,7 @@ button:hover {
 	margin-top: 25px;
 }
 
+
 #fieldCategorias div, legend {
 	padding-bottom: 15px;
 }
@@ -424,15 +437,25 @@ button:hover {
 .fragmento {
 	padding: 10px;
 	border: var(--bd_doubleSimple);
+	font-weight: bold;
 }
 
 .cita_animales {
-	background-color: var(--blue1);
+	background-color: var(--blue2);
 }
 
-.cita_otra {
-	background-color: var(--red1);
+.cita_riqueza {
+	background-color: var(--red2);
 }
+
+.cita_poblamiento {
+	background-color: var(--green2);
+}
+
+.cita_evangelizacion {
+	background-color: var(--yellow1);
+}
+
 
 #miniMap {
 	position: fixed;
@@ -466,7 +489,7 @@ dialog :is(p, ol, ul),
 
 #indexAbout h1,
 #sectionContent h1 {
-	margin-top: 0;
+	margin: 0 0 15px 0;
 	font-size: 2.5em;
 }
 

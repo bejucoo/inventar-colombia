@@ -47,11 +47,10 @@
 
   <div id="sectionContent" class="w100vw d_grid grid_twoCol_1-3">
     <div id="fragmentosCol1" class="izq padTop30px">
-      <h1>Curaduría de Fragmentos</h1>
-      <p>
-        Quia totam porro natus. Quo sint qui non voluptatem. Asperiores consequuntur voluptatum laboriosam est nobis. Dignissimos impedit est et culpa ipsam sit.
-      </p>
-      <p>
+      <img src="./resources/images/title_1.svg" class="w100" style="transform: rotate(180deg);">
+      <h1 class="t_center">Curaduría de Fragmentos</h1>
+      <img src="./resources/images/title_1.svg" class="w100">
+      <p class="t_center">
         <button id="openDialog">¿Cómo usar esta herramienta?</button>
       </p>
       <br>
@@ -68,7 +67,7 @@
       </div>
 
       <div id="seleccionCategorias">
-        <fieldset id="fieldCategorias">
+        <fieldset id="fieldCategorias" class="d_grid grid_twoCol_1-1">
           <legend><b>Categorías:</b></legend>
         </fieldset>
       </div>
@@ -85,7 +84,7 @@
   </div>
 
   <script id="templateFragmentos" type="text/html">
-    <div class="fragmento">
+    <div class="fragmento <%= clase %>">
       <div><b><%= link %></b></div>
       Páginas: <%= pags %>
     </div>

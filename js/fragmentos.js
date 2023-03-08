@@ -103,7 +103,6 @@ function miniMapText(){
     styles: {
       'h1, h2, h3, h4': 'rgba(0,0,0,0.2)',
       'p': 'rgba(0, 0, 0, 0.05)',
-      //'mark': 'rgba(255, 255, 0, 0.5)'
       '.cita_animales': '#92a9a4aa'
     },
     back: 'rgba(0,0,0,0.02)',
