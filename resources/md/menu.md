@@ -1,23 +1,24 @@
-## ~ [Home](index.html) ~
+## [Inicio](index.html)
 <br>
 
-## ~ [Introducción](intro.html) ~
+## I. [Introducción](intro.html)
 <br>
 
-- ## ~ Orinoco ~
+- ##  II. El Orinoco
 - [Curaduría de Fragmentos](fragmentos.html)
 - [Narrativa Cartográfica](#)
-<br><br><br>
+<br>
 
-- ## ~ Investigación ~
+- ## III. Epílogo
+- [Ensayo Interactivo](#)
+<br>
+
+- ## IV. Investigación
 - [Metodología](#)
 - [Documentos](#)
 - [Publicaciones](#)
 - [Bibliografía](#)
-<br><br><br>
 
-- ## ~ Epílogo ~
-- [Ensayo Interactivo](#)
-<br><br><br>
+<br>
 
-## ~ [Acerca del Proyecto](about.html) ~
+## [Acerca del proyecto](about.html)

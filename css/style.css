@@ -3,6 +3,7 @@
 /* GLOBAL COLORS AND BORDERS */
 :root {
 	--black: #241d15;
+	--black2: #100901ff;
 	--gray1: #484848;
 	--white1: #f2efe5;
 	--white2: #f2f0ea;
@@ -231,10 +232,11 @@ button:hover {
 
 /* MENU */
 #menuDiv {
-	width: 20%;
-	left: -18%;
+	width: 16%;
+	left: -14%;
 	border-right: var(--bd_double);
-	background: var(--white1);
+	background: var(--black2);
+	color: var(--white1);
 	transition: left 0.4s;
 	z-index: 10;
 }
@@ -254,6 +256,21 @@ button:hover {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+}
+
+#menuContent a:link {
+	color: var(--white1);
+	text-decoration: none;
+}
+
+#menuContent a:visited {
+	color: var(--white1);
+	text-decoration: none;
+}
+
+#menuContent a:hover {
+	color: var(--white1);
+	text-decoration: underline;
 }
 
 #menuContent #menuMDBlock {
@@ -440,19 +457,23 @@ button:hover {
 	font-weight: bold;
 }
 
-.cita_animales {
+.cita_animales, .cita_riqueza, .cita_poblamiento, .cita_evangelizacion {
+	background-color: var(--transparent);
+}
+
+.cita_animales.active {
 	background-color: var(--blue2);
 }
 
-.cita_riqueza {
+.cita_riqueza.active {
 	background-color: var(--red2);
 }
 
-.cita_poblamiento {
+.cita_poblamiento.active {
 	background-color: var(--green2);
 }
 
-.cita_evangelizacion {
+.cita_evangelizacion.active {
 	background-color: var(--yellow1);
 }
 
@@ -525,6 +546,7 @@ dialog :is(p, ol, ul),
 	#menuContent {
 		height: unset;
 		font-size: 1.2em;
+		text-align: center;
 	}
 
 	#menuToggle {

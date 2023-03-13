@@ -10,10 +10,10 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": -49.77,
-		"html": "<img src='./resources/images/index/popup_1.svg' alt=''><div><h2>Inventar Colombia</h2><h3 style='font-weight: lighter;'>Una mirada desde el Orinoco</h3><p style='font-size: 0.8em;'><a href='./intro.html'>Introducción</a> • <a href='./about.html'>Acerca del proyecto</a></p></div>"
+		"html": "<img src='./resources/images/index/popup_1.svg' alt=''><div><h2>Inventar Colombia</h2><h3 style='font-weight: lighter;'>Una mirada desde el Orinoco</h3></div>"
 	},
 	{
-		"id": "section_1",
+		"id": "intro",
 		"class": "indexPopup indexPopup_sub bg_transparent",
 		"maxWidth": "none",
 		"lnglat": {
@@ -23,7 +23,7 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": -34.40,
-		"html": "<img src='./resources/images/index/popup_2.svg' alt=''><div><h2>Orinoco</h2><p style='font-size: 0.8em;'><a href='./fragmentos.html'>Curaduría de Fragmentos</a> • <a href='#'>Narrativa Cartográfica</a></p></div>"
+		"html": "<img src='./resources/images/index/popup_2.svg' alt=''><div><h2>I. Introducción</h2><p style='font-size: 0.8em;'><a href='./intro.html'>Leer más</a></p></div>"
 	},
 	{
 		"id": "section_2",
@@ -36,7 +36,7 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": -16,
-		"html": "<img src='./resources/images/index/popup_3.svg' alt=''><div><h2>Investigación</h2><p style='font-size: 0.8em;'><a href='#'>Metodología</a> • <a href='#'> Documentos </a> • <a href='#'>Publicaciones</a> • <a href='#'>Bibliografía</a></p></div>"
+		"html": "<img src='./resources/images/index/popup_3.svg' alt=''><div><h2>II. El Orinoco</h2><p style='font-size: 0.8em;'><a href='./fragmentos.html'>Curaduría de Fragmentos</a> • <a href='#'>Narrativa Cartográfica</a></p></div>"
 	},
 	{
 		"id": "section_3",
@@ -49,6 +49,19 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": 47.29,
-		"html": "<img src='./resources/images/index/popup_4.svg' alt=''><div><h2>Epílogo</h2><p style='font-size: 0.8em;'><a href='#'>Ensayo Interactivo</a></p></div>"
+		"html": "<img src='./resources/images/index/popup_4.svg' alt=''><div><h2>III. Epílogo</h2><p style='font-size: 0.8em;'><a href='#'>Ensayo Interactivo</a></p></div>"
+	},
+	{
+		"id": "section_4",
+		"class": "indexPopup indexPopup_sub bg_transparent",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -61.28,
+			"lat": 6.85
+		},
+		"zoom": 10,
+		"pitch": 60,
+		"bearing": 97.54,
+		"html": "<img src='./resources/images/index/popup_4.svg' alt=''><div><h2>Citar el Proyecto</h2><p style='font-size: 0.8em; max-width: 500px'>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.<br><br> Para citar o atribuir este sitio, le recomendamos que utilice el siguiente formato: <br><br> <b>Para todo el sitio:</b> Inventar Colombia: una mirada desde el Orinoco. Editado por Maria José Afanador-Llach, Santiago González y Laura Romero. Universidad de los Andes, 2023. URL. Consultado el [día-mes-año].</p></div>"
 	}
 ]
