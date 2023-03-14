@@ -74,6 +74,7 @@ dialog h2 {
 	padding: 0 60px 0 0;
 	overflow: scroll;
 	scroll-behavior: smooth;
+	border-right: var(--bd_doubleSimple);
 }
 
 .der {
@@ -292,7 +293,7 @@ button:hover {
 /* INDEX */
 /* INDEX MAP */
 #indexMap {
-	border-bottom: var(--bd_double);
+	border-bottom: var(--bd_doubleSimple);
 }
 
 #indexMapElm {
@@ -307,7 +308,7 @@ button:hover {
 }
 
 .indexMapStep {
-	height: 2000px;
+	height: 1500px;
 }
 
 
@@ -416,17 +417,17 @@ button:hover {
 
 /* INTRO */
 #introTexto {
-	padding: 60% 0 20% 0;
+	padding: 40% 60px 0 0;
 }
 
-#introTituloH1 {
+#introTextoContenido {
 	position: sticky;
 	top: 0;
 	margin: 0;
 }
 
 .introTituloStep {
-	height: 1000px;
+	height: 1500px;
 }
 
 
@@ -496,8 +497,8 @@ select, legend, label, button,
 dialog :is(h1, h2),
 #menuDiv,
 .indexPopup,
-#indexAbout :is(h1, h2),
-#sectionContent :is(h1, h2) {
+#indexAbout :is(h1, h2, h3),
+#sectionContent :is(h1, h2, h3) {
 	font-family: 'cormorant-up';
 }
 
@@ -523,6 +524,7 @@ dialog :is(p, ol, ul),
 @media only screen and (max-width: 480px) {
 	.izq, .der {
 		padding: 0 0 30px 0;
+		border: none;
 	}
 
 
@@ -563,7 +565,7 @@ dialog :is(p, ol, ul),
 
 
 	/* INDEX */
-	.indexMapStep {
+	.indexMapStep, {
 		height: 1000px;
 	}
 
@@ -613,7 +615,21 @@ dialog :is(p, ol, ul),
 
 	/* INTRO */
 	#introTexto {
-		height: 100vh;
+		padding: 20% 0 0 0;
+	}
+
+	#introTextoContenido {
+		position: fixed;
+		top: unset;
+		padding: 0 5% 0 0;
+	}
+
+	#introImagen {
+		display: none;
+	}
+
+	.introTituloStep {
+		height: 1000px;
 	}
 
 

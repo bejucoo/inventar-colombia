@@ -1,7 +1,7 @@
 // Agregar un nuevo mapa de MapLibre GL JS.
 var map = new maplibregl.Map({
-    container: 'indexMapElm',
-    style: './resources/json/map_styles/index_map.json',
+    container: "indexMapElm",
+    style: "./resources/json/map_styles/index_map.json",
     center: [-67.38, 3.95],
     zoom: 10,
     pitch: 60,
@@ -20,14 +20,14 @@ fetch("./resources/json/index/index_popups.json")
   addIndexPopups(data);
   scrollToPoint(data);
 })
-.catch(function(e) {
-    console.log(e);
+.catch(function(error) {
+    console.log(error);
 });
 
 
 // Agregar los popups al mapa.
-function addIndexPopups(json){
-    json.forEach(function(e){
+function addIndexPopups(json) {
+    json.forEach(function(e) {
         new maplibregl.Popup({
             closeButton: false,
             closeOnClick: false,
@@ -43,8 +43,8 @@ function addIndexPopups(json){
 
 
 // Ir a cada popup y dibujar o quitar el ícono de scroll según la posición del scroll 
-function scrollToPoint(json){
-    const scrollIcon = document.getElementById('scrollAnim');
+function scrollToPoint(json) {
+    const scrollIcon = document.getElementById("scrollAnim");
     var scrollIconHidden = false;
 
     const scroller = scrollama();
@@ -52,7 +52,7 @@ function scrollToPoint(json){
     .setup({
         step: ".indexMapStep",
     })
-    .onStepEnter((response) => {
+    .onStepEnter(function(response) {
         map.flyTo({
             center: json[response.index].lnglat,
             zoom: json[response.index].zoom,
@@ -64,10 +64,10 @@ function scrollToPoint(json){
 
         if (response.index != 0) {
             scrollIconHidden = true;
-            scrollIcon.classList.add('hidden');
+            scrollIcon.classList.add("hidden");
         } else {
             scrollIconHidden = false;
-            scrollIcon.classList.remove('hidden');
+            scrollIcon.classList.remove("hidden");
         }
     });
 };
