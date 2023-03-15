@@ -2,10 +2,10 @@
 var map = new maplibregl.Map({
     container: "indexMapElm",
     style: "./resources/json/map_styles/index_map.json",
-    center: [-67.38, 3.95],
+    center: [-67.30, 3.95],
     zoom: 10,
     pitch: 60,
-    bearing: -49.77,
+    bearing: -124,
     interactive: false,
     attributionControl: false
 });
@@ -59,7 +59,7 @@ function scrollToPoint(json) {
             pitch: json[response.index].pitch,
             bearing: json[response.index].bearing,
             curve: 0.24,
-            speed: 0.24
+            speed: 0.12
         });
 
         if (response.index != 0) {

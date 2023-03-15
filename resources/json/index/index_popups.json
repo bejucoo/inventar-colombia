@@ -4,21 +4,21 @@
 		"class": "indexPopup indexPopup_main bg_transparent",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -67.38,
+			"lng": -67.30,
 			"lat": 3.95
 		},
 		"zoom": 10,
 		"pitch": 60,
-		"bearing": -49.77,
-		"html": "<img src='./resources/images/index/popup_1.svg' alt=''><div><h2>Inventar Colombia</h2><h3 style='font-weight: lighter;'>Una mirada desde el Orinoco</h3></div>"
+		"bearing": -124,
+		"html": "<img src='./resources/images/index/popup_1.svg' alt=''><div><h2>Inventar Colombia</h2><h3 style='font-weight: lighter;'>Una mirada desde el Orinoco</h3><p style='font-size: 0.8em; max-width: 500px'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><a style='font-size: 0.8em;' href='./about.html'>Más información</a></div>"
 	},
 	{
 		"id": "intro",
 		"class": "indexPopup indexPopup_sub bg_transparent",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -67.00,
-			"lat": 7.07
+			"lng": -67.48,
+			"lat": 6.20
 		},
 		"zoom": 10,
 		"pitch": 60,
@@ -30,8 +30,8 @@
 		"class": "indexPopup indexPopup_sub bg_transparent",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -64.36,
-			"lat": 7.99
+			"lng": -65.01,
+			"lat": 7.61
 		},
 		"zoom": 10,
 		"pitch": 60,
@@ -43,25 +43,38 @@
 		"class": "indexPopup indexPopup_sub bg_transparent",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -61.10,
-			"lat": 8.68
+			"lng": -62.86,
+			"lat": 8.26
 		},
 		"zoom": 10,
 		"pitch": 60,
-		"bearing": 47.29,
+		"bearing": -25.60,
 		"html": "<img src='./resources/images/index/popup_4.svg' alt=''><div><h2>III. Epílogo</h2><p style='font-size: 0.8em;'><a href='#'>Ensayo Interactivo</a></p></div>"
 	},
 	{
-		"id": "section_4",
-		"class": "indexPopup indexPopup_sub bg_transparent",
+		"id": "equipo",
+		"class": "indexPopup indexPopup_inf bg_transparent",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -61.28,
-			"lat": 6.85
+			"lng": -61.57,
+			"lat": 9.57
 		},
 		"zoom": 10,
 		"pitch": 60,
-		"bearing": 97.54,
-		"html": "<img src='./resources/images/index/popup_4.svg' alt=''><div><h2>Citar el Proyecto</h2><p style='font-size: 0.8em; max-width: 500px'>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.<br><br> Para citar o atribuir este sitio, le recomendamos que utilice el siguiente formato: <br><br> <b>Para todo el sitio:</b> Inventar Colombia: una mirada desde el Orinoco. Editado por Maria José Afanador-Llach, Santiago González y Laura Romero. Universidad de los Andes, 2023. URL. Consultado el [día-mes-año].</p></div>"
+		"bearing": 12,
+		"html": "<img src='./resources/images/index/popup_5.svg' alt=''><div><h2>Equipo</h2><p style='font-size: 0.8em; max-width: 500px'><b>Directora e investigadora principal:</b> Maria José Afanador-Llach <br><br> <b>Investigación histórica y curaduría documental:</b Laura Romero Ortiz <br><br> <b>Cartografía e investigación geoespacial:</b> Santiago González Rodríguez <br><br> <b>Diseño de interfaces y programación web:</b> Pierre Puentes Gómez <br><br> <b>Asistentes de investigación:</b> Isis Beleño, Santiago Velasco, David Echeverry, Liliana Cobos, Santiago Rangel <br><br> <b>Agradecimientos:</b> Natalia Lozada, Haydemar Núñez</p></div>"
+	},
+	{
+		"id": "citar",
+		"class": "indexPopup indexPopup_inf bg_transparent",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -61.18,
+			"lat": 8.56
+		},
+		"zoom": 10,
+		"pitch": 60,
+		"bearing": 64.64,
+		"html": "<img src='./resources/images/index/popup_5.svg' alt=''><div><h2>Citar el proyecto</h2><p style='font-size: 0.8em; max-width: 500px'>Esta obra está bajo una <a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional.</a><br><br><b>Para todo el sitio:</b> Inventar Colombia: una mirada desde el Orinoco. Editado por Maria José Afanador-Llach, Santiago González y Laura Romero. Universidad de los Andes, 2023. [URL]. Consultado el [día-mes-año].<br><br><b>Para un ensayo, entrada o página individual:</b> [Apellido del autor, nombre]. Inventar Colombia: una mirada desde el Orinoco. Editado por Maria José Afanador-Llach, Santiago González y Laura Romero. Universidad de los Andes, 2023. [URL de la página o entrada]. Consultado el [día-mes-año].</p></div>"
 	}
 ]
