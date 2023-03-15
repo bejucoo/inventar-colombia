@@ -346,7 +346,7 @@ button:hover {
 .indexPopup_inf img {
 	max-width: 900px;
 	position: absolute;
-	transform: translate(-50%, -9%);
+	transform: translate(-50%, -6%);
 	z-index: -1;
 }
 
@@ -592,13 +592,19 @@ dialog :is(p, ol, ul),
 	}
 
 	.indexPopup_main img {
-		max-width: 140vw;
+		max-width: 200vw;
 		transform: translate(-50%, -30%);
 	}
 
 	.indexPopup_sub img {
 		max-width: 140vw;
 		transform: translate(-50%, -20%);
+	}
+
+	.indexPopup_inf img {
+		max-width: unset;
+		height: 110%;
+		transform: translate(-50%, -7%);
 	}
 
 

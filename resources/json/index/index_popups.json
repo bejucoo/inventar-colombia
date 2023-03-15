@@ -62,7 +62,7 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": 12,
-		"html": "<img src='./resources/images/index/popup_5.svg' alt=''><div><h2>Equipo</h2><p style='font-size: 0.8em; max-width: 500px'><b>Directora e investigadora principal:</b> Maria José Afanador-Llach <br><br> <b>Investigación histórica y curaduría documental:</b Laura Romero Ortiz <br><br> <b>Cartografía e investigación geoespacial:</b> Santiago González Rodríguez <br><br> <b>Diseño de interfaces y programación web:</b> Pierre Puentes Gómez <br><br> <b>Asistentes de investigación:</b> Isis Beleño, Santiago Velasco, David Echeverry, Liliana Cobos, Santiago Rangel <br><br> <b>Agradecimientos:</b> Natalia Lozada, Haydemar Núñez</p></div>"
+		"html": "<img src='./resources/images/index/popup_5.svg' alt=''><div><h2>Equipo</h2><p style='font-size: 0.8em; max-width: 500px'><b>Directora e investigadora principal:</b> Maria José Afanador-Llach <br><br> <b>Investigación histórica y curaduría documental:</b> Laura Romero Ortiz <br><br> <b>Cartografía e investigación geoespacial:</b> Santiago González Rodríguez <br><br> <b>Diseño de interfaces y programación web:</b> Pierre Puentes Gómez <br><br> <b>Asistentes de investigación:</b> Isis Beleño, Santiago Velasco, David Echeverry, Liliana Cobos, Santiago Rangel <br><br> <b>Agradecimientos:</b> Natalia Lozada, Haydemar Núñez</p></div>"
 	},
 	{
 		"id": "citar",
