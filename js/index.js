@@ -2,7 +2,7 @@
 var map = new maplibregl.Map({
     container: "indexMapElm",
     style: "./resources/json/map_styles/index_map.json",
-    center: [-67.30, 3.95],
+    center: [-67.20, 3.95],
     zoom: 10,
     pitch: 60,
     bearing: -124,
@@ -59,7 +59,7 @@ function scrollToPoint(json) {
             pitch: json[response.index].pitch,
             bearing: json[response.index].bearing,
             curve: 0.24,
-            speed: 0.12
+            speed: 0.24
         });
 
         if (response.index != 0) {
@@ -69,5 +69,28 @@ function scrollToPoint(json) {
             scrollIconHidden = false;
             scrollIcon.classList.remove("hidden");
         }
+
+        setActiveDot(response.index)
     });
 };
+
+
+// Activar o desactivar el punto correspondiente al popup actual.
+const dotInicio = document.getElementById("controlLink_0");
+dotInicio.classList.add("active");
+
+const mapControl = document.querySelectorAll(".controlLink");
+mapControl.forEach(function(e){
+    e.addEventListener("click", function(event){
+        setActiveDot(event.target.id.substr(-1))
+    })
+});
+
+function setActiveDot(id) {
+    let mapControl = document.getElementById("indexMapControl");
+    let oldActive = mapControl.getElementsByClassName('active'); 
+    let newActive = mapControl.querySelector(`#controlLink_${id}`);
+
+    oldActive[0].classList.remove("active");
+    newActive.classList.add("active");
+}

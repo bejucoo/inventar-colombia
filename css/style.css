@@ -6,6 +6,7 @@
 	--black2: #100901ff;
 	--gray1: #484848;
 	--white1: #f2efe5;
+	--white1_transparent: #f2efe5ff;
 	--white2: #f2f0ea;
 	--red1: #d4978b;
 	--red2: #e4bfb7ff;
@@ -399,6 +400,51 @@ button:hover {
 	display: none;
 }
 
+#indexMapControl {
+	flex-flow: column;
+	justify-content: end;
+	right: 0;
+	background-color: var(--transparent);
+	z-index: 10;
+	font-size: 1.5em;
+}
+
+#indexMapControlWrap {
+	padding: 10px;
+	transition: background font-size 0.5s;
+}
+
+.controlLink {
+	align-items: center;
+	justify-content: end;
+	margin: 0 24px 5px 0;
+}
+
+.controlLabel:hover {
+	font-weight: bold;
+	background: var(--white1);
+}
+
+.controlDot {
+	width: 5px;
+	height: 5px;
+	margin: 0 0 0 10px;
+	border: 1px solid var(--black);
+	border-radius: 50%;
+	background-color: var(--transparent);
+}
+
+.controlLink.active > .controlDot {
+	background-color: var(--black);
+	width: 7px;
+	height: 7px;
+}
+
+.controlLink.active > .controlLabel {
+	display: block;
+	font-weight: bold;
+}
+
 
 /* INDEX ABOUT */
 #indexAbout {
@@ -507,7 +553,7 @@ select, legend, label, button,
 dialog :is(h1, h2),
 #menuDiv,
 .indexPopup,
-#indexAbout :is(h1, h2, h3),
+#indexMapControl,
 #sectionContent :is(h1, h2, h3) {
 	font-family: 'cormorant-up';
 }
