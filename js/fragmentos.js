@@ -1,44 +1,33 @@
 // Obtener el archivo de los fragmentos y ejecutar las funciones.
 fetch("./resources/json/fragmentos/fragmentos.json")
-.then(function(response) {
-  return response.json();
-})
-.then(function(fragmentos) {
+.then((response) => response.json())
+.then((data) => {
   openInstructions();
   addFullText();
-  addCategoryCheck(flatCategories(fragmentos));
-  filterJSON(fragmentos);
+  addCategoryCheck(flatCategories(data));
+  filterJSON(data);
 })
-.catch(function(error) {
-  console.log(error);
-});
+.catch((error) => console.error(error));
 
 
 // Abrir y cerrar instrucciones.
-function openInstructions() {
+const openInstructions = () => {
   const openButton = document.getElementById("openDialog");
   const closeButton = document.getElementById("closeDialog");
   const dialog = document.getElementById("instructionsDialog");
 
-  openButton.addEventListener("click", function(){
-    dialog.showModal();
-  });
-
-  closeButton.addEventListener("click", function() {
-    dialog.close();
-  });
+  openButton.addEventListener("click", () => dialog.showModal());
+  closeButton.addEventListener("click", () => dialog.close());
 }
 
 
 // Obtener todas las categorías y filtrar las repetidas.
-function flatCategories(fragmentos) {
-  var categoriesArrays = [];
-  var allCategories;
-  var filteredCategories;
+const flatCategories = (fragmentos) => {
+  let categoriesArrays = [];
+  let allCategories;
+  let filteredCategories;
 
-  fragmentos.forEach(function(e, i) {
-    categoriesArrays.push(e.categories);
-  });
+  fragmentos.forEach((e) => categoriesArrays.push(e.categories));
 
   allCategories = categoriesArrays.flat();
   filteredCategories = [...new Set(allCategories)];
@@ -47,26 +36,24 @@ function flatCategories(fragmentos) {
 
 
 // Agregar el checklist de categorías.
-function addCategoryCheck(categories) {
+const addCategoryCheck = (categories) => {
   const checkboxField = document.getElementById("fieldCategorias");
 
-  categories.forEach(function(e) {
-    var categoryCheckbox = document.createElement("div");
+  categories.forEach((e) => {
+    let categoryCheckbox = document.createElement("div");
     categoryCheckbox.innerHTML = `<input type="checkbox" name="${e}" value="${e}" class="categoryCheckbox"><label for="${e}" class="cita_${e.toLowerCase()}"><b>${e}</b></label>`;
     checkboxField.appendChild(categoryCheckbox);
   });
 
-  var checkboxes = checkboxField.querySelectorAll("input[type=checkbox]");
+  let checkboxes = checkboxField.querySelectorAll("input[type=checkbox]");
 
-  checkboxes.forEach(function(e) {
-    e.checked = true;
-  });
+  checkboxes.forEach((e) => e.checked = true);
 }
 
 
 // Agregar los fragmentos y los filtros.
-function filterJSON(fragmentos) {
-  var filter = FilterJS(fragmentos, "#fragmentos", {
+const filterJSON = (fragmentos) => {
+  let filter = FilterJS(fragmentos, "#fragmentos", {
     template: "#templateFragmentos",
     filter_on_init: true,
     criterias: [{
@@ -82,30 +69,30 @@ function filterJSON(fragmentos) {
 
 
 // Agregar el cuerpo de texto. Resaltar fragmentos y agregar minimap cuando se cargue.
-function addFullText() {
-  var textField = document.getElementById("cuerpoDeTexto");
+const addFullText = () => {
+  let textField = document.getElementById("cuerpoDeTexto");
   const textElm = document.getElementById("fragmentosCol2");
 
   textElm.innerHTML = `<md-block id="textoCompleto" src="./resources/md/fragmentos/${textField.value}.md"></md-block>`;
 
-  textField.addEventListener("change", function() {
+  textField.addEventListener("change", () => {
     textElm.innerHTML = `<md-block id="textoCompleto" src="./resources/md/fragmentos/${textField.value}.md"></md-block>`;
   });
 
-  setTimeout(function() {
+  setTimeout(() => {
     const mdElm = document.getElementById("textoCompleto");
     if (mdElm.rendered === "remote") {
       toggleTextHighlight();
       miniMapText();
     } else {
-      console.error("Error al renderizar texto.");
+      console.error("Error al cargar texto.");
     }
-  }, 3600);
+  }, 500);
 }
 
 
 // Agregar el miniMap.
-function miniMapText() {
+const miniMapText = () => {
   pagemap(document.getElementById("miniMap"), {
     viewport: document.getElementById("fragmentosCol2"),
     styles: {
@@ -126,14 +113,14 @@ function miniMapText() {
 
 
 //  Agregar o quitar el color de resaltado dependiendo del checklist de categorías.
-function toggleTextHighlight() {
+const toggleTextHighlight = () => {
   const textField = document.getElementById("cuerpoDeTexto");
   const checkboxField = document.getElementById("fieldCategorias");
 
-  function highlight() {
+  const highlight = () => {
     const checkboxes = checkboxField.querySelectorAll("input[type=checkbox]");
 
-    checkboxes.forEach(function(e) {
+    checkboxes.forEach((e) => {
       if (e.checked === true) {
         const categoryElements = document.getElementsByClassName(`cita_${e.value.toLowerCase()}`);
 
@@ -150,11 +137,11 @@ function toggleTextHighlight() {
     });
   };
 
-  function highlightOnChange() {
+  const highlightOnChange = () => {
     const checkboxes = checkboxField.querySelectorAll("input[type=checkbox]");
 
-    checkboxes.forEach(function(e) {
-      e.addEventListener("change", function(event) {
+    checkboxes.forEach((e) => {
+      e.addEventListener("change", (event) => {
         if(event.currentTarget.checked){
           const categoryElements = document.getElementsByClassName(`cita_${event.currentTarget.value.toLowerCase()}`);
 
@@ -172,7 +159,7 @@ function toggleTextHighlight() {
     });
   };
 
-  textField.addEventListener("change", function() {
+  textField.addEventListener("change", () => {
     setTimeout(highlight, 1000);
   });
 

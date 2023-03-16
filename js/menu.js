@@ -1,10 +1,10 @@
 // Elementos del menú (contenido y toggle).
 const menuDiv = document.getElementById("menuDiv");
 const menuToggleDiv = document.getElementById("menuToggle")
-var menuOpen = false;
+let menuOpen = false;
 
 // Al hacer click, abrir o cerrar el menú.
-menuDiv.addEventListener("click", function() {
+menuDiv.addEventListener("click", () => {
 	if (!menuOpen) {
 		menuOpen = true;
 		menuDiv.classList.add("active");

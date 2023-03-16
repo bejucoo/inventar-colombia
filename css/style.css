@@ -4,18 +4,26 @@
 :root {
 	--black: #241d15;
 	--black2: #100901ff;
+
 	--gray1: #484848;
+	
 	--white1: #f2efe5;
 	--white1_transparent: #f2efe5ff;
 	--white2: #f2f0ea;
+	
 	--red1: #d4978b;
 	--red2: #e4bfb7ff;
+	
 	--blue1: #92a9a4;
 	--blue2: #bccac7ff;
+	
 	--yellow1: #f2dea0;
+	
 	--green1: #98a280;
 	--green2: #c6cbb8ff;
+	
 	--transparent: rbga(0,0,0,0);
+	
 	--bd_double: 6px double var(--black);
 	--bd_doubleSimple: double var(--black);
 	--bd_solid: thick solid var(--black);
@@ -82,10 +90,6 @@ dialog h2 {
 	padding: 0 60px;
 	overflow: scroll;
 	scroll-behavior: smooth;
-}
-
-.mar0 {
-	margin: 0;
 }
 
 .padTop30px {
@@ -330,25 +334,22 @@ button:hover {
 	text-align: center;
 }
 
-.indexPopup_main img {
+.indexPopup_main img, .indexPopup_sub img, .indexPopup_inf img {
 	max-width: 900px;
 	position: absolute;
-	transform: translate(-50%, -28%);
 	z-index: -1;
+}
+
+.indexPopup_main img {
+	transform: translate(-50%, -28%);
 }
 
 .indexPopup_sub img {
-	max-width: 900px;
-	position: absolute;
 	transform: translate(-50%, -23%);
-	z-index: -1;
 }
 
 .indexPopup_inf img {
-	max-width: 900px;
-	position: absolute;
 	transform: translate(-50%, -6%);
-	z-index: -1;
 }
 
 .bg_transparent > .maplibregl-popup-content,
@@ -411,13 +412,12 @@ button:hover {
 
 #indexMapControlWrap {
 	padding: 10px;
-	transition: background font-size 0.5s;
 }
 
 .controlLink {
 	align-items: center;
 	justify-content: end;
-	margin: 0 24px 5px 0;
+	margin: 0 12px 5px 0;
 }
 
 .controlLabel:hover {
@@ -432,6 +432,7 @@ button:hover {
 	border: 1px solid var(--black);
 	border-radius: 50%;
 	background-color: var(--transparent);
+	transition: background-color 0.5s;
 }
 
 .controlLink.active > .controlDot {
@@ -443,13 +444,6 @@ button:hover {
 .controlLink.active > .controlLabel {
 	display: block;
 	font-weight: bold;
-}
-
-
-/* INDEX ABOUT */
-#indexAbout {
-	padding: 2% 0 2% 5%;
-	font-size: 1.3em;
 }
 
 
@@ -473,7 +467,7 @@ button:hover {
 
 /* INTRO */
 #introTexto {
-	padding: 40% 60px 0 0;
+	padding: 55% 60px 0 0;
 }
 
 #introTextoContenido {
@@ -559,13 +553,11 @@ dialog :is(h1, h2),
 }
 
 dialog :is(p, ol, ul),
-#indexAbout :is(a, p),
 #sectionContent :is(a, p, mark, ol, ul),
 .fragmento {
 	font-family: 'cormorant';
 }
 
-#indexAbout h1,
 #sectionContent h1 {
 	margin: 0 0 15px 0;
 	font-size: 2.5em;
@@ -651,13 +643,6 @@ dialog :is(p, ol, ul),
 		max-width: unset;
 		height: 110%;
 		transform: translate(-50%, -7%);
-	}
-
-
-	/* INDEX INFO */
-	#indexAbout {
-		grid-template-columns: 1fr;
-		padding: 2% 5%;
 	}
 
 
