@@ -1,13 +1,13 @@
 // Obtener el archivo de los fragmentos y ejecutar las funciones.
 fetch("./resources/json/fragmentos/fragmentos.json")
-.then((response) => response.json())
-.then((data) => {
+.then(response => response.json())
+.then(data => {
   openInstructions();
   addFullText();
   addCategoryCheck(flatCategories(data));
   filterJSON(data);
 })
-.catch((error) => console.error(error));
+.catch(error => console.error(error));
 
 
 // Abrir y cerrar instrucciones.
@@ -23,14 +23,9 @@ const openInstructions = () => {
 
 // Obtener todas las categorías y filtrar las repetidas.
 const flatCategories = (fragmentos) => {
-  let categoriesArrays = [];
-  let allCategories;
-  let filteredCategories;
-
-  fragmentos.forEach((e) => categoriesArrays.push(e.categories));
-
-  allCategories = categoriesArrays.flat();
-  filteredCategories = [...new Set(allCategories)];
+  let allCategories = fragmentos.map(e => e.categories);
+  let flatCategories = allCategories.flat();
+  let filteredCategories = [...new Set(flatCategories)];
   return filteredCategories;
 }
 
@@ -39,15 +34,14 @@ const flatCategories = (fragmentos) => {
 const addCategoryCheck = (categories) => {
   const checkboxField = document.getElementById("fieldCategorias");
 
-  categories.forEach((e) => {
+  categories.forEach(e => {
     let categoryCheckbox = document.createElement("div");
     categoryCheckbox.innerHTML = `<input type="checkbox" name="${e}" value="${e}" class="categoryCheckbox"><label for="${e}" class="cita_${e.toLowerCase()}"><b>${e}</b></label>`;
     checkboxField.appendChild(categoryCheckbox);
   });
 
   let checkboxes = checkboxField.querySelectorAll("input[type=checkbox]");
-
-  checkboxes.forEach((e) => e.checked = true);
+  checkboxes.forEach(e => e.checked = true);
 }
 
 
@@ -75,9 +69,7 @@ const addFullText = () => {
 
   textElm.innerHTML = `<md-block id="textoCompleto" src="./resources/md/fragmentos/${textField.value}.md"></md-block>`;
 
-  textField.addEventListener("change", () => {
-    textElm.innerHTML = `<md-block id="textoCompleto" src="./resources/md/fragmentos/${textField.value}.md"></md-block>`;
-  });
+  textField.addEventListener("change", () => textElm.innerHTML = `<md-block id="textoCompleto" src="./resources/md/fragmentos/${textField.value}.md"></md-block>`);
 
   setTimeout(() => {
     const mdElm = document.getElementById("textoCompleto");
@@ -119,17 +111,14 @@ const toggleTextHighlight = () => {
 
   const highlight = () => {
     const checkboxes = checkboxField.querySelectorAll("input[type=checkbox]");
-
-    checkboxes.forEach((e) => {
+    checkboxes.forEach(e => {
       if (e.checked === true) {
         const categoryElements = document.getElementsByClassName(`cita_${e.value.toLowerCase()}`);
-
         for(let item of categoryElements) {
           item.classList.add("active");
         }
       } else {
         const categoryElements = document.getElementsByClassName(`cita_${e.value.toLowerCase()}`);
-
         for(let item of categoryElements) {
           item.classList.remove("active");
         }
@@ -139,18 +128,15 @@ const toggleTextHighlight = () => {
 
   const highlightOnChange = () => {
     const checkboxes = checkboxField.querySelectorAll("input[type=checkbox]");
-
-    checkboxes.forEach((e) => {
-      e.addEventListener("change", (event) => {
+    checkboxes.forEach(e => {
+      e.addEventListener("change", event => {
         if(event.currentTarget.checked){
           const categoryElements = document.getElementsByClassName(`cita_${event.currentTarget.value.toLowerCase()}`);
-
           for(let item of categoryElements) {
             item.classList.add("active");
           }
         } else {
           const categoryElements = document.getElementsByClassName(`cita_${event.currentTarget.value.toLowerCase()}`);
-
           for(let item of categoryElements) {
             item.classList.remove("active");
           }
@@ -159,9 +145,7 @@ const toggleTextHighlight = () => {
     });
   };
 
-  textField.addEventListener("change", () => {
-    setTimeout(highlight, 1000);
-  });
+  textField.addEventListener("change", () => setTimeout(highlight, 500));
 
   highlight();
   highlightOnChange();

@@ -2,11 +2,9 @@ const introContent = document.getElementById("introTextoContenido");
 const introImage = document.getElementById("introImagen")
 
 fetch("./resources/json/intro/intro.json")
-.then((response) => response.json())
-.then((data) => {
-	scrollIntro(data);
-})
-.catch((error) => console.error(error));
+.then(response => response.json())
+.then(data => scrollIntro(data))
+.catch(error => console.error(error));
 
 const scrollIntro = (text) => {
 	const scroller = scrollama();
@@ -15,9 +13,7 @@ const scrollIntro = (text) => {
 	.setup({
 		step: ".introTituloStep"
 	})
-	.onStepEnter((response) => {
-		changeIntroContent(text, response);
-	});
+	.onStepEnter(response => changeIntroContent(text, response));
 }
 
 const changeIntroContent = (text, step) => {

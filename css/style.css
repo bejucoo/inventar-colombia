@@ -96,6 +96,10 @@ dialog h2 {
 	padding-top: 30px;
 }
 
+.padBot60px {
+	padding-bottom: 60px;
+}
+
 
 /* TEXT ALIGN */
 .t_center {
@@ -548,12 +552,12 @@ dialog :is(h1, h2),
 #menuDiv,
 .indexPopup,
 #indexMapControl,
-#sectionContent :is(h1, h2, h3) {
+#sectionContent :is(h1, h2, h3, h4) {
 	font-family: 'cormorant-up';
 }
 
 dialog :is(p, ol, ul),
-#sectionContent :is(a, p, mark, ol, ul),
+#sectionContent :is(a, p, mark, ol, ul, h5),
 .fragmento {
 	font-family: 'cormorant';
 }
