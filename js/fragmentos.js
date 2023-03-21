@@ -2,7 +2,6 @@
 fetch("./resources/json/fragmentos/fragmentos.json")
 .then(response => response.json())
 .then(data => {
-  openInstructions();
   addFullText();
   addCategoryCheck(flatCategories(data));
   filterJSON(data);
@@ -19,6 +18,8 @@ const openInstructions = () => {
   openButton.addEventListener("click", () => dialog.showModal());
   closeButton.addEventListener("click", () => dialog.close());
 }
+
+openInstructions();
 
 
 // Obtener todas las categorías y filtrar las repetidas.
