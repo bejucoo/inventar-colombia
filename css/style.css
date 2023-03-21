@@ -599,8 +599,6 @@ dialog :is(p, ol, ul),
 		width: 100%;
 		top: -94%;
 		left: 0;
-		border-right: none;
-		border-bottom: var(--bd_solid);
 		transition: top 0.4s;
 	}
 
