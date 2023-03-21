@@ -1,0 +1,106 @@
+# El Orinoco Ilustrado - Tomo II, Capítulo I
+
+## P. Joseph Gumilla
+
+_HISTORIA NATURAL, CIVIL, Y GEOGRAFICA DE ESTE GRAN RIO_
+
+Tomado de la edición del Ministerio de Educación – Bogotá, 1944.
+
+* * *
+
+INTRODUCCIÓN.
+-------------
+
+AUNQUE esté bien tendida y fabricada, a todo costo; y gusto; la escalera de un palacio; con todo, el arte, la conveniencia, o la costumbre ha introducido el descanso, y plan en su medianía, para tomar resuello, y subir con más brío, o menos fatiga lo restante de ella. Es así; pero si no me engaño, creo, que los pasos, y capítulos con que hemos venido hasta aquí subiendo contra las corrientes del Orinoco, no han sido tan arduos, ni fastidiosos, que requieran esté descanso, o división de segunda parte. Fuera de que, de las novecientas leguas, que ya vía recta, ya en repetidos semicírculos, creemos que corre el Orinoco, tenemos vistas, y navegadas cuatrocientas y cincuenta, desde el _Golfo Triste_ , hasta la boca del río _Ariari_ . No podemos por ahora pasar adelante, sino por las señas de varios ríos, que por la parte occidental bajan al Orinoco de los páramos de _Popayán,_ y _Pasto;_ y careciendo, casi enteramente, de noticias, por lo que mira a la banda del sur, y provincias, donde desde las primeras conquistas se ideó el famoso _Dorado,_ o ciudad de _Manóa,_ como se indica en los mapas antiguos, y modernos, es preciso que del plan, que debiera ser un mero descanso, para volver a subir, y registrar lo restante del Orinoco, hagamos término, dejando a los operarios, que la Divina Providencia destinare para el cultivo de aquellas incógnitas naciones, el cuidado de registrar, y avisar a los venideros, los genios de aquellas gentes, y lo singular de aquellos países.
+
+_Materias que se tratan en esta segunda parte._  
+Entre tanto, la materia de esta segunda parte coincide con la de la primera, y se reducirá, a responder a varias preguntas, y dudas curiosas, originadas de lo mismo que llevo ya referido, y dar satisfacción a otras, que de las mismas respuestas han excitado personas de literatura; y como tales, y ansiosas de saber más, y más, me han preguntado: ¿Si entre aquellas naciones hay idolatría, y trato con el demonio? ¿si tienen alguna luz, y conocimiento de Dios? ¿Las causas de sus guerras, arte militar, y armas? ¿Su variedad de lenguas, origen, y derivación de ellas? ¿De sus venenos, y modo de fabricarlos? ¿Cuál es la fertilidad de aquellos países? ¿Cuáles y cuántas sus plagas, y enfermedades especiales, y qué remedios usan? ¿Si va a más, u descaece el número de los indios? y otras curiosidades no vulgares. Y supuesto, que el ánimo es responder a todo, basta de preámbulo, y prosigamos.
+
+* * *
+
+CAPITULO PRIMERO
+----------------
+
+### SI ENTRE AQUELLOS BARBAROS SE HALLA ALGUNA NOTICIA DE DIOS.
+
+_Ceguedad grande de los indios gentiles._  
+_Visión que tuvo el V.P Antonio Ruiz de Montoya._  
+Elevó Dios a la cumbre del honor al hombre, que crió; adornole con las coronas, de suma gloria, y honra (1) las sienes, colocándole en tal altura, que se podía gloriar de que era poco menos que los ángeles, y que tenía a su mando, y disposición todo el resto de las criaturas sublunares; pero en medio de tan sublime excelencia, (2) le precipitó hasta el abismo de la mayor desdicha su misma ignorancia: _Non intellexit_ ; y con caída más fatal, que la de Icaro (aunque esta no fuera fabulosa) se halló equiparado con las bestias, y semejante a ellas el mismo, que fue formado a imagen, y semejanza de todo un Dios: notable desgracia, y manantial de otras innumerables! Ignorancia detestable, madre, fuente, y raíz de todas las sombras, y errores, que llenaron el mundo, y aún dominan en tantas partes de él, cuantas apunté en el prólogo de esta obra. Pero llegando a nuestro propósito: si a los mahometanos, paganos, y negros africanos, les conviene con especialidad la dicha similitud con los brutos, por su especial ignorancia, no les es menos propria, ni conviene menos, a las ciegas, y bárbaras gentes del Orínoco, y sus vertientes, en que son comprehendidas también con especialidad otras muchas naciones de las dos Américas, por su natural estolidez, barbaridad, como se lo mostró Dios en una admirable visión al V. padre Antonio Ruiz de Montoya, primer descubridor, y fundador de las apostólicas misiones, que la Compañía de Jesús cultiva en el Paraguay; y fue así, que en aquel largo, y arduo viaje, que con su compañero, y algunos indios mansos tomó el V. padre Montoya, para descubrir, y cultivar (como lo hizo) las naciones del Guayra, y del Tayaoba (3) se recogió a orar una noche, como lo acostumbraba, y arrebatado en espíritu, se halló en un espacioso llano, en donde tres jesuítas, vestidos de blanco, y de muy venerable aspecto, guiaban una piara de animales de cerda, no sin dificultad, y mucho afán, el cual se duplicó al querer introducirlos con maña en una iglesia, a que los conducían; y aunque no sin fatiga, y sudor de los pastores, al fin entró todo aquel ganado, y luego los tres padres, que lo pastoreaban. Entró también el V. padre Montoya ; ¡y aquí fue la admiración! porque en lugar de aquellos animales inmundos, que había visto entrar, halló la iglesia llena de indios, puestos de rodillas, hacia el sitio donde de ordinario está el altar mayor: levantó los ojos para ver el tabernáculo, y sólo vió en su lugar un letrero grande, con las palabras del Psalmista Rey: (4) _Homines, et jumenta salvabis Domine_ . Salvarás, Señor, a los hombres, y a los jumentos ; esto es: y a tales hombres, que por su grande ignorancia, se han hecho semejantes a los jumentos. (5) Luego volvió en sí del rapto con plena inteligencia del misterio, y trabajó tanto en reducir aquellas naciones, cuanto se puede ver en su vida admirable, que anda impresa.
+
+Ni hay duda, que la falta de enseñanza, derivada, y heredada de padres a hijos, no es otra cosa, que pasar las gentes de uno a otro abismo de ceguedad, y tinieblas, sea en la región del mundo que se fuere, como se evidencia en la inculta barbaridad, que tantos siglos se ocultó en el mismo corazón de nuestra España, en el incógnito laberinto de las Batuecas. Pues ¿qué diremos de aquellas gentes, cuyo total ahínco es retirarse más, y más del comercio humano, e internarse en las selvas, afectando, o por mejor decir, imitando el genio de las bestias?
+
+_Los hombres parecidos a las bestias, pasan a ser hijosde Abraham._  
+Diré, que fue gravísimo error el de los que a la primera vista pensaron, que no eran racionales; porque a la verdad, luego que se van desbastando aquellas, que parecen piedras, se ve, por la Divina Gracia, que pasan a verdaderos hijos de Abraham y a repetidos golpes del cincel de la doctrina, se descubren los brillos de aquellos diamantes, cuya exterior tosquedad los hacía despreciables.
+
+Diré, (6) que aquellas naciones, no sólo están poseídas, sino también sepultadas entre las tinieblas de su misma ignorancia ; pero afirmo, y debo afirmar, al mismo tiempo, con el torrente de los doctores y teólogos católicos, que en medio de las tales tinieblas resplandece alguna luz, (7) destellos (aunque cortos) de aquel divino (8) sol de justicia, que alumbró, y alumbra a todo hombre, (9) de cuantos vienen a peregrinar a este mundo; esforzando, como alentó, y aún alienta, con su divina gracia, los sonoros ecos de los sagrados apóstoles, y de los varones apostólicos, para que se oyesen sus voces evangélicas, desde el oriente al ocaso, y desde el aquilón al austro, según el vaticinio del real profeta. (10).
+
+_La gran necesidad que tienen de enseñanza._  
+Diré lo que ya dijo San Próspero: (11) "Que hay algunas naciones en los últimos ángulos del mundo, a quienes no alcanzó todavía a dar de lleno la luz de la divina gracia, a las cuales jamás se les niega aquella luz general, y aquella medida de auxilios suficientes, que para todos los hombres viene de lo alto." Lo mismo pudiera decir con las palabras de San Agustín, con las del Concilio enonense, (12) Orosio, y otro santos padres, y concilios. Pero no obstante todo esto, diré también lo mismo, que en dilatados año, y largas peregrinaciones entre gentes bárbaras, he palpado, y experimentado; y es, que aquella corta luz, que entre ellos se deja divisar, al mismo tiempo que se deja ver como luz, se reconoce empañada con muchas sombras. (13) Pobres , almas: ¡oh, y qué lástima! Si aquella luz que tienen, se parece tanto a la tinieblas, (14) ¿cuál será el horror de la ceguedad en que viven? Y ¿quién habrá, que no se mueva a lástima, y compasión de aquellas pobres naciones? Tienen poca luz, y obscurecida, y así ven muy poco; y si no hay quien vaya a alumbrarlos, no hay esperanza de que se les aclare la vista. Hay notable diferencia en el modo de no ver, cuando una nube, o niebla opaca cubre la superficie de la tierra; y cuando otra nube (digámoslo así) doméstica cubre casi toda la superficie de los ojos, aquella el tiempo la disipa, y todo queda claro: esta se congela, y crece más con el tiempo; y al modo de esta es la que ofusca a aquellas gentes infelices.
+
+Digo en fin, viniendo a lo particular, que en las naciones de que trato, se conoce la malicia del homicidio, del adulterio, y del hurto, y los delincuentes, o se huyen, o esconden, cuanto pueden, sus delitos: no se hallan casamientos entre hermanos, y hermanas ; y en algunas gentes, hasta más allá del cuarto grado, no se casan. En sus desgracias, o pesares, levantan los ojos al cielo, con exclamaciones proprias de sus lenguajes, v. gr. ¡ _Ayaddí! ¡Acayá! ¡Ayó! ¡Payá! ¡Guayamijideya!_ y otras semejantes, en que naturalmente recurren a lo alto por favor, y amparo, aunque no tienen otras voces, ni términos para explicarse más; y aquel es un movimiento, con que recurre la criatura afligida a su primera causa. En la nación _achagua,_ viene de padres a hijos la tradición del Diluvio Universal, que explican con estos términos muy genuinos: _Catena Manóa,_ que a la letra es _Sumersión general de la tierra._
+
+Con toda claridad, según Herrera, (15) retenían esta noticia, los indios de Cuba, y uno de los más ancianos, reconvino a Gabriel de Cabrera con estas palabras: _Que ¿por qué le reñía, etc., pues todos eran hermanos? ¿Vosotros no procedeis de un Hijo de aquel que hizo la nao grande para salvarse del agua, y nosotros del otro?_ De modo, que esta tradición, según se ve, estaba muy asentada, y corriente de generación en generación. En dicho lugar cuenta el mismo Herrera, que tenían los tales indios noticia de la creación del cielo, y de la tierra, y que había sido fabricada toda esta gran máquina por tres personas; aunque al explicarlas deliraban: una, y otra noticia se hallaron en el Perú, y en México. (16).
+
+En otras tres naciones, que luego nombraré, tienen palabra con qué expresar (a su modo) y nombrar a Dios (esperamos, que el tiempo, y la práctica lo descubrirá también en otras, que hasta ahora no han dado señal de conocerle por frase, o palabra destinada para ello) pero en dichas naciones no se ha reconocido culto, o ceremonia alguna exterior para el culto divino: ni los nombres, con que según la variedad de lenguas nombran a Dios, son tan individuales, y ciertos, que nos hallamos asegurados ya de su cierta, y fija significación : por lo cual, en la doctrina cristiana, que traducimos en sus idiomas , usamos de la palabra _Dios,_ y de las demás palabras españolas, necesarias para la explicación de los misterios de nuestra Santa Fe: al modo que los latinos tomaron del griego muchos términos facultativos, de que carecían, para explicar muchas dificultades escolásticas.
+
+Los caribes, nación dominante por muy numerosa, llama a Dios _Quiyumocon_ ; es decir: Nuestro Padre Grande; pero aún no está bien averiguado, si estas voces tienen por objeto La causa primera; o si se refieren al más antiguo de sus abolengos. Por lo cual no usamos de dicha palabra.
+
+_Luz de la divinidad, que tienen entre mucha sombra._  
+Los sálivas dicen, que el _Purú_ hizo todo lo bueno: que _Purú_ vive en el cielo: que el hijo de _Purú_ mató aquella serpiente, que destruía las gentes, etc.
+
+Los betoyes decían antes de su conversión, que el _Sol_ era Dios, y en su lengua, al Sol y a Dios llaman _Theos_ , voz griega, que también significa a Dios; pero ninguna de estas tres naciones da la menor muestra de culto, ni adoración, ni a su _Púru, Theos_ , ni _Quiyu-mocon._
+
+_No hemos encontrado idolatría en aquellos terrenos._  
+En ninguno de aquellos vastos países hemos hallado hasta hoy muestra de idolatría; y así hay este obstáculo menos que vencer para su enseñanza. No obstante esto, en la nación betoya hubo que vencer algo; porque pusimos en el catecismo esta pregunta: ¿ _Theodá Diosoqué? ¿El sol es Dios?_ Y apunto respondían, que sí. La respuesta que se le enseña, es: _Ebamucá futuit ajaje, Diosó, abalu, ebadú, tuluebacanutó._ No es _porque es fuego,que Dios crío para alumbrarnos._
+
+Viendo, pues, que pasaban muchos meses, sin acabar de creer, que el sol era fuego, me valí de la mecánica de un lente, o cristal de bastantes grados, y junta toda la gente en la plaza, cogí la mano del capitán más capaz, llamado _Tunucúa._ Preguntéle:¿si el sol era Dios? Luego respondió, _que sí._ Entonces en voz alta, que oyeron todos, dije: _Day dianu Obay refolajuy? Theodá futuit ajaduca, ma ymafarra. ¿Cuando acabareis de creerme? Ya os tengo dicho que el sol no es sino fuego._ Y diciendo, y haciendo, interpuse el lente entre el sol, y el brazo de dicho capitán, y al punto el rayo solar le quemó, y levantó ampolla considerable en el brazo: clamó luego él con voz amarga diciendo: ¡ _Tugaday! ¡tugaday! ¡futuit ajacudaca!_
+
+_Experimento, por el cual creyeron ciertos indios, que el sol es fuego._  
+¡Es verdad! ¡es verdad! ¡fuego es el sol! Corrían los olajes de hombres y mujeres a ver el efecto del sol, y del lente: veían la quemadura y el capitán les explicaba con eficacia la operación, que miraban con espanto correlativo a su nativa ignorancia. Entretanto rompí por entre el gentío y llegue a la turba de muchachos, deseosos de ver, y saber lo que pasaba: hice la misma pregunta al mayorcillo de ellos, erró la respuesta, y lo desengañe con la quemadura del lente. Aquí fue mayor la bulla: todos querían experimentar (aunque a costa suya) si el sol era fuego, o no. Dile el lente al fiscal de la doctrina, para que fuese dando gusto a todos, y yo me retiré a mi choza. El efecto de esta maniobra fue cual se deseaba, porque de allí en adelante ningún betoy dijo jamás, que el sol era Dios; luego respondía que el sol era fuego.
+
+_Pregunta, y refleja muy singular de un gentil._  
+No puedo omitir aquí lo que me pasó con un gentil betoy, llamado _Cagiali,_ al principio de la conversión de esta nación. Insistí en una de las pláticas que el que creyese la doctrina, que yo, de parte de Dios, les enseñaba, le llevarían a ser quemado perpetuamente a la casa del fuego, donde viven los demonios. (Esta es frase propria de aquel lenguaje). Vino después el _Cagiali_ a informarse más de espacio de la materia: explíquesela de varias maneras, con símiles materiales; (que son los que más sirven para su rudeza) y cuando se hizo cargo de esta tan importante verdad, se alteró todo, encendiósele el rostro, soltó las lágrima, y con voz lamentable, dijo: _Aya ddí, ¡Babicá! ¿Day ma ebá Diosó? Dayque ojabolá, obay reaje afocá arreacabí, ¿dusúque arribica? ¡Ay, padre mio! ¿cómo ha hecho Dios esto?¿Con que mis mayores se han perdido, y están ardiendo, porque Dios no les envió padres que les enseñasen?_ Confieso que me enternecí, y que me costó mucho el consolar al _Cagiali_ , y mucha dificultad el que percibiese, que la causa de la perdición de sus mayores no estuvo en Dios, sino en los pecados de aquellos gentiles, por los cuales se hicieron indignos de que su Majestad les envise predicadores. Este _Cagiali_ fue un gran indio, sirvió mucho para aquella fundación; y cuando le bauticé ( y que fue _in artículo mortis)_ le llamé Fortunato, porque logró la fortuna, que lloraba perdida en sus mayores.
+
+Pero por el mismo caso, reinan las tinieblas en los entendimientos de aquellos gentiles; cuando al abrir los ojos de la razón, perciben la luz de las verdades eternas, les da mayor golpe con la novedad, y se reconoce por los efectos, que entonces derrama Dios a manos llenas su misericordia, según la mayor, o menor disposición de los neófitos: entre los cuales vemos, y advertimos la mutación, que en ellos hace la diestra del Todo Poderoso. Y aun los mismos indios, al cotejar su vida racional, y cristiana con su antiguo desconcierto, se regocijan, se admiran, y dicen repetidas veces a sus misioneros: _Diosó fausucajú, Babica ujuma afoca, ubadolandó maydaytú._ Es to es: _Dios te lo pagará, padre, pues por tu medio vivimos ya racionalmente._ Y veis aquí aquel maná escondido, que endulza, suaviza, y hace llevaderos los mayores trabajos presentes; y que dispone, da brío, y ánimo para los venideros.
+
+¿Qué consuelo podrá compararse con el de un operario, entre aquellos neófitos, que se fatiga para que sus indios no frecuenten tan a menudo los sacramentos de la confesión, y comunión, como los de la nación achagua, que la desean, y piden hasta ser molestos?
+
+¿Qué mayor señal se pude hallar de que han abrazado seriamente nuestra Santa Fe: ni qué mayor gusto para el que se le prédica, que reconocer en los neófitos temor de Dios, deseos de salvarse, y gran miedo a la eternidad del infierno, con la moderación, recato, y buena conducta de vida, que requieren las tales señas? Y la verdad, de esto pudiera recir mucho.
+
+Sólo diré para gloria de Dios, y confusión de muchos cristianos, que se precian de serlo, que me ha sucedido estar muchas mañanas seguidas oyendo confesiones de indios neófitos, sin hallar en alguno de ellos material para la absolución; y me consta, que a otros misioneros les ha sucedido lo mismo. _Eso, no padre_ (responden) _desde que supe que Dios se enoja por los pecados, y cómo los castiga, no hago cosa mala._ Por otra parte se evidencia la sinceridad, y la verdad, que profesan en la confesión, con muchas señales ciertas, especial mente por la brevedad, ansia, y susto con que recurren al tribunal de la penitencia, si caen en algún lazo de los que arma el enemigo: en cuya prueba sólo digo, que a deshora de la noche, lloviendo recientemente, se entró un indio neófito en mi rancho, y puesto de rodillas a mis pies, todo asustado, me pidió las disciplinas: se las di, y empezó a descargar recios azotes sobre sus espaldas, y a llorar. Díjele, atónito, que ¿por qué era penitencia? Respondió, que le había engañado el demonio, y que venía a desenojar a Dios, y a confesarse, como lo hizo: añadiendo después otros azotes sobre sus espaldas. ¿Quién no alabará a Dios por esto?
+
+* * *
+
+##### (1) Psalm. 8. v. 6.
+
+##### (2) Psalm. 48. v. 13 y 2
+
+##### (3) P. Pedro Lozano, 12. fol. 116, en la vida del V. P. Lizardi. Y véase la Vida del V . P . Montoya _._
+
+##### (4) Psalm. 31. v. 7
+
+##### (5) In vita ejusdem V. P. Mont.
+
+##### (6) P. Acosta, lib. 5. cap. 3.
+
+##### (7) Joann. cap. I. v. 5.
+
+##### (8) Malach. cap. V. II y cap. 4. v. 2.
+
+##### (9) Joann. cap. I. v. 9.
+
+##### (10) Psalm. 18. v. 5.
+
+##### (11) _In extremis mundi partibus, sunt aliquae Naciones, quipus nodum gratia Salvatoris illuxit ; quibus tamen illamensura generalis auxilii, quae desuper omnibus hominibus est, non negatur._ Lib. 2. de Vocat. Gent.
+
+##### (12) Cone. Senonence. Can. 10. videatur Pater Ripalda _deFide, disp_ . 17 _et de Ente supern. disput._ 45 Pater Doctor Marin. _de lib. Arbit. disput._ 6 _sect_ 3\. _a num_ 40.
+
+##### (13) _Lux obtenebrata est in caligine._ Isaí. cap. 5. vers. 30.
+
+##### (14) Matth. cap. 6. v. 23. _Si enim lux, quae inte est tenebrae sunt; ipsae tenebrae quantae erunt?_
+
+##### (15) Herrera, _Década I. lib. 9. cap. 4_ .
+
+##### (16) Solorzan. _Política. cap._ 5 y Torquemada, _cap._ 9.
+
+* * *

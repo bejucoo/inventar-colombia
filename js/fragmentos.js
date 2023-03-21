@@ -88,7 +88,7 @@ const miniMapText = () => {
   pagemap(document.getElementById("miniMap"), {
     viewport: document.getElementById("fragmentosCol2"),
     styles: {
-      "h1, h2, h3, h4": "rgba(0,0,0,0.2)",
+      "h1, h2, h3, h4, h5": "rgba(0,0,0,0.2)",
       "p": "rgba(0, 0, 0, 0.05)",
       ".cita_animales, .cita_riqueza, .cita_poblamiento, .cita_evangelizacion": "rgba(0, 0, 0, 0.05)",
       ".cita_animales.active": "#92a9a4aa",

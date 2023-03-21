@@ -10,7 +10,7 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": -124,
-		"html": "<img src='./resources/images/index/popup_1.svg' alt=''><div><h2>Inventar Colombia</h2><h3 style='font-weight: lighter;'>Una mirada desde el Orinoco</h3><p style='font-size: 0.8em; max-width: 500px'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><a style='font-size: 0.8em;' href='./about.html'>Más información</a></div>"
+		"html": "<img src='./resources/images/index/popup_1.svg' alt=''><div><h2>Inventar Colombia</h2><h3 style='font-weight: lighter;'>Una mirada desde el Orinoco</h3><p style='font-size: 0.8em; max-width: 500px; line-height: 1em'>Un recurso digital interactivo para conocer y explorar fuentes históricas, datos y narrativas sobre la cuenca del Orinoco en la imaginación geográfica y formas de habitar el espacio de españoles y grupos indígenas durante el siglo XVIII y comienzos del XIX.</p><a style='font-size: 0.8em;' href='./about.html'>Más información</a></div>"
 	},
 	{
 		"id": "intro",
