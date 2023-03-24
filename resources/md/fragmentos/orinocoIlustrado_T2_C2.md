@@ -1,17 +1,5 @@
-# El Orinoco Ilustrado - Tomo II, Capítulo II
-
-## P. Joseph Gumilla
-
-_HISTORIA NATURAL, CIVIL, Y GEOGRAFICA DE ESTE GRAN RIO_
-
-Tomado de la edición del Ministerio de Educación – Bogotá, 1944.
-
-* * *
-
-CAPITULO II
------------
-
-### SINGULAR PIEDAD, Y ESPECIAL PROVIDENCIA DE DIOS, QUE RESPLANDECE EN BAUTISMOS, AL PARECER CASUALES, DE INDIOS, ANCIANOS, INDIAS Y PÁRVULOS.
+# CAPITULO II
+## SINGULAR PIEDAD, Y ESPECIAL PROVIDENCIA DE DIOS, QUE RESPLANDECE EN BAUTISMOS, AL PARECER CASUALES, DE INDIOS, ANCIANOS, INDIAS Y PÁRVULOS.
 
 Dije en el capítulo antecedente, que aunque ofuscada, no falta luz, ni a los más bárbaros, para discernir lo bueno de lo malo, y lo lícito de lo prohibido, (sentencia seguida por los doctores católicos) en tanto grado, que al padre Presentado Fray Gregorio García, y otros autores (1) notaron, que en México, y el Perú había, antes de las conquistas, noticia de los preceptos del decálogo; y que unos en unas provincias y otros en otras, tenían señalado castigo contra los transgresores. En confirmación de los cual, añadió el P. Doctor Marín: “(2) Que el gentil, que gobernado por esta luz guardare la ley natural, no permitirá Dios, que muera sin el santo bautismo, aunque sea necesario enviar un ángel del cielo”.
 

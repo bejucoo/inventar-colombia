@@ -4,47 +4,41 @@
 		"link": "<a href='#cita1'>1. Pericoligero es un animal...</a>",
 		"categories": "Animales",
 		"clase": "cita_animales",
-		"ref": "orinocoIlustrado_1",
-		"pags": "268-269"
+		"ref": "orinocoIlustrado_T2_C1"
 	},
 	{
 		"id": "C1_2",
 		"link": "<a href='#cita2'>2. Lorem ipsum...</a>",
 		"categories": "Riqueza",
 		"clase": "cita_riqueza",
-		"ref": "orinocoIlustrado_1",
-		"pags": "268-269"
+		"ref": "orinocoIlustrado_T2_C2"
 	},
 	{
 		"id": "C2_1",
 		"link": "<a href='#cita3'>3. Multitud de gusanos blancos...</a>",
 		"categories": "Animales",
 		"clase": "cita_animales",
-		"ref": "orinocoIlustrado_2",
-		"pags": "147"
+		"ref": "orinocoIlustrado_T2_C3"
 	},
 	{
 		"id": "C2_2",
 		"link": "<a href='#cita4'>4. Lorem ipsum...</a>",
 		"categories": "Poblamiento",
 		"clase": "cita_poblamiento",
-		"ref": "orinocoIlustrado_2",
-		"pags": "147"
+		"ref": "orinocoIlustrado_T2_C4"
 	},
 	{
 		"id": "C3_1",
 		"link": "<a href='#cita5'>1. El cusicusi es del tamaño...</a>",
 		"categories": "Animales",
 		"clase": "cita_animales",
-		"ref": "orinocoIlustrado_3",
-		"pags": "269"
+		"ref": "orinocoIlustrado_T2_C5"
 	},
 	{
 		"id": "C3_2",
 		"link": "<a href='#cita6'>6. Lorem ipsum...</a>",
 		"categories": "Evangelizacion",
 		"clase": "cita_evangelizacion",
-		"ref": "orinocoIlustrado_3",
-		"pags": "269"
+		"ref": "orinocoIlustrado_T2_C6"
 	}
 ]

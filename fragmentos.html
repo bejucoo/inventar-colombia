@@ -33,9 +33,22 @@
       <div id="seleccionTexto">
         <fieldset id="fieldTexto">
           <legend><b>Cuerpo de Texto:</b></legend>
-          <select name="cuerpoDeTexto" id="cuerpoDeTexto">
-            <option value="orinocoIlustrado_T2_C1">Orinoco Ilustrado T.2 C.1</option>
-            <option value="orinocoIlustrado_T2_C2">Orinoco Ilustrado T.2 C.2</option>
+          <select name="cuerpoDeTexto" id="cuerpoDeTexto" size="5">
+            <optgroup label="El Orinoco Ilustrado T.II">
+              <option value="orinocoIlustrado_T2_Intro" selected="selected">Introducción</option>
+              <option value="orinocoIlustrado_T2_C1">Capítulo I</option>
+              <option value="orinocoIlustrado_T2_C2">Capítulo II</option>
+              <option value="orinocoIlustrado_T2_C3">Capítulo III</option>
+              <option value="orinocoIlustrado_T2_C4">Capítulo IV</option>
+              <option value="orinocoIlustrado_T2_C5">Capítulo V</option>
+              <option value="orinocoIlustrado_T2_C6">Capítulo VI</option>
+              <option value="orinocoIlustrado_T2_C7">Capítulo VII</option>
+              <option value="orinocoIlustrado_T2_C8">Capítulo VIII</option>
+              <option value="orinocoIlustrado_T2_C9">Capítulo IX</option>
+              <option value="orinocoIlustrado_T2_C10">Capítulo X</option>
+              <option value="orinocoIlustrado_T2_C11">Capítulo XI</option>
+              <option value="orinocoIlustrado_T2_C12">Capítulo XII</option>
+            </optgroup>
           </select>
         </fieldset>
       </div>
@@ -114,7 +127,6 @@
   <script id="templateFragmentos" type="text/html">
     <div class="fragmento <%= clase %>">
       <div><b><%= link %></b></div>
-      Páginas: <%= pags %>
     </div>
   </script>
   <script src="./js/menu.js"></script>

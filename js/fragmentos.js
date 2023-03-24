@@ -10,16 +10,14 @@ fetch("./resources/json/fragmentos/fragmentos.json")
 
 
 // Abrir y cerrar instrucciones.
-const openInstructions = () => {
+(() => {
   const openButton = document.getElementById("openDialog");
   const closeButton = document.getElementById("closeDialog");
   const dialog = document.getElementById("instructionsDialog");
 
   openButton.addEventListener("click", () => dialog.showModal());
   closeButton.addEventListener("click", () => dialog.close());
-}
-
-openInstructions();
+})();
 
 
 // Obtener todas las categorías y filtrar las repetidas.
@@ -37,7 +35,7 @@ const addCategoryCheck = (categories) => {
 
   categories.forEach(e => {
     let categoryCheckbox = document.createElement("div");
-    categoryCheckbox.innerHTML = `<input type="checkbox" name="${e}" value="${e}" class="categoryCheckbox"><label for="${e}" class="cita_${e.toLowerCase()}"><b>${e}</b></label>`;
+    categoryCheckbox.innerHTML = `<input type="checkbox" name="${e}" value="${e}" class="categoryCheckbox"><label for="${e}" class="cita_${e.toLowerCase()}"><b>${e}: </b><span class="categoryCounter" id="counter_${e.toLowerCase()}"><b>0</b></span></label>`;
     checkboxField.appendChild(categoryCheckbox);
   });
 
@@ -58,7 +56,26 @@ const filterJSON = (fragmentos) => {
     {
       field: "ref",
       ele: "#cuerpoDeTexto"
-    }]
+    }],
+    callbacks: {
+      afterFilter: result => {
+        if (result != 0){
+          const allCounters = document.getElementsByClassName("categoryCounter");
+          for(elm of allCounters) {
+            elm.innerHTML = `<b>0</b>`;
+          }
+          result.forEach(e => {
+            const counter = document.getElementById(`counter_${e.categories.toLowerCase()}`);
+            counter.innerHTML = `<b>${Number(counter.textContent) + 1}</b>`;
+          });
+        } else {
+          const allCounters = document.getElementsByClassName("categoryCounter");
+          for(elm of allCounters) {
+            elm.innerHTML = `<b>0</b>`;
+          }
+        }
+      }
+    }
   });
 }
 
@@ -115,12 +132,12 @@ const toggleTextHighlight = () => {
     checkboxes.forEach(e => {
       if (e.checked === true) {
         const categoryElements = document.getElementsByClassName(`cita_${e.value.toLowerCase()}`);
-        for(let item of categoryElements) {
+        for(item of categoryElements) {
           item.classList.add("active");
         }
       } else {
         const categoryElements = document.getElementsByClassName(`cita_${e.value.toLowerCase()}`);
-        for(let item of categoryElements) {
+        for(item of categoryElements) {
           item.classList.remove("active");
         }
       }
@@ -132,11 +149,15 @@ const toggleTextHighlight = () => {
     checkboxes.forEach(e => {
       e.addEventListener("change", event => {
         if(event.currentTarget.checked){
+          const categoryCounter = document.getElementById(`counter_${event.currentTarget.value.toLowerCase()}`);
+          categoryCounter.hidden = false;
           const categoryElements = document.getElementsByClassName(`cita_${event.currentTarget.value.toLowerCase()}`);
           for(let item of categoryElements) {
             item.classList.add("active");
           }
         } else {
+          const categoryCounter = document.getElementById(`counter_${event.currentTarget.value.toLowerCase()}`);
+          categoryCounter.hidden = true;
           const categoryElements = document.getElementsByClassName(`cita_${event.currentTarget.value.toLowerCase()}`);
           for(let item of categoryElements) {
             item.classList.remove("active");

@@ -248,6 +248,7 @@ button:hover {
 	color: var(--white1);
 	transition: left 0.4s;
 	z-index: 10;
+	overflow: hidden;
 }
 
 #menuDiv.active {
@@ -258,7 +259,7 @@ button:hover {
 	justify-content: start;
 	font-size: 1.3em;
 	line-height: 1em;
-	overflow: scroll;
+	overflow: hidden;
 }
 
 #menuContent ul {
@@ -558,7 +559,8 @@ button:hover {
 
 
 /* ESTILOS DE TEXTO */
-select, legend, label, button,
+select, select > optgroup, select > option,
+legend, label, button,
 dialog :is(h1, h2),
 #menuDiv,
 .indexPopup,
@@ -600,6 +602,7 @@ dialog :is(p, ol, ul),
 		top: -94%;
 		left: 0;
 		transition: top 0.4s;
+		overflow: scroll;
 	}
 
 	#menuDiv.active {
@@ -610,6 +613,7 @@ dialog :is(p, ol, ul),
 		height: unset;
 		font-size: 1.2em;
 		text-align: center;
+		overflow: scroll;
 	}
 
 	#menuToggle {
