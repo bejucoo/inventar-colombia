@@ -6,6 +6,7 @@
 	--black2: #100901ff;
 
 	--gray1: #484848;
+	--gray2: #b4b4b4ff;
 	
 	--white1: #f2efe5;
 	--white1_transparent: #f2efe5ff;
@@ -21,6 +22,15 @@
 	
 	--green1: #98a280;
 	--green2: #c6cbb8ff;
+
+	--orange1: #e1a25bff;
+	--orange2: #edc89fff;
+
+	--purple1: #b9969eff;
+
+	--pink1: #f2bcccff;
+
+	--mint1: #bae0d6ff;
 	
 	--transparent: rbga(0,0,0,0);
 	
@@ -524,26 +534,53 @@ button:hover {
 	font-weight: bold;
 }
 
-.cita_animales, .cita_riqueza, .cita_poblamiento, .cita_evangelizacion {
+.cita_animales, .cita_riqueza, .cita_poblamiento, .cita_evangelizacion, .cita_conflicto, .cita_comercio, .cita_medicinas, .cita_plantas, .cita_paisaje, .cita_rituales, .cita_mujeres {
 	background-color: var(--transparent);
 }
 
 .cita_animales.active {
-	background-color: var(--blue2);
-}
-
-.cita_riqueza.active {
-	background-color: var(--red2);
-}
-
-.cita_poblamiento.active {
 	background-color: var(--green2);
 }
 
-.cita_evangelizacion.active {
+.cita_riqueza.active {
 	background-color: var(--yellow1);
 }
 
+.cita_poblamiento.active {
+	background-color: var(--orange1);
+}
+
+.cita_evangelizacion.active {
+	background-color: var(--purple1);
+}
+
+.cita_conflicto.active {
+	background: var(--red1);
+}
+
+.cita_comercio.active {
+	background: var(--orange2);
+}
+
+.cita_medicinas {
+	background: var(--blue1);
+}
+
+.cita_plantas {
+	background-color: var(--green1);
+}
+
+.cita_paisaje {
+	background-color: var(--blue2);
+}
+
+.cita_rituales {
+	background: var(--pink1);
+}
+
+.cita_mujeres {
+	background: var(--mint1);
+}
 
 #miniMap {
 	position: fixed;

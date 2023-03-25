@@ -1,44 +1,79 @@
 [
 	{
-		"id": "C1_1",
+		"id": "cita_1",
 		"link": "<a href='#cita1'>1. Pericoligero es un animal...</a>",
 		"categories": "Animales",
 		"clase": "cita_animales",
 		"ref": "orinocoIlustrado_T2_C1"
 	},
 	{
-		"id": "C1_2",
+		"id": "cita_2",
 		"link": "<a href='#cita2'>2. Lorem ipsum...</a>",
 		"categories": "Riqueza",
 		"clase": "cita_riqueza",
 		"ref": "orinocoIlustrado_T2_C2"
 	},
 	{
-		"id": "C2_1",
+		"id": "cita_3",
 		"link": "<a href='#cita3'>3. Multitud de gusanos blancos...</a>",
-		"categories": "Animales",
-		"clase": "cita_animales",
+		"categories": "Poblamiento",
+		"clase": "cita_poblamiento",
 		"ref": "orinocoIlustrado_T2_C3"
 	},
 	{
-		"id": "C2_2",
+		"id": "cita_4",
 		"link": "<a href='#cita4'>4. Lorem ipsum...</a>",
-		"categories": "Poblamiento",
-		"clase": "cita_poblamiento",
+		"categories": "Evangelizacion",
+		"clase": "cita_evangelizacion",
 		"ref": "orinocoIlustrado_T2_C4"
 	},
 	{
-		"id": "C3_1",
+		"id": "cita_5",
 		"link": "<a href='#cita5'>1. El cusicusi es del tamaño...</a>",
-		"categories": "Animales",
-		"clase": "cita_animales",
+		"categories": "Conflicto",
+		"clase": "cita_conflicto",
 		"ref": "orinocoIlustrado_T2_C5"
 	},
 	{
-		"id": "C3_2",
+		"id": "cita_6",
 		"link": "<a href='#cita6'>6. Lorem ipsum...</a>",
-		"categories": "Evangelizacion",
-		"clase": "cita_evangelizacion",
+		"categories": "Comercio",
+		"clase": "cita_comercio",
 		"ref": "orinocoIlustrado_T2_C6"
+	},
+	{
+		"id": "cita_7",
+		"link": "<a href='#cita7'>6. Lorem ipsum...</a>",
+		"categories": "Medicinas",
+		"clase": "cita_medicinas",
+		"ref": "orinocoIlustrado_T2_C7"
+	},
+	{
+		"id": "cita_8",
+		"link": "<a href='#cita7'>6. Lorem ipsum...</a>",
+		"categories": "Plantas",
+		"clase": "cita_plantas",
+		"ref": "orinocoIlustrado_T2_C8"
+	},
+	{
+		"id": "cita_9",
+		"link": "<a href='#cita7'>6. Lorem ipsum...</a>",
+		"categories": "Paisaje",
+		"clase": "cita_paisaje",
+		"ref": "orinocoIlustrado_T2_C9"
+	},
+	{
+		"id": "cita_10",
+		"link": "<a href='#cita7'>6. Lorem ipsum...</a>",
+		"categories": "Rituales",
+		"clase": "cita_rituales",
+		"ref": "orinocoIlustrado_T2_C10"
+	},
+	{
+		"id": "cita_11",
+		"link": "<a href='#cita7'>6. Lorem ipsum...</a>",
+		"categories": "Mujeres",
+		"clase": "cita_mujeres",
+		"ref": "orinocoIlustrado_T2_C11"
 	}
 ]
