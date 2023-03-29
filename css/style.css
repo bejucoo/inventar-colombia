@@ -650,6 +650,7 @@ dialog :is(p, ol, ul),
 		height: unset;
 		font-size: 1.2em;
 		text-align: center;
+		line-height: 0.6em;
 		overflow: scroll;
 	}
 
@@ -668,7 +669,7 @@ dialog :is(p, ol, ul),
 
 	/* INDEX */
 	.indexMapStep, {
-		height: 1000px;
+		height: 500px;
 	}
 
 	.indexPopup > .maplibregl-popup-content,
@@ -685,18 +686,23 @@ dialog :is(p, ol, ul),
 
 	.indexPopup_main img {
 		max-width: 200vw;
-		transform: translate(-50%, -30%);
+		transform: translate(-50%, -29%);
 	}
 
 	.indexPopup_sub img {
 		max-width: 140vw;
-		transform: translate(-50%, -20%);
+		transform: translate(-50%, -16%);
+	}
+
+	.indexPopup_inf {
+		font-size: 1em;
+		line-height: 1em;
 	}
 
 	.indexPopup_inf img {
 		max-width: unset;
-		height: 110%;
-		transform: translate(-50%, -7%);
+		height: 260px;
+		transform: translate(-50%, -11%);
 	}
 
 
@@ -716,7 +722,7 @@ dialog :is(p, ol, ul),
 
 	/* INTRO */
 	#introTexto {
-		padding: 20% 0 0 0;
+		padding: 0;
 	}
 
 	#introTextoContenido {
