@@ -12,13 +12,21 @@ let map = new maplibregl.Map({
 
 
 // Obtener el archivo de los popups y ejecutar las funciones.
-fetch("./resources/json/index/index_popups.json")
-.then(response => response.json())
-.then(data => {
+async function fetchPopups() {
+	try {
+		const response = await fetch("./resources/json/index/index_popups.json")
+		const data = await response.json();
+		return data;
+	} catch(error) {
+		console.error(error); 
+	}
+}
+
+// Ejecutar las funciones cuando se reciba la respuesta.
+fetchPopups().then(data => {
 	addIndexPopups(data);
 	scrollToPoint(data);
-})
-.catch(error => console.error(error));
+});
 
 
 // Agregar los popups al mapa.
@@ -55,7 +63,7 @@ const scrollToPoint = (json) => {
 			pitch: json[response.index].pitch,
 			bearing: json[response.index].bearing,
 			curve: 0.24,
-			speed: 0.24
+			speed: 0.15
 		});
 
 		if (response.index != 0) {

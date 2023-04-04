@@ -519,6 +519,10 @@ button:hover {
 	margin-top: 25px;
 }
 
+.disabledOption {
+	color: var(--gray2);
+}
+
 
 #fieldCategorias div, legend {
 	padding-bottom: 15px;
@@ -562,23 +566,23 @@ button:hover {
 	background: var(--orange2);
 }
 
-.cita_medicinas {
+.cita_medicinas.active {
 	background: var(--blue1);
 }
 
-.cita_plantas {
+.cita_plantas.active {
 	background-color: var(--green1);
 }
 
-.cita_paisaje {
+.cita_paisaje.active {
 	background-color: var(--blue2);
 }
 
-.cita_rituales {
+.cita_rituales.active {
 	background: var(--pink1);
 }
 
-.cita_mujeres {
+.cita_mujeres.active {
 	background: var(--mint1);
 }
 

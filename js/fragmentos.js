@@ -1,12 +1,20 @@
-// Obtener el archivo de los fragmentos y ejecutar las funciones.
-fetch("./resources/json/fragmentos/fragmentos.json")
-.then(response => response.json())
-.then(data => {
-  addFullText();
-  addCategoryCheck(flatCategories(data));
+// Obtener los fragmentos.
+async function fetchFragments() {
+  try {
+    const response = await fetch("./resources/json/fragmentos/fragmentos.json")
+    const data = await response.json();
+    return data;
+  } catch(error) {
+    console.error(error); 
+  }
+}
+
+// Ejecutar las funciones cuando se reciba la respuesta.
+fetchFragments().then(data => {
+  addCategoryCheck(uniqueKeyValues(data, "categoria"));
   filterJSON(data);
-})
-.catch(error => console.error(error));
+  addFullText();
+});
 
 
 // Abrir y cerrar instrucciones.
@@ -20,20 +28,19 @@ fetch("./resources/json/fragmentos/fragmentos.json")
 })();
 
 
-// Obtener todas las categorías y filtrar las repetidas.
-const flatCategories = (fragmentos) => {
-  let allCategories = fragmentos.map(e => e.categories);
-  let flatCategories = allCategories.flat();
-  let filteredCategories = [...new Set(flatCategories)];
-  return filteredCategories;
+// Obtener valores sin repetir de un objeto.
+const uniqueKeyValues = (obj, key) => {
+  let flatValues = obj.flatMap(e => e[key]);
+  let filteredValues = [...new Set(flatValues)];
+  return filteredValues;
 }
 
 
 // Agregar el checklist de categorías.
-const addCategoryCheck = (categories) => {
+const addCategoryCheck = (cat) => {
   const checkboxField = document.getElementById("fieldCategorias");
 
-  categories.forEach(e => {
+  cat.forEach(e => {
     let categoryCheckbox = document.createElement("div");
     categoryCheckbox.innerHTML = `<input type="checkbox" name="${e}" value="${e}" class="categoryCheckbox"><label for="${e}" class="cita_${e.toLowerCase()}"><b>${e}: </b><span class="categoryCounter" id="counter_${e.toLowerCase()}"><b>0</b></span></label>`;
     checkboxField.appendChild(categoryCheckbox);
@@ -50,7 +57,7 @@ const filterJSON = (fragmentos) => {
     template: "#templateFragmentos",
     filter_on_init: true,
     criterias: [{
-      field: "categories",
+      field: "categoria",
       ele: "#seleccionCategorias input:checkbox"
     },
     {
@@ -65,7 +72,7 @@ const filterJSON = (fragmentos) => {
             elm.innerHTML = `<b>0</b>`;
           }
           result.forEach(e => {
-            const counter = document.getElementById(`counter_${e.categories.toLowerCase()}`);
+            const counter = document.getElementById(`counter_${e.categoria.toLowerCase()}`);
             counter.innerHTML = `<b>${Number(counter.textContent) + 1}</b>`;
           });
         } else {
@@ -77,27 +84,6 @@ const filterJSON = (fragmentos) => {
       }
     }
   });
-}
-
-
-// Agregar el cuerpo de texto. Resaltar fragmentos y agregar minimap cuando se cargue.
-const addFullText = () => {
-  let textField = document.getElementById("cuerpoDeTexto");
-  const textElm = document.getElementById("fragmentosCol2");
-
-  textElm.innerHTML = `<md-block id="textoCompleto" src="./resources/md/fragmentos/${textField.value}.md"></md-block>`;
-
-  textField.addEventListener("change", () => textElm.innerHTML = `<md-block id="textoCompleto" src="./resources/md/fragmentos/${textField.value}.md"></md-block>`);
-
-  setTimeout(() => {
-    const mdElm = document.getElementById("textoCompleto");
-    if (mdElm.rendered === "remote") {
-      toggleTextHighlight();
-      miniMapText();
-    } else {
-      console.error("Error al cargar texto.");
-    }
-  }, 500);
 }
 
 
@@ -171,4 +157,24 @@ const toggleTextHighlight = () => {
 
   highlight();
   highlightOnChange();
+}
+
+// Agregar el cuerpo de texto. Resaltar fragmentos y agregar minimap cuando se cargue.
+const addFullText = () => {
+  let textField = document.getElementById("cuerpoDeTexto");
+  const textElm = document.getElementById("fragmentosCol2");
+
+  textElm.innerHTML = `<md-block id="textoCompleto" src="./resources/md/fragmentos/${textField.value}.md"></md-block>`;
+
+  textField.addEventListener("change", () => textElm.innerHTML = `<md-block id="textoCompleto" src="./resources/md/fragmentos/${textField.value}.md"></md-block>`);
+
+  setTimeout(() => {
+    const mdElm = document.getElementById("textoCompleto");
+    if (mdElm.rendered === "remote") {
+      toggleTextHighlight();
+      miniMapText();
+    } else {
+      console.error("Error al cargar texto.");
+    }
+  }, 500);
 }

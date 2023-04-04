@@ -1,10 +1,20 @@
 const introContent = document.getElementById("introTextoContenido");
 const introImage = document.getElementById("introImagen")
 
-fetch("./resources/json/intro/intro.json")
-.then(response => response.json())
-.then(data => scrollIntro(data))
-.catch(error => console.error(error));
+// Obtener el archivo de los popups y ejecutar las funciones.
+async function fetchIntro() {
+	try {
+		const response = await fetch("./resources/json/intro/intro.json")
+		const data = await response.json();
+		return data;
+	} catch(error) {
+		console.error(error); 
+	}
+}
+
+// Ejecutar las funciones cuando se reciba la respuesta.
+fetchIntro().then(data => scrollIntro(data));
+
 
 const scrollIntro = (text) => {
 	const scroller = scrollama();
