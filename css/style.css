@@ -110,6 +110,10 @@ dialog h2 {
 	padding-bottom: 60px;
 }
 
+.m_auto {
+	margin: auto;
+}
+
 
 /* TEXT ALIGN */
 .t_center {
@@ -220,6 +224,10 @@ button:hover {
 	display: flex;
 }
 
+.flex_row {
+	flex-flow: row;
+}
+
 .flex_column {
 	flex-flow: column;
 }
@@ -302,7 +310,7 @@ button:hover {
 	right: 0;
 	cursor: pointer;
 	font-size: 1.4em;
-	padding: 3%;
+	padding: 4%;
 }
 
 
@@ -510,6 +518,15 @@ button:hover {
 
 
 
+/* ORINOCO */
+.orinocoSeccion {
+	margin: 45% 0;
+}
+
+
+
+
+
 /* FRAGMENTOS */
 #seleccionTexto, #seleccionCategorias, #fragmentos {
 	padding: 0 0 10% 0;
@@ -517,6 +534,10 @@ button:hover {
 
 #seleccionTexto {
 	margin-top: 25px;
+}
+
+#cuerpoDeTexto {
+	height: 300px;
 }
 
 .disabledOption {
