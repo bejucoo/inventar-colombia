@@ -1,4 +1,4 @@
-# CAPITULO XXVI
+# Capítulo XXVI
 ## RECHAZADAS DICHAS CAUSAS, SE PRUEBA SER INSUFICIENTES PARA LA DISMINUCIÓN DE LOS INDIOS, YA PROPUESTA.
 
 _Las guerras no pueden disminuir tanto, como se pondera, el gentío._  

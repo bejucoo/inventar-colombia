@@ -1,4 +1,4 @@
-# CAPITULO IV
+# Capítulo IV
 ## VARIEDAD DE LENGUAS DE AQUELLOS INDIOS: BÚSCASE SU ORIGEN POR LA MEJOR CONJETURA.
 
 _Creen los indios, que las aves tienen su lenguaje entre sí._  

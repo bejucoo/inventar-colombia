@@ -1,4 +1,4 @@
-# CAPITULO XVII
+# Capítulo XVII
 ## PECES PONZOÑOSOS, Y SANGRIENTOS.
 
 Habiendo manifestado a los caminantes los peligros de la tierra, en la multitud de fieras, y de insectos malignos, quedaran con razón quejosos los navegantes de aquellos ríos, y lagunas (en especial los forasteros) si no les diésemos noticia de los riesgos, que entre aquellas aguas se ocultan, para que con cuidado se recaten de ellas. Y es también muy conveniente, que sepan el modo de evitar los peces venenosos, como también los remedios usuales para sanar, en caso de hallarse heridos. Muchos de estos daños padecieron los primeros españoles, que bajaron, y subieron por el Orinoco; y después los ingleses en sus expediciones, con pérdida notable, y muertes de soldados: como consta de nuestras historias, y de los itinerarios, que ellos formaron, que se hallan recopilados por monsieur Laet; pero como el único empeño era descubrir minerales, toda la mira pusieron en demarcar rumbos del agua, y caminos de tierra, sin dejar noticias individuales de los animales, que les destruían, y acababan la gente; y este es el asunto de este capítulo.

@@ -1,4 +1,4 @@
-# CAPITULO I
+# Capítulo I
 ## SI ENTRE AQUELLOS BARBAROS SE HALLA ALGUNA NOTICIA DE DIOS.
 
 _Ceguedad grande de los indios gentiles._  

@@ -1,4 +1,4 @@
-# CAPITULO XX
+# Capítulo XX
 ## PROSIGUE LA MATERIA DEL PASADO
 
 _Labranzas ordinarias._  

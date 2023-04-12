@@ -1,4 +1,4 @@
-# CAPITULO XIX
+# Capítulo XIX
 ## MODO DE CULTIVAR SUS TIERRAS LOS INDIOS, Y LOS FRUTOS PRINCIPALES QUE COGEN.
 
 _Vida miserable de dos naciones, que no quieren trabajar._  

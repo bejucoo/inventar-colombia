@@ -1,4 +1,4 @@
-# INDICE
+# Índice
 ## DE LAS COSAS MAS NOTABLES QUE SE CONTIENEN EN ESTE LIBRO
 
 **Tomo - Cap.**

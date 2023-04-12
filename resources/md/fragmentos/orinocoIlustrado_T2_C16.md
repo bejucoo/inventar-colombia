@@ -1,4 +1,4 @@
-# CAPITULO XVI
+# Capítulo XVI
 ## DE OTRAS SABANDIJAS MUY PONSOÑOSAS
 
 _Coquitos._  

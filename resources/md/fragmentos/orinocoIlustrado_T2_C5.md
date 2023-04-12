@@ -1,4 +1,4 @@
-# CAPITULO V
+# Capítulo V
 ## INVESTIGASE EL ORIGEN DE LAS LENGUAS VIVAS O MATRICES DEL PAÍS.
 
 _Debemos recurrir a la confusión de la torre de Babel._  

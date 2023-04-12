@@ -1,4 +1,4 @@
-# CAPITULO XIII
+# Capítulo XIII
 ## PROSIGUE LA MATERIA DEL PASADO, DESCUBRIENDO OTROS VENENOS INCÓGNITOS.
 
 _Aunque el curare sólo basta para destruir las naciones, tienen otros venenos también._  

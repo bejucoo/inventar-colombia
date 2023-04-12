@@ -1,4 +1,4 @@
-# CAPITULO III
+# Capítulo III
 ## SI AQUELLAS NACIONES TIENEN ¿IDOLATRÍA? ¿NOTICIA DEL DEMONIO? ¿Y SI SE VALEN DE ÉL , O NO?
 
 _No hay nación de aquellas, que no conozca a el demonio por su nombre._  

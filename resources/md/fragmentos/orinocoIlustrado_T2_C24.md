@@ -1,4 +1,4 @@
-# CAPITULO XXIV
+# Capítulo XXIV
 ## ESTILOS QUE GUARDAN AQUELLOS GENTILES EN SUS CASAMIENTOS, LA POLIGAMIA, Y REPUDIO.
 
 Como cada nación tiene su genio, tiene también su particular uso en los casamientos: ya puse laxamente en el capítulo décimo la multitud de ideas con que los indios _guayquiries_ solemnizaban en su gentilidad sus casamientos, y noté allí ser cosa muy singular entre los bárbaros, los cuales comunmente gastan pocas ceremonias, en tales casos: no puedo individuar aquí todo lo que noté entre ellos: por no ser molesto, apuntaré tal cual especie, de que se podrán inferir otras semejantes, y formar algún concepto del desbarato de los hombres, que caminan sin la luz de nuestra Santa Fe.

@@ -1,4 +1,4 @@
-# CAPITULO XXI
+# Capítulo XXI
 ## ARBOLES FRUTALES QUE CULTIVAN LOS INDIOS: YERBAS, Y RAÍCES MEDICINALES, QUE BROTA AQUEL TERRENO.
 
 _Modo de conocer qué frutas silvestres sonsanas._  

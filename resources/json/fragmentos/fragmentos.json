@@ -1,79 +1,104 @@
 [
 	{
-		"id": "cita_1",
-		"link": "<a href='#cita1'>1. Pericoligero es un animal...</a>",
-		"categoria": "Animales",
-		"clase": "cita_animales",
-		"ref": "orinocoIlustrado_T2_C1"
-	},
-	{
-		"id": "cita_2",
-		"link": "<a href='#cita2'>2. Lorem ipsum...</a>",
-		"categoria": "Riqueza",
-		"clase": "cita_riqueza",
-		"ref": "orinocoIlustrado_T2_C2"
-	},
-	{
-		"id": "cita_3",
-		"link": "<a href='#cita3'>3. Multitud de gusanos blancos...</a>",
+		"link": "<a href='#cap7_c1'>La nación cacatia, cristiana ya...</a>",
 		"categoria": "Poblamiento",
 		"clase": "cita_poblamiento",
-		"ref": "orinocoIlustrado_T2_C3"
-	},
-	{
-		"id": "cita_4",
-		"link": "<a href='#cita4'>4. Lorem ipsum...</a>",
-		"categoria": "Evangelizacion",
-		"clase": "cita_evangelizacion",
-		"ref": "orinocoIlustrado_T2_C4"
-	},
-	{
-		"id": "cita_5",
-		"link": "<a href='#cita5'>1. El cusicusi es del tamaño...</a>",
-		"categoria": "Conflicto",
-		"clase": "cita_conflicto",
-		"ref": "orinocoIlustrado_T2_C5"
-	},
-	{
-		"id": "cita_6",
-		"link": "<a href='#cita6'>6. Lorem ipsum...</a>",
-		"categoria": "Comercio",
-		"clase": "cita_comercio",
-		"ref": "orinocoIlustrado_T2_C6"
-	},
-	{
-		"id": "cita_7",
-		"link": "<a href='#cita7'>6. Lorem ipsum...</a>",
-		"categoria": "Medicinas",
-		"clase": "cita_medicinas",
 		"ref": "orinocoIlustrado_T2_C7"
 	},
 	{
-		"id": "cita_8",
-		"link": "<a href='#cita7'>6. Lorem ipsum...</a>",
-		"categoria": "Plantas",
-		"clase": "cita_plantas",
+		"link": "<a href='#cap7_c2'>¿Quién creyera, que aquella misma india...</a>",
+		"categoria": "Mujeres",
+		"clase": "cita_mujeres",
+		"ref": "orinocoIlustrado_T2_C7"
+	},
+	{
+		"link": "<a href='#cap7_c3'>Fuera de estas tres causas tan poderosas...</a>",
+		"categoria": "Poblamiento",
+		"clase": "cita_poblamiento",
+		"ref": "orinocoIlustrado_T2_C7"
+	},
+	{
+		"link": "<a href='#cap7_c4'>o un pez, y nosotras cavamos...</a>",
+		"categoria": "Mujeres",
+		"clase": "cita_mujeres",
+		"ref": "orinocoIlustrado_T2_C7"
+	},
+	{
+		"link": "<a href='#cap8_c1'>El motivo, y causa principal de las guerras mutuas...</a>",
+		"categoria": "Conflicto",
+		"clase": "cita_conflicto",
 		"ref": "orinocoIlustrado_T2_C8"
 	},
 	{
-		"id": "cita_9",
-		"link": "<a href='#cita7'>6. Lorem ipsum...</a>",
-		"categoria": "Paisaje",
-		"clase": "cita_paisaje",
+		"link": "<a href='#cap8_c2'>luego que descansan, pasan a las colonias holandesas...</a>",
+		"categoria": "Comercio",
+		"clase": "cita_comercio",
+		"ref": "orinocoIlustrado_T2_C8"
+	},
+	{
+		"link": "<a href='#cap9_c1'>entraron a todo su salvo en el pueblo...</a>",
+		"categoria": "Conflicto",
+		"clase": "cita_conflicto",
 		"ref": "orinocoIlustrado_T2_C9"
 	},
 	{
-		"id": "cita_10",
-		"link": "<a href='#cita7'>6. Lorem ipsum...</a>",
-		"categoria": "Rituales",
-		"clase": "cita_rituales",
-		"ref": "orinocoIlustrado_T2_C10"
+		"link": "<a href='#cap11_c1'>Y en fin, si acá se inventaron las cajas...</a>",
+		"categoria": "Conflicto",
+		"clase": "cita_conflicto",
+		"ref": "orinocoIlustrado_T2_C11"
 	},
 	{
-		"id": "cita_11",
-		"link": "<a href='#cita7'>6. Lorem ipsum...</a>",
-		"categoria": "Mujeres",
-		"clase": "cita_mujeres",
-		"ref": "orinocoIlustrado_T2_C11"
+		"link": "<a href='#cap12_c1'>La nación caberre , la más inhumana...</a>",
+		"categoria": "Comercio",
+		"clase": "cita_comercio",
+		"ref": "orinocoIlustrado_T2_C12"
+	},
+	{
+		"link": "<a href='#cap14_c1'>El primer horrible serpentón...</a>",
+		"categoria": "Animales",
+		"clase": "cita_animales",
+		"ref": "orinocoIlustrado_T2_C14"
+	},
+	{
+		"link": "<a href='#cap14_c2'>¿Cómo no dan (dirá alguno) una eficaz providencia...</a>",
+		"categoria": "Poblamiento",
+		"clase": "cita_poblamiento",
+		"ref": "orinocoIlustrado_T2_C14"
+	},
+	{
+		"link": "<a href='#cap14_c3'>Más traidora es la culebra llamada macaurel...</a>",
+		"categoria": "Animales",
+		"clase": "cita_animales",
+		"ref": "orinocoIlustrado_T2_C14"
+	},
+	{
+		"link": "<a href='#cap15_c1'>Toda esta multitud de enemigos...</a>",
+		"categoria": "Animales",
+		"clase": "cita_animales",
+		"ref": "orinocoIlustrado_T2_C15"
+	},
+	{
+		"link": "<a href='#cap18_c1'>El es la ferocidad misma...</a>",
+		"categoria": "Animales",
+		"clase": "cita_animales",
+		"ref": "orinocoIlustrado_T2_C18"
+	},
+	{
+		"link": "<a href='#cap18_c2'>dichos colmillos un gran contraveneno...</a>",
+		"categoria": "Medicinas",
+		"clase": "cita_medicinas",
+		"ref": "orinocoIlustrado_T2_C18"
+	},
+	{
+		"link": "<a href='#cap22_c1'>Es tanta la abundancia de cachicamos...</a>",
+		"categoria": "Animales",
+		"clase": "cita_animales",
+		"ref": "orinocoIlustrado_T2_C22"
+	},
+	{
+		"link": "<a href='#cap22_c2'>No hay menor abundancia de iguanas...</a>",
+		"categoria": "Animales",
+		"clase": "cita_animales",
+		"ref": "orinocoIlustrado_T2_C22"
 	}
 ]

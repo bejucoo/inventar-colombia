@@ -1,4 +1,4 @@
-# CAPITULO XXIII
+# Capítulo XXIII
 ## TURBACION, LLANTOS, AZOTES, Y OTROS EFECTOS RAROS, QUE CAUSA EL ECLIPSE DE LA LUNA EN AQUELLOS GENTILES.
 
 Del extraño modo de concebir de aquellas naciones un mal gravísimo en el eclipse de la luna, nacen, como aborto de su ignorancia, demostraciones llenas de pavor, y espanto: los de una nación se persuaden, que la luna enferma de muerte, y se acaba a toda priesa: otros creen, que se les ha enojado, y que se retira airada para no alumbrarlos más; y cada una de aquellas naciones ciegas, deseosa de la luz de la luna, prorrumpe en diligencias, llenas de desatinos. No dudo, que cuando se les eclipsa el sol, harán semejantes, o mayores demostraciones; pero no me he hallado entre los tales gentiles, en tiempos de estos eclipses; y así, no tengo cosa que decir acerca de lo que sucede en tiempo de ellos: voy ya al caso propuesto.

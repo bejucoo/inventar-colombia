@@ -1,4 +1,4 @@
-# CAPITULO VI
+# Capítulo VI
 ## DE LAS PRIMERAS GENTES, QUE PASARON A LA AMÉRICA, Y EL MODO.
 
 _Caso moderno, que da ocasión a este cortocapítulo._  
