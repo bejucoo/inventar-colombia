@@ -20,7 +20,7 @@
 	
 	--yellow1: #f2dea0;
 	
-	--green1: #98a280;
+	--green1: #98a280ff;
 	--green2: #c6cbb8ff;
 
 	--orange1: #e1a25bff;
@@ -67,6 +67,10 @@ dialog {
 
 dialog h2 {
 	margin: 0;
+}
+
+details>summary {
+	cursor: pointer;
 }
 
 
@@ -523,6 +527,11 @@ button:hover {
 	margin: 45% 0;
 }
 
+.orinocoSeccion > a > h1,
+.orinocoSeccion > p {
+	margin: 0 !important;
+}
+
 
 
 
@@ -537,7 +546,8 @@ button:hover {
 }
 
 #cuerpoDeTexto {
-	height: 300px;
+	height: 314px;
+	overflow: scroll;
 }
 
 .disabledOption {
@@ -624,6 +634,7 @@ button:hover {
 select, select > optgroup, select > option,
 legend, label, button,
 dialog :is(h1, h2),
+details,
 #menuDiv,
 .indexPopup,
 #indexMapControl,
@@ -762,6 +773,15 @@ dialog :is(p, ol, ul),
 
 	.introTituloStep {
 		height: 1000px;
+	}
+
+
+
+
+
+	/* ORINOCO */
+	.orinocoSeccion {
+		margin: 15% 0 60% 0;
 	}
 
 

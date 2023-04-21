@@ -19,8 +19,8 @@ fetchFragments().then(data => {
 
 // Abrir y cerrar instrucciones.
 (() => {
-  const openButton = document.getElementById("openDialog");
-  const closeButton = document.getElementById("closeDialog");
+  const openButton = document.getElementById("openDialog_how");
+  const closeButton = document.getElementById("closeDialog_how");
   const dialog = document.getElementById("instructionsDialog");
 
   openButton.addEventListener("click", () => dialog.showModal());
