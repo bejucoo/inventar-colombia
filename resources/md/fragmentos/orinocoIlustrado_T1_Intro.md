@@ -4,7 +4,7 @@
 
 * * *
 
-## INTRODUCCIÓN.
+## INTRODUCCIÓN
 
 La historia, no sólo es abonado testigo de los tiempos; es, y debe ser también luz para todas las edades y generaciones. y al modo, que,si falta la luz,en la más curiosa galería, todo aquel archivo de la más apreciable antigüedad, pasa a un caos de confusión, pareciendo ordinarias las piedras más selectas, y borrón tosco la más sutil miniatura: no de otra manera, la más curiosa historia, si le faltare la luz,claridad, distinción, y método, será toda confusión, y origen de muchas das,contra el fin primario de la historia, que tira a disiparlas.
 

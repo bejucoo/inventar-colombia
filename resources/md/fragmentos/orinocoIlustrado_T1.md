@@ -1,5 +1,1642 @@
-# CAPITULO VI
-## DEL ORIGEN DESATINADO, QUE SE FINGEN ALGUNAS NACIONES DEL ORINOCO; Y SE APUNTA ALGO DE SU VERDADERO ORIGEN, Y DESCENDENCIA.
+     \[El Orinoco ilustrado : historia natural civil y geográfica de este gran río y sus caudalosas vertientes/ José Gumilla.) Vol.1 
+
+EL ORINOCO ILUSTRADO”, DEL P. JOSE GUMILLA
+
+Pocos libros han alcanzado tan alta notoriedad como el famoso Orinoco Ilustrado, escrito por el misionero;jesuíta Padre José Gumilla, como resultado de sus labores evangelizadoras en la antigua Venezuela y en;el Nuevo Reino de Granada.
+
+Nació Gumilla en el pueblecillo de Cárcer, perteneciente al reino de Valencia; vino muy joven a Santafé, hizo aquí sus estudios eclesiásticos y recibió la ordenación sacerdotal. Pasó después, hacia 1715, a Tunja,;¡y de allí partió a incorporarse a la tribu de los beto-yes en calidad de doctrinero. De su trabajo desprendió el Arte y Vocabulario de la lengua de los betoyes,;pues era tan celoso en su función apostólica como;diestro en los asuntos lingüísticos.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Su libro más notable, El Orinoco Ilustrado, vio la luz por primera vez en las prensas españolas en 1741;;la segunda edición fue hecha en 1745; y la tercera en;,1791. Lo cual da idea clara del aprecio que sus contemporáneos hicieron de aquel bosquejo exquisito en;las líneas y noble en las ideas.
+
+Biblioteca Popular de Cultura lio l o nt b i a n a
+
+![](GumillaT1html_files/GumillaT1html-1.jpg)
+
+  
+
+P. Joseph Gumilla EL ORINOCO ILUSTRADO
+
+![](GumillaT1html_files/GumillaT1html-2.jpg)
+
+  
+
+TOMO I
+
+del Banco de la República, Colombia
+
+  
+
+VIAJES — VOLUMEN VI
+
+la Biblioteca virtual Luis Ángel Arango
+
+Publicación del Ministerio-' de Educación de Colombia,.
+
+B C.—Bogotá, 1944.
+
+  
+
+Impreso en la Editorial A
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+P. Joseph Gumilla
+
+¿ ' V
+
+go AÍ Y\*
+
+./
+
+  
+
+^áN
+
+EL ORINOCO ILUSTRADO
+
+q|aqH?
+
+  
+
+HISTORIA NATURAL, CIVIL Y GEOGRAFICA DE ESTE GRAN RIO
+
+![](GumillaT1html_files/GumillaT1html-3.jpg)
+
+  
+
+TOMO 1
+
+Biblioteca Popular de Cultura Colombiana
+
+i
+
+I ;;;BANCO;;;;DE;;;;LA;;;;REPUBLICA
+
+f ;;;ftlftllOTECA
+
+n
+
+Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL PADRE GUMILLA S. J.
+
+Y SU OBRA
+
+“La historia de los grandes ríos americanos está vinculada de modo;singular, y por extraña y persistente;coincidencia, a grandes misioneros , es-escritores y descubridores jesuítas;(M. AGUIRRE 8. J. “La Compañía;de Jesús en Venezuela”. Caracas, 1941.)
+
+El epígrafe de este prólogo tiene una excelente confirmación. Tres nombres de hijos de Loyola han quedado unidos para siempre;a las caudalosas corrientes del Misisipí, Ama;zonas y Orinoco. Los Padres Marquette, Acuña y Gumilla, geógrafos misioneros, dejaron;de sus descubrimientos páginas maravillosas,;dignas del estudio académico.
+
+Estas palabras de introducción no están dirigidas a los especialistas; sólo pretenden;dar a los numerosos lectores de ORINOCO;ILUSTRADO una sencilla idea del P. José;Gumilla, jesuíta, misionero y americanista.;Estas tres ideas centrales encierran todo lo;que podemos decir en elogio desinteresado del;escritor.
+
+QUIEN FUE JOSE GUMILLA
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+El 12 de marzo de 1705 el Padre Juan Martínez de Ripalda presentó al teniente alcalde de Sevilla un catálogo de i3 jesuítas, para
+
+EL ORINOCO ILUSTRADO
+
+que se les concediera navegar a la América Meridional, en calidad de misioneros. Dejaron sus familias y amigos; y al impulso alegre de los veleros, arribaron a las costas del;Nuevo Reino de Granada. En ese catálogo, el;número treinta correspondía al “Hermano;José Gumilla, filósofo de primer año, natural;de Cárcer, obispado de Orihuela, de dieciocho años, mediano de cuerpo, señales de viruelas, lunar pequeño junto al ojo derecho”.;Este era el pasaporte del que más tarde había de llamar la atención de Europa por las;maravillas salidas de su pluma.
+
+Diez años pasó Gumilla en Santa Fe, terminando •su formación jesuítica: filoso fía, profesorado y teología ocuparon la mente y;actividad del joven durante este tiempo. Acopió ciencia y virtud; se capacitó filológica y;científicamente para sus futuras investigar-dones. Profundizó en el estudio del dogma y;la moral. Ya sacerdote, estuvo listo para;■abrir la brecha en el terreno virgen del no;Orinoco.
+
+En 1715 el provincial Mimbela, lo llama al campo activo de las misiones, y ejerdta sus;primeras armas en la fundación de Tame, al;pie de Capuel, experto conocedor del medio y;veterano misionero de los llanos de Oriente.;Seis meses bastaron a Gumilla para darse;cuenta del panorama científico y apostólico;ele sus futuras misiones.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Geográficamente el campo de trabajo del
+
+HISTORIA NATURAL
+
+XI
+
+  
+
+Padre Gumilla era inmenso; etnográficamente difícil. Desde las faldas de la cordillera oriental colombiana, donde los jesuítas de;Santa Fe habían establecido las reducciones;de Chita, Morcóte, Támara y Pauto, hasta las;mil bocas del gran río, que hizo sospechar a;Colón la existencia de un continente. Talvez;hoy la lectura de obras como “La Vorágine”;de Rivera, y las narraciones de ouucherías,;nos ayudan a comprender lo que es el trabajo;en la selva y el llano ilímite. La. maraña silenciosa, el húmedo ambiente de los bosques;de la Orinoquia, abrigaron durante treinta y;cinco años al Padre Gumilla, brindándole los;tesoros de sus misterios, de su fauna incógnita, de su flora feraz. Allí, en esa vertiente que;arrastro.t el trópico hacia el mar, numerosas;poblaciones indígenas luchaban con el medio;y lo vencían, o eran vencidas por él, por esa;brava naturaleza, hermana de la Amazonia,;Para un éxito científico en el Orinoco, se necesitaría hoy, un gran equipo moderno de;campo; los misioneros de Gumilla, y él en persona, lucharon solos, contra la selva, para;conquistar al hombre. Hacia 1760, una gran;realidad, una cultura nueva, se había extendido por las misiones jesuíticas americanas ,; El Marañan, el Orinoco, y el Río de la Plata;en el sur, disfrutaban de la labor de los misioneros, cuando una plumada del monarca español, o mejor, de su siglo, y de su medio, motivada por razones que reservaba en su real
+
+XII ;;; EL;;;;ORINOCO;;;;ILUSTRADO
+
+pecho, puso fin a la empresa civilizadora de los jesuítas.
+
+QUE HIZO EN EL ORINOCO EL PADRE JOSE' GVMILLA
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+“Era en 1701. Antonio Calaimi, jirara de nación, cristiano y músico de la reducción de;Tame, sintió en el cuerpo la comezón de la;aventura y ‘sin más equipaje ni caudal que un;clarín prendido del cinto’, partió por tierras;del virreinato camino de Pamplona y Tunja.;Entró por la cordillera andina en tierras venezolanas y vino a parar en Pedraza, en el;■actual Estado Zamora. Alternando allí con;wws indios Betoyes, que habían venido a comerciar, halló que hablaban una lengua tan;parecida a la suya, que decidió intema/rse con;ellos en los bosques del Llano venezolano. Sus;■aventuras en medio de las tribus salvajes son;dignas de una novela. En un trance apurado,;acosado por los indios Isabacos, echó mano;del clarín y lo tocó con toda su fuerza. Los;■agresores huyeron despavoridos. Nunca hubiera creído Calaimi contar con tan poderoso instrumento de guerra. Su clarín lo hizo;invulnerable en los siguientes encuentros y;su autoridad creció de suerte que cuando cansado de aventuras, tornó a la reducción de;Tame, entró con una escolta de dieciséis Betoyes que le consideraban su jefe. Los recién;llegados causaron excelente impresión al doctrinero de Tame, Padre Juan Obino. Calaimi;recibió honores de cacique ele los Betoyes, y
+
+HISTORIA NATURAL
+
+XIII
+
+  
+
+el misionero le exhortó a que armado de su épico clarín, hiciera otra salida por los llanos.;Partió el cacique aventurero y después de;muchas aventuras y desventuras, tomó con;un nuevo grupo de familias betoyes. En 1715;los indios de Antonio Calaimi pidieron al Padre Provincial de la Compañía de Jesús, Mateo Mimbela, que les concediera formar reducción aparte. Concedióselo el Padre Provincial prometiéndoles un misionero. A su;paso por el noviciado de Tunja escogió para;aquella empresa al joven Padre José Gumilla.;Después de un año de experiencias en Tame,;Gumilla y Calaimi comenzaron a gobernar;la nueva reducción de Casiabo a orillas del río;Cravo.”
+
+Así nos cuenta un moderno historiador de los jesuítas, basado en fuentes seguras, los;antecedentes providenciales de la primera;misión del Padre Gumilla.
+
+Este misionero forma nueva época en las misiones de nuestra América Meridional.;Hombre resuelto y cautivante, inteligencia;grande y corazón ardiente, fue un revolucionario en las misiones. El Padre Juan Riñéronos describe las dificultades que la tierra oponía a los planes de Gumilla:
+
+“No pudiendo transitar por allí a caballo, por la inmensidad de la maleza, fue preciso caminar a pie con un bordón
+
+(1) (M. Águirre. Op. cit. p. 18.)
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+XIV EL ORINOCO ILUSTRADO
+
+en la mano y el breviario debajo del brazo, quince o dieciséis jornadas de tierra adentro, por ríos, pantanos, ciénagas de;media legua y una legua de travesía, y;por sitios tan intrincados y fragosos que;sólo la industria de los peones que iban;adelante rozando la montaña . con machetes, daba paso a la comitiva para proseguir el viaje.” (2).
+
+Cuando un ideal noble se apodera de una mente capaz, es como la síntesis de la personalidad. Todos los fragmentos dispersos se;concentran, como por fuerza de imán, a pesar de los obstáculos. Gumilla sintió y comprendió la magnitud de su empresa, batió las;dificultades y se posesionó del primer puesto;en la vanguardia misionera. Para él no había;obstáculos: sus manos de sacerdote empuñan;ron la garlopa del carpintero, el buril del escultor y el compás del arquitecto. Jugaba los;instrumentos con tal arte como si hubiera sido ella el único empleo de toda su vida. Fabricó puertas y ventanas, adornó el templo con;■pinturas de su mano; y en fin, fue el que ejercitando los oficios de muchos, trabajaba por;muchos, dice un informe del Padre Mimbela.;Su puesto de misionero lo hacía ser a la vez;médico corporal. Este fue uno de los secretos;de su éxito sorprendente. Se amoldó al me-
+
+(2) (Nivero Juan 8. J. ''Historia de las Misiones de los Llanos de Casanare y los ríos Orinoco y Metapp . 354-5.;Bogotá j, 1883.) ;;;;,¡
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL ;;;XV
+
+dio; pues había asimilado la cultura suficiente para llegar a ser en él, un sembrador de civilización,..;
+
+El 10 de diciembre dé 1731 emprende el Padre Gumilla su primera magna expedición.;Piensa encontrar por las bocas del Orinoco y;la isla de Trinidad un camino más fácil para;la ayuda militar y económica de las misiones;que proyecta. Pero la realidad le enseña lo;contrario.
+
+Ya en Guayana, ve que es inútil esperar apoyo de la escasa fuerza militar del presidio de Santo Tomás. Unas viejas piezas de;artillería no alcanzan con su fuego la orilla;opuesta —a pesar de la “angostura ”— y los;caribes, los feroces enemigos de las misiones,;y los piratas protestantes, remontan el río y;destruyen la obra paciente de agrupación y;cultura entre los indígenas del gran río. Es;mérito de Gumilla el haber comprendido que;allá, al pie de los caribes era imposible la perseverancia de los indios recogidos, sin un auxilio militar; y lo logró de Santa Fe. Treinta;y seis soldados con su capitán defendieron en;adelante la obra de los misioneros.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+A lo largo del alto Orinoco fundó seis pueblos, estudió lenguas indígenas, y se dio a conocer como civilizador inteligente y sagaz,;que intuyó lo que debían ser las “doctrinas”;del poderoso río. Se debe a Gumilla el haber;sembrado la primera mata de café en nuestra;patria. En 1723 los misioneros jesuítas tra-
+
+EL GUI ÑOCO ILUSTRADO
+
+jeron al Orinoco las primeras semillan, y las sembraron en territorio que hasta 1925 perteneció a la república de Colombia (1).
+
+Este primer éxito ■ del misionero, parece que desconcertó a los aaribes, quienes lo respetaron por entonces. Pero luego vino la lucha. Los indios y los piratas perseguían el;“Aceite de María” y el “Achote”, del que escribió el misionero páginas curiosas y amenas.
+
+“El día 31 de marzo de 1733 quemaron nuestra colonia de Nuestra Señora de los Angeles y al día siguiente amanecieron 27'pira-guas 'de guerra sobre san José de Otenmeos y;amo. haber defendido con valor los soldados;dé la escolta a los indios amigos, hubieran saqueado y quemado el lugar y nOs hubieran;llevado cautivos o muertos para sus ' banquetes, a Sus compañeros y a mí, que éste-fue el;fin principal de éste y de los siguientes ataques . .. ” (Astrain Antonio S. J. “Historia de;la CompaMa de Jesús en la Asistencia de España”,t. VII, p. ¿63.)
+
+Pero la victoria estuvo de parte del misionero. Taricura, el temible jefe de los caribes cayó, y le sucedió un holandés, desnudo y disfrazado de indio. Gumilla ayudado de la escolta construyó clos f ortines y logró consolidar las misiones del alto Orinoco. Cómo apóstol dé la idea católica, es decir como misio-
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+“(1) Resirepo Daniel S. \-/. ei L(i Compañía de Jesús en Co-lojjd'bhtf 3 \* llogotáj 1940;105-6^ ;;;•;;;;-;;;;r/L-o
+
+HISTORIA NATURAL
+
+XVII
+
+  
+
+ñero, fue felicitado por el General de los jesuítas como “verdadero operario de la Compañía, por su celo, fervor, y aplicación incansable”.
+
+Un velo denso cubre los últimos años de Gumilla. Sabemos que viajó a España y volvió a sus misiones' con refuerzo de compañeros. Un día de 1750 el heroico apóstol, en pleno campo de batalla, al pie de sus Betoyes u;Otomacos o Lolacas, entregó su alma a Dios.;Nos dejó como fruto de sus investigaciones y;excursiones a lo largo del río, un bello libro,;que el lector tiene en sus manos. Varias ediciones se han hecho de esta curiosísima obra,;unas en Madrid, y otras en Barcelona.
+
+r.v i.uiito Mi r üukusal
+
+Hasta nuestros tiempos se ha tenido como cosa de leyenda el contenido de esta obra del;P. Gumilla. En un estilo gracioso y cortado,;en el que la idea se retuerce con reminiscencias gongorinas, va narrando Gumilla las costumbres de los indios que él mismo visitó, y;las anécdotas que oyó, sin mucho cuidado, al;parecer, del sentido crítico, del que tanto nos;preciamos hoy. El libro es una pequeña enciclopedia. La vida cambiante y policroma de;esas tribus originales que crecieron en una;naturaleza agradecida; animales maravillosos, desde la tortuga fecundísima que detiene;el paso del Orinoco, al formar crecidos bancos (!), hasta los pájaros de plumas vistosas
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+XVIII EL ORINOCO ILUSTRADO
+
+y brillantes; plantas maravillosas, gigantescas,, menudas, venenosas, medicinales,, útiles.
+
+En una palabra, el trópico incógnito, ..... con lo
+
+verdadero, legendario, trágico y pintoresco que este vocablo encierra. Este es el panorama que la pluma inquieta y picaresca de Gu-milla nos trazó en sus peregrinaciones. Penetrante a lo Gradan, su hermano en religión, tiene la fina agudeza del meridional, la;franqueza hispana y la tenacidad y curiosidad del norteño. Estos caracteres, aunados en;Gumilla, nos dieron, sin él pretenderlo jamás,;pues nunca pensó como geógrafo, ni mucho;menos como turista, el tipo acabado del viajero del siglo XVIII; algo crédulo es verdad,;pues no tamizó las consejas que oía; pero no;en el grado como lo juzgamos hasta hace poco;americanistas teóricos, ajenos al ambiente y;realidad de las naciones meridionales de la;América.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+De labios de un distinguido investigador de la Amazonia colombiana, el P. Marcelino de Castellví, O. M. C., oímos el elogio sincero y autorizado que hoy se hace de Gumilla.;Es la segunda epifanía del jesuíta. Su libro;es como el río que describe: todo lo abarca y;arrastra, lleva en el fondo enorme material;zoológico y botánico, y en su superficie se;deslizan naciones enteras de primitivos que;detienen sus remos en la orilla para enriquecerse de bellezas naturales, por ellos utilizadas pero no apreciadas. Para leerlo hay que
+
+HISTORIA NATURAL
+
+XIX
+
+  
+
+bajar desde las cumbres andinas, en algunas de esas embarcaciones, arrullados por el estilo militar del misionero hispano, hasta las;poderosas vertientes de la Orinoquia.
+
+El mérito principal del P. Gumüla está en la enorme cantidad de material americanista;que acumuló en las páginas de su libro. Podemos enriquecer nuestros ficheros con miles;y miles de fichas tomadas en la juiciosa lectura de su obra: es un archivo viviente que;espera hoy la paciencia de los americanistas.
+
+La edición que hoy presenta el Ministerio de Educación Nacional cumple con su fin de;difusión de la obra del P. Gumüla. Está llamada a dar a conocer las maravillas del Orinoco al público lector y a despertar iniciativas entre los eruditos e investigadores de los;problemas americanos. Talvez el año de 1950,;segundo centenario de la muerte del P Gu-milla, nos regale la edición crítica y comentario del ORINOCO ILUSTRADO. Ese arsenal debe ser explorado con cuidadosa ■ atención. El escritor no se equivoca al narrar maravillas que antes parecían inverosímiles a;los europeos. Para esa exploración es necesario prepararse con un buen bagaje científico.;Las ciencias todas de la americanística, en;especial la lingüística y la etnografía, esperan medrar mucho a la sombra de las selvas;orinoqueñas, tales como nos las describe el;P. Gumüla.
+
+Una comisión de especialistas debe distri-
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+XX ;;;EL;;;; ORINOCO;;;;ILUSTRADO
+
+huirse los ficheros formados con los temas de cada capítulo: geografía e historia, etnogra- fía y etnología, folklore y ciencias naturales,;y un sinnúmero más de ciencias afines son;necesarios para aclarar y explicar los datos;recogidos y analizados por el misionero.
+
+Las crónicas de América así presentadas, son hoy las fuentes verdaderas para este nue?;. vo estudio del “hombre americano”. Camilla;puede descansar orgulloso, porque prestó un;gran auxilio a la tierra de Colón, y sentarse;luego con honor en el coro de sus hermanos;religiosos los misioneros de nuestras tierras.;Historiadores y Cronistas del Nuevo ' Continente resolvieron la incógnita del hombre;americano. Talvez sea ésta la fórmula en que;se condense el trabajo de nuestros escritores;del siglo XVI.
+
+Villa de San Claver, enero 25 de lOUh-
+
+JO Si: líAt'Ai:/. AKIIOUiDA ÍI. J.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+SoUt.-rLu principa} fuente ¡tara tnt estudio del V. (¡mutila, por xu autoridad y abundancia es la obra citada del /’. Daniel destrejo ¡s. J. "La Compañía de Jesús en Colombia".;Bogotá, 1940.
+
+EL ORINOCO
+----------
+
+ILUSTRADO,
+
+HISTORIA NATURAL,
+
+CIVIL , Y GEOGRAPHICA,
+
+DE ESTE GRAN RIO,
+
+Y DE SUS CAUDALOSAS VERTIENTES:
+
+GOVIERNO , USOS, Y COSTUMBRES DE LOS INDIOS fus habitadores,con nuevas,y útiles noticias de Animales, Arboles,;Frutos, Aceytes, Refinas, Ycrvas, y Raíces medicinales: Y íobre;todo, fehallarin convetfiones muy fingulares á nueítra Santa;Fe, y calos de mucha edificación.
+
+ES C R I T A
+
+POR EL PJOSEPHGUMILLA, DELA COMPAÜIA DE JESU?, Mifsionero,y Suptrior de las Mif¡iones del Orinoco , Meta, y Cafan are,;Calificador , y Confultor del Santo Tribunal de ¡a Inquificion. de Carta~;gerta de Indias , y Examinador Synodal del mifmo Obifpado, Provincial;que fue de fu Provincia del Nuevo Reyno de Granada, y aciual;Procurador a entrambas Curias , por fas dichas Mif¡iones,;Provincia.
+
+![](GumillaT1html_files/GumillaT1html-4.jpg)
+
+CON LICENCIA. En MADRID : Por MANUEL FERNANDEZ , Impref-for de la ReverendaCamara Apaftol¡ca,en fu Irr>prenta,y LibrcfiaJrcnce la Cruz de Puerta Cerrada.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República. Colombia
+
+AL GRANDE APOSTOL DEL ORIENTE
+
+S. FRANCISCO JAVIER,
+
+Y A LOS VARONES APOSTOLICOS QUE AL ATRACTIVO
+
+de su ejemplo, se entregaron al cultivo espiritual de los prójimos, en las cuatro partes del mundo.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+No tienen libertad los ojos sanos, (oh! siempre nuevo, y admirable Sol del Oriente!) para que fijos en la magnitud de vuestro activo;incendio, dejen de ver, y admirar con asombro;el luminoso ejército de rayos, que a impulsos;de vuestro eficaz ejemplo, abandonando sus;patrias, y negándose a sí mismos, corrieron;en pos de la fragancia de vuestras virtudes, y;procuraron seguir vuestras preciosas huellas,;desterrando errores, destruyendo vicios, y;sembrando en los corazones terrenos celestiales, y sólidas virtudes; porque, ¿qué otra cosa;son (¡oh grande Javier!) tantos y tan esforzados mártires, y tantos varones, por su heroica virtud ilustres hijos de la Compañía de
+
+8 ;;;EL;;;;ORINOCO;;;;ILUSTRADO
+
+Jesús, cuya suave, y ejemplar memoria, apenas cabe ya en dilatados volúmenes, sino otras tantas exhalaciones, desprendidas del incendio Divino de vuestro ardiente pecho, héroes;infatigables y émulos de aquellos deseos del;bien de las almas, que aun en vida mortal;salían hechos llamas de vuestro amante corazón? del cual dimanó, y corre todavía tanto;caudal de fuego, que vuestro amoroso incendio, según todas las señas, es inmenso.
+
+(A) Pigmeas son en vuestra presencia (¡oh;Javier! Etna del amor divino) las soberbias;llamas del horno de Babilonia, cuya elevación;subía 49 codos, la cual (ya que no en sí misma) se pudo medir, y conocer, por el terreno;a que es extendió, y por los hombres, que en;él abrasó su actividad, como por señas infalibles ; no así el inmenso fuego de vuestro celo;apostólico, dimanado del portentoso incendio;de nuestro grande patriarca San Ignacio:
+
+(B) Et de igne fulgur egrediens, ambos agigantados, e incapaces de ser medidos, ni por;las señas; porque aun éstas son totalmente;desmedidas: como fuego salisteis de otro;fuego: (C) Ignis involvens, et splendor; id;est, de medio ignis; que por eso, al enviaros;como apóstol nuestro glorioso padre, os dijo;con palabras de fuego: Ite, accendite omnia :;lo que ejecutasteis con tan inmensa actividad,
+
+(A) ;;;Daniel, cap. 13. v. 14 etc.
+
+(B) ;;;Ezech; cap. 1. v. 13.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+, (C) Et vers. 4. ......
+
+Historia natural
+
+9
+
+  
+
+que Bocio, autor grave, afirmó: (A) “Que alumbrasteis, en solos diez años, más reinos,;gentes, y naciones, que cuantas en mil y quinientos años habían inficcionado, con su infernal anhélito, todos los heresiarcas, en todo;el orbe de la tierra.”
+
+A fuer de arrebatado río de fuego, salisteis del inmenso volcán, que ardía en el corazón del grande Ignacio, y así caminasteis treinta y tres mil leguas, abrasando en amor;divino reinos, naciones, y provincias: y repartiendo llamas de vuestro ardiente espíritu;a tantos varones apostólicos, cuantos sabemos, que volaron como rayos, por las cuatro;partes del mundo, en alas del amor de Dios, y;de los prójimos, como hijos de vuestro celo,;y ecos vivos de vuestra milagrosa voz: (B); V oz multitudinis in montibus. Sólo por estas;señas se pudiera inferir la grandeza de vuestro agigantado espíritu; pero siendo ellas tales, que falta capacidad, y aún valor, para;contemplarlas, no hay por donde colegir la;suma extensión de vuestro ardiente celo, ni;la actividad con que siguieron, y prosiguen;la guerra, que vos declarasteis contra los;vicios, errores, e idolatrías: novedad, que;causó tanta pena al pérfido Melantón, (C)
+
+(A) ;;;Lib. 6. cap. 3. Dé signis Eclesiae ibi, Xaverius .. .; Piares homines ad Christum reduxit; quam innúmera ho-minum milita, ex omni gente, et Xalione, toto orbe terrarum,;per anuos mille, et quingentos, ad sugs sectas traduxerunt.
+
+(B) ;;;Isai. cap. 13 Vox multitudinis, etc.
+
+(C) ;;;P. Matth. Tanner. Soc. Militans per totum librum.;etc ídem insua Soc, Europea.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Angel Arango del Banco de la República,
+
+10 ;;;EL;;;;ORINOCO;;;;ILUSTRADO
+
+que afirmó, se le partía de dolor el alma, al tiempo mismo, que agonizando ya, eternamente la perdía. Y que otro efecto pudiera;causar en aquel caos de errores el admirar;tantas antorchas, hijas de vuestra luz, y tantos rayos fraguados en vuestro seno, cuantos;son los apostólicos jesuítas, que triunfaron;en la Europa de la ignorancia, y del error:;de Taycosama, y sus ídolos, en el Japón: (D);en la China, Cochinchina, Mogór, Etiopía, y;en las costas, e islas de la India Oriental, y de;la Africa, derribando innumerables aras dedicadas al poder de las tinieblas: guerra feliz,;continuada a costa de mucha sangre hasta;nuestros días, en que a vista del rey idólatra;de Tunquín, recibieron la palma cuatro gloriosos misioneros (E), entregando por la fe;sus cervices al cuchillo, como hermanos, y;felices imitadores del venerable P. Rodulfo;Acuaviva, y sus cuatro invictos compañeros,;que fecundaron la isla de Salsete (F) con su;sangre de cuyo martirio, y gloria esperamos;por horas declaración del supremo oráculo,;para la pública veneración?
+
+Pero qué pluma se atreverá a insinuar las batallas, victorias, coronas, y frutos abundantes, que en las Indias Occidentales han;conseguido a vuestra sombra (¡oh excelso;Javier!) vuestros esforzados imitadores? Los
+
+(D) ;;;Floremundo. lib. 5. de Origine haeresum , fol.. 34. n. 4.
+
+(E) ;;;P. Cassani, lib. Mart. de los M. M. de Tuiujuin y el.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+(F) ;;;P. Juan Eusebio Nieremb. tom. var. Ilust.
+
+HISTORIA NATURAL
+
+11
+
+  
+
+venerables Contovas, Cortiles, Duverones, con otros muchos (A) en las Filipinas: el admirable Padre Sanvitores, con otro lucido;escuadrón de jesuítas, en las Marianas e islas de Palos (B) muriendo, triunfaron de;las flechas, lanzas, y macanas, que rubricadas;con su sangre, se convirtieron en coronas.
+
+(C) Los venerables Tapias, Santárenes, y; Tobares, con otras diez y siete víctimas, despedazadas a manos de los bárbaros en las;dilatadísimas misiones de Cinaloa, Topia,;Californias y Sonora, de la provincia de la;Nueva España, a quienes se añadió, en núes-';tros días, la dichosa, y reciente palma del V.;P. Tamarál: (D) Los crueles, y exquisitos;tormentos, con que en la Canadá, o Nueva;Francia, sellaron su doctrina, y ganaron la;gloria nueve esforzados jesuítas, capitaneados por los veneables padres Yogues; y Daniel, fue riego fértil y causa del abundante,;fruto, que a manos llenas recogen al presente en la Canadá cincuenta, y en la Nueva España ciento y cuarenta y cuatro misioneros;apostólicos.
+
+Volvamos un tanto los ojos hacia la América Meridional, y a las vastas misiones, que desmontaron, y aún desmontan, y cultivan las
+
+(A) ;;; P. Combes, r. Colín, en sus Historias, y P. García;Filipinas y de Miiidanao.
+
+(B) ;;;P, Francisco García, vida del V. P. Sanvitores.
+
+(C) ;;;Itlvas, Triunfos de la fe, Historia de Cinaloa.
+
+(D) ;;;P. La Creux, Historia Canadá. P. Cassani tom. I.; alias 7 fol. 634 etc.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luía Angel Mango del Banco de la República,
+
+12 ;;; EL;;;; ÓRÍNÓCÓ iLÜSÍflÁfiÓ
+
+seis apostólicas provincias de la Compañía, a vuestro amparo (¡oh grande Javier!) y a;costa de fatigas, de afanes, y de muchas vidas. La del Brasil solo se ve ilustrada por;su admirable taumaturgo (E) el Y. P. José;de Ancheta, y con otra noble multitud de varones ilustres, y apostólicos (F) sino tam-bién se gloría con el irrefragable testimonio;de la Seráfica Doctora Santa Teresa de Jesús,;que vio en éxtasis subir triunfantes al cielo;cuarenta mártires, capitaneados (así en la;pelea contra la perfidia de Jaque Soria, como;en la. corona inmortal) por su invicto superior el V. P. Ignacio Acevedo (G).
+
+(H) En la provincia apostólica del Paraguay sobresalen, como los planetas entre los astros, los venerables padres Montoyas, González, y .otros, en medio de un numeroso escuadrón de mártires, y varones insignes, a;cuyos gloriosos triunfos se añadió en nuestros días la inmortal corona del V. Padre; Julián de Lizardi, matizada con la sangre, a;que abrieron paso franco treinta saetas, agitadas del furor, -y del odio, que tienen a nuestra santa fe los bárbaros (I) y crueles chiriguanos.
+
+Con estos trofeos compiten los de las in-
+
+(E) ;;;P. Franco, Imagen de la virtud, Tom. 2. lib. 2..cap. 21.
+
+(F) ;;;Vida del P. José de Ancheta, y Vida de Santa Teresa;de Jesús.
+
+(G) ;;;P. Nieremberg, y P. Franco, tom. 2. lib. 1. cap. 19.
+
+(il) Vida del P. Antonio Ruiz de Montoya, y P. Nieremberg.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+(I) P. Pedro Lozano.
+
+HISTORIA NATURAL
+
+13
+
+  
+
+fatigables provincias de Lima y de Chile, no solo en el fervor, valor, y esfuerzo de sus;operarios, en el afán, y peso de fatigas con;que han batallado contra los errores, y contra;todo el infierno, sino también por las dichosas muertes de tantos como rindieron sus;vidas a las puntas de las flechas, y lanzas de;aquellos mismos gentiles, cuya salud eterna;procuraban (A) (B).
+
+(C) La provincia de Quito, palestra continua de esforzados operarios, vio salir de entre el horror de las selvas del Marañón las;palmas, y las coronas de los venerables padres Suárez, Hurtados, Figueroas, y de otros,;que a costa de sus vidas ganaron las almas de;sus perseguidores: y venera la suave memoria del celo apostólico, (D) y heroicas virtudes de muchos insignes varones; y en especial;la de los venerables padres José de Casas,;Pedro Severino, Esteban Onofre, etc.
+
+Vive hoy, y será inmortal el asombro con que los gentiles del Nuevo Reino de Granada;vieron al V. Padre Alonso Medrano predicar;el santo evangelio, sirviéndole de púlpito la;ardiente hoguera, que la ciega incredulidad;le había preparado maliciosamente: (E) y;al reconocer, que la caridad del misionero
+
+(A) ;;;p. O valle Relat. Hist. Prov. de Chile.
+
+(B) ;;;Lit. Ann, Prov, Peruanae.
+
+• (C) P. Manuel Rodríguez, Histor. de Marañón y Amazonas.
+
+(D) ;;;I\*. Cassan. Historia del Nuevo Reino.
+
+Colombia
+
+  
+
+(E) ;;;P. Nieremberg. Var. Ilustr. P. Cassani, Histor. del;Nuevo Reino.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República,
+
+14 ;;; ÉL;;;;ORINOCO;;;;ILUSTRADO
+
+ardía más que el fuego natural, detestaron la dureza de sus empedernidos corazones, y;pidieron el santo bautismo. En la misma provincia volaron al cielo, desde el Orinoco, cuatro misioneros apostólicos, a impulsos de;innumerables flechas caribas: (A) otros dos;sumergidos, y arrebatados de entre las aguas,;subieron a la gloria, con otros muchos operarios, que recargados de graves, y continuos;trabajos, murieron en lo más florido de su;edad, desfallecidas sus fuerzas, pero con ánimo robusto: y por último, se gloría esta;dichosa provincia, de tener en su feliz colegio;de Cartagena aquel nuevo apóstol del occidente, esclarecido con prerrogativas muy;parecidas a la de vuestro glorioso apostolado;del oriente; similitud, que esperamos ver en;breve calificada por el oráculo supremo del;Vaticano, en el venerable, y penitentísimo;Padre Pedro Claver.
+
+Veis aquí ya (¡oh grande Javier!) estos son algunos de vuestros imitadores: estas;son algunas señas, por las cuales pudiera formarse algún concepto de aquel incendio, que;animaba vuestras apostólicas tareas; pero;siendo (como realmente son) desmedidas estas mismas señas: no me queda otro recurso,;que a la admiración, al asombro, a la veneración, y a un profundo, y humilde silencio: con;el cual, rendido a vuestros pies, pongo a vues-
+
+' V-
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+(A) P. Casani. Tai\*. Ilust. en ía Histor. del Nuevo Reinó.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+tra protección, y amparo, no tanto este libro, cuanto al mismo Orinoco, de que trata; las;naciones agrestes, que le pueblan; y los misioneros, que las cultivan; para que a vuestra;sombra, el terreno fructifique, la mies se logre, y crezcan los operarios, en número, espíritu, y fervor, a mayor gloria Divina.
+
+LICENCIA DE LA ORDEN
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Francisco Vázquez, Provincial de la Compañía de Jesús en la provincia de Toledo: por particular comisión, que tengo de nuestro;Padre General Francisco Retz, doy licencia;para que se imprima un libro, cuyo título es:; El Orinoco Ilustrado, compuesto por el Padre;José Gumilla, sacerdote de nuestra Compañía,;el cual ha sido visto, y examinado por personas graves, y doctas de nuestra religión. En;testimonio de lo cual di esta, firmada de mi;nombre, y sellada con el sello de mi oficio, en;nuestro Colegio Imperial de Madrid, a cinco;de septiembre de mil setecientos y cuarenta;y un años.—Francisco Vázquez.
+
+APROBACION DEL R. P. MAESTRO ANTONIO
+
+de Goyeneche, de la Compañía de Jesús M. P. S.
+
+Este libro fue Digitalizado por la Brblro.eca virtual Lula Angel Arango del Banco de la República.
+
+  
+
+De orden de V. A. he visto el libro intitulado : El Orinoco Ilustrado, compuesto por el Padre José Gumilla, de nuestra Compañía:;obra, que no habiéndole costado al autor especial dificultad componerla, la ha tenido;grande en darla al público; y nosotros no la;hemos tenido menor para vencer su resistencia : con que si en esto hubiese culpa, no será;suya, sino nuestra, por la instancia, obra, que;en un cuerpo de historia, incluye tres: la Geográfica, la Natural y la Civil: en que hallará;su pasto la curiosidad, y no faltarán sus ejemplos a la edificación. Y empezando por la primera, su utilidad se ve, en que no sólo describe con exacción las tierras, que baña aquel;famoso río, sino que hace patentes a la vista;muchos errores, que hasta ahora no fueron;advertidos, o han sido tolerados de la buena;fe, por falta de mayor diligencia en su examen, aun de los más celebrados geógrafos.;Verdaderamente, que cuando no se sacara;otro beneficio de este libro, que haber refor-'mado la geografía (que e^el ojo derecho de
+
+EL ORINOCO ILUSTRADO
+
+la historia) la cual estaba desfigurada, y defectuosa en la demarcación de algunos lugares, y aun del mismo Orinoco, se le debían dar no pocas gracias al autor, por su trabajo, que;da bien a entender, cuán gloriosas son aquellas misiones para Dios, honrosas para el;autor, provechosas para las almas, y aun;útiles para perficionar las ciencias y artes;;pues al mismo tiempo, que en aquellas ciegas;naciones se descubren unos errores, que son;contra la fe, se descubren otros que son contra las artes. Hay errores, que están en la;pacífica posesión de tales, hasta que los contradice la experiencia, a cuyas armas ceden;luego; porque no hay réplica contra una docta experiencia, con que queda vencido el;error, y triunfante la verdad.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+La Historia Natural, que es la mejor, y más curiosa parte de este libro, incluye los;tesoros de los tres reinos, mineral, vegetable,;y animal, en que hay noticias tan raras, y exquisitas, que no las hallamos escritas en otros;libros, ni aun en los viajes de los modernos;por el mundo terráqueo. Aún nos parece, que;tiene más motivos nuestra Europa, de admirar las maravillas de aquellas naciones, que;aquellas naciones las de nuestra Europa. Suele la cortedad del humano entendimiento, hacer tránsito de lo admirable a lo increíble, para hacer luego lo increíble fabuloso. Para precaver este engaño el autor, autoriza la verdad;con la circunstancia de haber sido testigo de
+
+HISTORIA NATURAL
+
+19
+
+  
+
+vista de cuanto escribe, si no es de uno, u otro suceso, que debió a informe de persona muy;justificada, como él mismo lo advierte, con;aquella ingenuidad, que no es la menor de sus;religiosas prendas.
+
+Con estas instrucciones, que son el blanco principal del libro, sabrán los misioneros, a;quien se dirige, el terreno de aquel río, para;que no les cojan de nuevo los genios, y com-pleixiones de aquellos bárbaros, con quien;tiene que lidiar la paciencia, aun más que con;las fieras, de quien se diferencian poco: sabrán como han de dirigir sus misiones, para;cuyo efecto hallarán en este libro los socorros,;que en su carta de marear experimentan los;navegantes; pues a unos, y otros, si no son;bien conocidos los rumbos, serán, por lo natural, inevitables los precipicios: por lo que;pudiéramos comparar al autor con el Mercurio de los antiguos, que era en su estatua el;director de los caminos, apuntando con su;magistral mano los seguros, y desviando los;peligrosos. Su estilo es natural, sin afectación ; claro, sin confusión; flúido, y corriente,;sin tropiezo; elegante, sin artificio; y familiar, sin bajeza. Y juntándose a todo esto una;exacta consonancia, y conformidad con nuestra santa fe, y buenas costumbres, es digno;el autor de la licencia que pide. En este Colegio Imperial de la Compañía de Jesús de;Madrid, 14 de julio de 1741 .—Antonio de;Goyeneche.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+UCENCIA DEL CONSEJO
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Don Miguel Fernández Munilla, Secretario del Rey nuestro señor, su escribano de Cámara más antiguo y de Gobierno del Consejo:;certifico, que por los señores de él se ha concedido licencia al Padre José de Gumilla, de;la Compañía de Jesús, misionero, y superior;de las misiones del Nuevo Reino, y actual;Procurador General de ellas, para que por;una vez pueda imprimir, y vender un libro,;que ha escrito, intitulado: El Orinoco ilustrado, Historia Natural, Civil, y Geográfica de;este gran río, y sus vertientes, con que la;impresión se haga por el original, que va rubricado, y firmado al fin de mi firma, y que;antes que se venda se traiga al Consejo dicho;libro impreso, junto con su original, y certificación del corrector de estar conformes, para que se tase al precio a que se ha de vender,;guardando en la impresión lo dispuesto, y;prevenido por las leyes, y pragmáticas de estos reinos. Y para que conste, lo firmé en;Madrid a 20 de julio de 1641.—D. Miguel;Fernández Munilla.
+
+LICENCIA DEL REAL, Y SUPREMO CONSEJO
+
+de Indias, que incluye la Censura del señor don José Borrul, Fiscal de su Majestad en el dicho Real Consejo, por lo que mira a la Nueva España, etc.
+
+Don Miguel Gutiérrez de Lara, del Consejo de su Majestad, su Secretario de la Superintendencia General de Azogues, y Oficial Mayor de la Secretaría del Consejo, y Cámara;de Indias, por lo tocante a la negociación del;Perú: certifico, que por el Padre José Gumi-11a, de la Compañía de Jesús, Procurador;General de la provincia del Nuevo Reino de;Granada, se ha representado en el Consejo de;las Indias, que tiene compuesto un libro intitulado : Historia Natural, Civil, y Geográfica;del río Orinoco, el que deseaba dar a luz; y;para ello ha suplicado se mande reveer dicho;libro, y concederle la licencia necesaria para;darle a la imprenta, como también para poder;transportar ejemplares impresos de él a la;provincia de Tierra-firme: y visto en el Consejo, acordó remitir esta revisión al señor;Don José Borrul, quien dio la censura siguiente.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+He visto, y leído de orden del Real, y Supremo Consejo de las Indias, el libro intitulado: Historia Natural, Civil, y Geográfica del río Orinoco, que quiere dar a luz el Rmo.;Padre José Gumilla, de la Compañía de Jesús,
+
+EL ORINOCO ILUSTRADO
+
+22
+
+  
+
+Procurador General de la provincia del Nuevo Reino de Granada, y me ha sido imponderable el gusto, que he tenido con su lección, pues me ha fecundado el entendimiento de;muchas, singulares, y muy gustosas noticias,;así físicas, como morales, y geográficas, muy;conducentes, tanto a la salud corporal, como a la espiritual de las almas, y a la práctica;instrucción de los padres misioneros apostólicos, así del Orinoco, como de otras misio;nes, que es el principal objeto de este libro;;donde se encuentra también nuestra nación;vindicada de las imposturas de los extranjeros, nacidas del odio, que nos tienen: lo que;hace el autor con modestia, y peso de razones,;con un lenguaje castizo, puro, y ameno; por;cuyas razones se hace muy digno de la luz;pública, y de que se le conceda la licencia que;pide, para poder transportar a Tierra-firme;ejemplares impresos de dicha Historia; y especialmente por no oponerse en cosa alguna;al Real Patronato, ni demás regalías de su;Maj. Madrid, y septiembre seis de mil setecientos y cuarenta y uno.
+
+Y visto todo en el Consejo, ha acordado se le conceda la licencia que pide, de la que podrá usar por lo tocante a él. Y para que conste;donde convenga, en virtud de acuerdo del;Consejo, de hoy día de la fecha, doy la presente en Madrid a siete de septiembre de mil;setecientos y cuarenta y uno .—Don Miguel;Gutiérrez.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+de la Compañía de Jesús, Catedrático de Escritura de la Real Universidad de San Gregorio de la ciudad de Quito, y actual Procurador General a entrambas curias por dicha su provincia, etc.
+
+Por comisión del Licenciado Don Joaquín de Anchorena, Proto-Notario Apostólico,;Juez in Curia del número del Tribunal de la;Nunciatura de Su Santidad en estos reinos de;España, y Teniente Vicario de esta villa de;Madrid, y su partido, etc., he visto el libro;intitulado: El Orinoco ilustrado, compuesto;por el Padre José Gumilla, de nuestra Compañía; y en él, no sólo he leído las noticias;curiosas, y útiles de la historia, sino que he;admirado el acierto, con que el autor trata;los puntos históricos, arreglándose a la verdad, y a las demás leyes de la historia; lo;cual es más de admirar, si se advierte el gravoso oficio de Procurador General de su provincia del Nuevo Reino de Granada, y el;mucho tiempo, que consumen las ocupaciones;a él anejas; pero el autor, multiplicando afanes, por el celo del bien público, añadió la;tarea de disponer en esta su historia las noticias prácticas, que le enseñó la experiencia,;ya en los muchos años de misionero del;Orinoco, y sus vertientes, ya cuando fue bene-
+
+Este libro fue Digitalizado por la Biblioteca virtual Luía Angel Arango del Banco de la República,
+
+24 ;;;EL ORINOCO ILUSTRADO
+
+mérito Provincial de su provincia, las que a fuer de estudioso, depositó en el fiel archivo;de su memoria, con tal acierto, que ha llegado;a falsificar aquel antiguo celebrado dicho de;Quintiliano: (A) Non debet ingenium dua-bus cutís partiri: No debe el ingenio divertirse en dos cuidados diversos; porque, o se;ofusca con la variedad, o se alucina con la;distinción, Mas el padre Gumilla, en la misma diversidad, supo hallar dilatada esfera;para la amplitud, y extensión de sus talentos,;dejando a los que conocen el peso de sus empleos, una curiosa cuestión que decidir; y es,;si toma con más acierto la pluma como Procurador para los negocios de su provincia; o;para las noticias de su libro, como histórico;misionero? Verdad es, que siendo tan diestro;en ambos asuntos, se resuelve igualmente por;los dos extremos: Pugnavere pares, succn-buere pares.
+
+Esta misma universalidad, que resplandece en el ánimo del autor, la hallarán también los;discretos en el cuerpo de la obra; la cual, como parto feliz de su ingenio, para ser más;preciosa, tiene la apreciable circunstancia de;parecerse en la extensión a su principio, pues;en una sola se recopilan tres, natural, civil,;y geográfica. En la Natural descubre muchos;secretos, medicinas, y propriedades útiles,;que antes estaban, o sepultadas en las caver-
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+(A) Lib. I, in Tib. cap. 39.
+
+HISTORIA NATURAL
+
+25
+
+  
+
+ñas de la ignorancia, o escondidas en los bosques del olvido. En la Civil da mucha luz, y enseñanza para saber el trato, que tienen los;bárbaros, sus muchos errores, y el mejor método para instruirlos. En la Geográfica ofrece;un plano de noticias apreciables, con tal distinción, y claridad, que sólo con correr sus;cláusulas, se pasea la fantasía, por las hondas,;y dilatadas vegas del Orinoco, y por los desiertos, y montes del Ayrico y del Apure.
+
+Ni puedo omitir la singular destreza, con que sin olvidarse de las leyes de la historia,;introduce tal vez, cuando la materia lo requiere, disertaciones graves, en que con modestia, y razones eficaces, vindica de negras;feas imposturas a nuestra nación española,;y a los conquistadores de nuestras Indias, defendiendo el honor de los eclesiásticos americanos, y la fe de los indios, y negros: puntos todos útiles, nobles, y dignos del celo del;autor, que los hace patentes, a cualquiera;que los leyere con ojos limpios.
+
+Pero lo que más me arrebata la atención, es una oculta pauta, sobre la cual corre insensiblemente la pluma, ya llamando operarios;para aquella vasta región, provocando con la;mies de una gentilidad inculta; ya como retirándolos de la ardua empresa de las misiones ; proponiendo razones llenas de no se qué;suave terror, que al mismo retraer, avivan;los deseos de emplearse en el cultivo de aque-
+
+o. i.—i .—2
+
+Este libro fue Digitalizado por la Biblioteca
+
+  
+
+virtual Luis Ángel Arango del Banco de la República,
+
+EL ORINOCO ILUSTRADO
+
+lias gentes ciegas, disminuyendo a los celosos con reglas prácticas los miedos, que en estas;empresas se ofrecen a los tibios.
+
+Figuróseme en este particular la pluma de nuestro autor aquella espada de fuego, con;que defendía el querubín la entrada del Paraíso, que si bien con sus rayos retiraba a los;delincuentes, y ponía temor a los cobardes;;halagaba con sus luces a los justos, y convidaba con su resplandor a los celosos, para;que entrasen a buscar, y gozar del fruto del;árbol de la vida, según discurre San Basilio.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+En fin, es tan apreciable, en mi estimación, esta historia, que concluyo, en elogio suyo,;con las palabras de San Jerónimo, dichas en;alabanza de un libro que le envió Teófilo,;obispo alejandrino, para que lo censurase:; In his laudare te, vereor, ne assentandi crimen;incurrarn: Optimas líber: vnde obsecro ig-nose tarditati meae. Temo alabar tu libro,;¡oh Teófilo! decía el doctor Máximo, no sea;que incurra en el delito de lisonjero: solo;te digo, que es óptimo libro, y te suplico perdones mis cortas alabanzas. Esto dijo Jerónimo; y esto digo yo ahora. Temo alabar el;libro, que más que de mi censura ha sido objeto de mi admiración, in his laudare te vereor, no sólo por el capítulo de lisonjas, ne;assentandi crimen incurrarn; sino principa-lísimamente, porque entre hermanos hablan;más los corazones en afectos, que las lenguas;en alabanzas. El libro es óptimo en las noti-
+
+HISTORIA NATURAL
+
+27
+
+  
+
+cias, en la disposición, en el objeto, no conteniendo cosa opuesta a nuestra santa fe, y buenas costumbres; por lo cual soy de parecer, que es digno de que se de la licencia de;darlo a la estampa; salvo meliori. De este;Colegio Imperial Madrid y mayo 15 de 1741.
+
+Tomás Nieto Polo.
+
+LICENCIA DEL ORDINARIO
+
+Nos el Licenciado Joaquín de Anchorena, Proto-Notario Apostólico, Juez in Curia del;Número del Tribunal de la Nunciatura de su;Santidad en estos reinos de España, y Teniente Vicario de esta villa de Madrid, y su;partido, etc. Por la presente, y por lo que a;Nos toca, damos licencia, para que se pueda;imprimir, e imprima el libro intitulado: El; Orinoco ilustrado, Historia Natural, Civil, y;Geográfica de dicho río, y sus vertientes.; su autor el Padre José Gumilla, de la Compañía de Jesús, Procurador General de la provincia del Nuevo Reino, Superior, y misionero, que ha sido de sus misiones: atento,;que de nuestra orden, y comisión ha sido visto, y reconocido, y parece no contiene cosa;que se oponga a nuestra santa fe católica, y;buenas costumbres. Dada en Madrid a diez;y siete de mayo de mil setecientos y cuarenta;y uno.— Lie. Anchorena.
+
+Por su mandado, Mateo Fernández Moreno.
+
+Este libro fue Digitalizado por la Biblioteca
+
+  
+
+virtual Luis Angel Arango del Banco de la República,
+
+EL ORINOCO ILUSTRADO
+
+DICTAMEN DE D. DIONISIO DE ALCEDO Y HERRERA, Gobernador, y Capitán General que fue de la provincia de Quito, y Presidente de la Real Audiencia de dicha ciudad, en orden al contenido de;esta historia.
+
+Rmo. Padre:
+
+Me hace el favor de V. R. la estimable confianza de comunicarme la historia, que ha compuesto, del origen, curso, caudal, climas,;y poblaciones del río del Orinoco, uno de los;cuatro famosos, que derraman en el océano,;por las costas de la banda del norte, las vastas montañas de la América Meridional; y;después de ponderar el singular ejemplo, de;que el magisterio de V. R. en todas facultades,;le busque reparos a una obra, que por cualquier lado que la vean los eruditos, y los inteligentes, la han de calificar de acierto: la;empecé a leer con cuidado, la proseguí con;deleite, y la acabé con admiración, por la;felicidad con que V. R. logra desempeñar en;ella los tres preceptos de la historia, en la;energía del estilo, en la pureza de la verdad,;y en la claridad del orden, sacando de estos;dos libros aquellos cinco útilísimos efectos,;que quería el gran maestro de la elocuencia;Cicerón, en los tres que dedicaba a Léntulo,;y escribió de los sucesos de su consulado:; Testis temporum, lux veritatis, vita memo-r'.ae, magh'na vitae, el nuntia vetustath.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+El año de 1580 determinó la Majestad del señor Felipe Segundo las Ordenanzas 32 y 33
+
+29
+
+que después se recopilaron como estatutos en el Derecho Municipal de las Indias, para que;cesasen las conquistas, hasta la reducción, y;población de lo descubierto, y se acabasen;las operaciones de la guerra, y los desórdenes;de la licencia militar; y desde entonces el;católico celo de aquel prudente monarca (seguido después de la imitación de sus sucesores) hizo arbolar el estandarte de la redención, en todos los parajes descubiertos de;aquel nuevo mundo, poblándolos de predicadores, y sacerdotes, que los redujesen a policía civil, y enseñanza cristiana; en cuya;disposición pasó la Compañía de Jesús a;establecerse en el Perú el año de 1567 y en el;Nuevo Reino de Granada el de 1598, y a!;mismo tiempo, que fue fundando los colegios,;que son escuelas de su enseñanza, instrucciones de la juventud cristiana, y seminarios;para el aumento de la República Literaria,;penetró por las incultas asperezas de los montes, donde estaba como escondida la infidelidad de sus proprios terrenos, y remontada de;lo descubierto al estrépito de las armas, y a;costa de las fatigas de sus operarios, y de la;sangre de tantos, que fueron víctimas sacrificadas de la impiedad, por la conversión de;sus almas; Ad majorem Dei gloriam, se fueron formando aquellos numerosos pueblos;cristianos, que cuenta singularmente la religión en las misiones del Perú, Chile, Paraguay, Tucumán, Quito, y el Nuevo Reino,
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la Repúbli
+
+EL ORINOCO ILUSTRADO
+
+30
+
+  
+
+repitiéndose a expensas del patrimonio de nuestros católicos reyes, y a costosa impensa;de las mismas provincias, las conducciones de;misioneros apostólicos, para la propagación;de aquela nueva cristiandad en cuya providencia llevó a V. R. el destino el año 1706;para ser en las regiones del Orinoco diligente;explorador, y operario por espacio de 22 años,;como refiere la infatigable pluma, e inacabable elocuencia del R. P. M. José Cassani,;en la historia de aquella provincia, que acaba;de dar a la estampa, con cuya calidad es V. R.;testigo de lo que refiere en la suya del Orinoco: Testis temporum. y por V. R. y por;ella se puede decir con propriedad:
+
+()a<te tetipit monihus enlamo dedit ille secundo,
+
+Quaeqite ocnlis riderai proiuVtt cgrcylc.
+
+l)\\pnum Authore opas, nc opere est (¡noque dipnior Author, A ec thesis Author i pro prior alia foret.
+
+En la historia, discurriendo por las tres clases en que la dividen los autores, de las;acciones de ios héroes, de las narraciones de;los sucesos, y de las descripciones de los;países, notan el mayor peligro en la verdad;;porque en la primera tienen por muy difícil,;que se pueda separar la pluma de las pasiones;de la inclinación, o del desafecto. En la segunda consideran muy ardua la concordancia de;los tiempos, y de las personas, y más si se;toman las noticias por informes distantes, y;relaciones anticuadas, que ordinariamente;suelen tener viciada la tradición desde su origen. Y en la tercera, y última contemplan
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+31
+
+igual el peligro, si se escribe por el informe de los oídos, y por el documento de memorias,;y apuntamientos ajenos, porque son permanentes los asuntos con el tiempo, y es fácil;examinar la verdad por la comunicación, y;remitir al examen de los ojos las dificultades;del entendimiento, de cuyas contingencias;está exenta esta del Orinoco, porque cualquiera que las leyere, va seguro de la verdad;de lo que es aquel gran río, de las riberas;que bañan sus corrientes, de las diferencias;de sus climas, de la fertilidad de sus tierras;de la variedad de sus naciones, de las condiciones, y costumbres de sus naturales, y de;todo lo demás que produce singular la naturaleza, en peces, aves, fieras, brutos, insectos,;árboles, y plantas, referido todo por un testigo de vista tan fidedigno como V. R. con;expresiones ajenas del amor patrio, desnudas;de los afectos del odio, o de la inclinación, y;solamente apasionada por la conversión de;aquella gentilidad, cuyos requisitos califican;relevantemente, con indefectible certidumbre, la indubitable seguridad de la verdad:; Lux veritatis.
+
+Banco de la República, Colombia
+
+  
+
+Vive la historia en la memoria de las edades, porque en el siglo que se escribe retrata los pasados, y revoca los presentes a la posteridad de los futuros, por cuya razón se llamó;lección de los príncipes, instrucción de los políticos, y escuela universal de los hombres;;de cuya condición es estan que hace patente
+
+Este libro lúe Digitalizado por la Biblioteca virtual Luis Angel Arango del
+
+EL ORINOCO ILUSTRADO
+
+32
+
+  
+
+a nuestro siglo, y a los demás que se le siguieren, lo que fue, y lo que es actualmente el Orinoco; lo que se ha obrado en sus países,;desde el primitivo tiempo de su descubrimiento; lo que hicieron sus conquistadores, vindicándolos de las calumnias, que levantó la;emulación de la envidia extranjera; lo que;son las condiciones, y genios de los indios,;reintegrándolos en el concepto de la docilidad, y fe (experimentadas en su trato) de;que los despojaron, suponiéndolos incapaces;algunos de nuestros historiadores, que quizás escribieron por noticias de oídas, o por;relaciones mal expresadas, y equívocamente;entendidas, que desfiguraron la realidad con;la distancia, y con los defectos de la inteligencia, u de la explicación. Y principalmente;lo que han obrado, y adelantado las misiones;en aquella parte de la América, olvidada desde su primer descubrimiento, por la distancia, por el extravío, y por la inutilidad de los;riesgos, en que no podía corresponder la;conveniencia a los afanes de la ambición, no;encontrando otras riquezas que las poblaciones de los infieles, esparcidas en las quebradas de los montes, y márgenes de los ríos,;sin otro trato desde entonces, que el que les;han participado las peregrinaciones, y solicitudes de los RR. PP. misioneros, para;domesticarlos, reducirlos a pueblos, e instruirlos en cristiandad, y policía, los cuales;son los que únicamente pueden dar luz de los
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+33
+
+  
+
+secretos que encierran los senos de aquellos montes: de las señas de lo que obraron sus;primeros conquistadoires: de la verdadera;condición de los indios, y de lo que trabajaron, y trabajan los misioneros en su conversión, revocando las acciones gloriosas de los;unos, y de los otros, de la sepultura del tiempo;a la vida de la memoria. Vita memoriae.
+
+Con los ejemplos persuade a la imitación, y con la verdadera puntualidad de las noticias averiguadas: con la experiencia desata;dudas, y desengaña errores, como lo son los;dos en que se estaba hasta ahora: El uno, de;que el Orinoco se comunicaba por el imaginado brazo del río Negro, que suponían las;cartas geográficas antiguas, siendo tan distinto como lo tienen averiguado los prácticos;modernos, que han reconocido impracticable;la comunicación del un río con el otro, por;el impedimento de las inaccesibles montañas;que los dividen, como lo manifiesta V. R. en;esta historia del Orinoco, y lo tiene comprobado la del Marañón; y las observaciones matemáticas del Padre Samuel Fritz, explicadas;con específica puntualidad, que confirman esto mismo por la religiosa pluma moderna del;R. P. Fr. Martín Sarmiento, en la Demostración del Teatro Crítico, que escribió en defensa de la verdadera, y admirable erudición de;su maestro el M. R. P. M. Fr. Benito Feijoó,;en la grande obra que tiene dada a la luz pública, para desengaño de errores comunes.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República,
+
+EL ORINOCO ILUSTRADO
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Y el otro, de que en las provincias equinocciales tiene el tiempo las mismas mutaciones, que en las zonas templadas, solo con la diferencia, de que el apartamiento, o la inmediación del sol entre uno, y otro trópico, formaban el invierno, y el verano; siendo esto;también tan distinto, como lo tiene ejecutoriado la experiencia, con reconocimiento de;que el tiempo en aquellas regiones se sucede,;y no se altera, porque el temperamento de;sus climas corre con la situación de las tierras, a proporción de su altura, continuadamente frío en los páramos y parajes circunvecinos; y sucesivamente cálido en los valles,;y lugares inferiores, como lo tengo visto en;la frecuencia, y demoras de mis viajes; y;últimamente con los científicos de laAeade-mia Real de las Ciencias de París, que pasaron a Quito con licencia de su Majestad el;año de 1736, y observaron, y notaron esta;constante igualdad, como la refiere Y. R. cuya noticia puede ponerse entre las adiciones;del Teatro Crítico citado, y en el magisterio;de esta historia, con los demás sucesos, y casos singulares, acaecidos a V. R. y a los RR.;PP. misioneros, que han reducido, y formado;las poblaciones, que demuestra el mapa, haciendo presente el estado de las misiones, y;el mayor número de operarios que necesitan,;para que se reduzga la muchedumbre de infieles, que viven, y mueren sin la luz de la fe,;en las ceguedades de la idolatría, instruyendo
+
+35
+
+a los que dirige la Providencia a la conversión de aquella gentilidad, en todas las dificultades, y ocasiones que se les pueden ofrecer en el ejercicio de su apostólico ministerio, y en todas las reflexiones morales, y políticas,;que son necesarias para su desempeño, y describe la práctica experiencia de V. R. constituyendo propriamente su historia con estos;desengaños, instrucciones, y advertencias,;maestra de la vida: Magistra vitae.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+A la sombra del olvido, que forma el bulto del tiempo, se oscurecen las cosas singulares,;de que no hay noticia por el defecto de la;historia, y de esta especie era el la del Orinoco; porque habiendo tenido todo lo demás;general, y especifico de las Indias, y de los;otros tres caudalosos ríos, que dan nombre a;las provincias, y de la plantificación, y progresos de las misiones, solo teníamos algunas;memorias, que andaban sueltas, muy concisas, y diminutas: omisión muy notable en;tanta copia de sujetos insignes en todas letras, que han florecido en la provincia del;Nuevo Reino, de que se ignoraba, no sólo la;reputación de las virtudes, sino aun los nombres de las personas, como lo clama la fervorosa, y celosa discreción del Padre José;Casani en la historia citada, con el fin de darles lugar en la serie de su admirable obra de;varones ilustres de la religión, y yo lo repito;por las demás; pero todo se recompensa con;esta historia del Orinoco, que V. R. saca a
+
+EL ORINOCO ILUSTRADO
+
+luz, con la ocasión de hallarse con la práctica de misionero de tantos años, y actualmente;de Procurador General en esta Corte, después;de los actos positivos de Rector, y Provincial;de su provincia, haciéndola presente para luz;de nuestros tiempos, y noticia a los futuros:; Nuntia vetustatis.
+
+Por todo lo cual, y lo demás del asunto en las materias que trata, en las reflexiones que;contiene, en las doctrinas en que se apoya,;en las dudas que resuelve, y en todo lo demás;universal que comprende, siento que puedo;repetir, con más proprio motivo, que e! que;tuvo la elegancia de Boecio, para decir por;el libro de Tesoro Geográfico de Ortelio:
+
+Xísom\* qui moros hoiiiinum, puregrinus, ot urhos,
+
+Ouiipip reinóla, graví, rara, labore potis:
+
+< lúe tolos. Ivio animo, iioot «poetare quiet o,
+
+Loetnr in oxtroina, quod tibí quaeris humo:
+
+liac istor ost: alias tibí, qmi pntet. advena ímnidns,
+
+IS <•, (niel artiíiei. machina tanta libro.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Y por esto, no como dictamen, sino como instancia, me parece que debo pedir a V. R.;se sirva hacer que pase, cuanto antes, de la;oficina de su aposento al molde de la prensa,;para que salga a la noticia del público, a ser;demostración del Orinoco: inteligencia de sus;partes, conocimiento de sus naciones, comprensión de sus naturales, desengaño de errores, instrucción de políticos, dirección de;misioneros, representación de las misiones,;aplauso de la Compañía, y útilísima consecuencia de la procuración de V. R. a esta cor-
+
+37
+
+te, donde pido a Nuestro Señor que guarde a V. R. los muchos años, que deseo. Madrid,;y abril primero de 1741.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Muy reverendo Padre, Amigo de V. R. su más afecto, y obligado servidor, D. Dionisio;de Alcedo y Herrera.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Tasaron los señores del Real y Supremo Cornejo de Castilla, este libro, intitulado:; El Orinoco ilustrado, Historia Natural, Civil,;y Geográfica de dicho río, y sus vertientes.; su autor el Padre José Gumilla, de la Compañía de Jesús, Procurador General de la Provincia del Nuevo Reino, Superior, y misionero, que ha sido de sus misiones, a seis maravedís cada pliego, como más largamente;consta de su original, despachado en el oficio;de Don Miguel Fernández Munilla, a quien;me remito.
+
+PARA INTELIGENCIA DE LA OBRA
+
+Práctica es acertada entre los ricos mineros del Potosí, y entre los demás, que en las Américas buscan los preciosos metales, examinando las entrañas de la tierra, seguir la;vena, y la veta del metal, apartando a un lado;la tierra, que, o estorba, o interrumpiendo el;hilo de oro, que siguen, impide la consecución del tesoro, que va entresacando: mas ya;conseguido éste, no desprecian, ni echan en;olvido aquella tierra, al parecer abandonada;;antes bien la benefician con mucho cuidado, y;no poca utilidad. No de otra manera la sutil;pluma, y caudalosa elocuencia del Padre José;Cassani formó nuevamente la Historia General, así de la provincia, como de las misiones;antiguas, y modernas, que la Compañía de;Jesús tiene en el Nuevo Reino de Granada,;Tierra-firme de la América Meridional, entresacando, con destreza, las más preciosas;noticias de los manuscritos originales; y;apartando todas aquellas, que pudieran ocasionar digresión molesta, o interrumpir el;precioso hilo de su historia; este material, o;terreno (digámoslo así) abandonado, he determinado cultivar, suave, y fuertemente;compelido de los ruegos de muchas personas,
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República,
+
+40
+
+a quienes no puedo disgustar, y cuya insinuación sola bastaba para darme por obligado; cuyo dictámen es: que en su línea, será el;fruto de este mi corto trabajo no menor, que;el de la Historia General. Dice en su línea, y;con mucha razón; porque la pluma, que describe dicha Historia, como de águila real,;vuela, y se remonta, descifrando las fundaciones de los colegios, y las de aquellas arduas;misiones, y poniendo a nuestra vista heroicas;empresas, singulares ejemplos, y virtudes de;varones muy ilustres, que florecieron en;aquella mi apostólica provincia, para modelo,;y ejemplar nuestro.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Pero mi pluma apenas se levantará de! suelo, ni perderá de vista el terreno a que se;aplica, para dar noticia de algunas cosas de;inferior tamaño: sólo haré algunas reflexiones, que dén luz, y prevengan los ánimos de;los operarios, que Dios nuestro Señor llamare al cultivo espiritual de aquella mies; fin;a que miró el V. P. Antonio Ruiz de Montoya,;para dar a luz la Conquista Espiritual de;las gloriosas misiones del Paraguay; y el P.;Andrés Pérez de Ribas los Triunfos de la Fe,; conseguidos en la Nueva España por los misioneros de Cinaloa, Topia, y otros partidos,;los Padres Combes, Colín, y Rodríguez, en;sus historias de Filipinas, Mindanao, y Mara-ñón, y otros muchos jesuítas, que al historiar;lo natural, civil, y geofráfico de sus respectivas misiones, nos dejaron, de paso, mucha
+
+HISTORIA NATURAL
+
+41
+
+  
+
+enseñanza, y mucha luz. Verdad es, que ni puedo, ni pretendo compararme con tan insignes varones, y eruditos escritores; pero;procuraré (aunque a lo lejos), seguir sus;huellas: apuntaré lo que ocurriere, y lo que;ofreciere el contexto de la historia: apartaré,;como tierra inútil, lo que hallare no ser conforme con la realidad de lo que tengo visto,;y experimentado, sea porque se han variado;las cosas, o alguna circunstancia de ellas, o;sea porque se han extinguido unas, e introducido otras en su lugar, como acontece en;los usos, y costumbres, guerras, o paces, que;se varían, y dan vuelta con el tiempo.
+
+Y porque las tareas de los padres misioneros (con quienes principalmente hablo) no sólo miran por la salud eterna de las almas,;sino también por la temporal de los cuerpos,;como mandó el apóstol San Pablo: (A) notaré las enfermedades proprias de aquellos;países, y los remedios, que la necesidad, y la;industria han descubierto en aquellos retiros:;ni omitiré los antídotos, que se han hallado;eficaces contra las víboras, y otros animales;ponzoñosos, de que abunda todo aquel vasto;terreno: parte de lo cual, y de otras noticias;curiosas apunta, de paso, la citada Historia;General, por ser más alto, y más noble su;principal asunto; no obstante, no repetiré en;esta historia lo que ya está escrito en aquella,
+
+(A) Actor, cap. 20. v. 25. Quoniam sio laborantes oportet suscipere ínfimos.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+42
+
+  
+
+sino en tal cual materia, en que el tiempo ha introducido alguna novedad, o algunas noticias dignas de comunicarse, las cuales deben;mirarse únicamente, como migajas caídas de;aquella abundante mesa, y como fragmentos;menudos, que recogí en los desiertos del Orinoco, (B) para que no perezcan en la soledad;del olvido; en lo cual sigo la solicitud oficiosa,;con que Ruth recogía las espigas, que ya;naturalmente, (C) ya de industria, (1));caían de las manos de los operarios de Booz.;De modo, que la cosecha abundante de copioso grano, en muchas, y muy selectas noticias,;hallará el curioso en dicha Historia General;;y en ésta, sólo el residuo de algunas espigas,;fragmentos, y migajas, con quienes concatenaré las cosas singulares, que observé, y noté;acerca de las aves, animales, insectos, árboles, resinas, yerbas, hojas, y raíces: demarcaré también la situación del Orinoco, y de;sus vertientes: apuntaré el caudal de sus;aguas, la abundante variedad de sus peces,;la fertilidad de sus vegas, y el modo rústico;de cultivarlas: hablaré (con alguna novedad);del temperamento de aquellos climas: de los;usos, y costumbres de aquellas naciones: daré;mi parecer en algunas curiosas, y útiles disertaciones ; y por último, insinuaré, de paso,
+
+U>) Joarm. cap. 6. v. 72. Colligite quae superaverunt fragmenta, ne pcreant.
+
+(C) ;;;Ruth. cap. 2. v. 3. Coltigebat spicas, etc.
+
+(D) ;;;Et v. 16. De vestris queque manipulis, projicite de;industria.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL ;;; 43
+
+algo de lo que fructifica, en aquellas almas, la luz del cielo, por medio de los opei'arios,;no sólo de la Compañía de Jesús, sino también;de otras esclarecidas religiones, en cuya confirmación referiré no pocos casos singulares:;todo el cual conjunto, y agregado de noticias;dará motivo, para que el gran río Orinoco,; hasta ahora casi desconocido, renazca en este;libro, con el renombre de Ilustrado; no por el;lustre, que de nuevo adquiere, sino por el;caos del olvido, de que sale a la luz pública.
+
+libro fue Digitalizado por la Biblioteca virtual
+
+  
+
+En el estilo, sólo tiraré a darme a entender, con la mayor claridad que pueda, y no será poca dicha, si lo consiguiere; porque;acostumbrado, largos años, a la pronunciación bárbara, a la colocación, y cláusulas de;los lenguajes ásperos de aquellos indios, será;casualidad, si corriere mi narración sin tropiezo, ya en la frase, ya en la propriedad de;las palabras; no obstante procuraré, que;mi pluma unas veces ande y otras veces corra;al paso del río Orinoco, cuyas vertientes sigue : éstas forman un flúido, y dilatado cuerpo, con la insensible, y pausada agregación;de inmensas aguas, hijas de muy diversos, y;distantes manantiales, que naturalmente corren a su centro, sin otro impulso, que el de;su peso proprio; ya aplica sus caudales a enriquecer, y fecundar sus deliciosas vegas; ya;los explaya en anchurosos lagos; y ya, con;furia, los aparta destrozados del duro choque;dé incontrastables ' rocas ¡ variedad natural,
+
+Luis Ángel Arango del Banco de la República, Colombia
+
+que si hermosea el flujo del caudaloso Orinoco, debe dar el ser, y la hermosura a la historia, que el mismo río nos ofrece, con amena variedad, para evitar el fastidio.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Por lo que mira a la solidez de la verdad, basa principal, y fundamento de la historia:;protesto, que lo que no fuere recogido aquí;de las dos historias manuscritas por los padres Mercado, y Ribero, ambos varones de;heroica virtud, y venerables, en toda mi provincia; serán noticias hijas de mi experiencia, y de aquello mismo, que ha pasad" por;mis manos, y he visto por mis ojos, no sin;cuidadosa observación. Cuando ocurra referir alguna cosa habida por relación ajena, no;será sino de personas fidedignas, que citaré;a su tiempo, con los demás autores, que apoyaren aquellas, o semejantes materias. No;obstante todo lo dicho, debo manifestar la;notable repugnancia, con que emprendo esta;obra, que va a manos de doctos, y de indoctos;;los peritos, como versados en historia de este,;y del Nuevo Mundo, no me retraen; pero la;crítica de los que por no tener más, que aquella corta luz, que en sus países les da en los;ojos, miden, por sola ella, lo restante del orbe;terráqueo, reputando por parábola todo lo;que excede a sus diminutas especies; aunque;por vulgar debe ser despreciable, por el mismo caso se debe temer: cuando vemos, que lo;más vulgar suele ser lo más plausible. Debo;entre tanto prevenir a los que miran como
+
+HISTORIA NATURAL
+
+45
+
+  
+
+fábulas las realidades del Mundo Nuevo, con la noticia cierta de que están muy bien;correspondidos, por otro gran número de;americanos, que con otra tanta impericia, y;ceguedad miden con la misma vara torcida,;las noticias de la Europa, con que acá miden;estos deslumbrados las que vienen de las;Américas. Es cierto, que la notable distancia,;no sólo desfigura lo verdadero, sino también;suele dar visos de verdad a lo que es falso;;pero la prudencia dicta, que antes de formar;juicio decisivo, se haga madura reflexión;sobre la persona, que da la tal noticia (A).;Entre tanto quisiera hallar algún colirio,;para aquellos, que apenas ven, por más que;abran los ojos; y se me ofrece, que para los;tales no hay otro, sino ensancharles la pintura, añadir más viveza a los colores, y dar;al pincel toda la valentía factible: de modo,;que vista con claridad la existencia innegable del Nuevo Mundo Americano, vean, que;siendo nuevo aquel todo, han de ser también;nuevas las partes, de que se compone; porque no sólo se llama Mundo Nuevo, por su;nuevo descubrimiento; sino también, porque;comparado con este mundo antiguo, aquel es;del todo nuevo, y en todo diverso. De aquí es,;que para su cabal comprensión, son precisas;también ideas nuevas, nacidas de nuevas especies para el todo nuevo, y para cada parte;de por sí. Aquel terreno, fecundo de muchos,
+
+(A) Fr. Pedro Simón. Xotic. I. cap. 4. per totinn.
+
+46
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+y riquísimos minerales de plata, oro, y esmeraldas, a los europeos pareció, y realmente es nuevo. Las costas de aquellos mares, polla frecuente pesquería de perlas, y de nunca;vistas margaritas, por el ímpetu de sus corrientes, por lo incontrastable de sus hileros,;y canales, todo es nuevo. Los ríos formidables, por el inmenso caudal de sus aguas, pollas diversas, y jamás vistas especies de peces,;por las arenas, ya de plata, ya de oro, que;desperdician por sus playas, son, y siempre;parecen nuevos. Ni causa menor novedad;ver hermoseados los bosques, y las selvas con;arboledas de muy diversas hojas, flores, y;frutos, poblados de fieras, y animales de extrañas figuras, y de inauditas propriedades,;y hermoseados, y aun matizados de aves singularísimas en sí, en la variedad de sus vivísimos colores, y en la gallardía de sus rizados;plumajes: y aún crece la novedad, en cada;paso de los que se dan en las campañas, cuyos naturales frutos, y frutas en la figura,;fragrancia, y suavidad del gusto, se diferencian tanto de los nuestros, cuanto aquellos;climas distan de estos. A vista, pues, de tantas cosas nuevas, es preciso, que no cause;novedad el que los hombres, que la Divina;Providencia destinó para que desfruten tierras, mares, ríos, bosques, prados, y selvas;nuevas, parezcan también hombres nuevos,;y nos causen tanta menor novedad, cuanto;menos se reconoce en ellos de racional.
+
+HISTORIA natural
+
+47
+
+  
+
+Así es, y asentando el pie sobre esta firme basa, notemos, que aquella novedad de hombres americanos, que por extraña se admira,;y por irregular no se cree, fue muy antigua,;y peinó muchas canas en nuestro mundo antiguo (A). ¿Qué hombres se hallaron, y cada;día nuevamente se descubren en las Améri-cas? Hombres sin Dios, sin ley, sin cultivo,;toscos, agrestes, con un bosquejo craso de racionalidad. ¿Pero qué más tuvieron? ¿qué;otras señas dieron, por tan largos siglos, casi; todas las naciones de nuestro mundo antiguo ?;Digo casi, para exceptuar únicamente al pueblo escogido de Dios; pero recórranse las;Divinas Letras, y apenas se hallará barbaridad entre los indios más silvestres, que no;ejecutasen primero los hebreos: y si tal fue;el porte del pueblo escogido, cultivado, y enseñado por el mismo Dios, ¿cuál sería el desbarato del resto de los hombres entregados;a la idolatría?
+
+Es cierto, que en las misiones de la América, cada día descubrimos hombres que parecen fieras, y tal barbaridad en ellos, que pudiera reputarse por naturaleza, a no ser;fruto necesario, y maleza, hija de una total;falta de cultivo. ¿Pero qué otro porte? ¿qué;otro estilo registramos, con horror, en los;archivos de la antigüedad, no sólo entre los; Scitas, sino también entre los Egipcios, Ate-
+
+(A) Ft\\ Pedro Simón, ubi
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+48
+
+  
+
+ilienses y Romanos, aun cuando blasonaban, que sola Minerva dirigía sus aciertos?
+
+¿Pero para qué es recurrir a las sombras de la antigüedad, si en nuestros días vemos;tantas lástimas, que llorar? Tanto más di-sonates, cuanto más indignas de gentes, a;quienes rayó, y aun ilustró de asiento la luz;santa del Evangelio? Presurosa vuela, con el;pensamiento, la pluma sobre las infelices regiones de la Africa, y de la Asia, por no contaminarse con las feas necedades de Mahoma,;seguidas a ojos cerrados de innumerables;pueblos, y naciones; y falta valor al pulso;para insinuar los delirios de las bárbaras naciones, que hoy viven en aquellas dos principales pai'tes de este mundo antiguo; si bien;no le faltan al Divino Pastor de nuestras;almas apriscos muy apreciables, que en medio;de tanta maleza, están al cuidado de los misioneros, así de la Compañía de Jesús, como;de otras sagradas religiones; pero prevalecen;las tinieblas tan palpables, como las que antiguamente confundieron a Egipto. Nuestra;Europa, tierra de Jesén, ilustrada por el;Divino Sol de Justicia, es feliz; y fuera enteramente dichosa, si tantas nubes negras, y;preñadas de malicia, impelidas del pestífero,;y siempre maligno Aquilón, no infestasen;tanta parte de muchas nobles provincias, con;tempestades de nuevos, y antiguos errores,;para ruina eterna de innumerables almas.;Y en fin, si en nuestro escogido pueblo, dicho-
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+49
+
+  
+
+so terreno de la iglesia santa, y delicioso jardín del Señor, vemos con lástima cuantas;espinas de vicios, y cuantos abrojos de escándalos retoñan, a pesar del continuo cultivo,;de tantos, y tan incansables operarios: si;lloramos la perdición de innumerables ovejas, que voluntariamente se despeñan a la;vista, y con íntimo dolor de sus vigilantes;pastores: ¿ quién habrá, que extrañe, a quién;causarán novedad los errores, delirios, ceguedad, y bárbaras costumbres, que voy a;referir de las incultas, y ciegas naciones del; Orinoco, y de sus vertientes?
+
+Nadie, por cierto; antes bien me persuado, que piadosamente enternecidas nuestras almas, por la ciega ignorancia de aquellas, levantarán sus clamores al soberano dueño de;aquella mies, para que cuanto antes envíe;muchos, y muy esforzados operarios, que la;recojan, disponiéndola para que reciba las;celestiales influencias, y aquella misma luz;de gracia, que tantas, y tan dilatadas provincias de las dos Américas han recibido ya,;para tanta gloria de su santo nombre, y salvación de un número, sin número de indios:;y para que aquella verdadera fe, culto, y adoración a Dios, desterrada de tantas provincias de este mundo antiguo (a violencias de;la malicia, y del error) que por la bondad;divina han puesto su trono en tan vastas, y;numerosas regiones de las dos Américas, en-
+
+O. I.-I.-3
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+sanchen su dominio hasta los últimos términos del Nuevo Mundo; y la celestial luz, que como aurora raya nuevamente sobre nuevas,;e incultas naciones, pase cuanto antes al claro, y perfecto día de aquella gracia, que sola;puede convertirlas en soles que resplandezcan en perpetuas eternidades.
+
+PROTESTA DEL AUTOR
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Conforme a los Decretos de los Sumos Pontífices, protesto, que en los elogios, narración de virtudes, sucesos milagrosos, personas venerables, varones apostólicos, que;murieron a manos de bárbaros gentiles, y en;las demás cosas, que refiero en este libro, no;es mi intención, que se les dé más fe, ni más;calificación que la de un humano, piadoso, y;prudente crédito: ni pretendo en cosa alguna;prevenir el juicio de la Santa Madre Iglesia;Católica, Apostólica, Romana, a quien siempre, y en todo venero, y a cuya corrección;rendidamente me sujeto.
+
+![](GumillaT1html_files/GumillaT1html-5.jpg)
+
+  
+
+EL ORINOCO
+==========
+
+### ILUSTRADO,
+
+HISTORIA NATURAL,
+
+CIVIL, Y GEOGRAPHICA.
+
+![](GumillaT1html_files/GumillaT1html-6.jpg)
+
+  
+
+INTRODUCCION.
+
+A HISTORIA, no sólo es abonado testigo de los tiempos; es, y debe ser también;luz para todas las edades y generaciones.;Y al modo, que, si falta la luz, en la más;curiosa galería, todo aquel archivo de la;más apreciable antigüedad, pasa a un caos de confusión,;pareciendo ordinarias las piedras más selectas, y borrón;tosco la más sutil miñatura: no de otra manera, la más;curiosa historia, si le faltare la luz, claridad, distinción,;y método, será toda confusión, y origen de muchas dudas, contra el fin primario de la historia, que tira a disiparlas.
+
+‘ANCO B:- LA REPUIUCÁ 3iaUOTPC&
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+52
+
+  
+
+La que voy a emprender, Natural, Civil, y Geográfica de el río Orinoco, comprenderá;países, naciones, animales, y plantas incógnitas, casi enteramente hasta nuestros días;;para cuya cabal inteligencia se requiere especial claridad, y método: lo uno, y lo otro;procuraré en cuanto pueda, para lo cual no;saldré un paso fuera de los límites, que me;he propuesto, si no fuera para comprobar la;materia que lo requiere, o para refutar lo que;no dice con la verdad de lo que tratare. Y;para que con más suavidad corra el hilo de;la narración, quiero allanar de antemano el;tropiezo, que en casi todos ios capítulos de;esta historia (por la novedad de las materias) veo, que precisamente se ha de ofrecer:;prevención, a mi entender, necesaria, por lo;que he experimentado, y observado en Italia,;Francia, y España, en donde tratando de;estas mismas materias con personas de notoria, y calificada erudición, me han molestado;con redargüiciones, que no hicieran, si reflexionaran, que al paso que se varían los;climas, se deben variar los frutos de la tierra,;que les corresponde; y que aquí, ni vale, ni;tiene fuerza la paridad: “¿Cómo es posible;(me han replicado muchas veces) que en el;Orinoco no haya trigo, ni vino, ni ovejas,;cuando las historias, y los prácticos de las;Américas nos dicen, que en Chile, Paraguay,;Lima, y México, hay abundancia de ello?”;Respondo, que si al mismo tiempo esos decía-
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+53
+
+  
+
+rantes hubieran dicho, o escrito las excesivas distancias, que los p aís esy nombrados^ tienen;entre sí, y la notable variedad de climas, que;median entre unos, y otros extremos, no hubieran dejado lugar a esta, ni a semejantes;réplicas: es necesario hacerse cargo, que la;vasta extensión de una, y otra América excede mucho al concepto ordinario que se hace;de ella; porque allá las leguas se cuentan a;millares, y los viajes de 500 y de 600 leguas,;se reputan por ordinarios: de modo, que el;Arzobispado de Santa Fe del Nuevo Reino;(sin hablar de sus tres sufragáneos) comprende un tanto más de terreno del que ocupa toda España: mídase desde Barinas a los; Remedios, Leste Oeste; y desde Mérida a San;Juan de los Llanos, Norte Sur, términos de;dicho Arzobispado, y se hallarán en la primera línea más de 400 y en la segunda más;de 500 leguas, si no por elevación, sí por lo;arduo, y fragoso de los caminos. Esta es una;corta parte: ¿qué será el todo? ¿Quién habrá,;pues, que en tales distancias, y en tan diferentes climas, pueda inferir los frutos del uno,;por los que produce el otro? Y más cuando;aquí en un palmo de tierra (que no es más,;comparado con aquella inmensidad de países);se halla la misma razón de dudar; v. g. ¿Por;qué en los Reinos de Murcia, y Valencia;abunda la seda, arroz, y otros frutos, y no;en las Castillas? ¿Por qué las tierras Australes de España, y Francia carecen de aceite,
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+y otros frutos, de que abunda la Andalucía en España, y en Francia, la Languadoc, y la;Provenza? Y si la corta variedad de cinco,;o seis grados de altura polar, basta aquí para;esta notable variedad de frutos, de unas, respecto de otras provincias; ¿qué diremos de;los Reinos de las Américas, que distan unas;de otras, ya 30 ya 40 y aun pasan, si careamos la Meridional, y Septentrional, de setenta grados arriba?
+
+El que extrañen muchos, que en Lima, Quito, Santa Fe de Bogotá, y otros temperamentos semejantes, se halle siempre flor en;muchos árboles, frutos verdes, y maduros,;nace de no haber reparado, que en los algarrobos, limoneros, y naranjos en los Reinos de;Valencia, y Murcia, sucede lo mismo; y los;madroños en dichos Reinos, en el de Cataluña,;y en la Provenza, se dejan ver por septiembre, y octubre, coronados de flores, y recargados de frutas verdes, y maduras.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Por lo que mira a frutas, frutos, y animales extraordinarios, y de inauditas proprie-dades, vengo, en que debe causar novedad, y armonía su noticia; pero negarlos, o porque no los hemos visto, o porque no haya;autor que escriba de ellos fuera (a mi ver);vulgaridad exorbitante. En aquellos efectos, que por salir fuera del ordinario curso;de los otros, llamamos milagro, ya de la gracia, ya de la naturaleza, como son recomendación viva del Supremo Criador de todo,
+
+HISTORIA NATURAL
+
+55
+
+  
+
+cuando en ellos no se hallare contradicción, repugnancia, ni contrariedad, no hay razón;para poner tasa, ni límites a la Divina Omnipotencia, para que no los pueda producir:;ni una vez zanjadas, y comprendidas las señales de racional, y prudente credibilidad en;orden a su existencia, puede caber el negarla;;porque de otro modo, se volvieran totalmente;inútiles las historias.
+
+Esta a que aplico mi intención, tengo el consuelo de que no será inútil; porque sea lo;que se fuere del dictamen, que otros formarán de ella: por lo que toca a los operarios,;que Dios Nuestro Señor llama, y con el tiempo llamará al cultivo de aquella su viña americana, que si abunda en frutos, le resta;mucha maleza que desmontar, no dudo que;la recibirán con gusto, y que les servirá mucho tener de antemano estas noticias, muchas;de las cuales, en la práctica, no se adquieren,;sino a fuerza de congojas, y amargas pesadumbres, que podrán evitar, una vez impuestos en la especulativa.
+
+La obra es de suyo curiosa por la novedad, y gustosa por la variedad: debiera ser muy;difusa por la multitud de especies; pero tiraré a concatenarlas de tal modo, que no engendre tedio lo difuso, ni obste a su claridad lo;lacónico. Empecemos.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+56
+
+  
+
+CAPITULO PRIMERO
+
+CONTIENE LAS PRIMERAS NOTICIAS
+
+del Río Orinoco: sus descubridores: intentos y diligencias de los extranjeros para poseerle; y la fundación de su única ciudad Santo Tomé de la Guayana.
+
+La primera diligencia de un perito arquitecto, a quien un gran señor encarga la fábrica de un magnífico palacio, es formar en su mente ia idea, y después, mediante las;proporciones del compás, y la regla, hacer;visibles en un plan las singulares maniobras,;que dibujó en su fantasía: diligencia precisa,;pero no suficiente para todos; porque si bien;el diestro en la facultad, a la primera vista;de aquel ceñido pitipié, formara cabal concepto de la soberbia máquina, que representa: al contrario, para el no versado en ella,;es precisa larga explicación, para que comprenda el diseño.
+
+A ese modo, y por el mismo fin, en la fábrica (no magnífica, sino natural) de esta historia, grabé en su frontispicio todo el;terreno, sobre que, a paso lento, girará mi;pluma, individuando variedad de curiosas;noticias, para que los que están en los términos de la Geometría, comprendan la situación, y altura polar, así del Orinoco, como de;sus vertientes, y terrenos, que fecundan: basta la primera ojeada del plan propuesto; pero;como no escribo para solos los doctos habré;de acompañar al Orinoco desde las vertientes,
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+57
+
+  
+
+que hoy están descubiertas, hasta que con inmenso caudal rinde al Océano su tributo,;endulzando por muchas leguas sus amargas;espumas; lo que dio motivo, a que en aquellos;antiguos mapas, grabados, a expensas de;continuos peligros, de los primeros conquistadores, en las bocas del Orinoco se pusiese;este letrero: Río Dulce, el cual (a mi ver);no fue error de la pluma, sino del buril, grabando Río dulce, donde, para decir algo, debía haber escrito: Mar dulce; ni tiene otras;señas un río tan formidable, que después de;destrozado en más de cincuenta bocas, ocupa;ochenta leguas de costa, rechazando al mar;de sus linderos, para introducirse soberbio;al tiempo mismo, que corre presuroso, a rendirse ; a cuyo orgulloso ímpetu opuso el sabio;autor de la naturaleza la Isla de la Trinidad;de Barlovento, si ya no es, que la furia de;dichas corrientes rompió aquellas cuatro bocas, que por su peligrosa rapidez, se llaman; de los Dragos, y desprendió a la isla de la;tierra firme de Paria: lo cierto es, que hasta;hoy prosigue la porfiada batería, con que los; hileros y corrientes del Orinoco, después de;consumida la tierra, tiran a consumir los;duros peñascos, que sirven de antemural a la;Isla, sin más ventaja, que el blanquearlos;con el perpetuo choque de olas, y de espumas,;y aún por eso se llama aquella costa, la de los;Blanquizales.
+
+El primer europeo, que vio al Orinoco, y
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+toleró la rapidez de los hileros, que son canales de agua del mismo río, que rompiendo camino por el golfo, arrebatan las embarcaciones, aunque sean de alto bordo, fue el célebre almirante Colón, en el año de 1498, en;cuyo diario apuntó, que atravesando el Golfo;Triste, desembocó por los Dragos, y pasó por;la Isla de la Margarita; y como consta del;plan, no pudo atravesar dicho golfo, sin costear, a vista de las bocas de Orinoco, dejando;al Golfo el nombre de Triste, porque desde su;centro no ofrece resquicio para hallar salida;;y a la única, y estrecha que tiene, llamó Bocas de los Dragos, o Dragones, por el mal;pasaje que le dieron, y dan todavía a los;navegantes.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Después de treinta y seis años de este primer descubrimiento, fue Diego de Ordáz el primer español, que se atrevió a tantear las;bocas del Orinoco, año de 1535. Pero todo su;afán paró en desgracias, pérdidas de gente,;y de embarcaciones. No por eso perdió el;ánimo Alfonso de Herrera, el cual, excediendo;los bríos de Ordáz, venció las bocas, penetró,;y superó los raudales furiosos de Camiseta; y Carichana, que en cada escollo amenazan;muchos naufragios: dió fondo en la boca del;río Meta, y perdida casi toda su gente, ya en;los combates con los indios, ya por falta de;bastimentos, como latamente s# ve en Herre-
+
+HISTORIA NATURAL
+
+59
+
+  
+
+ra (A) y M. Laet, se retiró tan perdido como Ordáz.
+
+Poco (B) después, en el año de 1536 creciendo la voz, y fama del Dorado; esto es, de cierta provincia de Enaguas, o de Omaguas, que en los mapas se apunta con nombre;de Manda, y que se ideaba (y aún hay fundamento para ello) llena de grandes tesoros,;se arrestaron a descubrirlos, Pizarro desde;el Perú, Pedro de Ordáz desde Quito, y Gonzalo Jiménez de Quesada desde el Nuevo;Reino despachó a don Antonio Berrío; este;llegó al Orinoco, perdió casi toda su gente,;y murió en la demanda. No fue más feliz el;éxito de los enviados, así de Quito como del; Perú, porque muy pocos de ellos salieron con;vida. Ciega los ojos el amor a las riquezas,;para que no se vean los peligros.
+
+(C) Después, en el año de 1541 habiendo el adelantado Pizarro dado la presidencia de; Quito a su hermano Gonzalo Pizarro, hizo;este reclutas para descubrir el Dorado cuya fama crecía como espuma: él mismo, con;parte de las tropas, tomó su rumbo por los; Andes, y páramos nevados, que dan paso muy;arduo para la provincia de los Mojos; con;el resto de la gente destinó en jefe a don;Francisco de Orellana: el presidente Pizarro,;perdida su gente, rico de trabajos, y miserias,
+
+(A) ;;; Herrera. Laet. lib. 10.
+
+(B) ;;;.1/. Laet. lib. 10.
+
+(O) Herrera, Dec. 6. Lib. 8. cap. 6.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+60 ;;;EL;;;;ORINOCO;;;;ILUSTRADO
+
+salió a Quito: Orellana se llevó la Piragua; y sin acordarse más de Pizarro, se dejó llevar de las corrientes del río Marañón, con;.grandes fatigas, y trabajos, con las mismas;costeó la Cayana, hasta que se encontró con;las bocas del Orinoco y Golfo Triste, en el;mismo año de 1541 sin más utilidad de tan;arduo viaje, que haber demarcado (como;mejor pudo) el río Marañón.
+
+Ti atún los Ingleses de; i iuttccr el;Orinoco.
+
+  
+
+Entre tanto, ya Diego de Ordáz, que como dije, fue el primero que recejó y venció las;corrientes del Orinoco, había vuelto de España con poderes del señor Emperador Carlos;Quinto, para que sólo Ordáz, y no otro, corriese con el descubrimiento del Dorado, y de;todo el Orinoco: el cual magnífico aparato;paró en la desgraciada fundación de Santo;Tomé de la Guayana, fabricada de casas pajizas en la boca del lío Caroní, en frente de la;isla, que se le dió a Fajardo, que hasta hoy; retiene el nombre de su amo: en su mayor;auge tuvo dicha ciudad 150 casas: las abundantes cosechas de tabaco, y el ganado mayor que multiplicó mucho, ciaban bastante;útil a los fundadores; pero sonó en Inglaterra el eco de Orinoco y del Dorado, y luego;partió en su busca monsieur Ralego, y entró;en dicho río con mano armada año de 1545;para ser testigo de sus pérdidas, y desgracias,;y no más. El año siguiente de 1546 otro inglés, llamado Keymisco, envidiando los tesoros, que suponía en manos de Ralego, se ar-
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+61
+
+  
+
+mó, navegó, y se asomó a la Guayana: temió, y se retiró sin honra, y sin dinero.
+
+yuevas diligencias de los ingleses
+
+  
+
+Resiste la Guayanay;piérdese el;Ralego.
+
+  
+
+Pero Ralego, encaprichado con su Dorado, armó al capitán Mathamo año de 1547 con;tal desventura de vientos, y borrascas, que;ni aún llegó a ver las bocas del Orinoco. Entre tanto, Ralego estuvo catorce años preso en;Londres; y por salir de su prisión, hizo tan;factible a su Rey, en varios memoriales, la;conquista del Dorado, que consiguió libertad,;y poderes para aviarse, como lo hizo, armando cinco naos a costa de sus amigos, esperanzados por una rica recompensa: Llegó;al Golfo Triste, llevando consigo a Keymisco,;por práctico, a quien Ralego envió bien armado a la Guayana, y con él a un hijo único,;para más asegurar el lance. Era ya Gobernador de la Guayana don Diego Palomeque,;quien a causa de los ataques pasados, había;agenciado, y conseguido del Nuevo Reino;150 hombres de socorro, a tan buen tiempo,;que Keymisco fué vigorosamente rechazado,;con pérdida de mucha gente y muerte del hijo del General Ralego, el cual gastó el resto;de su vida llorando sus infortunios, la muerte de su hijo, y el parto infeliz de sus mal concebidas ideas; cuyo fatal éxito fue causa, de;que los ingleses no pensasen más en Guayana,;ni en el Dorado, del que trataré en el capítulo 'último de esta primera parte.
+
+(A) No así los holandeses, porque estos
+
+(A) 21\. Laet , lib. 10 y Herrera ubi supra, lib. 8. cap 6.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+62
+
+  
+
+Destruye un holandés;la (íuaya na.
+
+  
+
+¿(-{funda fundación;de la
+
+(¡ un y ana.
+
+  
+
+entablaron en Guayana el trato del tabaco, con tanto calor, que había año, que subían, y;bajaban nueve, u diez fragatas cargadas. Pero como poco después se hubiese publicano;la Real Cédula, en que su Majestad prohibió;todo género de tratos con los extranjeros, el;Capitán Janson, año de 1579 so color de cobrar las deudas atrasadas, se puso a vista;de la Guayana con una fragata armada en;guerra, ocultos los soldados bajo de la escotilla, para que los vecinos no los viesen; y al;anochecer asaltó, saqueó, y pegó fuego al;lugar. De los fundadores, y vecinos, unos se;refugiaron a Cumetná, otros se esforzaron a;reedificar la Guayana, en el lugar que tiene;hoy, diez leguas más abajo de Caroní; para;cuyo resguardo se fundó el castillo, que después fue saqueado por los franceses, juntamente con el lugar, con tan poco útil del corsario, que a costa de varios mercantes de la;Martinica se había armado, que él, y ellos;quedaron destruidos; porque en la nueva;Guayana no había otra cosa que saquear,;sino desdichas; y así, su misma pobreza fue;su mayor resguardo, y defensa. Es verdad,;que después se animaron los vecinos, y gentes;de la Guayana; y de los Llanos de Cumaná, y; Barcelona, trajeron ganados, y yeguas, de;que han resultado crías, que dan jugo, y utilidad: fuera de esto, se restableció la siembra del tabaco, y otros frutos, lo cual junto;con el camino real, que se abrió, y se trajina
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+63
+
+  
+
+a los Llanos de Cumaná, se ha hecho habitable, y llevadero el sumo retiro, o destierro de la Guayana.
+
+Primeros Misioneros;de la
+
+Guanana.. .
+
+  
+
+Por aquel mismo tiempo, los padres Ignacio Llauri, y Julián de Vergara, después de haber hecho mucho fruto en San José de;Oruña, Isla de la Trinidad, domesticaron, y;redujeron a vida civil a la nación Guayana,;fundaron cinco iglesias, y pusieron todo esfuerzo en doctrinar a aquellas gentes, como;consta de los mismos libros de bautismos,;que hoy tienen en dichos pueblos los RR. PP.;Capuchinos, y yo los he visto, y leído; pero;como con la invasión del dicho corsario quedó;todo saqueado, y destruido, murieron muchos;al rigor de la hambre; y entre ellos el venerable padre Llauri, varón de avanzada edad,;y de conocida virtud, de quien hace mención;la Historia General de mi provincia. El padre;Julián de Vergara tuvo orden de restituirse;a las misiones de Gasanare, como lo ejecutó,;después de haber entregado los pueblos Guáyanos a un religioso del Gran Patriarca Santo Domingo, y a un padre recoleto del doctor;de la Iglesia San Agustín. Poco después tomaron posesión los RR. PP. Capuchinos, que;hasta hoy cultivan aquella nación, sin que;jamás hayan pensado los misioneros Jesuítas;volver a dichos pueblos, y más estando en;manos de tan fervorosos, y apostólicos operarios. La verdad cierta es esta; y todo lo;que se ha dicho en contrario, son palabras,
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+64
+
+  
+
+('oinpromiso, U división;de los
+
+partidos de misiones.
+
+  
+
+que se lleva el viento. Y más cuando media un compromiso hecho por los superiores de las;misiones de Piritú de padres observantes de;San Francisco, por el prefecto de los padres;misioneros capuchinos, y por el superior de;las misiones de la Compañía de Jesús, con;autoridad de su padre provincial Francisco;Antonio González, el cual compromiso autorizaron los señores gobernadores don Carlos;de Sucre, que entraba, y don Agustín de;Arredondo, que salía de aquel gobierno año;de 1734 el cual aprobó la Majestad del Rey;nuestro Señor, como muy conveniente al servicio de ambas Majestades: porque en dicho;compromiso se señalan los terrenos, y términos, a que cada uno de los tres cuerpos de;misión se debe, y puede extender en el cultivo,;y bien de aquellos gentiles. Van dichas divisiones demarcadas, y rotuladas en el plan,;que puse al principio; y ojalá (como dijo;allá Moisés) (A) todos fueran profetas, para;que todas aquellas naciones entrasen, cuanto;antes, por la puerta de la Santa Iglesia.
+
+Mención del V. P.
+
+Caí arantes,
+
+misionero
+
+capuchino.
+
+  
+
+Al tiempo que el venerable padre Llauri, y su compañero, doctrinaban la nueva Guaya-na, trabajaba apostólicamente al poniente del;Orinoco aquel gran siervo de Dios, y venerable padre Caravantes, religioso capuchino,;con los prodigios, y fruto espiritual, que se;ve en su vida, que anda impresa, con general
+
+(A) Xutuov. c«p. 11. voi's, 29.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+65
+
+  
+
+edificación; pero debemos venerar los ocultos juicios de Dios: porque como gran parte de aquellas gentes, que convirtió, y bautizó;San Luis Beltrán, gloria de la esclarecida;religión de predicadores, en la provincia de;Santa Marta, se volvieron después a su bárbara gentilidad, en que hoy persisten rebeldes a Dios, y al Rey nuestro Señor: así en;Orinoco, apenas quedó rastro, ni memoria;del fruto, afanes, y sudores del V. padre;Caravantes. Prevaleció la cizaña.
+
+Pero ya es hora de dar a conocer el gran río Orinoco, sus caudalosas corrientes, las;vertientes que recoge, y su altura polar.
+
+CAPITULO SEGUNDO
+
+SITUACION DEL RIO ORINOCO y caudal de aguas que recoge
+
+Como quiera que cada río es una cadena dilatada de muchas aguas, enlazadas unas;con otras, que se van deslizando por varios;terrenos, según la longitud de sus corrientes;;siendo la del río Orinoco de tantos centenares;de leguas, cuantas por el aire corresponden;a 25 grados, y algo más de longitud, que corren sus raudales, que suman 500 leguas, y;otras tantas más, que dando vueltas, y revueltas, se arrastra por tierra buscando paso;franco. No basta (para la claridad que deseo);demarcar solamente la altura al norte de sus
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+Laberinto de Bocas de;Orinoco;y de Islas.
+
+  
+
+bocas, para que todos entiendan la variedad del terreno, que fecunda, y baña el Orinoco;;y así daré señas más individuales. En su boca grande, que llaman Boca de Navios, está;en 8 grados, y 5 minutos de latitud, y en 318;grados de longitud. Dije la Boca grande, que;cae al barlovento de la costa; porque de esta,;hasta la última, que entra en el Golfo Triste,; hay notable diversidad; y es, hallarse esta;última boca, llamada Manabo pequeño, en 314;grados de longitud; esto es, cuatro grados;distante la primera boca de la última. ¡Tan;dilatadas como esto son las fauces, por donde el Orinoco se desagua! Es verdad, que forman tal laberinto de islas, que después de;exquisitas diligencias para averiguar el número puntual de las bocas de Orinoco, que;con ellas se forman, di por inasequible el empeño. La última diligencia que hice fue, congratular a un vecino de lá Guayana, que había vivido quince años en dichas islas con los;indios guaraunos, sus habitadores, por lo;cual era tenido por el más noticioso, y práctico en las dichas bocas: fui formando el borrador, según lo que yo tenía ya demarcado,;y lo que el tal práctico añadía, hasta que;apuntadas ya casi treinta bocas por sus nombres, protestó, que no sabía más. Por esta;causa, ni mi plan, ni el de mapista alguno, es,;ni puede ser puntual en la individuación de;dichas bocas, que aun en la voz común no;hallan certidumbre: unos afirman, que son
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+67
+
+  
+
+cuarenta bocas: otros, que son cincuenta y ei n limero cinco, y muchos dicen, que son sesenta. Yo ^XsVs;digo, que todo es adivinar; porque sé, que los incierto.; mismos Guárannos, dueños de las islas, y de;las bocas, no sólo no saben el número de ellas,;sino que muchas veces se pierden en el laberinto de caños, y se ven obligados a salir al;golfo, para tomar el rumbo que perdieron.
+
+Lo mismo ha sucedido, y sucede a los pasajeros, si no llevan piloto diestro, tanto al ir al mar, como al volver; y han perecido muchos;de hambre, sin saberse en donde, sino por;las señas de la piragua, que se encuentra;abandonada: ni vale aquí el dejarse llevar;de la corriente (esto sólo es bueno en las bocas, y brazos caudalosos) en los demás entretejidos unos con otros, suben, y bajan las mareas con más fuerza; por lo cual, lo que el;barco anda en seis horas, lo desanda en otras;seis; y lo peor es, que ni al andar, ni al desandar, saben los pasajeros si suben, o bajan,;sino es los que llevan abu ja, y quien la;entienda.
+
+Arriba donde el río Meta entra en Orinoco, se halla ya este en solos dos grados de latitud,;y en 306 de longitud. Después, en todo lo que;tenemos registrado hasta el río Guaviare, y;sus contornos, camina Orinoco a veces un;grado, y a veces medio, apartado de la línea;equinoccial, si bien sus más retiradas cabeceras, conocidas por tales en Timaná, y Pas-
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+68
+
+  
+
+to, se apartan hasta grado y medio del equinoccio.
+
+Jí i o
+
+(Ir Curoní
+
+  
+
+Corre el Río Caroní;sobre arena;negra.
+
+  
+
+Ahora es bien, que tomando el Orinoco contra su corriente, registremos de paso las;bocas de los caudalosos ríos, que recibe. Digo; caudalosos, porque como en el plan no puse;de industria los ríos pequeños, caños, ni arroyos innumerables que recibe, para evitar la;confusión, por la misma causa aquí no haré;mención, sino de los ríos de primera magnitud. Sea el primero de estos, como vamos;río arriba, el que realmente es último, si miramos a Orinoco agua abajo. Llámase Caroní, distante de la Boca grajide 76 leguas, es;río caudaloso, y sus cabeceras todas están,;como indica el mapa, de este lado de la gran;cordillera, que acompaña al Orinoco por la;banda del sur, desde que nace en los páramos de Pasto, y Timaná, hasta que se descarga en el océano. Baja Caroní precipitado continuamente entre peñascos; y una legua;antes de entrar en Orinoco, se desgaja con;un formidable salto, con tal estrépito, que se;deja oír de muy lejos, de donde sale tan rápido, que al entrar rechaza las corrientes del;Orinoco un largo tiro de fusil, con la evidente;señal, que distingue por largo espacio de río;abajo las unas de las otras aguas, las del Orinoco siempre turbias, en tiempo de lluvias;por las crecientes, y en tiempo sereno por los;vientos, que levantan olaje, como en el golfo, y este derriba barrancas, levanta arenas,
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+69
+
+  
+
+y enturbia el agua. La del río Caroní corre con aspecto negro, por el fondo de arena negra que trae, y sobre que corre; pero cogida;en un vaso el agua que parecía negra, se ve;clara, como un cristal: es delgada, y sana, y;es voz común de los naturales, que aquella;arena negra (que se aprecia mucho para las;salvaderas) la extrae el río Caroní de los minerales de plata, por donde dicen que pasa.
+
+A ochenta leguas de Caroní (medidas por elevación; porque atendiendo a las vueltas del; Orinoco, hay mucho más de cien leguas) damos en la boca del río Caura, que al primer;aspecto parece tan caudaloso como el mismo;Orinoco, entra también por .el lado del Sur,; de cuyas altas serranías recoge su caudal:;sus cabeceras son conocidas, y son como van;expresadas en el plan: está su boca en 5 grados y medio de latitud, y en 312 de longitud;;y esta es puntualmente la altura, en la cual,;la carta última sobre las observaciones de los;científicos de la Real Academia de las Ciencias de París, pone comunicación mutua entre; Marañón y Orinoco, por un brazo, o río, llamado Negro; y si bien en la longitud convienen; le ponen en un solo grado de latitud.
+
+Monsieur Sansón Fer, geógrafo particular de la Majestad Cristianísima, en la carta moderna de 1713 pone la misma comunicación;de aguas por el dicho río Negro, en los mismos dichos grados, uno de latitud, y 312 de;longitud. Bien sé, que aquellos señores, suti-
+
+Este libro fue Digitalizado por la Biblioteca virtual Luía Angel Mango del Banco de la República,
+
+EL ORINOCO ILUSTRADO
+
+70
+
+  
+
+Xc hay unión entre;Marañón,;y Orinoco.
+
+  
+
+El Kío Xcf/rt na une a; Mura ñon con;el Orinoco .
+
+  
+
+les argos de las ciencias, y linces para averiguar, y establecer lo más cierto, no sólo no llevarán a mal, sino que apreciarán el que;yo afirme, que después de costeada, una, y;muchas veces, la dicha altura, y las demás de;latitud, y longitud, que baja Orinoco, bañando por la banda del sur, desde más arriba;del raudal de Tabaje, situado en 306 grados;y medio de longitud, y un grado, y 4 minutos;de latitud: ni yo, ni misionero alguno de los;que continuamente navegan costeando el;Orinoco, hemos visto entrar, ni salir al tal;río Negro. Digo, ni entrar ni salir; porque;supuesta la dicha unión de ríos, restaba por;averiguar de los dos, ¿ quién daba de beber a;quién? Pero la grande, y dilatada cordillera,;que media entre Marañón, y Orinoco, excusa;a los ríos de este complimiento, y a nosotros;de esta duda. Fuera de que, aunque la cuidadosa observación del Padre Samuel Fritz, en;su plan del grande río Marañón, demarca la;cabecera del río Negro casi en cinco grados;de latitud, no se atreve a unirlo con el río;Orinoco, ni pudiera, sin romper una elevada;serranía para dar paso al Orinoco hacia Marañón, o al Marañón hacia Orinoco. Finalmente, Guillermo y Juan Bleau, (A) en la;parte segunda de su Teatro, o Atlas Nuevo;;y Monsieur Laet en la décima parte de sus;Recopilaciones, no ponen al tal río Negro; unido con Orinoco; antes bien demarcan las
+
+(A) $a¡n. Fritz. GinVenno , ¡l Juan Bleau part. 2 de su
+
+Atlas.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+71
+
+  
+
+cordilleras, que separan a uno de otro río. Verdad es, que como estos autores puramente;recopilan variedad de noticias; más me atengo a lo que vio el Padre Fritz en Marañón,;y a lo que yo tengo visto, con cuidado, en; Orinoco.
+
+liío Apure. y caudal;grande de;sus aguas.
+
+  
+
+Cabeceras de el rio;A-pu re.
+
+  
+
+Siguiendo río arriba, omitiendo varios ríos medianos, que por una, y otra costa entran;en Orinoco, hallamos al lado del poniente las;bocas del soberbio río Apure en 5 grados, y;15 minutos de latitud, y en 310 grados de;longitud. Este río, humilde tributario del;Orinoco, mirando su caudal, se puede contar;entre los ríos más sobresalientes de la Europa;(de este mejor que de ningún otro río de todo el plan, puedo hablar, por haber gastado;nueve años continuos en sus vegas, visto todas sus cabeceras, navegado sus medianías,;y bocas repetidas veces) su principal origen;está en lo más alto, y áspero de las serranías;del nuevo reino, con tal copia de aguas, que;desde sus principios niega el vado a los pasajeros en Chitagá, no lejos de la ciudad de;Pamplona, donde casi al nacer necesita, y;tiene grande, y costosa puente: de allí corre;y se precipita por dilatados valles, hasta despedazarse al caer a los llanos, y selvas de;Casanare, campo de las segundas misiones;de la Compañía de Jesús: en dichos llanos,;a cada paso, recibe aumento; porque entran los ríos de Sididi, Casidi, Calajau, Ubo-cd: el de Urú que desciende desde la villa
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+Multitud fíe ríos,;fjitt recibe.
+
+  
+
+de San Cristóbal, situada en lo más alto del nuevo reino, entx-e las ciudades de Pamplona, y de la Grita, luego recibe al río Cape-rú, que toma sus corrientes de las nevadas,;que se elevan al oriente de la ciudad de Méri-cla, entran luego en el mismo Apure los ríos;considerables de Santo Domingo, que recoge;las aguas de la provincia de Barinas, a Mas-puno, y a la Portuguesa, después que han;fecundado la jurisdicción de Guanare; y en;fin, es tal el golpe de aguas que recibe en espacio de 300 leguas, que fatigado de su mismo;peso, veinte leguas antes de Orinoco, rompe;una selva, y se desagua tanto en el río Guaneo, que baja tan pobre de la rica provincia de; Caracas, que sólo es navegable, después que;recibe este abundante socorro, según se demarca en el plan: así sangrado, y desahogado ya Apure, corre soberbio a entregarse al;dominante Orinoco; pero antes (como se ve;en el plan) se abre en tres bocas tan caudalosas, y de corriente tan arrebatada, que parece no tira tanto a entregarse, cuanto a tragarse al Orinoco: no lo consigue, por el;inmenso contrapeso de aguas que encuentra;en este; pero es tal el choque de unas contra;otras, que de una legua casi de ancho, que;allí tiene el Orinoco, pierde el cauce de más;de un cuarto de legua, a violencias de sola;una de las tres bocas de Apure, hasta que turbada su furia entre espantosos remolinos, de;que con suma cautela huyen los navegantes,
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+73
+
+  
+
+corre hombreándose con el Orinoco por espacio de tres leguas, distinguiéndose de él con lo claro, y cristalino de sus aguas, hasta que;violentado de los peñascos del raudal del; Guarico, se confunden con las turbias olas;del Orinoco. Diré, para útil advertencia de ííe,,,Qlin0!i
+
+de gran
+
+aquellos navegantes, que en los dichos remo- nesgo. linos, que al chocar Apure, y Orinoco se forman, han sucedido muchos naufragios; y yo;me he dado por ahogado varias veces en ellos:;porque por más que vire y aorce el piloto, llaman, y atraen de gran distancia los remolinos a las embarcaciones, con tal violencia,;que con subir en mi último viaje en un barco;bueno, con mayor, y trinque a viento recio,;no obstante la gran fuerza de vela, atrajo;para sí un remolino al barco, y le hizo dar;dos vueltas en redondo, con riesgo próximo;de naufragar las dos veces, que recibió el;viento por proa: Dios nos nos favoreció en;este aprieto; y el haber añadido fuerza de;remo, al coger tercera vez el viento, nos libró;del remolino.
+
+Prosiguiendo río arriba, a la banda del sur, entran Pararuma, y después Paruasi, ambos;ríos de poca monta. En la banda del poniente;entra el río Sinaruco, el cual viene con mucha;agua del pie del páramo nevado de Chingas:; en el centro de los bosques se llama Cana- Rl0; guata; afuera, en el llano, se llama Rabanal : simouro.; y después se entra en un brazo, que el río
+
+o. i.—i.—4
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+74
+
+  
+
+Apure arroja de sí en el centro de las selvas, que al separarse se llama Masibuli, y afuera;en el llano se llama Arcaica ; y desde que se;juntan él, y Can-aguata, toman el nombre de; Shnmico, y con este nombre entra en Orinoco, en la medianía que hay entre Apure, y; Meta. Desde las bocas de Apure hasta Meta,;hace el cauce de Orinoco un semicírculo variado en vueltas, y revueltas; pero vía recta;al sur: por lo cual está Orinoco en la boca del;río Meta solos dos grados, apartado de la;Línea Equinoccial, y en 306 grados de longitud.
+
+/tío \\fctn,
+
+1/ XHX
+
+C «he ceras.
+
+  
+
+El río Meta compite en caudal de aguas, y distancias de cabeceras, con el río Apure; y;porque en sus vertientes tenemos gran número de misiones, bajaremos desde su primer origen viendo los ríos que recoge, y las;naciones que mantiene. En la altura mayor;del Nuevo Reino de Granada, tiene el famoso;río Meta su primera cuna, entre las ciudades;de Santa Fe de Bogotá, y Tunja, en un páramo frío, lamado de Albarracín, por una;venta, y haciendas que hay a su falda de este;nombre: dije, que es el terreno más alto del;Nuevo Reino, porque de dicho páramo nace,; y tira hacia el poniente el río Bogotá, que da;su nombre a la capital del Reino; y después;de fecudar aquel espacioso llano, se precipita;de un salto por un formidable despeñadero,;llamado de Tequendama, y luego entra en el;río de la Magdalena. Desde el mismo páramo.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA natural ;;;75
+
+hacia el norte, desciende el primer arroyo, que en Tunjo, se llama río de Gallinazos, después se llama Sogumoso, y después Chicamo-cha, y baja por varias provincias, hasta incorporarse en el Río Grande de la Magdalena,;que entra en el mar, entre Cartagena y Santa;Marta. Y como dije, del mismo páramo baja;hacia el oriente el río Meta, que al caer al;valle de Turmequé toma este nombre; y después de recogidas cuantiosas aguas en varios;valles de aquella fragosa serranía, sale caudaloso a los Llanos de San Juan con el nombre;de Upía. Ya en el llano toma la vuelta al; Noroeste, y recibidos varios ríos de poca monta, entra en el Cusiana, río que trae su origen;de los páramos de Toquilla, no muy distantes;de Tunja. Poco después recibe al río Gravo,; en cuya boca está la colonia de la Concepción,;de nación Achagua. Después entra el río; Guirripa, no lejos de la misión de San Miguel,;nación Saliva. Más abajo entre el río Guana-palo, donde está la misión de San Juan Francisco Regis, nación Achagua. A cuatro leguas;entre el río Pauto, que baja del riguroso páramo de Ogontá, recibe al río Tocaría, Cu-rama, y otros, y cae en Meta.
+
+Fuera de estos ríos, recibe después al río ja 0 casanare, Casanare de primera magnitud, cuyo origen v otros que
+
+en él entran.
+
+son los páramos nevados de Chita; este, antes de entrar en Meta, recibe a los ríos Purare, y; Tacoragua : al poniente de estos está la misión de Pantos, y a su norte la de Patute : al
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+76
+
+  
+
+oriente (ya en el llano) está la misión de San Salvador, que sirve de puerto en Casanare,; para bajar a Meta y Orinoco : entra después;en Casanare el río Tame, que baja caudaloso;de las nevadas de Chita, y tiene a sus riberas;las dos numerosas misiones de Jívaras, y de; Betoyes: más abajo entra en Meta el río Ele,; junto con el río Cravo; en cuya medianía, antes de unirse, está la misión de San Javier de; Macaguane.
+
+y sus Dicho río Ele tantas crecientes tiene cuan-do llueve, como cuando hace el día claro, y sereno. Parece cosa increíble, pero ello es;así; y consiste en que cuanto más claro está;el día, y más recio el sol, tanta más nieve se;derrite en los páramos, y nevados de los picachos de Chisgas, y Guacamayas, de donde Ele; baja; no es esto lo singular, sino el que con las;crecientes envuelve tanto cieno, y de tan mal;olor, que aturde, y embriaga gran copia de;peces chicos, y grandes, que se ven obligados;(como los he visto) a recurrir a las orillas del;río, y sacar sus cabezas fuera del agua: pasa;la creciente, y como ellos están aturdidos, se;quedan en seco; y cada creciente de estas, es;para los indios de Macaguane una festiva, y;útil pesquería.
+
+En fin, recargado Meta de estos, y otros ríos, que omito, después de trescientas leguas;de flujo, se acerca el grande Orinoco; y parece, según su caudaloso golpe de aguas, que;había de ser con la misma furia, y estrépito.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+77
+
+  
+
+que dijimos del río Apure; mas no es así porque algunas leguas antes de llegar, toma;el cauce de Meta tal equilibrio con el de Orinoco, que apenas se percibe su corriente, y;especialmente en tiempo de crecientes, y así;entra con tanto disimulo, y tan pacífico, que;no dá la menor muestra de su caudal soberbio, dando hermosa vista a la misión de Santa;Teresa, nación Saliva, que está cerca de su;boca.
+
+Muerte de varios padres;misioneros.
+
+  
+
+Río Guaviare o Guaviari.
+
+  
+
+Y siguiendo (como hasta aquí) al río Orinoco contra su corriente, después de seis días de navegación, damos en la boca del río; Vichada, que baja lleno de innumerables;aguas, que recoge de aquellos llanos dilatados, que hay entre Meta, y Orinoco. En Vichada se entablaron primera, y segunda vez;las misiones antiguas, que fueron destruidas;a manos de los indios caribes, con las gloriosas muertes, que por amor de Dios, y de la;salvación de aquellas almas, recibieron los;venerables padres Ignacio Fiól, Gaspar Bec,;y Ignacio Theobast, habiendo antes muerto a;violencia de trabajos, y de hambre el padre;Francisco Figueroa, y Francisco Castán, y;ahogádose los padres Cristóbal Riadel, y su;compañero el padre Martín Bolea: después;quitaron la vida los mismos caribes al padre;Vicente Loberzo, al capitán Lorenzo de Medina y a otros dos soldados: de todo lo cual;se hace mención en la Historia General.
+
+El último río de los que entran en Orinoco,
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+78
+
+  
+
+que tenemos navegado, y conocido, es el Gua-viari, que tiene varios nombres, según las varias provincias por donde pasa. Su primario origen está en los encumbrados picachos;de páramos fríos, a cuyas faldas de la banda;occidental, logra la ciudad de Santa Fe de;Bogotá de una bella primavera, y perpetua,;con un temperamento tan benigno, que se inclina más al fresco, que al calor. De la parte;oriental de dichas alturas baja el Ariari, recogiendo ríos, y arroyos, hasta los llanos de;San Juan; y acaudalando siempre más agua,;atraviesa el Ayrico (quiere decir selva muy;grande) y entra, finalmente, en el Orinoco,;apostando grandezas, y soberbia con él, a medio grado de latitud, y trescientos y tres grados de longitud. Los restates ríos, de que se;forma el Orinoco, todavía no se han registrado, y solo los demarco, por las noticias adquiridas de los habitadores de Timaná, y Pasto,; de donde el principal, y los ríos accesorios;descienden. Y por la relación, que recibí de;mano del Reverendo P. Fr. Silvestre Hidalgo,;religioso del Gran Padre de la Iglesia San;Agustín, del Diario que formó cuando fue;de capellán con las milicias, que entraron por; Timaná a reprimir la osadía, con que salían;a robar, y saquear las haciendas de campo;aquellas naciones, solo conocidas por su bárbara inhumanidad.
+
+Y porque cuanto este viaje, desde el mar, hasta el río Amn, ha sido tan de prisa, que
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+79
+
+  
+
+apenas hemos podido observar las bocas de los ríos tributarios de el Orinoco, bajemos;otra vez a la costa, y sin apartar los ojos de;él, subamos observando solo el caudal, y raro;modo de correr de este soberbio río.
+
+##### CAPITULO III
+
+FONDO DEL GRAN RIO ORINOCO:
+
+Sus raudales y derrames: singular, y uniforme modo de crecer y menguar.
+
+Importa mucho que nos hagamos cargo del vasto terreno, cuyas aguas, como a su centro,;corren al Orinoco; para lo cual fijemos la;vista en aquella cordillera de cumbres altísimas, que desde el ismo, que en Panamá divide las jurisdicciones del mar del norte, de;las del mar del sur, corre por las provincias;del Dariel, y del Chocó; y cruzando la línea;equinoccial por Quito, atraviesa el Perú; y;dividiendo al Chile del Paraguay, no para;hasta el fin de toda la tierra Magallánica.;Volvamos a la provincia de Quito, y veremos;como al pasar aquella espantosa serranía, extiende (digámoslo así) sus dos brazos en dos;iguales cordilleras de picachos inaccesibles,;abarcando con el izquierdo todo el Quito, y; Popayán, todo el Nuevo Reino, y las Provincias de Maracaibo y Caracas, sirve de antemural en toda aquella costa, contra la furia;de los nortes, que impelen, y agitan aquellos
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+mares. El brazo derecho de aquella serrranía le extendió el sabio autor de la naturaleza;desde Quito, hasta las costas de la Guayaría,; y Cayana, dividiendo de alto a bajo por las;provincias, hasta ahora incógnitas, las aguas,;que corren al Marañón, y las que pertenecen;al Orinoco; de modo, que dichas dos cordilleras de páramos, en muchas partes coronados;de nieve, forman una pirámide imperfecta;(porque la del poniente casi es semicircular);en cuyo medio abarca los inmensos llanos de; San Juan, de Casanare, de Barinas, de Gua-nare, de Piritú, y otros hasta hoy incógnitos,;cuyo ancho se reputa de trescientas leguas, y;cuyo largo, desde el Ayrico, hasta el mar, a lo;menos pasa de quinientas. Campo espacioso,;por donde corren mansamente los ríos hasta;Orincoco, después de haberse precipitado de;las cumbres del Nuevo Reino; no así las que;descienden de la banda del sur; porque como;Orinoco corre siempre al pie de aquella dilatada serranía, recibe los ríos de ella, al tiempo;mismo que se descuelgan precipitados.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Las dos serranías, que imaginamos a modo de dos brazos, contemplo yo ahora a la manera de dos inmensos tejados, de los cuales el;de la parte de poniente baja desde Quito a;Caracas, formando de sus aguas occidentales;los ríos de Cauca, Magdalena, y los otros, que;forman un mar dulce en la gran laguna de;Maracaibo; y al contrario todas las vertientes, que aquella altura arroja a la parte orien-
+
+HISTORIA NATURAL
+
+81
+
+  
+
+tal, y del sur, todas (como vimos en el capítulo pasado) corren en busca del Orinoco: la otra serranía, que como tejado natural, baja;desde Quito a la Guayana, y Cayana, por la;banda del sur, pasa repartiendo sus vertientes entre los ríos Orinoco, y Marañón.
+
+Pero a vista de lo dicho, ¿quién hará cabal concepto del abismo de aguas, que en su anchuroso cauce incluye el Orinoco? Los geógrafos convienen, en que en nuestro mundo;antiguo no hay río alguno, que pueda compararse con el de San Lorenzo en la Virgínea:; en la América Septentrional, con el de la; Plata en Paraguay, ni con el Marañón en los;confines del Brasil. Ahora sale a luz pública;el gran río Orinoco, no quiere quitar su grandeza a los tres nombradísimos ríos; pero pide,;y con razón, que se tomen nuevas medidas,;que se atienda a su fondo, y caudal, para entrar a competir con todos cuantos ríos famosos hasta hoy se han descubierto en los dos;mundos antiguo y nuevo. El ilustrísimo señor Piedrahita, cap. I, fol. 4. de su Historia,;afirma, que el Orinoco solo cede, y reconoce;por mayor al río Marañón. No desdicen de;este parecer las señas que voy a dar.
+
+Año de 1734 por mandado de el coronel don Carlos de Sucre, Gobernador y Capitán General de las provincias de Cumaná y la Guanana, por su Majestad, tomó fondo al Orinoco;don Pablo Díaz Fajardo, ingeniero real, ancorando el barco en la medianía que hay entre
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+82
+
+  
+
+la real fuerza de San Francisco de Asís de la Guayana, y la Isla del Caño del Limón de enfrente, en donde se estrechan las aguas a;cuarto y medio de legua, con poca diferencia,;en el mes de marzo, que es cuando más bajo;está el río. Puesto en dicho sitio, echó la sondaleza con la bólide de plomo correspondiente, al temor que tenía de que se la arrebatase;la corriente, y con ella la noticia fija del fondo de Orinoco, que se buscaba; y hecha la;diligencia con toda exacción, se hallaron 65;brazas de fondo. Pocos años antes había hecho el gobernador Guzmán la misma diligencia en la angostura, donde se estrecha el;Orinoco algo más que en la Guayana, y nos;dejó autenticado dicho gobernador, que halló 80 brazadas de fondo en dicha angostura;;y como luego diré, crece allí 20 brazadas por;agosto, y septiembre, que con las 80 suman;cien brazadas de agua. Bien puede hombrearse el Orinoco, sin temor alguno, con los dichos;tres ríos, que hasta hoy se han llevado la;primacía.
+
+Pero deseo que el curioso note con reflexión en Orinoco una singularidad tan rara, que me;persuado no se ve en río alguno de cuantos;se hallan sobre la tierra; y es, que gasta cinco meses en crecer, subiendo por sus pasos;contados, que deja grabados en los peñascos,; y árboles de sus costas, se mantiene un mes;en su última altura, y creciente; y después;de gastar otros cinco meses en menguar por
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL ;;;83
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+sus pausados escalones, se mantiene otro mes entero en su última menguante, con lo cual;llena el círculo del año en una acorde y armoniosa mutación continua, y perpetua; y;esto llueva, o no llueva en las provincias comarcanas, porque su caudaloso flujo no depende de ellas. Otra cosa aún más singular;está observada por los vecinos ancianos de la;Guayana, y por los indios de todo aquel río;;y es, que cada 25 años, sube la creciente última de Orinoco una vara más sobre el término que deja demarcado en los otros 24 años.;La causa de esta exorbitante, y regular creciente no la hallo; pero creo, que (después de;bien observado el río) hallé la raíz de su;pausado modo de subir, y bajar en diez meses ; y es, que al empezar las aguas en abril,; en tantas, y tan remotas cabeceras, y provincias, como vimos, viene la primera creciente,;de la cual, ni se dan por entendidas las bocas;de Orinoco, ni llega, según las señas, una gota al mar de dicha creciente, quedando toda embebida en las sedientas, y dilatadas;playas del Orinoco. La segunda creciente, como ya las coge húmedas, se deja percibir, y;prosigue creciendo en este, y los cuatro meses; mayo, junio, julio, y agosto, manteniéndose;con todo su auge durante el mes de septiembre; y creo, que la pausa de crecer depende ¿e;ir al mismo tiempo llenando, no solamente;las lagunas que demarqué en el plan, sino;también otras muchas, y muy dilatadas, que
+
+EL ORINOCO ILUSTRADO
+
+84
+
+  
+
+omití de propósito, para evitar confusión. Y como al empezar a bajar por octubre va recogiendo las aguas, que dejó estancadas en dichas lagunas, y anegadizos, ocupa su menguante tantos meses, cuantos ocupó en su;creciente, y son: octubre, noviembre, diciembre, enero, y febrero, quedando todo el mes;de marzo en su última menguante, dejando;sus playas, para que las tortugas innumerables empollen sus nidadas al calor de las arenas, como después diremos: oportunidad que;logran también los caimanes para sus crías.
+
+No se puede dar noticia fija de las varas que crece, y mengua el Orinoco, porque estas;medidas son correlativas a lo ancho, o angosto;del cauce, y a la mayor, o menor corriente que;da el terreno. En medio de la angostura se;levanta un promontorio de piedra viva de;cuarenta varas en alto, sobre el cual hay un;solo árbol, cuyas raíces, por marzo, se ven por;entre las hendiduras del peñasco, llegan a lamer el agua; y parte de julio, y todo el mes de; agosto, no se ve del tremendo risco parte alguna, y sólo por la seña del árbol, que tiene;encima, huyen del peligro los navegantes; de;que se infiere, que en la angostura crece 40;varas. En la otra angostura de Marimarota,;por donde pasa Orinoco, como un rayo veloz,;medí yo, desde la señal de la creciente ordinaria, hasta el agua, 14 varas, y una más arriba;está la señal de la creciente magna de cada;25 años. Enfrente de Uyapi, en donde se en-
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+85
+
+  
+
+sancha Orinoco cuatro leguas, antes de las bocas de Apure, donde se extiende a más de veinte; y en otros semejantes terrenos bajos,;es mucho menor la altura de dichas crecientes, por el equilibrio de las aguas que derrama.
+
+El flujo, y reflujo del mar, se deja ver palpablemente hasta el pie del raudal de Camiseta, que dista 160 leguas del Golfo Triste, y bocas de Orinoco; no pasa más arriba, a causa de caer aquí el río precipitado entre dos;canales de peñascos, paso siempre formidable;para los navegantes. Antes de la boca del río;Meta, está el raudal de Carichana, formado;de varias islas de piedra viva, con antemurales de tremendos peñascos. A doce leguas de;éste está el raudal de labaje, no menos formidable ; y 35 leguas de río arriba se despeña;el Orinoco, tres veces seguidas, negando totalmente el paso a las embarcaciones. En los;raudales antecedentes se pasa con notable;peligro, tirando con sogas muy fuertes las;embarcaciones desde la orilla; pero en estos;tres raudales de los Atures, no hay otro arbitrio para pasar, que llevar las embarcaciones por tierra, con increíble trabajo.
+
+CAPITULO IV
+
+CLIMA Y TEMPERAMENTO DEL ORINOCO, y alguna noticia de sus frutos.
+
+Supuesto ya, que el Orinoco toma su primer origen en la jurisdicción de Quito, en cinco
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+grados de altura al norte, y que acercándose al Ecuador, corre después, retirándose de él,;hasta que en ocho grados, y pocos minutos de;latitud, entra en el océano: queda ya dicho,;que el Orinoco está en el primer clima de la; Zona Tórrida, y por consiguiente que están;aquellos países hasta la altura de nueve grados, y el clima inmediato hasta los diez y siete grados, sujetos a gravísimo, y perpetuo;calor. Asi es, y así sucede, y dicho calor es el;temperamento proprio de aquel clima, y de;aquel terreno, y así lo pide la altura en que;allí anda el sol, cuyos rayos dos veces al año;descienden perpendiculares, y directos desde;el cielo al suelo, y a las gentes, que sobre él;pisan; y en lo restante del año, por la poca;decadencia, respectiva al terreno del planeta;máximo, envía sus rayos tan levemente transversales, que ni se percibe, ni es sensible la;corta disminución de su calor, y así quedamos;en un perpetuo estío, tanto más fogoso, cuanto más apartado de las cumbres nevadas,, que;allá se explican con el nombre de páramos,; del cual usaré en adelante; aunque es verdad,;que no todo páramo mantiene nieve, pero frío;todos.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República. Colombia
+
+  
+
+Estos páramos fundó la altísima providencia del Criador sobre elevadísimas cumbres, para que fuesen habitables los países de aquellos dos climas inmediatos al Ecuador, o línea;equinoccial, aunque los mismos páramos son;en sí totalmente inhabitables, nocivos y mor-
+
+HISTORIA NATURAL
+
+87
+
+  
+
+tales, aún para los viandantes, que los atraviesan, si no pasan muy resguardados, y prevenidos contra un frío muy diverso, del que se experimenta en las provincias más frías;del norte, porque dicho frío es poco sensible;a las partes exteriores del cuerpo (aunque es;verdad, que raja los labios, y la punta de la;nariz del pasajero) en comparación del frío,;que penetra, y se siente en los huesos, y en;sus medulas; tanto, que se encuentran pasajeros muertos en los páramos a violencia del;frío, y siempre incorruptos, porque aquella;frialdad impide la corrupción; y se hallan enteros también, porque el rigor del páramo no;es tolerable a las aves, ni a las fieras, que pudieran cebarse en los cadáveres, por lo cual;no se acercan; si bien, a distancia competente, se hallan osos, y venados, y estos mayores,;que los que se crían en tierras templadas. En;fin, los hombres que se encuentran emparamados, tienen difuntos el aspecto de quien;se ríe, recogidos para afuera los labios, y descubiertos los dientes, a causa de que el rigor;del frío pasma, y encoge los músculos, y con;ellos ambos labios. Quien quisiere ver lata,;y curiosamente la causa filosófica de estos;páramos, sus efectos, y otras cosas curiosas,;vea al Padre José de Acosta, de la Compañía;de Jesús, al ilustrísímo Piedrahita y otros.
+
+Yo sólo digo, que la altura eminente a que se elevan aquellos picachos, los levantan sobre este aire craso, que llamamos Atmósfera;
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+88
+
+  
+
+y bañadas así las nubes, como las cumbres de aquel viento sutil, y frío, por su altura, resultan así las nieves, como la permanencia de;ellas, en lo más elevado de los páramos; de;aquí es, que las tierras inmediatas a ellos son;dominadas del frío todo el año, y por eso se;han levantado con el nombre, y realidad de; tierra fría: las tierras algo más apartadas;del páramo, como menos ventiladas de aquel;aire frío, por el uso común de hablar, se llaman tierras templadas; y las que, por la distancia, no participan de aquellos vientos, o;aunque gocen de ellos, llegan ya perdida la;cualidad fría, por la violencia de los rayos del;sol, estas se llaman, y son siempre tierras calientes. De modo, que en cada uno de todos;los días del año, se hallan las cuatro estaciones de él en los dos climas inmediatos al; Ecuador; pero no en uno, sino en diferentes;terrenos, con este orden: al pie de los páramos todo el año es frío, como, el enero de Guadarrama en tierra de Madrid, y en los tales;parajes no se da fruto alguno de tierra caliente. A distancia proporcionada del páramo,;los países son templados todo el año, y los;árboles frutales siempre están floridos, con;fruto verde, y maduro siempre, y en esto;equivale a la primavera, y en el fresco moderado al otoño. Los restantes territorios remotos de los páramos, por más que sople el levante, que allá se llama brisa, domina el
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+89
+
+  
+
+calor del verano, mayor que el que en julio y agosto se sufre en Sevilla.
+
+De modo, que cada uno tiene en su mano vivir toda su vida en la primavera perpetua;de tierra templada, o en el sudor perpetuo de;tierra caliente, o en el frío incesante de tierra fría. Elija, porque esta variedad no es de;vocablos, sino real, y verdadera, como lo es;también la total variedad de frutos, sin que;en tierra fría se dé, ni arroz, ni tabaco, ni algodón, ni caña dulce, ni cacao, azúcar, ni plátanos, papayas, piñas, naranjas, limones, nísperos, zapotes, ni otras muchas, y muy ricas;frutas de tierra caliente; y al contrario, en;ésta no nace el trigo, ni se dan manzanas, ni;fruto alguno de tierra fría, ni aquel calor;permite cabañas de ovejas, que se sofocan, y;mueren luego; y así, la misma diversidad de;frutos, es prueba evidente de la diversidad de;temperamentos, existentes a un mismo tiempo, pero en distintos terrenos.
+
+Esto es cierto, e innegable; y para explicarme más, digo, que todos los días del año sucede en dichos dos climas, lo mismo que todos los días de enero sucede aquí en Madrid,;donde estoy escribiendo esto en enero. Sucede, pues, que en día de escarcha hace notable;frío en el patio, menos frío en la antesala : en;la recámara hay buen temple, ni frío, ni calor ; y muy cerca de la chimenea, es demasiado el calor : ¿todo a un mismo tiempo? sí, pero en diferentes puestos. Ahora pido se me
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+90
+
+  
+
+oiga lo que pasa en Santa Fe de Bogotá, capital del Nuevo Reino, en solas nueve leguas de distancia, o a lo más doce leguas. En los;dos santuarios de Nuestra Señora de Monse-rrate, y de Guadalupe, cuyas fábricas están;elevadas sobre la ciudad en dos picachos, después de los cuales se elevan las cumbres del;páramo: en dichos santuarios hay perpetuo; frío, y recio. En la ciudad, que está a la raíz;de dichas serranías, hace fresco, el cual se;extiende a todo el llano hermoso de Bogotá,;hasta su parte occidental, en donde, desde;una gran mesa de piedra viva, se despeña el;río, que da su nombre al llano, el cual cae a;tierra caliente; y ¿cuánta será su caída a plomo, y perpendicular? No se sabe a punto fijo;;pero sean dos leguas, sea una, o sea menos, en;la dicha distancia se hallan todo el año, y todos los días los cuatro tiempos, o las cuatro;estaciones, que en espacio de doce meses causa la variedad regular del sol en nuesrta Europa. Estas son las cuatro estaciones del año,;recopiladas en cada uno de sus días, pero repartidas en diferentes terrenos.
+
+Ahora veremos las mismas cuatro estaciones del año en solo uno, y en cada uno de los días del año, y en solo un lugar; y doy por;testigos a cuantos viven en la ciudad de Mé-rida, jurisdicción del Nuevo Reino, y a cuantos han estado en ella, aunque haya sido solo;un día. Está dicha ciudad situada en 6 grados,;y 40 minutos de latitud, y en 306 grados y
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+medio de longitud, y en ella hay cada día natural trece horas de frío, cinco horas templadas de primavera, y de otoño, y seis horas de calor. De este modo: desde las seis de la tarde, hasta las siete de la mañana siguiente,;que allá es una hora después de salido el sol,;corren trece horas de frío, originado de cuatro dilatadas cumbres de nieve, que tiene la;ciudad a la vista, hacia su parte oriental:;desde las siete de la mañana, hasta las diez;dadas; y desde las cuatro de la tarde, hasta;las seis, que es al ponerse el sol todo el año,;son cinco horas de templada primavera, porque el sol no domina sobre el frío hasta dadas;las diez de la mañana, y a las cuatro de la;tarde la caída del sol, y el fresco de la nevada,;forman un temple benigno, hasta que vuelve;la noche fría: dura el calor seis horas, que;son desde las diez de la mañana, hasta las;cuatro de la tarde, sobrepujando fuertemente a los rayos del sol en dichas seis horas, y;amortiguando totalmente el ambiente fresco;de las nevadas. Esto es tan cierto en el Nuevo;Reino, cuanto lo es en España, que hay en ella;Madrid, y que en Francia hay París.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+De aquí es, que a la verdad venero, como debo, a los autores, que dicen, que los que habitan bajo la equinoccial, tienen dos veranos,;dos inviernos, dos primaveras, y dos otoños,;a causa de las dos idas, y venidas, que respecto de ellos, hace el sol desde el Ecuador a los;dos trópicos. Concedo, por innegable, esta re-
+
+EL ORINOCO ILUSTRADO
+
+guiar mutación, y carrera, con que el sol mide el año entero; pero debo asegurar, y protestar a los que desean saber la verdad, que donde no hay páramo bajo de la línea, o en sus;primeros grados adyacentes hacia uno, u otro;polo, y aún en los dos primeros climas, así de;la parte del norte, como de la del sur, en aquellas tierras no se siente, ni percibe la mutación de grados, que el sol va midiendo en el;cielo, porque sólo subsiste, y domina todo el;año un recio calor continuado; y la razón es,;porque esté el sol en el trópico de Cancro, o;esté en el de Capricornio, jamás envía sus;rayos tan oblicuos al primer clima de éste, y;del otro lado del Ecuador, que se reconozca;alguna sensible decandencia en el calor con;que hieren: si se hallare algún fresco, o frío,;seña es infalible de que cerca, o más lejos,;hay algún páramo de donde dimana; y así la;de los dos inviernos, dos veranos, etc., es una;locución meramente especulativa, que se verifica, respecto de los movimientos del sol, en;su eclíptica, y no hay señal alguna sensible;por donde se verifique sobre la tierra de que;vamos tratando.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+Por todo lo dicho añado, que tampoco se halla seña alguna de invierno para los moradores de los países situados entre el Ecuador,; y los trópicos; porque la máxima distancia del;sol, que es cuando él está en el trópico de Capricornio, que en sentir del padre doctor Tosca, es el único invierno en aquellos terrenos,
+
+HISTORIA NATURAL
+
+93
+
+  
+
+que es, v. gr. en Orinoco (a 22 de diciembre) de 25 grados: en Santa Fe de Bogotá de 27,;en Cartagena de 34 y 11 minutos: esta no es;distancia, que disminuya con disminución;sensible la actividad de los rayos del sol, como a fuerza de sudar noche, y día, lo protestan los moradores de aquellos países: menos;los que (como dije) reciben el ambiente más,;ó menos fresco de los páramos, según la mayor, o menor distancia de ellos. Monsieur;Laet, ya citado (A) después de pintar sus dos;inviernos, y sus dos veranos, etc., concluye,;dejando a los dos inviernos sin más actividad;que la que tienen las pinturas. Sus palabras;son estas: No digo esto , porque estas estaciones se distingan entre sí con la mutua alternativa de frío, y de calor. Pregunto yo ahora:;¿Y con qué se distinguen? Dirá, que con la;especulación de la máxima distancia del sol.
+
+Lo mismo que dije arriba afirmo, por las mismas razones de los que viven bajo de los;trópicos; y no sólo debo negarles, con el padre doctor Tosca, con monsieur Bion, y con;el Espejo Geográfico de Hurtado, los dos inviernos ; pero a mi ver ni concederles uno. La; Ho.bana o Cuba esta en 23 grados y medio,;tanto, que su costa del norte está debajo del;trópico de Cáncer; y en dicha isla se sienta;perpetuamente continuo calor, y da los mismos frutos proprios de tierra caliente, que
+
+(A) 7j<xet, til). 9. cap. 4. Non quod hae tempestades , aes-tus , aut frigoris vicisitudine distinguantur, etc.
+
+EL ORINOCO ILUSTRADO
+
+94
+
+  
+
+producen las tierras más cercanas al Ecuador, que son azúcar, tabaco, yucia, y cazabe, y los;demás que jamás produce la tierra fría. Es;verdad, que desde octubre hasta marzo, llaman en la Habana tiempo de invierno; pero;¿qué quieren decir en esto? Es decir, que el;día que corre norte, tiene frío; y si no corre al;norte, prosiguen sudando como antes. Este, ni;es, ni puede llamarse invierno, sino un frío;accidental, y más casual, que el que en Tierra-firme arrojan los páramos, porque el de los;páramos es frío permanente, y fijo; pero el de;los nortes de la Habana, unas veces viene,;otras no. En Tierra-firme se ha introducido;llamar invierno cuando llueve, y verano cuando no llueve; y esto con tanta impropriedad,;que aún la gente no vulgar, si llueve por la;mañana, dice: ¡terrible invierno hace! Y; cuando a la tarde está despejado el sol, dice:; ¡fiero verano tenemos! Qué cosa más impropria se puede ver, ni oír? De mi sentir son el;ilustrísimo Piedrahita (B) y el reverendo Padre Fray Pedro Simón, (C) aunque no se detienen, ni dan más prueba que la experiencia;la cual, a mi ver, es la más fuerte. Del mismo;parecer es el Padre Andrés Pérez de Rojas,;(D) en su Historia de Cinaloa, tratando de;las serranías de Topia.
+
+Quiero concluir diciendo, que estoy tan le-
+
+(I‘>) Cap. J Conq. .Y o vi Rey ni.
+
+((') Ynticirt primera, cap. 2 de su Historia X. Reg.
+
+(D) Lil>. 8. Cap. I. fol. 469.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL ;;; 95
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+jos de consentir, ni dos inviernos, uno, ni medio, en las regiones que están bajo de la eclíptica, que antes afirmo, que al tiempo mismo que se idéan allá los tales inviernos, es más;recio el verano, y más intenso el calor (prescindiendo del frío accidental, sea de páramos,;o sea de nortes) la razón es, porque el tal;invierno, o inviernos, se idean en la distancia; máxima del sol, respecto del cénit de aquellos;terrenos, que es a los últimos de diciembre,;en el cual tiempo está el sol en su perigeo, o; absisminima: esto es, está un millón de leguas;más cerca de la tierra, tomada esta en general. Y nadie niega, que no se aumente el calor por aquel tiempo en la tierra tomada en;general. Dicen los autores, que dicho aumento;de calor no es sensible, ni perceptible a les;habitadores de nuestra Europa: lo primero,;porque como por diciembre está el sol en !a;mayor distancia, respecto de nuestro cénit.,; llégan acá sus rayos tan notablemente oblicuos, indirectos, y tan de soslayo, que no puede percibirse aquel aumento de calor (poco, o;mucho) que naturalmente añade el perigeo, o;mayor cercanía del sol al orbe terráqueo, tomado en común: lo segundo, porque lo corto,;o breve de los días en Europa, por diciembre,;y enero, casi no da lugar a que el sol caliente;la tierra, y más hallando en ella tanto frío;qué superar, y expeler para poder introducir;su calor: razones fuertes a la verdad, para;que en la Europa no se pueda percibir el au-
+
+EL ORINOCO ILUSTRADO
+
+96
+
+  
+
+mentó del calor, que el jnrigeo del sol precisamente causa en dichos meses; pero ni una, ni otra razón militan, ni se hallan en las tierras;situadas bajo de la eclíptica , ni se pueden alegar para probar, que en dichos países no sea;sensible el auge del calor, originado de la mayor cercanía del sol: no la primera, porque;allá los rayos del sol no hieren de soslayo, casi no están indirectos, y es poca su oblicuidad : por lo cual la cercanía del perigeo, o bajada del sol, junta con la mayor cercanía de;aquel cénit al sol (mayor (digo) respecto de;nuestra Europa, aunque menor respecto de;aquel terreno) ambas cercanías se unen a;probar, que en diciembre, y enero, es allá más;intenso el calor; y esto mismo robora, y confirma con más fuerza la segunda razón dicha,;porque el ser tan cortos, y de tan pocas horas los días de diciembre, y de enero en Europa, y el hallarse el terreno tan poseído de ye-los, y fríos, es fuerte, y firme obstáculo para;que no se perciba aquel mayor calor, no sólo;el añadido por el perigeo, pero ni aún el que;el sol diera desde allá, prescindiendo de su;mayor cercanía. Así es; pero como en aquellas;provincias de la eclíptica, los días son de doce horas, y a lo más a los 17 grados de altura,;al fin del segundo clima decrece una hora. Y;por otra parte (exeptuando los páramos) no;halla el calor del sol frío que vencer; antes;bien, cuando sale a las seis de la mañana, todavía halla calientes las piedras, y el suelo,
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+97
+
+  
+
+(cosa que tenemos muy experimentada en el Orinoco) logra el sol, sin obstáculo, toda la;eficacia de sus rayos, por doce horas, junto;al Ecuador, y once horas en el segundo clima;;y así el no hallar obstáculo, como lo largo del;día, convencen, que ha de ser sensible el mayor calor del perigeo del sol, al tiempo mismo;que se imaginan uno, o dos inviernos.
+
+No obstante todo lo dicho, cedo alegre, y voluntariamente mi parecer a los doctísimos;autores citados, y doy por especulativamente;probables sus inviernos, fundados en la máxima distancia del sol, respecto de aquel cénit;;pero también les he de merecer el favor de;que no nieguen los experimentos expresados,;y más cuando sin profesarla, los hice con toda la refleja que pude, a favor de su noble;y apreciable ciencia. Y pues ya vimos el temperamento, veamos como se avienen con él;los indios del Orinoco.
+
+##### CAPITULO V
+
+DE LOS INDIOS EN GENERAL:
+
+y de los que habitan en los terrenos del Orinoco; y de sus vertientes en particular.
+
+Para que nos entendamos con toda claridad en esta materia, es bien que con una ligera;ojeada, imaginemos a los indios americanos,;en general, en tres estados, muy diversos entre sí. En el primero veamos como estaban,
+
+o. i.—i.—5
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+98
+
+  
+
+antes que en el Perú, ni en México dominasen los Ingas, ni los Motezumas: ¡ qué horror!;Ciérranse de suyo los ojos, por no ver tan fea;barbaridad. En el segundo estado registremos;los dilatados países del Perú, y de México, sujetos en gran parte unos a los Ingas, otros a;los Montezumas, rayando ya la disciplina militar, y entablada, a su modo, la vida civil, en;las provincias, y naciones agrestes, que iban;sujetando aquellos dos emperadores. El tercer estado, feliz para tantos millones de indios, como ya, por la bondad de Dios, se han;salvado, y salvan (aunque infeliz para los;que aún están en su ciega ignorancia, o ciegamente resisten a la luz evangélica) empezó,;desde que las armas católicas tomaron posesión de las principales provincias de aquellos;dos vastos imperios, y prosiguen hasta ahora,;creciendo siempre en todos aquellos remotos;ángulos del Nuevo Mundo la luz de la Santa;Fe, para eterna dicha de aquellos infelice? hijos de Adán.
+
+El primer estado de aquellas gentes, hace, a mi ver, un confuso eco, con las tinieblas en;que estaba envuelto el mundo en aquellos;tiempos antecedentes a la dignación inefable,;con que Dios se manifestó al Patriarca Abra-ham, tiempos de barbaridad, y de error. El;segundo estado de las Américas hace una pro-procionada consonancia con la era de aquellos;tiempos, en que ya en el Oriente los medos, y;persas, ya los egipcios, ya los griegos; ya en
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+HISTORIA NATURAL
+
+99
+
+  
+
+fin, los romanos, con la disciplina militar, redujeron a vida civil gran parte de las naciones incultas de nuestro mundo antiguo. El tercer estado en que vimos aquel Nuevo Mundo en su primer descubrimiento, hace eco, y;consonancia al feliz imperio de Tiberio César,;a quien con humilde silencio estaban rendidas;las más nobles provincias de este nuestro;mundo antiguo: y así como esta unión, y sujeción del mundo al romano imperio, fue disposición del Altísimo, para que la ley evangélica, con más facilidad, desde Roma su;cabeza, se difundiese por todos los miembros;del imperio, y fuera de él: así la sujeción de;la mayor parte del Perú al Inga, y el vasallaje de las principales regiones de México al;Montezuma, fue piadosa disposición del Altísimo para que sujetadas aquellas dos cabezas, se abriese puerta franca al Santo Evangelio, en aquellas tan dilatadas, como remotas;provincias: y así como en todas aquellas gentes, menos políticas, o más bárbaras, por no;haberse sujetado al yugo, y disciplina de la;política romana, rayó más tarde la luz de;nuestra Santa Fe, y en muchas aún dominan;las erróneas sombras del gentilismo: del mismo modo ha sucedido, y sucede en ambas;Américas, en orden a las naciones no sujetas;antiguamente, ni al Inga, ni al Montezuma,;en las cuales, cuanto más adentro penetran;los Misioneros Apostólicos, tanto mayor es la;maleza, y barbaridad con que hallan preocu-
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+EL ORINOCO ILUSTRADO
+
+100
+
+  
+
+padas las naciones. Pasa todavía adelante mi cálculo en la contraposición, y digo en fin,;que así como acá sembró cizaña el enemigo;común, en tantos, y tan floridos reinos, como;lloramos sumergidos en sus mismos errores,;resistiendo, y haciendo guerra a la misma;benigna luz que los busca; de la misma manera, por la industria del mismo mortal enemigo, no faltan provincias en el Nuevo Mundo,;especialmente en la parte meridional, que rebeldes a la fe que recibieron, la resisten, y;persiguen a sangre, y fuego; y con el mismo;esfuerzo impiden, estorban, y niegan el paso,;para que otras naciones dóciles, y tratables,;reciban la doctrina del cielo. Es así; y ya se;vino la pluma, casi de su proprio peso, a las;riberas del río Orinoco; pero no entremos todavía en él: veamos, y miremos primero, como desde una alta atalaya, qué cosas sean, no;sólo estos, sino todos los indios de las dos;Américas en común, para que desde aquí quede ya dicho, lo que fuera preciso repetir de;cada nación de Orinoco, en particular (y aun;de todas las restantes a que no se extiende;mi asunto).
+
+El indio en general (hablo de los que habitan las selvas, y de los que empiezan a domesticarse) es ciertamente hombre; pero su falta de cultivo le ha desfigurado tanto lo racional, que en el sentido moral me atrevo a;decir: “Que el indio bárbaro, y silvestre, es;un monstruo nunca visto, que tiene cabeza de
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República.
+
+HISTORIA NATURAL
+
+101
+
+  
+
+ignorancia, corazón de ingratitud, pecho de inconstancia, espaldas de pereza, pies de miedo, su vientre para beber, y su inclinación;a embriagarse, son dos abismos sin fin.” Toda;esta tosquedad se ha de ir desvastando a fuerza de tiempo, paciencia, y doctrina; y al modo que un perito estatuario, entre la misma;dificultad, y dureza de un peñasco, descubre;idealmente las perfecciones, que tendrá la;hermosa estatua, que pretende formar; no de;otra manera entre la monstruosidad de tan;fieras costumbres, como he dicho, en los indios silvestres se descubren las preciosas;margaritas de aquellas almas, que a tan caro;precio compró nuestro Redentor, y se animan;los misioneros, con especial favor de Dios,;a cooperar a la salud eterna de ellas; y al ver;logrados sus afanes, no sólo en los párvulos,;que recién bautizados vuelan a la gloria, sino;también en los adultos, que se van mejorando;insensiblemente como buenos mercaderes;evangélicos, tanto más se animan, cuanto;más crece la ganancia espiritual de aquellas;pobres almas: la diferencia grande está, en;que el diestro estatuario, después que dió la;última mano, y lustre al duro mármol, ya no;tiene más que hacer; pero no así el ministro;evangélico, siempre ha de lidiar con la ignorancia, ingratitud, inconstancia, pereza, miedo, y borrachera de su grey; y aunque en la;juventud, que se va criando con esmero, corresponde el fruto al cultivo en gran parte;
+
+102
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+no así (ni es moralmente posible que sea) en los adultos, criados, y envejecidos en una mera barbaridad: toda su ciencia, y toda su prudencia ha menester el operario entre ellos;para no perderlo todo, con el ansia de ganarlo;todo; y es el caso, que su ruda ignorancia les;hace proceder, aunque viejos, con las modales;proprias de niños, y con tan leve motivo, como un niño se huye de la escuela, se huye un;cacique con todos sus vasallos de un pueblo,;y queda solo el misionero: ¡ tal es su inconstancia! No valen los beneficios pasados, no;favores presentes; salen con la suya, se esconden en los bosques, y es preciso renovar todo;el trabajo pasado, y añadir mucho más, para;recogerlos segunda vez, tercera, cuarta, como;sucede con frecuencia: ¡tal como esta es su; ingratitud! Y ¿qué diré de su prereza nativa,;hija de la suma ociosidad, con que viven allá;en sus bosques? Todo el cultivo del campo, y;tareas de la casa, recarga sobre sus pobres;mujeres: en flechando el marido dos, o tres;peces, o algún animal del monte, ya cumplió;con sus obligaciones; y después de beber chicha (es su cerveza) hasta no poder más, duerme a todo su gusto: de aquí es, que cuesta;mucho tiempo, y se requiere mucha industria;para irlos inclinando a la labor, de aquello;mismo, que ellos han menester; y cuando se;halla de nuevo alguna nación algo dada al;cultivo de los campos (como lo es la Sáliva, y;la Achaguo) se reputa por una gran fortuna,
+
+HISTORIA NATURAL
+
+103
+
+  
+
+y se da ya aquella gente por nuestra; y la razón es, porque en cuanto han sembrado, y entablado ya su labor, tal cual le cobran amor, se. están quietos, y hay tiempo para doctrinarlos.
+
+Su miedo, sin qué, ni para qué, es la raíz de su inconstancia, y de todas las congojas de los;operarios: más delicados son que un vidrio;;si les dá la aprensión de que el padre le miró;con atención, si oyó alguna palabrita menos;dulce, etc., seguramente se huye, y a lo menos;se lleva tras sí toda su familia. Este miedo,;y temor tan proprio de los indios, es la causa;de que sean tan maliciosos: en todo sospechan;que hay daño, o engaño, y por eso rehúsan;mucho decir la verdad, y tienen especialísima;habilidad para mentir; tan seriamente, y con;tales circunstancias adornan sus mentiras,;que parecen verdad. No creo, que haya gentes;en el mundo, que así guarden su secreto: ha;sucedido estar dos, o tres meses convocado,;unido, y pronto todo un pueblo, y también;muchos pueblos, y ni hombre, ni mujer, ni;chico, ni mayor, darán la menor noticia, aunque los maten. En provincias enteras ha estado secreta la rebelión, y conjuración general,;al modo de la Cinaloa, y México, la de Chile,;y del Chaco, sin rastrearse hasta verla ejecutada: esto se hace increíble, y más en tales;genios agrestes, voltarios, y de tan poco;alcance.
+
+Añádase a lo dicho, la sutileza con que han
+
+EL ORINOCO ILUSTRADO
+
+inventado arbitrios para huirse, de modo, que no sean, ni puedan ser seguidos, caminando;hacia atrás en las tierras húmedas, y en las;salidas de los ríos, para fingir que vienen, al;mismo tiempo que se van; y en las tierras;anegadizas, donde por fuerza han de dejar;señal, y huella, dejan tantas, entran, y salen;tantas veces, que dejan confusos, y aturdidos;a los que los siguen; y es punto ya averiguado, que si cuando se va en busca de los que;se han huido, no va guiando un indio fiel de;la misma nación, no hay esperanza de hallarlos. Dije fiel, y aquí está la mayor dificultad:;porque muchos tenidos por tales, en lugar de;guiar, han tirado a perder, y a despeñar, y se;han metido en lagunas de cuatro, y de cinco;días de atravesía, para que los pobres misioneros mueran al rigor de los peligros, de los;trabajos, y de hambre, antes de hallar las descarriadas ovejas, que buscan: este es negocio;de hecho, y de que pudiera referir casos, muchos, y muy lastimosos.
+
+Pues ¿quién conocerá, quién entenderá el genio de estas gentes ? Tan rudas, y agrestes;para todo, menos para su negocio: tan ágiles;para el mal, y tan pesadas, y perezosas para;el bien ? ¿ Tan inconstantes para su salud eterna, y tan firmes, y constantes para su perdición ? Es preciso creer, que el demonio, rabioso porque se le escapan aquellas almas, las;instiga, persigue, y engaña.
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+No obstante las dichas propriedades, que
+
+105
+
+Este libro fue Digitalizado por la Biblioteca virtual Luis Ángel Arango del Banco de la República, Colombia
+
+  
+
+son comunes a todos los indios (en unas naciones más, en otras menos) prevalece finalmente Dios; y como ya dije, a fuerza de tiempo, de paciencia, y de doctrina, se forman bellísimas poblaciones, se entablan iglesias con música de canto figurado por los divinos oficios, se entabla la frecuencia de sacramentos;;y entonces los mismos indios dicen a gritos,;que antes habían vivido como brutos. El afán,;y fatigas con que se buscan las familias de;gentiles por las selvas, y bosques, el trabajo;para unirlos entre sí, y que formen pueblo regular, el método, paciencia, y prudencia que;se requiere para irlos desbastando, y reduciendo a vida civil, para poderles enseñar la;doctrina, no es materia de días, ni de meses,;sino de años. A los principios sólo se dá el;bautismo en artículo de muerte, ni cabe otra;cosa en su mutable veleidad. Ya que se reconoce, que habrá en ellos perseverancia, se trata con más eficacia de su enseñanza: ni se;convierten todos, unos por rudos, otros por;tercos, quedan gentiles; y se toleran por no;perderlo todo: y al fin, por la bondad de Dios,;todos entran en el gremio de la Santa Iglesia.;De esta materia trato en el capítulo 23 de esta;parte: quien desde luego quisiere tener estas;noticias, vea el tal capítulo.
+
+EL ORINOCO ILUSTRADO
+
+##### CAPITULO VI
+
+DEL ORIGEN DESATINADO, QUE
+
+se fingen algunas naciones del Orinoco; y se apunta algo de su verdadero origen, y descendencia.
 
 No bajemos aún la atalaya, desde donde hemos visto algunas propriedades de los indios en común. Recojamos ahora la vista, y fijé-mosla solamente en Orinoco, y sus vertientes, para ver, qué origen, y prosapia se apro-prian aquellas naciones, que desfrutan sus;fértiles, y fecundas vegas.
 
