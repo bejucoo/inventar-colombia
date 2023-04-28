@@ -17,6 +17,7 @@
 	
 	--blue1: #92a9a4;
 	--blue2: #bccac7ff;
+	--blue3: #d7dfddff;
 	
 	--yellow1: #f2dea0;
 	
@@ -569,7 +570,7 @@ button:hover {
 	font-weight: bold;
 }
 
-.cita_animales, .cita_riqueza, .cita_poblamiento, .cita_evangelizacion, .cita_conflicto, .cita_comercio, .cita_medicinas, .cita_plantas, .cita_paisaje, .cita_rituales, .cita_mujeres {
+.cita_animales, .cita_riqueza, .cita_poblamiento, .cita_evangelizacion, .cita_conflicto, .cita_comercio, .cita_medicinas, .cita_plantas, .cita_paisaje, .cita_rituales, .cita_mujeres, .cita_cuerpo {
 	background-color: var(--transparent);
 }
 
@@ -615,6 +616,10 @@ button:hover {
 
 .cita_mujeres.active {
 	background: var(--mint1);
+}
+
+.cita_cuerpo.active {
+	background: var(--blue3);
 }
 
 #miniMap {

@@ -96,13 +96,15 @@ const miniMapText = () => {
       "p": "rgba(0, 0, 0, 0.05)",
       ".cita_animales, .cita_riqueza, .cita_poblamiento, .cita_evangelizacion": "rgba(0, 0, 0, 0.05)",
       ".cita_animales.active": "#c6cbb8aa",
-      ".cita_riqueza.active": "#d4978baa",
+      ".cita_riqueza.active": "#f2dea0aa",
       ".cita_poblamiento.active": "#e1a25baa",
-      ".cita_evangelizacion.active": "#f2dea0aa",
+      ".cita_evangelizacion.active": "#b9969eaa",
+      ".cita_rituales.active": "#f2bcccaa",
       ".cita_mujeres.active": "#bae0d6aa",
       ".cita_conflicto.active": "#d4978baa",
       ".cita_comercio.active": "#edc89faa",
-      ".cita_medicinas.active": "#92a9a4aa"
+      ".cita_medicinas.active": "#92a9a4aa",
+      ".cita_cuerpo.active": "#d7dfddaa"
     },
     back: "rgba(0,0,0,0.02)",
     view: "rgba(0,0,0,0.05)",

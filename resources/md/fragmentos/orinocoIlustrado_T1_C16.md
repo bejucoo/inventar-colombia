@@ -45,3 +45,5 @@ Lo segundo es evidente, que los párrocos, que del estado clerical pasan a serlo
 
 _Vigilancia de los señores obispos para con sus párrocos._  
 Lo tercero, y último, sepa monsieur Noblot que con ser tan selectos, como dije, los párrocos, todavía velan sobre ellos los señores obispos, y provinciales de las religiones, visitándolos por sí mismos y por medio de sus visitadores, remediando todo lo que hallan digno de remedio: y si alguno (ya se ve que no han de faltar defectos) no se estrecha al cumplimiento de su deber le apartan de su curato, y ponen un substituto en su lugar, que cultive, y enseñe a los cristianos americanos, los cuales, cuando llegan a estar en curatos, ya no son gentiles, como dice Noblot. Para la enseñanza de los gentiles, tiene la majestad católica un gran número de misioneros apostólicos: esta es la verdad pura. Prosigamos algo más.
+
+* * *

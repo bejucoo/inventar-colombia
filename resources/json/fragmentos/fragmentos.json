@@ -1,102 +1,480 @@
 [
 	{
-		"link": "<a href='#cap7_c1'>La nación cacatia, cristiana ya...</a>",
+		"link": "<a href='#t1_cap2_c1'>Y siguiendo (como hasta aquí) al río...</a>",
+		"categoria": "Conflicto",
+		"clase": "cita_conflicto",
+		"ref": "orinocoIlustrado_T1_C2"
+	},
+	{
+		"link": "<a href='#t1_cap5_c1'>El indio en general...</a>",
+		"categoria": "Evangelizacion",
+		"clase": "cita_evangelizacion",
+		"ref": "orinocoIlustrado_T1_C5"
+	},
+	{
+		"link": "<a href='#t1_cap6_c1'>Todos los europeos, que han estado...</a>",
+		"categoria": "Cuerpo",
+		"clase": "cita_cuerpo",
+		"ref": "orinocoIlustrado_T1_C6"
+	},
+	{
+		"link": "<a href='#t1_cap6_c2'>La circuncisión, señal, y divisa...</a>",
+		"categoria": "Rituales",
+		"clase": "cita_rituales",
+		"ref": "orinocoIlustrado_T1_C6"
+	},
+	{
+		"link": "<a href='#t1_cap7_c1'>La primera noticia, que las naciones retiradas...</a>",
+		"categoria": "Cuerpo",
+		"clase": "cita_cuerpo",
+		"ref": "orinocoIlustrado_T1_C7"
+	},
+	{
+		"link": "<a href='#t1_cap7_c2'>Sobre las unturas entran...</a>",
+		"categoria": "Cuerpo",
+		"clase": "cita_cuerpo",
+		"ref": "orinocoIlustrado_T1_C7"
+	},
+	{
+		"link": "<a href='#t1_cap7_c3'>Las mujeres, fuera de los adornos...</a>",
+		"categoria": "Cuerpo",
+		"clase": "cita_cuerpo",
+		"ref": "orinocoIlustrado_T1_C7"
+	},
+	{
+		"link": "<a href='#t1_cap8_c1'>y el medio más proporcionado...</a>",
+		"categoria": "Evangelizacion",
+		"clase": "cita_evangelizacion",
+		"ref": "orinocoIlustrado_T1_C8"
+	},
+	{
+		"link": "<a href='#t1_cap9_c1'>tienen dichas hojas en el mismo arranque...</a>",
+		"categoria": "Comercio",
+		"clase": "cita_comercio",
+		"ref": "orinocoIlustrado_T1_C9"
+	},
+	{
+		"link": "<a href='#t1_cap9_c2'>multitud de gusanos blancos...</a>",
+		"categoria": "Animales",
+		"clase": "cita_animales",
+		"ref": "orinocoIlustrado_T1_C9"
+	},
+	{
+		"link": "<a href='#t1_cap10_c1'>La víspera, y noche antes de la boda...</a>",
+		"categoria": "Rituales",
+		"clase": "cita_rituales",
+		"ref": "orinocoIlustrado_T1_C10"
+	},
+	{
+		"link": "<a href='#t1_cap11_c1'>Miremos de paso a los guamos...</a>",
+		"categoria": "Rituales",
+		"clase": "cita_rituales",
+		"ref": "orinocoIlustrado_T1_C11"
+	},
+	{
+		"link": "<a href='#t1_cap11_c2'>Tienen su saque de pelota...</a>",
+		"categoria": "Rituales",
+		"clase": "cita_rituales",
+		"ref": "orinocoIlustrado_T1_C11"
+	},
+	{
+		"link": "<a href='#t1_cap11_c3'>Durante el juego hasta medio día...</a>",
+		"categoria": "Mujeres",
+		"clase": "cita_mujeres",
+		"ref": "orinocoIlustrado_T1_C11"
+	},
+	{
+		"link": "<a href='#t1_cap12_c1'>Fue numerosa la nación otomaca...</a>",
+		"categoria": "Conflicto",
+		"clase": "cita_conflicto",
+		"ref": "orinocoIlustrado_T1_C12"
+	},
+	{
+		"link": "<a href='#t1_cap12_c2'>tienen otro modo pésimo de emborracharse...</a>",
+		"categoria": "Rituales",
+		"clase": "cita_rituales",
+		"ref": "orinocoIlustrado_T1_C12"
+	},
+	{
+		"link": "<a href='#t1_cap12_c3'>que estando los misioneros diciendo misa...</a>",
+		"categoria": "Conflicto",
+		"clase": "cita_conflicto",
+		"ref": "orinocoIlustrado_T1_C12"
+	},
+	{
+		"link": "<a href='#t1_cap13_c1'>Los varones salivas...</a>",
+		"categoria": "Mujeres",
+		"clase": "cita_mujeres",
+		"ref": "orinocoIlustrado_T1_C13"
+	},
+	{
+		"link": "<a href='#t1_cap13_c2'>Y luego resonó repentinamente...</a>",
+		"categoria": "Rituales",
+		"clase": "cita_rituales",
+		"ref": "orinocoIlustrado_T1_C13"
+	},
+	{
+		"link": "<a href='#t1_cap14_c1'>Entre los indios guáraunos...</a>",
+		"categoria": "Rituales",
+		"clase": "cita_rituales",
+		"ref": "orinocoIlustrado_T1_C14"
+	},
+	{
+		"link": "<a href='#t1_cap14_c2'>La nación aruaca entierra sus muertos...</a>",
+		"categoria": "Rituales",
+		"clase": "cita_rituales",
+		"ref": "orinocoIlustrado_T1_C14"
+	},
+	{
+		"link": "<a href='#t1_cap14_c3'>al mismo tiempo era una armonía tan triste...</a>",
+		"categoria": "Evangelizacion",
+		"clase": "cita_evangelizacion",
+		"ref": "orinocoIlustrado_T1_C14"
+	},
+	{
+		"link": "<a href='#t1_cap15_c1'>Siempre me ha causado notable armonía...</a>",
+		"categoria": "Cuerpo",
+		"clase": "cita_cuerpo",
+		"ref": "orinocoIlustrado_T1_C15"
+	},
+	{
+		"link": "<a href='#t1_cap15_c2'>No es factible, que europeo alguno...</a>",
+		"categoria": "Evangelizacion",
+		"clase": "cita_evangelizacion",
+		"ref": "orinocoIlustrado_T1_C15"
+	},
+	{
+		"link": "<a href='#t1_cap15_c3'>Añado lo que me consta por larga experiencia...</a>",
+		"categoria": "Evangelizacion",
+		"clase": "cita_evangelizacion",
+		"ref": "orinocoIlustrado_T1_C15"
+	},
+	{
+		"link": "<a href='#t1_cap15_c4'>De modo, que primero se consigue...</a>",
+		"categoria": "Rituales",
+		"clase": "cita_rituales",
+		"ref": "orinocoIlustrado_T1_C15"
+	},
+	{
+		"link": "<a href='#t1_cap18_c1'>En este balcón, o plan...</a>",
+		"categoria": "Conflicto",
+		"clase": "cita_conflicto",
+		"ref": "orinocoIlustrado_T1_C18"
+	},
+	{
+		"link": "<a href='#t1_cap18_c2'>Por el pie de esta peña...</a>",
+		"categoria": "Poblamiento",
+		"clase": "cita_poblamiento",
+		"ref": "orinocoIlustrado_T1_C18"
+	},
+	{
+		"link": "<a href='#t1_cap18_c3'>Ahora volvamos la vista...</a>",
+		"categoria": "Riqueza",
+		"clase": "cita_riqueza",
+		"ref": "orinocoIlustrado_T1_C18"
+	},
+	{
+		"link": "<a href='#t1_cap18_c4'>Aquí, entre el río Synaruco...</a>",
+		"categoria": "Poblamiento",
+		"clase": "cita_poblamiento",
+		"ref": "orinocoIlustrado_T1_C18"
+	},
+	{
+		"link": "<a href='#t1_cap19_c1'>Las paquiras matan al modo dicho...</a>",
+		"categoria": "Animales",
+		"clase": "cita_animales",
+		"ref": "orinocoIlustrado_T1_C19"
+	},
+	{
+		"link": "<a href='#t1_cap19_c2'>en todas aquellas selvas...</a>",
+		"categoria": "Animales",
+		"clase": "cita_animales",
+		"ref": "orinocoIlustrado_T1_C19"
+	},
+	{
+		"link": "<a href='#t1_cap19_c3'>Perico ligero es un animal...</a>",
+		"categoria": "Animales",
+		"clase": "cita_animales",
+		"ref": "orinocoIlustrado_T1_C19"
+	},
+	{
+		"link": "<a href='#t1_cap19_c4'>El cusicusi es del tamaño de un gato...</a>",
+		"categoria": "Animales",
+		"clase": "cita_animales",
+		"ref": "orinocoIlustrado_T1_C19"
+	},
+	{
+		"link": "<a href='#t1_cap20_c1'>No sólo se utilizan estas gentes...</a>",
+		"categoria": "Riqueza",
+		"clase": "cita_riqueza",
+		"ref": "orinocoIlustrado_T1_C20"
+	},
+	{
+		"link": "<a href='#t1_cap20_c2'>olores exquisitos, que no hallo...</a>",
+		"categoria": "Riqueza",
+		"clase": "cita_riqueza",
+		"ref": "orinocoIlustrado_T1_C20"
+	},
+	{
+		"link": "<a href='#t1_cap20_c3'>El palo de anime es tan común...</a>",
+		"categoria": "Medicinas",
+		"clase": "cita_medicinas",
+		"ref": "orinocoIlustrado_T1_C20"
+	},
+	{
+		"link": "<a href='#t1_cap20_c4'>los árboles que dan la Otova...</a>",
+		"categoria": "Medicinas",
+		"clase": "cita_medicinas",
+		"ref": "orinocoIlustrado_T1_C20"
+	},
+	{
+		"link": "<a href='#t1_cap20_c5'>En los troncos de las palmas...</a>",
+		"categoria": "Medicinas",
+		"clase": "cita_medicinas",
+		"ref": "orinocoIlustrado_T1_C20"
+	},
+	{
+		"link": "<a href='#t1_cap20_c6'>En todos los llanos de Barinas...</a>",
+		"categoria": "Medicinas",
+		"clase": "cita_medicinas",
+		"ref": "orinocoIlustrado_T1_C20"
+	},
+	{
+		"link": "<a href='#t1_cap20_c7'>El árbol llamado drago...</a>",
+		"categoria": "Medicinas",
+		"clase": "cita_medicinas",
+		"ref": "orinocoIlustrado_T1_C20"
+	},
+	{
+		"link": "<a href='#t1_cap20_c8'>El árbol más apreciable..</a>",
+		"categoria": "Medicinas",
+		"clase": "cita_medicinas",
+		"ref": "orinocoIlustrado_T1_C20"
+	},
+	{
+		"link": "<a href='#t1_cap20_c9'>todos tres son maravillosos...</a>",
+		"categoria": "Comercio",
+		"clase": "cita_comercio",
+		"ref": "orinocoIlustrado_T1_C20"
+	},
+	{
+		"link": "<a href='#t1_cap21_c1'>Lo que en esta materia causa mayor...</a>",
+		"categoria": "Animales",
+		"clase": "cita_animales",
+		"ref": "orinocoIlustrado_T1_C21"
+	},
+	{
+		"link": "<a href='#t1_cap21_c2'>Y sépase, que es la cosa más curiosa...</a>",
+		"categoria": "Animales",
+		"clase": "cita_animales",
+		"ref": "orinocoIlustrado_T1_C21"
+	},
+	{
+		"link": "<a href='#t1_cap21_c3'>Las costillas son más dobles, y recias...</a>",
+		"categoria": "Medicinas",
+		"clase": "cita_medicinas",
+		"ref": "orinocoIlustrado_T1_C21"
+	},
+	{
+		"link": "<a href='#t1_cap21_c4'>La curbinata es pescado mediano...</a>",
+		"categoria": "Medicinas",
+		"clase": "cita_medicinas",
+		"ref": "orinocoIlustrado_T1_C21"
+	},
+	{
+		"link": "<a href='#t1_cap22_c1'>lograr lo que llamé cosecha...</a>",
+		"categoria": "Riqueza",
+		"clase": "cita_riqueza",
+		"ref": "orinocoIlustrado_T1_C22"
+	},
+	{
+		"link": "<a href='#t1_cap22_c2'>Concluyo este capítulo...</a>",
+		"categoria": "Riqueza",
+		"clase": "cita_riqueza",
+		"ref": "orinocoIlustrado_T1_C22"
+	},
+	{
+		"link": "<a href='#t1_cap23_c1'>Ahora supuesto lo dicho en general...</a>",
+		"categoria": "Evangelizacion",
+		"clase": "cita_evangelizacion",
+		"ref": "orinocoIlustrado_T1_C23"
+	},
+	{
+		"link": "<a href='#t1_cap23_c2'>La embajada sólo ha de ser...</a>",
+		"categoria": "Evangelizacion",
+		"clase": "cita_evangelizacion",
+		"ref": "orinocoIlustrado_T1_C23"
+	},
+	{
+		"link": "<a href='#t1_cap23_c3'>Vía recta a esta casa...</a>",
+		"categoria": "Evangelizacion",
+		"clase": "cita_evangelizacion",
+		"ref": "orinocoIlustrado_T1_C23"
+	},
+	{
+		"link": "<a href='#t1_cap23_c4'>Luego que el misionero volvió a su hamaca...</a>",
+		"categoria": "Rituales",
+		"clase": "cita_rituales",
+		"ref": "orinocoIlustrado_T1_C23"
+	},
+	{
+		"link": "<a href='#t1_cap23_c5'>Los indios compañeros...</a>",
+		"categoria": "Evangelizacion",
+		"clase": "cita_evangelizacion",
+		"ref": "orinocoIlustrado_T1_C23"
+	},
+	{
+		"link": "<a href='#t1_cap23_c6'>que si se animasen a buscar...</a>",
+		"categoria": "Poblamiento",
+		"clase": "cita_poblamiento",
+		"ref": "orinocoIlustrado_T1_C23"
+	},
+	{
+		"link": "<a href='#t1_cap24_c1'>Yo he visto los valles más afamados...</a>",
+		"categoria": "Riqueza",
+		"clase": "cita_riqueza",
+		"ref": "orinocoIlustrado_T1_C24"
+	},
+	{
+		"link": "<a href='#t1_cap24_c2'>cuanto el cuerpo de la canela...</a>",
+		"categoria": "Comercio",
+		"clase": "cita_comercio",
+		"ref": "orinocoIlustrado_T1_C24"
+	},
+	{
+		"link": "<a href='#t1_cap24_c3'>Fuera de esto, de la caña dulce...</a>",
+		"categoria": "Riqueza",
+		"clase": "cita_riqueza",
+		"ref": "orinocoIlustrado_T1_C24"
+	},
+	{
+		"link": "<a href='#t1_cap24_c4'>Las vegas de este...</a>",
+		"categoria": "Poblamiento",
+		"clase": "cita_poblamiento",
+		"ref": "orinocoIlustrado_T1_C24"
+	},
+	{
+		"link": "<a href='#t1_cap24_c5'>de modo, que sin daño de las naciones...</a>",
+		"categoria": "Comercio",
+		"clase": "cita_comercio",
+		"ref": "orinocoIlustrado_T1_C24"
+	},
+	{
+		"link": "<a href='#t1_cap24_c6'>Y volviendo a coger el hilo...</a>",
+		"categoria": "Riqueza",
+		"clase": "cita_riqueza",
+		"ref": "orinocoIlustrado_T1_C24"
+	},
+	{
+		"link": "<a href='#t2_cap7_c1'>La nación cacatia, cristiana ya...</a>",
 		"categoria": "Poblamiento",
 		"clase": "cita_poblamiento",
 		"ref": "orinocoIlustrado_T2_C7"
 	},
 	{
-		"link": "<a href='#cap7_c2'>¿Quién creyera, que aquella misma india...</a>",
+		"link": "<a href='#t2_cap7_c2'>¿Quién creyera, que aquella misma india...</a>",
 		"categoria": "Mujeres",
 		"clase": "cita_mujeres",
 		"ref": "orinocoIlustrado_T2_C7"
 	},
 	{
-		"link": "<a href='#cap7_c3'>Fuera de estas tres causas tan poderosas...</a>",
+		"link": "<a href='#t2_cap7_c3'>Fuera de estas tres causas tan poderosas...</a>",
 		"categoria": "Poblamiento",
 		"clase": "cita_poblamiento",
 		"ref": "orinocoIlustrado_T2_C7"
 	},
 	{
-		"link": "<a href='#cap7_c4'>o un pez, y nosotras cavamos...</a>",
+		"link": "<a href='#t2_cap7_c4'>o un pez, y nosotras cavamos...</a>",
 		"categoria": "Mujeres",
 		"clase": "cita_mujeres",
 		"ref": "orinocoIlustrado_T2_C7"
 	},
 	{
-		"link": "<a href='#cap8_c1'>El motivo, y causa principal de las guerras mutuas...</a>",
+		"link": "<a href='#t2_cap8_c1'>El motivo, y causa principal de las guerras mutuas...</a>",
 		"categoria": "Conflicto",
 		"clase": "cita_conflicto",
 		"ref": "orinocoIlustrado_T2_C8"
 	},
 	{
-		"link": "<a href='#cap8_c2'>luego que descansan, pasan a las colonias holandesas...</a>",
+		"link": "<a href='#t2_cap8_c2'>luego que descansan, pasan a las colonias holandesas...</a>",
 		"categoria": "Comercio",
 		"clase": "cita_comercio",
 		"ref": "orinocoIlustrado_T2_C8"
 	},
 	{
-		"link": "<a href='#cap9_c1'>entraron a todo su salvo en el pueblo...</a>",
+		"link": "<a href='#t2_cap9_c1'>entraron a todo su salvo en el pueblo...</a>",
 		"categoria": "Conflicto",
 		"clase": "cita_conflicto",
 		"ref": "orinocoIlustrado_T2_C9"
 	},
 	{
-		"link": "<a href='#cap11_c1'>Y en fin, si acá se inventaron las cajas...</a>",
+		"link": "<a href='#t2_cap11_c1'>Y en fin, si acá se inventaron las cajas...</a>",
 		"categoria": "Conflicto",
 		"clase": "cita_conflicto",
 		"ref": "orinocoIlustrado_T2_C11"
 	},
 	{
-		"link": "<a href='#cap12_c1'>La nación caberre , la más inhumana...</a>",
+		"link": "<a href='#t2_cap12_c1'>La nación caberre , la más inhumana...</a>",
 		"categoria": "Comercio",
 		"clase": "cita_comercio",
 		"ref": "orinocoIlustrado_T2_C12"
 	},
 	{
-		"link": "<a href='#cap14_c1'>El primer horrible serpentón...</a>",
+		"link": "<a href='#t2_cap14_c1'>El primer horrible serpentón...</a>",
 		"categoria": "Animales",
 		"clase": "cita_animales",
 		"ref": "orinocoIlustrado_T2_C14"
 	},
 	{
-		"link": "<a href='#cap14_c2'>¿Cómo no dan (dirá alguno) una eficaz providencia...</a>",
+		"link": "<a href='#t2_cap14_c2'>¿Cómo no dan (dirá alguno) una eficaz providencia...</a>",
 		"categoria": "Poblamiento",
 		"clase": "cita_poblamiento",
 		"ref": "orinocoIlustrado_T2_C14"
 	},
 	{
-		"link": "<a href='#cap14_c3'>Más traidora es la culebra llamada macaurel...</a>",
+		"link": "<a href='#t2_cap14_c3'>Más traidora es la culebra llamada macaurel...</a>",
 		"categoria": "Animales",
 		"clase": "cita_animales",
 		"ref": "orinocoIlustrado_T2_C14"
 	},
 	{
-		"link": "<a href='#cap15_c1'>Toda esta multitud de enemigos...</a>",
+		"link": "<a href='#t2_cap15_c1'>Toda esta multitud de enemigos...</a>",
 		"categoria": "Animales",
 		"clase": "cita_animales",
 		"ref": "orinocoIlustrado_T2_C15"
 	},
 	{
-		"link": "<a href='#cap18_c1'>El es la ferocidad misma...</a>",
+		"link": "<a href='#t2_cap18_c1'>El es la ferocidad misma...</a>",
 		"categoria": "Animales",
 		"clase": "cita_animales",
 		"ref": "orinocoIlustrado_T2_C18"
 	},
 	{
-		"link": "<a href='#cap18_c2'>dichos colmillos un gran contraveneno...</a>",
+		"link": "<a href='#t2_cap18_c2'>dichos colmillos un gran contraveneno...</a>",
 		"categoria": "Medicinas",
 		"clase": "cita_medicinas",
 		"ref": "orinocoIlustrado_T2_C18"
 	},
 	{
-		"link": "<a href='#cap22_c1'>Es tanta la abundancia de cachicamos...</a>",
+		"link": "<a href='#t2_cap19_c1'>Y es aún más de admirar...</a>",
+		"categoria": "Riqueza",
+		"clase": "cita_riqueza",
+		"ref": "orinocoIlustrado_T2_C19"
+	},
+	{
+		"link": "<a href='#t2_cap19_c2'>una singular especie de maiz...</a>",
+		"categoria": "Riqueza",
+		"clase": "cita_riqueza",
+		"ref": "orinocoIlustrado_T2_C19"
+	},
+	{
+		"link": "<a href='#t2_cap22_c1'>Es tanta la abundancia de cachicamos...</a>",
 		"categoria": "Animales",
 		"clase": "cita_animales",
 		"ref": "orinocoIlustrado_T2_C22"
 	},
 	{
-		"link": "<a href='#cap22_c2'>No hay menor abundancia de iguanas...</a>",
+		"link": "<a href='#t2_cap22_c2'>No hay menor abundancia de iguanas...</a>",
 		"categoria": "Animales",
 		"clase": "cita_animales",
 		"ref": "orinocoIlustrado_T2_C22"
