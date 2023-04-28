@@ -26,8 +26,8 @@
     <div id="fragmentosCol1" class="izq padTop30px">
       <h1>Curaduría de Fragmentos</h1>
       <p>
-        <button id="openDialog">¿Qué es?</button>
-        <button id="openDialog_how">¿Cómo usar?</button>
+        <button id="openDialog_introduccion">¿Qué es?</button>
+        <button id="openDialog_instrucciones">¿Cómo usar?</button>
       </p>
 
       <div id="seleccionTexto">
@@ -116,6 +116,19 @@
     <canvas id='miniMap'></canvas>
   </div>
 
+  <dialog id="introduccionDialog">
+    <h2>
+      <b>¿Qué es esta herramienta?</b>
+    </h2>
+    <p>
+      Durante los siglos XVI, XVII y XVIII los gabinetes de curiosidades, –pequeñas muestras de territorios lejanos y nuevos–, crecieron y se popularizaron en Europa. Objetos, plantas y animales mostraron el alcance y poderío del imperio español y alimentaron la imaginación de la gente. En 1740 el jesuita Joseph Gumilla presentó uno de los gabinetes más conocidos, el Orinoco ilustrado. Este libro nos muestra que América <i>“no solo se llama Mundo Nuevo, por su nuevo descubrimiento; sino tambien porque comparado con este Mundo antiguo [Europa], aquel es del todo nuevo, y en todo diverso”</i>. En la imaginación de Gumilla, el Orinoco se convierte en un territorio de posibilidades económicas, políticas y espirituales para España. 
+    </p>
+    <p>
+      En esta curaduría mostramos una nueva forma de leer el Orinoco Ilustrado. Por medio de diez categorías proponemos un nuevo gabinete de curiosidades de este pasado, una pequeña muestra de la complejidad de las relaciones entre imperios, indigenas y naturaleza que caracterizaron este Nuevo Mundo. Y cómo la diversidad y la novedad de este territorio implicó un reto para la corona española en sus proyectos de conocer y ordenar las fronteras del Imperio. 
+    </p>
+    <button id="closeDialog_introduccion" value="close">Cerrar</button>
+  </dialog>
+
   <dialog id="instructionsDialog">
     <h2>
       <b>¿Cómo usar esta herramienta?</b>
@@ -165,7 +178,7 @@
       </ul>
     </details>
     <br>
-    <button id="closeDialog_how" value="close">Cerrar</button>
+    <button id="closeDialog_instrucciones" value="close">Cerrar</button>
   </dialog>
 
   <script id="templateFragmentos" type="text/html">

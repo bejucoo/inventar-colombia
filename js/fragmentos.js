@@ -17,14 +17,26 @@ fetchFragments().then(data => {
 });
 
 
-// Abrir y cerrar instrucciones.
+// Abrir y cerrar intro e instrucciones.
 (() => {
-  const openButton = document.getElementById("openDialog_how");
-  const closeButton = document.getElementById("closeDialog_how");
-  const dialog = document.getElementById("instructionsDialog");
+  const openButton_instrucciones = document.getElementById("openDialog_instrucciones");
+  const closeButton_instrucciones = document.getElementById("closeDialog_instrucciones");
+  const dialog_instrucciones = document.getElementById("instructionsDialog");
 
-  openButton.addEventListener("click", () => dialog.showModal());
-  closeButton.addEventListener("click", () => dialog.close());
+  const openButton_introduccion = document.getElementById("openDialog_introduccion");
+  const closeButton_introduccion = document.getElementById("closeDialog_introduccion");
+  const dialog_introduccion = document.getElementById("introduccionDialog");
+
+  openButton_instrucciones.addEventListener("click", () => dialog_instrucciones.showModal());
+  closeButton_instrucciones.addEventListener("click", () => dialog_instrucciones.close());
+
+  openButton_introduccion.addEventListener("click", () => dialog_introduccion.showModal());
+  closeButton_introduccion.addEventListener("click", () => dialog_introduccion.close());
+})();
+
+(() => {
+  const openButton_introduccion = document.getElementById("openDialog_introduccion");
+  openButton_introduccion.click();
 })();
 
 
