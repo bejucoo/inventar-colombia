@@ -61,7 +61,7 @@ html, body {
 /* DIALOGS */
 dialog {
 	max-width: 700px;
-	border: var(--bd_solid);
+	border: var(--bd_double);
 	background: var(--white1);
 	font-size: 1.3em;
 }
