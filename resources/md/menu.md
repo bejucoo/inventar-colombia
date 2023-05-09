@@ -6,7 +6,7 @@
 
 - ##  II. [El Orinoco](orinoco.html)
 - [Curaduría de Fragmentos](fragmentos.html)
-- [Narrativa Cartográfica](#)
+- [Narrativa Cartográfica](narrativa.html)
 <br>
 
 - ## III. [Epílogo](epilogo.html)

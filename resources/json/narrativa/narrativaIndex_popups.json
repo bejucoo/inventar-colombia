@@ -1,0 +1,41 @@
+[
+	{
+		"id": "intro_1",
+		"class": "indexPopup narrativaIndexPopup_sub bg_transparent",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -66.00,
+			"lat": 7.5
+		},
+		"zoom": 9,
+		"pitch": 60,
+		"bearing": 150,
+		"html": "<img src='./resources/images/index/popup_3.svg' alt=''><div><h2>Biodiversidad</h2></div>"
+	},
+	{
+		"id": "intro_1",
+		"class": "indexPopup narrativaIndexPopup_sub bg_transparent",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -67.00,
+			"lat": 6.8
+		},
+		"zoom": 9,
+		"pitch": 60,
+		"bearing": 150,
+		"html": "<img src='./resources/images/index/popup_2.svg' alt=''><div><h2>Sociodiversidad</h2></div>"
+	},
+	{
+		"id": "intro_1",
+		"class": "indexPopup narrativaIndexPopup_sub bg_transparent",
+		"maxWidth": "none",
+		"lnglat": {
+			"lng": -66.00,
+			"lat": 6.5
+		},
+		"zoom": 9,
+		"pitch": 60,
+		"bearing": 150,
+		"html": "<img src='./resources/images/index/popup_4.svg' alt=''><div><h2>Paisaje</h2></div>"
+	}
+]

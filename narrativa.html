@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Narrativa Cartográfica</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" href="./css/libraries/maplibre-gl.css"/>
+	<script type="module" src="./js/libraries/md-block.js"></script>
+	<script src="./js/libraries/maplibre-gl.js"></script>
+</head>
+<body>
+	<div id="menuDiv" class="h100 p_fix">
+		<div id="menuContent" class="h100 d_flex flex_column">
+			<md-block id="menuMDBlock" src="./resources/md/menu.md"></md-block>
+		</div>
+		<div id="menuToggle" class="p_abs">
+			<span>
+				<b>☰</b>
+			</span>
+		</div>
+	</div>
+
+	<div id="indexContent">
+		<section id="indexMap" class="w100vw">
+			<div id="indexMapElm">
+			</div>
+		</section>
+	</div>
+
+	<script src="./js/menu.js"></script>
+	<script src="./js/narrativaIndex.js"></script>
+</body>
+</html>
