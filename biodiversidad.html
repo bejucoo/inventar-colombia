@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sección 1: Biodiversidad</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" href="./css/libraries/maplibre-gl.css"/>
+	<script type="module" src="./js/libraries/md-block.js"></script>
+	<script src="./js/libraries/maplibre-gl.js"></script>
+	<script src="./js/libraries/scrollama.js"></script>
+</head>
+<body>
+	<div id="menuDiv" class="h100 p_fix">
+		<div id="menuContent" class="h100 d_flex flex_column">
+			<md-block id="menuMDBlock" src="./resources/md/menu.md"></md-block>
+		</div>
+		<div id="menuToggle" class="p_abs">
+			<span>
+				<b>☰</b>
+			</span>
+		</div>
+	</div>
+
+	<div id="sectionContent_1" class="p_stk sectionContentNarrativa d_grid grid_twoCol_2-3">
+		<div id="biodiversidadTexto_1" class="p_stk h100vh izq narrativaTop0 padTop30px">
+			<h1>Zizagueando voy drenando e inundando los cursos de agua entre el oeste y este del norte de Suramérica. </h1>
+		</div>
+		<div class="p_stk h100vh der narrativaTop0 padTop30px">
+			<h1>Imagen 1</h1>
+		</div>
+
+		<div id="biodiversidaSteps_1">
+			<div id="0" class="biodiversidaStep"></div>
+			<div id="1" class="biodiversidaStep"></div>
+			<div id="2" class="biodiversidaStep"></div>
+		</div>
+	</div>
+
+	<div id="sectionContent_2" class="p_stk sectionContentNarrativa d_grid grid_twoCol_2-3">
+		<div id="biodiversidadTexto_2" class="p_stk h100vh izq narrativaTop0 padTop30px">
+			<h1>Hace millones de años, durante el Mioceno,  mi cuerpo no se veía como ahora, pero fue hace tanto que hoy no saben bien cómo era. Me tomó otros millones de años encontrar el camino que recorro hoy.
+			</h1>
+		</div>
+		<div class="p_stk h100vh der narrativaTop0 padTop30px">
+			<h1>Imagen 2</h1>
+		</div>
+
+		<div id="biodiversidaSteps_2">
+			<!-- <div id="0" class="biodiversidaStep"></div>
+			<div id="1" class="biodiversidaStep"></div>
+			<div id="2" class="biodiversidaStep"></div> -->
+		</div>
+	</div>
+
+	<script src="./js/menu.js"></script>
+	<script src="./js/biodiversidad.js"></script>
+</body>
+</html>

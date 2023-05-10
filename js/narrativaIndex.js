@@ -2,8 +2,8 @@
 let map = new maplibregl.Map({
 	container: "indexMapElm",
 	style: "./resources/json/map_styles/index_map.json",
-	center: [-66.00, 7.00],
-	zoom: 9,
+	center: [-66.52336, 6.34132],
+	zoom: 8,
 	pitch: 60,
 	bearing: 150,
 	interactive: false,

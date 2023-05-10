@@ -4,38 +4,38 @@
 		"class": "indexPopup narrativaIndexPopup_sub bg_transparent",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -66.00,
-			"lat": 7.5
+			"lng": -65.56,
+			"lat": 6.9
 		},
 		"zoom": 9,
 		"pitch": 60,
 		"bearing": 150,
-		"html": "<img src='./resources/images/index/popup_3.svg' alt=''><div><h2>Biodiversidad</h2></div>"
+		"html": "<img src='./resources/images/index/popup_3.svg' alt=''><div><a href='biodiversidad.html'><h2 style='margin: 10% 0'>Sección I</h2><h3 style='font-weight: lighter; margin: 10% 0'>Biodiversidad</h3></a></div>"
 	},
 	{
 		"id": "intro_1",
 		"class": "indexPopup narrativaIndexPopup_sub bg_transparent",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -67.00,
-			"lat": 6.8
+			"lng": -66.55,
+			"lat": 6.35
 		},
 		"zoom": 9,
 		"pitch": 60,
 		"bearing": 150,
-		"html": "<img src='./resources/images/index/popup_2.svg' alt=''><div><h2>Sociodiversidad</h2></div>"
+		"html": "<img src='./resources/images/index/popup_2.svg' alt=''><div><a href='#'><h2 style='margin: 10% 0'>Sección 2</h2><h3 style='font-weight: lighter; margin: 10% 0'>Sociodiversidad</h3></a></div>"
 	},
 	{
 		"id": "intro_1",
 		"class": "indexPopup narrativaIndexPopup_sub bg_transparent",
 		"maxWidth": "none",
 		"lnglat": {
-			"lng": -66.00,
-			"lat": 6.5
+			"lng": -67.5,
+			"lat": 5.8
 		},
 		"zoom": 9,
 		"pitch": 60,
 		"bearing": 150,
-		"html": "<img src='./resources/images/index/popup_4.svg' alt=''><div><h2>Paisaje</h2></div>"
+		"html": "<img src='./resources/images/index/popup_4.svg' alt=''><div><a href='#'><h2 style='margin: 10% 0'>Sección 3</h2><h3 style='font-weight: lighter; margin: 10% 0'>Paisaje</h3></a></div>"
 	}
 ]

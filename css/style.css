@@ -107,6 +107,11 @@ details>summary {
 	scroll-behavior: smooth;
 }
 
+.der_full {
+	overflow: scroll;
+	scroll-behavior: smooth;
+}
+
 .padTop30px {
 	padding-top: 30px;
 }
@@ -145,6 +150,7 @@ a:visited {
 a:hover {
 	color: var(--black);
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 
@@ -371,7 +377,7 @@ button:hover {
 	text-align: center;
 }
 
-.indexPopup_main img, .indexPopup_sub img, .indexPopup_inf img {
+.indexPopup_main img, .indexPopup_sub img, .indexPopup_inf img, .narrativaIndexPopup_sub img {
 	position: absolute;
 	z-index: -1;
 }
@@ -497,6 +503,12 @@ button:hover {
 	font-size: 1.3em;
 	background: var(--white1);
 	overflow: hidden;
+}
+
+.sectionContentNarrativa {
+	padding: 0 0 0 5%;
+	font-size: 1.3em;
+	background: var(--white1);
 }
 
 
@@ -638,8 +650,21 @@ button:hover {
 
 /* NARRATIVA */
 .narrativaIndexPopup_sub img {
-	max-width: 500px;
+	max-width: 300px;
 	transform: translate(-50%, -23%);
+}
+
+
+
+
+
+/* BIODIVERSIDAD */
+.narrativaTop0 {
+	top: 0;
+}
+
+.biodiversidaStep {
+	height: 1500px;
 }
 
 
@@ -653,16 +678,19 @@ details,
 #menuDiv,
 .indexPopup,
 #indexMapControl,
+.sectionContentNarrativa :is(h1, h2, h3, h4),
 #sectionContent :is(h1, h2, h3, h4) {
 	font-family: 'cormorant-up';
 }
 
 dialog :is(p, ol, ul),
+.sectionContentNarrativa :is(a, p, mark, ol, ul, h5),
 #sectionContent :is(a, p, mark, ol, ul, h5),
 .fragmento {
 	font-family: 'cormorant';
 }
 
+.sectionContentNarrativa h1,
 #sectionContent h1 {
 	margin: 0 0 15px 0;
 	font-size: 2.5em;
@@ -762,6 +790,12 @@ dialog :is(p, ol, ul),
 
 	/* SECTIONS */
 	#sectionContent {
+		height: unset;
+		grid-template-columns: 1fr;
+		padding: 20% 5%;
+	}
+
+	.sectionContentNarrativa {
 		height: unset;
 		grid-template-columns: 1fr;
 		padding: 20% 5%;
