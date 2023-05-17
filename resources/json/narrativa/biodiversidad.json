@@ -1,14 +1,14 @@
  [
  	{
  		"id": "0",
- 		"content": "<h1>Zizagueando voy drenando e inundando los cursos de agua entre el oeste y este del norte de Suramérica.</h1>"
+ 		"content": "<h1 class='centered padDer5'>Zizagueando voy drenando e inundando los cursos de agua entre el oeste y este del norte de Suramérica.</h1>"
  	},
  	{
  		"id": "1",
- 		"content": "<h1>Me conocen como la serpiente enroscada, la madre de las aguas, el lugar para remar o la cuenca del Orinoco.</h1>"
+ 		"content": "<h1 class='centered padDer5'>Me conocen como la serpiente enroscada, la madre de las aguas, el lugar para remar o la cuenca del Orinoco.</h1>"
  	},
  	{
  		"id": "2",
- 		"content": "<h1>Mi cuerpo es tan largo como XXXX y por él fluye tanta agua durante las lluvias que XXXX, además soy tan grande que con mis movimientos impacto casi toda la superficie de Venezuela.</h1>"
+ 		"content": "<h1 class='centered padDer5'>Mi cuerpo es tan largo como XXXX y por él fluye tanta agua durante las lluvias que XXXX, además soy tan grande que con mis movimientos impacto casi toda la superficie de Venezuela.</h1>"
  	}
  ]

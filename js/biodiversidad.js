@@ -19,10 +19,11 @@ const scrollIntro = (text) => {
 	const scroller = scrollama();
 	scroller
 	.setup({
-		step: ".biodiversidaStep"
+		step: ".biodiversidadStep"
 	})
 	.onStepEnter((response) => {
 		changeIntroContent(text, response);
+		console.log(response);
 	});
 }
 

@@ -12,8 +12,9 @@
 	--white1_transparent: #f2efe5ff;
 	--white2: #f2f0ea;
 	
-	--red1: #d4978b;
+	--red1: #c67767ff;
 	--red2: #e4bfb7ff;
+	--red3: #ab513fff;
 	
 	--blue1: #92a9a4;
 	--blue2: #bccac7ff;
@@ -27,11 +28,8 @@
 	--orange1: #e1a25bff;
 	--orange2: #edc89fff;
 
-	--purple1: #b9969eff;
-
-	--pink1: #f2bcccff;
-
-	--mint1: #bae0d6ff;
+	--purple1: #9b78a5ff;
+	--purple2: #d6c8daff;
 	
 	--transparent: rbga(0,0,0,0);
 	
@@ -40,20 +38,8 @@
 	--bd_solid: thick solid var(--black);
 }
 
-#serpiente {
-  stroke-dasharray: 100;
-  stroke-dashoffset: 1000;
-  animation: dash 10s linear alternate infinite;
-}
 
-@keyframes dash {
-  from {
-    stroke-dashoffset: 822;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
+
 
 
 /* MAIN CONTAINER */
@@ -73,6 +59,9 @@ html, body {
 }
 
 
+
+
+
 /* DIALOGS */
 dialog {
 	max-width: 700px;
@@ -90,6 +79,9 @@ details>summary {
 }
 
 
+
+
+
 /* WIDTH & HEIGHT */
 .w100vw {
 	width: 100vw;
@@ -103,9 +95,16 @@ details>summary {
 	width: 100%;
 }
 
+.w90 {
+	width: 90%;
+}
+
 .h100 {
 	height: 100%;
 }
+
+
+
 
 
 /* MARGIN & PADDING */
@@ -113,7 +112,12 @@ details>summary {
 	padding: 0 60px 0 0;
 	overflow: scroll;
 	scroll-behavior: smooth;
-	border-right: var(--bd_double);
+}
+
+.izq_borderless {
+	padding: 0 60px 0 0;
+	overflow: scroll;
+	scroll-behavior: smooth;
 }
 
 .der {
@@ -125,6 +129,10 @@ details>summary {
 .der_full {
 	overflow: scroll;
 	scroll-behavior: smooth;
+}
+
+.padDer5 {
+	padding-right: 5%;
 }
 
 .padTop30px {
@@ -140,67 +148,42 @@ details>summary {
 }
 
 
-/* TEXT ALIGN */
-.t_center {
-	text-align: center;
+
+
+
+/* POSITION */
+.p_abs {
+	position: absolute;
+}
+
+.p_fix {
+	position: fixed;
+}
+
+.p_rel {
+	position: relative;
+}
+
+.p_stk {
+	position: sticky;
+}
+
+.centered {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto !important;
+	height: fit-content;
+}
+
+.top0 {
+	top: 0;
 }
 
 
-/* LINKS */
-a {
-	outline: 0;
-}
 
-a:link {
-	transition: color .2s linear;
-	color: var(--gray1);
-	text-decoration: none;
-}
-
-a:visited {
-	color: var(--gray1);
-	text-decoration: none;
-}
-
-a:hover {
-	color: var(--black);
-	text-decoration: underline;
-	cursor: pointer;
-}
-
-
-/* INPUTS */
-fieldset {
-	border: none;
-	padding: 0;
-}
-
-legend {
-	font-size: 1.4em;
-}
-
-select {
-	background: var(--white1);
-	border: solid 1px var(--black);
-	padding: 20px;
-	width: 100%;
-	font-size: 1em;
-}
-
-button {
-	padding: 10px 15px;
-	color: var(--black);
-	background: var(--white1);
-	border: solid 1px;
-	font-size: 1em;
-	cursor: pointer;
-	transition: background .1s linear;
-}
-
-button:hover {
-	color: var(--white1);
-	background: var(--black);
-}
 
 
 /* GRID */
@@ -245,6 +228,9 @@ button:hover {
 }
 
 
+
+
+
 /* FLEXBOX */
 .d_flex {
 	display: flex;
@@ -263,21 +249,79 @@ button:hover {
 }
 
 
-/* POSITION */
-.p_abs {
-	position: absolute;
+
+
+
+/* TEXT ALIGN */
+.t_center {
+	text-align: center;
 }
 
-.p_fix {
-	position: fixed;
+
+
+
+
+/* LINKS */
+a {
+	outline: 0;
 }
 
-.p_rel {
-	position: relative;
+a:link {
+	transition: color .2s linear;
+	color: var(--gray1);
+	text-decoration: none;
 }
 
-.p_stk {
-	position: sticky;
+a:visited {
+	color: var(--gray1);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--black);
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.mousePointer {
+	cursor: pointer;
+}
+
+
+
+
+
+/* INPUTS */
+fieldset {
+	border: none;
+	padding: 0;
+}
+
+legend {
+	font-size: 1.4em;
+}
+
+select {
+	background: var(--white1);
+	border: solid 1px var(--black);
+	padding: 20px;
+	width: 100%;
+	font-size: 1em;
+}
+
+button {
+	padding: 10px 15px;
+	color: var(--black);
+	background: var(--white1);
+	border: solid 1px;
+	font-size: 1em;
+	cursor: pointer;
+	transition: background .1s linear;
+}
+
+button:hover {
+	color: var(--white1);
+	background: var(--black);
 }
 
 
@@ -340,6 +384,9 @@ button:hover {
 }
 
 
+
+
+
 /* CONTENT BLURRED ON MENU ACTIVE */
 .blurred {
 	transition: filter 0.4s;
@@ -355,7 +402,6 @@ button:hover {
 
 
 
-/* INDEX */
 /* INDEX MAP */
 #indexMapElm {
 	width:100%;
@@ -415,31 +461,6 @@ button:hover {
 .bg_transparent > .maplibregl-popup-content,
 .bg_transparent > .mapboxgl-popup-content {
 	background: var(--transparent);
-}
-
-.bg_white > .maplibregl-popup-content,
-.bg_white > .mapboxgl-popup-content {
-	background: var(--white2);
-}
-
-.bg_red > .maplibregl-popup-content,
-.bg_red > .mapboxgl-popup-content {
-	background: var(--red1);
-}
-
-.bg_blue > .maplibregl-popup-content,
-.bg_blue > .mapboxgl-popup-content {
-	background: var(--blue1);
-}
-
-.bg_yellow > .maplibregl-popup-content,
-.bg_yellow > .mapboxgl-popup-content {
-	background: var(--yellow1);
-}
-
-.bg_green > .maplibregl-popup-content,
-.bg_green > .mapboxgl-popup-content {
-	background: var(--green1);
 }
 
 
@@ -512,7 +533,7 @@ button:hover {
 
 /* SECTIONS */
 /* CONTENT */
-#sectionContent {
+#sectionContent, .sectionContent {
 	height: 100vh;
 	padding: 0 0 0 5%;
 	font-size: 1.3em;
@@ -520,27 +541,20 @@ button:hover {
 	overflow: hidden;
 }
 
-.sectionContentNarrativa {
-	padding: 0 0 0 5%;
-	font-size: 1.3em;
-	background: var(--white1);
-}
-
-
 
 
 
 
 /* INTRO */
 #introTexto {
-	padding: 28% 60px 0 0;
+/*	padding: 28% 60px 0 0;*/
 }
 
 #introTextoContenido {
 	position: sticky;
 	top: 0;
 	margin: 0;
-	text-align: center;
+	height: 100vh;
 }
 
 .introTituloStep {
@@ -615,7 +629,7 @@ button:hover {
 }
 
 .cita_evangelizacion.active {
-	background-color: var(--purple1);
+	background-color: var(--red2);
 }
 
 .cita_conflicto.active {
@@ -634,16 +648,12 @@ button:hover {
 	background-color: var(--green1);
 }
 
-.cita_paisaje.active {
-	background-color: var(--blue2);
-}
-
 .cita_rituales.active {
-	background: var(--pink1);
+	background: var(--purple2);
 }
 
 .cita_mujeres.active {
-	background: var(--mint1);
+	background: var(--purple1);
 }
 
 .cita_cuerpo.active {
@@ -674,13 +684,10 @@ button:hover {
 
 
 /* BIODIVERSIDAD */
-.narrativaTop0 {
-	top: 0;
-}
-
-.biodiversidaStep {
+.biodiversidadStep, .biodiversidadSpace {
 	height: 1500px;
 }
+
 
 
 
@@ -693,22 +700,26 @@ details,
 #menuDiv,
 .indexPopup,
 #indexMapControl,
-.sectionContentNarrativa :is(h1, h2, h3, h4),
+.sectionContent :is(h1, h2, h3, h4),
 #sectionContent :is(h1, h2, h3, h4) {
 	font-family: 'cormorant-up';
 }
 
 dialog :is(p, ol, ul),
-.sectionContentNarrativa :is(a, p, mark, ol, ul, h5),
+.sectionContent :is(a, p, mark, ol, ul, h5),
 #sectionContent :is(a, p, mark, ol, ul, h5),
 .fragmento {
 	font-family: 'cormorant';
 }
 
-.sectionContentNarrativa h1,
+.sectionContent h1,
 #sectionContent h1 {
 	margin: 0 0 15px 0;
 	font-size: 2.5em;
+}
+
+.textoVerde {
+	color: var(--green1);
 }
 
 
@@ -827,8 +838,7 @@ dialog :is(p, ol, ul),
 
 	#introTextoContenido {
 		position: fixed;
-		top: unset;
-		padding: 0 5% 0 0;
+		width: 90%;
 	}
 
 	#introImagen {
