@@ -1,7 +1,7 @@
 #serpiente {
 	stroke-dasharray: 100;
 	stroke-dashoffset: 1000;
-	animation: dash 10s linear alternate infinite;
+	animation: dash 16s linear infinite;
 }
 
 @keyframes dash {

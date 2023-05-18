@@ -126,6 +126,10 @@ details>summary {
 	scroll-behavior: smooth;
 }
 
+.oneCol {
+	padding: 0 60px ;
+}
+
 .der_full {
 	overflow: scroll;
 	scroll-behavior: smooth;
@@ -716,6 +720,7 @@ dialog :is(p, ol, ul),
 #sectionContent h1 {
 	margin: 0 0 15px 0;
 	font-size: 2.5em;
+	line-height: 1;
 }
 
 .textoVerde {

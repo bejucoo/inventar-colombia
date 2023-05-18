@@ -10,7 +10,7 @@
 		"zoom": 9,
 		"pitch": 60,
 		"bearing": 150,
-		"html": "<img src='./resources/images/index/popup_3.svg' alt=''><div><a href='biodiversidad.html'><h2 style='margin: 10% 0'>Sección I</h2><h3 style='font-weight: lighter; margin: 10% 0'>Biodiversidad</h3></a></div>"
+		"html": "<img src='./resources/images/index/popup_3.svg' alt=''><div><a href='biodiversidad.html'><h2 style='margin: 10% 0'>I</h2><h3 style='font-weight: lighter; margin: 10% 0'>Biodiversidad</h3></a></div>"
 	},
 	{
 		"id": "intro_1",
@@ -23,7 +23,7 @@
 		"zoom": 9,
 		"pitch": 60,
 		"bearing": 150,
-		"html": "<img src='./resources/images/index/popup_2.svg' alt=''><div><a href='#'><h2 style='margin: 10% 0'>Sección 2</h2><h3 style='font-weight: lighter; margin: 10% 0'>Sociodiversidad</h3></a></div>"
+		"html": "<img src='./resources/images/index/popup_2.svg' alt=''><div><a href='#'><h2 style='margin: 10% 0'>II</h2><h3 style='font-weight: lighter; margin: 10% 0'>Sociodiversidad</h3></a></div>"
 	},
 	{
 		"id": "intro_1",
@@ -36,6 +36,6 @@
 		"zoom": 9,
 		"pitch": 60,
 		"bearing": 150,
-		"html": "<img src='./resources/images/index/popup_6.svg' alt=''><div><a href='#'><h2 style='margin: 10% 0'>Sección 3</h2><h3 style='font-weight: lighter; margin: 10% 0'>Paisaje</h3></a></div>"
+		"html": "<img src='./resources/images/index/popup_6.svg' alt=''><div><a href='#'><h2 style='margin: 20% 0'>III</h2><h3 style='font-weight: lighter; margin: 20% 0'>Paisaje</h3></a></div>"
 	}
 ]
