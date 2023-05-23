@@ -49,7 +49,7 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": -25.60,
-		"html": "<img src='./resources/images/index/popup_4.svg' alt=''><div><h2>III. Epílogo</h2><p style='font-size: 0.8em;'><a href='#'>Ensayo Interactivo</a></p></div>"
+		"html": "<img src='./resources/images/index/popup_4.svg' alt=''><div><h2>III. Epílogo</h2><p style='font-size: 0.8em;'><a href='#'>El lugar del Orinoco en la invención de Colombia</a></p></div>"
 	},
 	{
 		"id": "equipo",
