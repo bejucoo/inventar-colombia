@@ -1,7 +1,7 @@
 // Agregar un nuevo mapa de MapLibre GL JS.
 let map = new maplibregl.Map({
-	container: "indexMapElm",
-	style: "./resources/json/map_styles/index_map.json",
+	container: "mapElm",
+	style: "./resources/json/map_styles/indexMap.json",
 	center: [-66.52336, 6.34132],
 	zoom: 8,
 	pitch: 60,

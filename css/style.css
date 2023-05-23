@@ -407,7 +407,7 @@ button:hover {
 
 
 /* INDEX MAP */
-#indexMapElm {
+#mapElm {
 	width:100%;
 	min-height: 100vh;
 	position: sticky;
