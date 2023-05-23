@@ -352,6 +352,7 @@ button:hover {
 	font-size: 1.3em;
 	line-height: 1em;
 	overflow: hidden;
+	padding: 0 10%;
 }
 
 #menuContent ul {
