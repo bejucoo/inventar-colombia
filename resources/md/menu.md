@@ -11,13 +11,12 @@
 <br>
 
 - ## III. [Epílogo](epilogo.html)
-- [Ensayo Interactivo](#)
+- [El lugar del Orinoco en la invención de Colombia](#)
 <br>
 
 - ## IV. [Investigación](investigacion.html)
 - [Metodología](#)
-- [Documentos](#)
-- [Publicaciones](#)
+- [Colección de fuentes primarias](https://mariajoafana.github.io/inventar_colombia/)
 - [Bibliografía](#)
 
 <br>
