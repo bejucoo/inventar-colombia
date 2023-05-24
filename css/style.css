@@ -82,6 +82,18 @@ details>summary {
 
 
 
+/* TOOLTIP */
+.tippy-box[data-theme~="colombia"] {
+	font-family: 'cormorant';
+	font-size: 1.2em;
+	background-color: var(--black);
+	color: var(--white1);
+}
+
+
+
+
+
 /* WIDTH & HEIGHT */
 .w100vw {
 	width: 100vw;
@@ -460,7 +472,7 @@ button:hover {
 
 .indexPopup_sub img {
 	max-width: 550px;
-	transform: translate(-50%, -30%);
+	transform: translate(-50%, -27%);
 }
 
 .indexPopup_inf img {
@@ -764,9 +776,10 @@ dialog :is(p, ol, ul),
 
 	#menuContent {
 		height: unset;
+		padding: unset;
 		font-size: 1.2em;
 		text-align: center;
-		line-height: 0.8em;
+		line-height: 0.7em;
 		overflow: scroll;
 	}
 
@@ -801,8 +814,8 @@ dialog :is(p, ol, ul),
 	}
 
 	.indexPopup_main img {
-		max-width: 130vw;
-		transform: translate(-50%, -13%);
+		max-width: 145vw;
+		transform: translate(-50%, -15%);
 	}
 
 	.indexPopup_sub img {
@@ -836,7 +849,7 @@ dialog :is(p, ol, ul),
 		padding: 20% 5%;
 	}
 
-	.sectionContentNarrativa {
+	.sectionContent {
 		height: unset;
 		grid-template-columns: 1fr;
 		padding: 20% 5%;

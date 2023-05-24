@@ -3920,7 +3920,7 @@
           ]
         },
         "text-transform": "none",
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "text-color": "rgba(36, 29, 21, 1)",
@@ -3979,7 +3979,7 @@
           ]
         },
         "text-transform": "none",
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "text-color": "rgba(36, 29, 21, 1)",
@@ -4041,7 +4041,7 @@
         "icon-allow-overlap": true,
         "icon-optional": false,
         "text-transform": "none",
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "text-color": "rgba(36, 29, 21, 1)",
@@ -4081,7 +4081,7 @@
           ]
         },
         "text-transform": "uppercase",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "text-color": "rgba(36, 29, 21, 1)",

@@ -10,7 +10,6 @@
 	<script type="module" src="./js/libraries/md-block.js"></script>
 	<script src="./js/libraries/maplibre-gl.js"></script>
 	<script src="./js/libraries/scrollama.js"></script>
-	<script src="./js/libraries/anime.min.js"></script>
 </head>
 <body>
 	<div id="menuDiv" class="h100 p_fix">
@@ -58,7 +57,7 @@
 
 		<div class="p_stk sectionContent top0 h100vh d_grid grid_twoCol_2-3">
 			<div id="biodiversidadTexto_2" class="p_stk izq padTop30px">
-				<h1 class='centered padDer8'>Hace <span class="textoVerde mousePointer">23 millones de años, durante el Mioceno temprano</span>, ondulaba de una forma diferente, atraía los cursos de agua de toda la cordillera central y de las sierras guayanesas, con una dirección sur-norte del continente.</h1>
+				<h1 class='centered padDer8'>Hace <span id='spanMioceno' class="textoVerde mousePointer">23 millones de años, durante el Mioceno temprano</span>, ondulaba de una forma diferente, atraía los cursos de agua de toda la cordillera central y de las sierras guayanesas, con una dirección sur-norte del continente.</h1>
 			</div>
 
 			<div class="der_full">
@@ -71,6 +70,8 @@
 			<div id="3" class="biodiversidadStep"></div>
 		</div>
 	</div>
+	<script src="./js/libraries/popper.min.js"></script>
+	<script src="./js/libraries/tippy-bundle.umd.js"></script>
 	<script src="./js/menu.js"></script>
 	<script src="./js/biodiversidad.js"></script>
 </body>

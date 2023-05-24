@@ -36,7 +36,7 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": -16,
-		"html": "<img src='./resources/images/index/popup_3.svg' alt=''><div><h2>II. El Orinoco</h2><p style='font-size: 0.8em;'><a href='./fragmentos.html'>Curaduría de Fragmentos</a> • <a href='#'>Narrativa Cartográfica</a></p></div>"
+		"html": "<img src='./resources/images/index/popup_3.svg' alt=''><div><h2>II. El Orinoco</h2><p style='font-size: 0.8em;'>• <a href='./mapas-datos.html'>Mapas y Datos</a> • <br> <a href='./fragmentos.html'>Curaduría de Fragmentos</a> • <a href='#'>Narrativa Cartográfica</a></p></div>"
 	},
 	{
 		"id": "section_3",
