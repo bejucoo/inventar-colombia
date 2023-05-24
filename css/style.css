@@ -135,8 +135,8 @@ details>summary {
 	scroll-behavior: smooth;
 }
 
-.padDer5 {
-	padding-right: 5%;
+.padDer8 {
+	padding-right: 8%;
 }
 
 .padTop30px {
@@ -726,7 +726,7 @@ dialog :is(p, ol, ul),
 #sectionContent h1 {
 	margin: 0 0 15px 0;
 	font-size: 2.5em;
-	line-height: 1;
+	line-height: 1.2em;
 }
 
 .textoVerde {
@@ -766,7 +766,7 @@ dialog :is(p, ol, ul),
 		height: unset;
 		font-size: 1.2em;
 		text-align: center;
-		line-height: 0.6em;
+		line-height: 0.8em;
 		overflow: scroll;
 	}
 
@@ -801,13 +801,13 @@ dialog :is(p, ol, ul),
 	}
 
 	.indexPopup_main img {
-		max-width: 200vw;
-		transform: translate(-50%, -29%);
+		max-width: 130vw;
+		transform: translate(-50%, -13%);
 	}
 
 	.indexPopup_sub img {
-		max-width: 140vw;
-		transform: translate(-50%, -16%);
+		max-width: 100vw;
+		transform: translate(-50%, -25%);
 	}
 
 	.indexPopup_inf {
@@ -819,6 +819,10 @@ dialog :is(p, ol, ul),
 		max-width: unset;
 		height: 260px;
 		transform: translate(-50%, -11%);
+	}
+
+	#indexMapControlWrap {
+		padding: 10px 10px 40px 10px;
 	}
 
 
