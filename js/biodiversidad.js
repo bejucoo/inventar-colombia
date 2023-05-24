@@ -48,10 +48,10 @@ const changeContent = (data, step) => {
 
 // Función para cambiar el mapa.
 let map = new maplibregl.Map({
-	container: "mapElm",
+	container: "biodiversidadMapElm_1",
 	style: "./resources/json/map_styles/narrativaMap_1.json",
 	center: [-69.35067, 2.85314],
-	zoom: 5,
+	zoom: 4.5,
 	pitch: 0,
 	bearing: 0,
 	interactive: false,
@@ -67,18 +67,29 @@ map.on('load', () => {
 	map.addLayer({
 		type: 'line',
 		source: 'line',
-		id: 'line-background',
+		id: 'lineBack',
 		paint: {
 			'line-color': '#92a9a4',
+			'line-width': 12,
+			'line-opacity': 1
+		}
+	});
+
+	map.addLayer({
+		type: 'line',
+		source: 'line',
+		id: 'lineAnim',
+		paint: {
+			'line-color': '#bccac7',
 			'line-width': 10,
 			'line-opacity': 1
 		}
 	});
 
-	enableLineAnimation('line-background');
+	enableLineAnimation('lineAnim');
 });
 
-var animationStep = 60;
+var animationStep = 72;
 function enableLineAnimation(layerId) {
   var step = 0;
   let dashArraySeq = [
@@ -168,7 +179,7 @@ const orinocoAntes = {
 					],
 				[
 					-69.55418565474847,
-					12.049758374865505
+					11.55
 					]
 				],
 			"type": "LineString"

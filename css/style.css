@@ -407,14 +407,19 @@ button:hover {
 
 
 
-/* INDEX MAP */
-#mapElm {
+/* MAP */
+.mapElm {
 	width:100%;
 	min-height: 100vh;
-	position: sticky;
+	position: sticky !important;
 	top: 0;
 }
 
+
+
+
+
+/* INDEX MAP */
 .maplibregl-popup-tip, .mapboxgl-popup-tip {
 	display: none;
 }

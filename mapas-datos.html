@@ -5,8 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Inventar Colombia</title>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" href="./css/libraries/maplibre-gl.css"/>
 	<script type="module" src="./js/libraries/md-block.js"></script>
-	<script src="./js/libraries/scrollama.js"></script>
+	<script src="./js/libraries/maplibre-gl.js"></script>
 </head>
 <body>
 	<div id="menuDiv" class="h100 p_fix">
@@ -20,7 +21,7 @@
 		</div>
 	</div>
 
-	<div id="sectionContent" class="w100vw d_grid grid_oneCol">
+	<div id="sectionContent" class="w100vw d_grid grid_twoCol_2-3">
 		<div id="introOrinoco" class="izq padTop30px padBot60px">
 			<h1>Mapas y Datos</h1>
 			<h5 id="navBar" style="margin: 0; font-family: 'cormorant-up'"><a href="index.html">Inicio</a> &nbsp; / <a href="orinoco.html">El Orinoco</a> &nbsp; / &nbsp;Mapas y Datos</h5>
@@ -52,11 +53,15 @@
 			</p>
 			<p>
 				A partir de la extracción de datos geoespaciales de investigaciones arqueológicas de los últimos 50 años Santiago González logró reconstruir parcialmente la localización de asentamientos de grupos indígenas en el periodo prehispánico. Como ruta metodológica para el desarrollo del mapa del Orinoco multiétnico se llevó a cabo un analisis de documentos históricos del S.XVIII y fuentes secundarias (Morey, 1975; Rausch, 1984; Gassón, 2002; Scaramelli 2005, 2015; Biord Castillo, 2006; Franco, 1997; De Kondo, 2002; Langabaek, 2000). Se procedió a llevar a cabo la extracción, curaduría y limpieza de los datos obtenidos para construir el mapa en QGIS.
-				(Ver Mapa 1. Orinoco multiétnico)
+				<b>(Ver Mapa 1. Orinoco multiétnico)</b>
 			</p>
-			
+		</div>
+
+		<div class="der_full">
+			<div id="mapasMapElm" class="mapElm"></div>
 		</div>
 	</div>
 	<script src="./js/menu.js"></script>
+	<script src="./js/mapas-datos.js"></script>
 </body>
 </html>

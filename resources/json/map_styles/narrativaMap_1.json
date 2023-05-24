@@ -13,6 +13,10 @@
     "terrain-rgb": {
       "type": "raster-dem",
       "url": "https://api.maptiler.com/tiles/terrain-rgb-v2/tiles.json?key=EMLx4Ctxg2WFzJqRap4I"
+    },
+    "ocean-rgb": {
+      "type": "raster-dem",
+      "url": "https://api.maptiler.com/tiles/ocean-rgb/tiles.json?key=EMLx4Ctxg2WFzJqRap4I"
     }
   },
   "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
@@ -34,7 +38,7 @@
         "hillshade-shadow-color": "rgba(36, 29, 21, 1)",
         "hillshade-highlight-color": "rgba(233, 233, 233, 1)",
         "hillshade-accent-color": "rgba(233, 233, 233, 1)",
-        "hillshade-exaggeration": 0.24
+        "hillshade-exaggeration": 0.64
       }
     },
     {
@@ -82,6 +86,21 @@
       },
       "paint": {
         "fill-color": "rgba(146, 169, 164, 1)"
+      }
+    },
+    {
+      "id": "ocean-terrain",
+      "type": "hillshade",
+      "source": "ocean-rgb",
+      "maxzoom": 12,
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "hillshade-exaggeration": 0.12,
+        "hillshade-shadow-color": "rgba(36, 29, 21, 1)",
+        "hillshade-highlight-color": "rgba(233, 233, 233, 1)",
+        "hillshade-accent-color": "rgba(233, 233, 233, 1)"
       }
     },
     {
@@ -3563,7 +3582,7 @@
         ],
         "text-max-width": 5,
         "text-size": 15,
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "text-color": "rgba(83, 96, 94, 1)",
@@ -4062,7 +4081,7 @@
           ]
         },
         "text-transform": "uppercase",
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "text-color": "rgba(36, 29, 21, 1)",
@@ -4098,16 +4117,16 @@
           "stops": [
             [
               3,
-              15
+              12
             ],
             [
               7,
-              20
+              12
             ]
           ]
         },
         "text-transform": "uppercase",
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "text-color": "#334",
@@ -4144,16 +4163,16 @@
           "stops": [
             [
               2,
-              15
+              12
             ],
             [
               5,
-              20
+              12
             ]
           ]
         },
         "text-transform": "uppercase",
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "text-color": "#334",
@@ -4190,16 +4209,16 @@
           "stops": [
             [
               1,
-              15
+              12
             ],
             [
               4,
-              20
+              12
             ]
           ]
         },
         "text-transform": "uppercase",
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "text-color": "rgba(36, 29, 21, 1)",
@@ -4230,7 +4249,7 @@
         "text-size": 13,
         "text-transform": "uppercase",
         "text-justify": "center",
-        "visibility": "visible"
+        "visibility": "none"
       },
       "paint": {
         "text-color": "rgba(36, 29, 21, 1)",
