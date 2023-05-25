@@ -20,7 +20,7 @@
     }
   },
   "sprite": "https://maputnik.github.io/osm-liberty/sprites/osm-liberty",
-  "glyphs": "http://localhost/resources/fonts/PBF/{fontstack}/{range}.pbf",
+  "glyphs": "./resources/fonts/PBF/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
