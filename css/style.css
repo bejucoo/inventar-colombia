@@ -745,6 +745,10 @@ dialog :is(p, ol, ul),
 	color: var(--green1);
 }
 
+.textoAzul {
+	color: var(--blue1);
+}
+
 
 
 

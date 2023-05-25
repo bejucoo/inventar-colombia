@@ -144,8 +144,8 @@ function enableLineAnimation(layerId) {
 
 
 tippy.delegate('#biodiversidadTexto_2', {
-	target: '#spanMioceno',
-	content: 'Las ciencias de la tierra que estudian el pasado histórico físico son la geomorfología, paleontología, biogeografía...',
+	target: ['#spanMioceno', '#spanCamino'],
+	content: (reference) => reference.dataset.tooltip,
 	trigger: 'mouseenter focus',
 	theme: 'colombia'
 });
