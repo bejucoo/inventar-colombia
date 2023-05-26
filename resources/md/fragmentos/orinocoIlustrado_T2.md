@@ -1,4 +1,4 @@
-# El Orinoco Ilustrado - Tomo I
+# El Orinoco Ilustrado - Tomo II
 ## P. JOSEPH GUMILLA
 ### HISTORIA NATURAL, CIVIL Y GEOGRÁFICA DE ESTE GRAN RÍO
 
