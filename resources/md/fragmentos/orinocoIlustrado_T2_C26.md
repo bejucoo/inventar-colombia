@@ -1,98 +1,102 @@
 # Capítulo XXVI
 ## RECHAZADAS DICHAS CAUSAS, SE PRUEBA SER INSUFICIENTES PARA LA DISMINUCIÓN DE LOS INDIOS, YA PROPUESTA.
 
-_Las guerras no pueden disminuir tanto, como se pondera, el gentío._  
+##### _Las guerras no pueden disminuir tanto, como se pondera, el gentío._  
 Primera causa dicen, que fue la mortandad de indios, que hubo en las conquistas. No puede ser : lo primero, porque todas aquellas naciones estuvieron siempre, y se hallaron en continuas, y crueles guerras unas contra otras, sin darse cuartel; y dedicando los prisioneros, unos para los sacrificios de los ídolos, y otros para los más selectos platos de sus convites, y no se acabaron, ni se consumieron. Lo segundo, véanse todos los imperios antiguos trastornados, a fuerza de armas, a sangre, y fuego, y no se despobló, ni la Asia, ni la Europa: luego ni por esta causa se despobló el gentío de las Américas. De aquel árbol simbólico, que según el poeta, brotaba un ramo de oro, en el camino de los campos Eliseos, añade, que luego que cortaba un ramo, retoñaba otro igual : (1) _Avulso uno, non deficit alter_ : mientras el árbol no se desarraigue, él retoñará. _alter_ : mientras el árbol no se desarraigue, él retoñará. En tiempo de Matatías, padre de los Macabeos, ya parece no le quedaba sino una débil raíz al árbol de la genalogía judaica; y con todo, véase a que proceridad creció; tal, que poniendo después Vespasiano, y otros emperadores romanos, todo el esfuerzo de su vasto imperio en aniquilarle, y destruirle, le cortaron innumerables ramas, pero los renuevos de aquel tronco están, hasta hoy en día, inficionando a todo el mundo: luego la guerra es causa muy insuficiente, para el caso de que hablamos: fuera de que se niega el que todas las provincias conocidas, y conquistadas en las Américas, lo hayan sido a fuerza de armas; porque muchas, viendo sujeta a la capital, llanamente se rindieron.
 
-_No basta la segunda causa, que dan._  
+##### _No basta la segunda causa, que dan._  
 La segunda causa de la tal disminución, se atribuye al trabajo personal, que se les impuso a los indios. Menos suficiente es esta causal, que la antecedente: lo primero, porque dado, y no concedido, que la carga, y trabajo fuese exorbitante, luego que llegó a la noticia de los católicos monarcas don Fernando y doña Isabel, la arreglaron, y moderaron con leyes llenas de piedad cristiana, vigilancia, y cuidado, que con el nuevo imperio americano heredan nuestros católicos monarcas.
 
 Lo segundo, porque los españoles encomenderos (cuya crueldad tanto se exagera) eran hombres racionales: (quiero pemitir para sólo dar fuerza al argumento) que ciegos con el interés, se olvidasen de que eran cristianos: sólo por ser racionales, no habían de oprimir a sus indios encomendados, de cuyo tributo comían por orden de su majestad, en recompensa del impoderable trabajo de las pacificaciones de aquel nuevo mundo: bastaba la pura lumbre de la razón, para que dijesen: El tributo, o trabajo personal de estos mis indios encomendados, es el único premio de mis afanes: luego si los oprimo, y consumo, quedaré sin finca, y sin qué comer: luego debo cuidarlos para poderme utilizar. No faltaron algunos, a quienes faltó este corto discurso, ni tampoco les faltó Juez, que les fuese a la mano, y castigase la demasía, y el exceso.
 
-_No es el trabajo tal, cual se lo idean._  
+##### _No es el trabajo tal, cual se lo idean._  
 Lo tercero, recurren al trabajo, y tarea de las minas de oro, y plata, pero en vano buscan títulos insuficientes; porque lo primero es en estos tiempos muy considerable el número de negros libres, de mestizos, de mulatos, y zambos jornaleros; y no faltan europeos, que toman la barra, y ganan sus cuatro reales de plata cada día, así en las minas del Perú, como en las de la Nueva España, y están buenos, y sanos, contentos, y alegres, y mantienen a sus mujeres, e hijos. ¿pues qué? ¿Piensa algún extranjero, que hacen trabajar de balde a los indios, y que aquel es un remo intolerable? Tres reales de plata ganan cada día de jornal, que es muy suficiente (en su corto gasto) para mantenerse, y ahorrar algo, cada día. (2) Y en la Nueva España ganan al día cuatro reales; y los indios que entienden de barra, saben seguir la veta del metal, fuera de sus cuatro reales, ganan su _pepina_ , que es una espuerta de metal escogido, que suele valer seis, y a veces diez reales de a ocho. Los que asisten en una _tanda_ , como llaman en la Nueva España, o en la Mita, que así llaman en el Perú, se les pasa mucho tiempo, sin que se les siga el turno para volver a ir; y entonces no van como forzados de galera: porque el que no puede, o no quiere ir, se le admite el indio que presenta, para que supla su lugar. En las minas de Tierra Firme, cuales son las de _Chocó, Antioquia, Barbacoas_ , etc., únicamente trabajan los esclavos negros; y estos, con trabajar como esclavos, con todo vemos, que viven, procrean, y se aumentan : luego el imaginado trabajo de las minas, es una raíz muy insuficiente para la ponderada disminución de los indios.
 
 Se me replica, que estos son más débiles que los negros, y menos trabajadores que los jornaleros, que arriba insinué, y que por eso desfallecen, y mueren; y que esto es innegable, por la evidente decadencia de los pueblos, que van a las _tandas_ , y _mitas_ , de las minas.
 
-_Mala economía de los indios, que van a las minas._  
+##### _Mala economía de los indios, que van a las minas._  
 Concedo (como ya concedí) la merma conocida en los pueblos, que van a las minas, cuando se siguen sus tandas. Y niego redondamente, que el trabajo de ellas disminuya los indios; porque el daño, ni nace del trabajo de las minas, ni de las pocas fuerzas de ellos para tolerarlo. Tal cual es el daño (que no es tanto como se pondera, ni capaz de causar la merma, que en común se reconoce) nace del poco gobierno, y de la ninguna economía de los mismos indios que van a las minas, porque ellos van mal vestidos, y casi sin abrigo, por su incuria. La paga de toda la semana, que se les da el sábado, la gastan el domingo en comer, beber, y bailar, sin son, ni ton; (como dicen) y ¿qué se sigue de aquí? Que gastado ya el dinero, pasan miserablemente en el trabajo la semana, con muy vil, y muy poco alimento. Parece que habían de escarmentar para la semana siguiente, y retener para el gasto; pero nada menos que eso: antes los más de ellos se van empeñando para sus gastos impertinentes, ya con el dueño de la mina, ya con los que venden vino, aguardiente, y bastimentos: de que se sigue, que el minero los obliga por justicia, o a que le paguen lo que dió adelantado, o a que trabajen el tiempo corre pendiente a las deudas; y se sigue, que yendo así de malo en peor cada día más adeudados, muchos mueren, se huyen muchos más a otras provincias distantes; y no sólo estos, sino aun aquellos que no se han adeudado, cuando al tomar el camino de sus pueblos, ven que en ellos no han de hallar sementera, y que sus mujeres, para mantenerse, habrán contraído deudas. Espantados del mal recibimiento, que temen, en lugar de seguir el camino de su tierra, se destierran voluntariamente a provincias remotas; y esta es una de las raíces ciertas de la disminución de los pueblos, no las minas, ni su trabajo, ni las pocas fuerzas, que para él se piden en los indios, sino el mal gobierno. Esta no es piadosa consideración mía: yo digo lo que hay, y lo que sé; y se evidencia esta verdad en los pueblos de _Juli_ , que están a cargo de los operarios de la Compañía de Jesús del Perú, que también asisten puntualmente a las minas; y con todo crecen, como espuma, y se aumentan más, y más cada día, como es público, y notorio; y consta, por el informe, que la Real Audiencia plena de _Chuquisaca_ hizo a su majestad sobre este mismo punto, de que aquí tratamos.
 
-_Los indios de Juli van a las minas, y con todo van amás._  
+##### _Los indios de Juli van a las minas, y con todo van amás._
 Pues si de todos los corregimientos van indios a las minas, y los de _Juli_ siguen el mismo turno de _mitas;_ ¿de dónde nace tan notable diferencia? Del buen gobierno; porque conociendo su desbarro, los tratan como a pupilos, les dan vestido de remuda, y avío para el camino: les ponen sobrestante que los reprima; y mientras están en las minas, mantienen del común a las mujeres, e hijos: les previenen sementeras para su retorno; y cuando es tiempo de volver, va quien pague todas sus deudas, y quien los traiga vía recta a sus casas; ¿qué mucho que crezcan, en lugar de disminuirse, los indios de _Juli_ , no obstante el decantado remo de las minas?
 
-_Ni la tercera causa que asignan, es suficiente._  
-_Estragos que han hecho las pestes._  
-_Cuanto florece la fe entre los indios._  
+##### _Ni la tercera causa que asignan, es suficiente._  
+##### _Estragos que han hecho las pestes._  
+##### _Cuanto florece la fe entre los indios._  
 La tercera causa se atribuye a las viruelas, y contagios, que se han introducido en las Américas, después de sus conquistas: opinión muy válida entre los autores españoles. (3) No niego, que han sido considerables, y repetidas las mortandades de los indios, pues veo, que de sola la llegada del navío, llamado el _León Franco,_ por los años de 1719 a las costas del Perú, resultó tal contagio, que fuera de los españoles, y mestizos, casi innumerables que fallecieron, llegaron a doscientos mil indios los que murieron; y en las viruelas del Perú de 1588 el contagio de la Nueva España de 1597, y otros muchos de la Tierra Firme, Nuevo Reino, etc., que el Reverendo Padre Presentado Fray Greogorio García, en su Origen de los Indios, atribuye a la poca fe de ellos, (4) y a castigo claro de Dios, por su idolatría: digo, que estos han sido grandes estragos, que han cooperado a la disminución de los americanos; pero así como digo, que sólo por vía de piadosa consideración, se pueden atribuir dichos contagios a castigo de Dios, por la idolatría de los indios peruanos, y de la Nueva España; así también afirmo, que no son causa suficiente dichas pestes solas para la merma de indios, que se llora: dije, que es una piadosa consideración atribuir las tales pestes a castigo de Dios, en pena de la idolatría; porque vemos, que en muchas provincias de indios, donde no ha habido, ni hay idolatría, se han visto las mismas pestes, y viruelas contagiosas; y en pueblos, donde, con notable confusión de los europeos, florece la fe notablemente, hemos visto, y sufrido repetidos contagios, y epidemias: lo cual no puede ser castigo de Dios por la idolatría, que no hubo; ni por la falta de fe, que por su bondad florece, y fructifica en dichas provincias.
 
-_Dios tiene sus cosechas de párvulos para el cielo._  
+##### _Dios tiene sus cosechas de párvulos para el cielo._  
 Robórase este dictamen con la experiencia de repetidas epidemias de párvulos que sufren las misiones de nuestro cargo, con notable estrago; tanto, que acaban de referirme os Padres Procuradores de la provincia, verdaderamente misionera, del Paraguay, (5) que sólo el año de 1738 pasaron de seis mil los párvulos que murieron; y ¿qué falta de fe, ni qué idolatría, ni qué pecados castigó Dios en aquellos inocentes? Digámoslo, que es fijo, y cierto; y es, que el Divino Labrador es dueño absoluto de su viña, cuando es la hora de su divino beneplácito: con una escarcha se lleva en flor, lo que no quiso fuese vendimia tardía.
 
-_Confieso, que Dios ha castigado a los pecadores conpestes._  
-_Pero también por otros muy grandes motivos._  
-Atribuir las pestes, y contagios a castigo de Dios, por la poca fe de los indios, es una congruente consideración, fundada en los castigos, que Dios Nuestro Señor intimó por sus profetas, y ejecutó, por sus altos juicios, en la gente hebrea, y también en reinos cristianos; pero también ha enviado su majestad semejantes plagas por otros motivos, y fines de su alta providencia, sin que los podamos atribuir solamente a falta de fe, (6) ni a la gravedad de los pecados. La paciencia del santo Job, (7) para ejemplar de nuestro sufrimiento, buscaba Dios en aquellas plagas, que atribuían a castigo, aun aquellos sus amigos, que eran abonados testigos de las heroicas virtudes de aquel pacientísimo varón. El sufrimiento del Santo Tobías, (8) y la mansedumbre del real profeta (9) para nuestra enseñanza, fue el fin con que su majestad le envió las plagas, trabajos, y persecuciones: erraron los bárbaros isleños de Malta, cuando al ver prendida la víbora de la mano del apóstol San Pablo, dijeron: No hay duda, (10) que este hombre es homicida; apenas se ha librado del naufragio, y ya tiene sobre sí otro castigo de Dios.
+##### _Confieso, que Dios ha castigado a los pecadores con pestes._  
+Atribuir las pestes, y contagios a castigo de Dios, por la poca fe de los indios, es una congruente consideración, fundada en los castigos, que Dios Nuestro Señor intimó por sus profetas, y ejecutó, por sus altos juicios, en la gente hebrea, y también en reinos cristianos; pero también ha enviado su majestad semejantes plagas por otros motivos, y fines de su alta providencia, sin que los podamos atribuir solamente a falta de fe, (6) ni a la gravedad de los pecados.
 
-_Testimonio de cristo N.S. sobre la materia._  
-_Con medios, al parecer, opuestos, saca Dios el fin pretendido._  
-Lleno de pecados, de pies a cabeza, dijeron los Sacerdotes de la Ley antigua, que estaba el ciego, a quien el Señor había dado vista, sin otro motivo, que el haber nacido ciego: (11) _In pecatis natus es totus,_ opinión, en que por entonces estaban también los sagrados apóstoles: (12) _Quis pecavit, hic an parentes ejus?_ Y sólo dudaban, si aquel, que suponían ser gravísimo castigo, era en pena de sus pecados, o por los de sus padres; y aquí el Divino Maestro primero enseñó a los apóstoles, después abrió los ojos del ciego, y en ellos los nuestros, para que viésemos, y entendiésemos, "que ni el ciego había pecado, ni sus padres; y que el haber nacido ciego, no era por castigo, sino para que en su curación fuese glorificado el Altísimo, por los prodigios que hacía el omnipotente brazo de su Unigénito". (13) De modo, que aun cuando su Majestad procede, y concurre como autor natural, vemos, que para una copiosa cosecha, no sólo ordena su Majestad la pasibilidad de la primavera, sino también el ardiente calor del estío, y las rigurosas escarchas del invierno: medios, que a la primera vista parecen opuestos al fin, que se pretende. Y así de las pestes, y plagas de los americanos, no podemos inferir su falta de fe; y más viendo, que en tales epidemias padecen igualmente los españoles, en cuya constante fe no cabe sospecha.
+##### _Pero también por otros muy grandes motivos._  
+La paciencia del santo Job, (7) para ejemplar de nuestro sufrimiento, buscaba Dios en aquellas plagas, que atribuían a castigo, aun aquellos sus amigos, que eran abonados testigos de las heroicas virtudes de aquel pacientísimo varón. El sufrimiento del Santo Tobías, (8) y la mansedumbre del real profeta (9) para nuestra enseñanza, fue el fin con que su majestad le envió las plagas, trabajos, y persecuciones: erraron los bárbaros isleños de Malta, cuando al ver prendida la víbora de la mano del apóstol San Pablo, dijeron: No hay duda, (10) que este hombre es homicida; apenas se ha librado del naufragio, y ya tiene sobre sí otro castigo de Dios.
 
-_Sólo si es permanente el contagio,destruirá el reino._  
+##### _Testimonio de cristo N.S. sobre la materia._  
+Lleno de pecados, de pies a cabeza, dijeron los Sacerdotes de la Ley antigua, que estaba el ciego, a quien el Señor había dado vista, sin otro motivo, que el haber nacido ciego: (11) _In pecatis natus es totus,_ opinión, en que por entonces estaban también los sagrados apóstoles: (12) _Quis pecavit, hic an parentes ejus?_ Y sólo dudaban, si aquel, que suponían ser gravísimo castigo, era en pena de sus pecados, o por los de sus padres; y aquí el Divino Maestro primero enseñó a los apóstoles, después abrió los ojos del ciego, y en ellos los nuestros, para que viésemos, y entendiésemos, "que ni el ciego había pecado, ni sus padres; y que el haber nacido ciego, no era por castigo, sino para que en su curación fuese glorificado el Altísimo, por los prodigios que hacía el omnipotente brazo de su Unigénito". (13) 
+##### _Con medios, al parecer, opuestos, saca Dios el fin pretendido._  
+De modo, que aun cuando su Majestad procede, y concurre como autor natural, vemos, que para una copiosa cosecha, no sólo ordena su Majestad la pasibilidad de la primavera, sino también el ardiente calor del estío, y las rigurosas escarchas del invierno: medios, que a la primera vista parecen opuestos al fin, que se pretende. Y así de las pestes, y plagas de los americanos, no podemos inferir su falta de fe; y más viendo, que en tales epidemias padecen igualmente los españoles, en cuya constante fe no cabe sospecha.
+
+##### _Sólo si es permanente el contagio,destruirá el reino._  
 Fuera de que las pestes aunque repetidas, y las demás enfermedades, no son por sí solas suficiente causa para disminuir tan notablemente el gentío de las Américas, como ya dije; (si bien es cierto, que continuándose estas con gran rigor, pudieran despoblar aquella, y cualquiera otra parte del mundo) y la razón nace de la experiencia misma, porque si ellas bastaran, ya estuviera enteramente despoblada la _Hungría_ , la _Bosnia,_ y las demás provincias comarcanas a Constantinopla: ni hubiera hombres, ni memoria de ellos, en _Argel, Túnez, Tánger_ , ni en todas las costas de Berbería, según las fatales, y repetidas pestes, y contagios, que Dios les envía por sus altos juicios : entre tanto vemos, que crecen, y que como mala yerba se multiplican; luego es fuerza confesar, que las pestes solas no pueden causar la notable disminución de las gentes de que hablamos; y es preciso creer, que hay otra oculta causa de este notable daño.
 
-_Cuarta causa que dan: son los tributos y cargas._  
-_Piedad de nuestros monarcas para con losindios._  
-_El tributo que pagan los indios moderado._  
-_De tal tributo se sustentan los párrocos._  
-_El rey N. señor mantiene a su costa a lospadres misioneros._  
-La cuarta raíz de la controvertida merma se atribuye a los tributos, y cargas impuestas a los indios; y esta causal, es, a mi entender, tan insufciente para el efecto pretendido, que la omitiera totalmente, a no ver, que en ella consienten muchos extranjeros, y no pocos españoles, poco noticiosos de las leyes dispuestas para los indios, que no pueden ser más piadosas, ni más llevaderas: por las cuales han mirado, y miran los monarcas españoles a los americanos, como pupilos, y como a menores, para cuya indemnidad, y defensa tiene su majestad en cada una de las Reales Audiencias del Nuevo Mundo, un fiscal timorato, y docto, que sin la menor gratificación de ellos, defienda a los indios en sus causas, los patrocine en la establecida posesión de sus privilegios, y los defienda de cualquiera injusticia, y agravio, que se les haga. Ya dije que el trabajo personal, desde que se supo el abuso, fue minorando; y añado, que después fue enteramente prohibido por la piedad de nuestros católicos monarcas. Por lo que mira al homenaje debido al soberano, de que da muestras el súbdito en el tributo, y reconocimiento, ¿qué vasallos se hallarán en este antiguo mundo, que no le rindan semejante a sus reyes? Erré en decir _semejante,_ porque (sin hacer injuria a ninguno) se puede afirmar, que es muy desemejante el tributo que anualmente pagan los indios, al que generalmente contribuyen los europeos; y se pudieran estos reputar por muy felices, si exhibieran sola la cantidad, que tributan los americanos, libres de otras cargas, y obligados solamente a una suave, y tolerable contribución, no impuesta generalmente, sino proporcionada a la fertilidad, o pobreza del país; más, o menos, según los frutos del terreno: ni les obligan a que aquellos dos, o cuatro pesos los den en moneda efectiva, porque deben los corregidores recibir el tributo en los frutos, o en los géneros, que ya naturales, ya artificiales, corren en la tierra. Y este tributo cede en bien de los mismos indios; porque aunque es cierto que entran en las reales cajas, pero de él se saca primero, y se da el estipendio anual del párroco, que cuida de cada pueblo; y si lo tributado no alcanza, como acontece en muchos curatos, suple su majestad de su real erario: esto es en lo pueblos de curas colados, que en las casi innumerables misiones, en que por poco doméstico los indios, todavía no tributan, mantiene su majestad enteramente, a su costa, los ministros evangélicos: esta magnífica piedad de su majestad, no necesita de que yo añada aquí, ni una letra en su alabanza.
+##### _Cuarta causa que dan: son los tributos y cargas._  
+##### _Piedad de nuestros monarcas para con los indios._  
+La cuarta raíz de la controvertida merma se atribuye a los tributos, y cargas impuestas a los indios; y esta causal, es, a mi entender, tan insufciente para el efecto pretendido, que la omitiera totalmente, a no ver, que en ella consienten muchos extranjeros, y no pocos españoles, poco noticiosos de las leyes dispuestas para los indios, que no pueden ser más piadosas, ni más llevaderas: por las cuales han mirado, y miran los monarcas españoles a los americanos, como pupilos, y como a menores, para cuya indemnidad, y defensa tiene su majestad en cada una de las Reales Audiencias del Nuevo Mundo, un fiscal timorato, y docto, que sin la menor gratificación de ellos, defienda a los indios en sus causas, los patrocine en la establecida posesión de sus privilegios, y los defienda de cualquiera injusticia, y agravio, que se les haga. Ya dije que el trabajo personal, desde que se supo el abuso, fue minorando; y añado, que después fue enteramente prohibido por la piedad de nuestros católicos monarcas. 
+##### _El tributo que pagan los indios moderado._  
+Por lo que mira al homenaje debido al soberano, de que da muestras el súbdito en el tributo, y reconocimiento, ¿qué vasallos se hallarán en este antiguo mundo, que no le rindan semejante a sus reyes? Erré en decir _semejante,_ porque (sin hacer injuria a ninguno) se puede afirmar, que es muy desemejante el tributo que anualmente pagan los indios, al que generalmente contribuyen los europeos; y se pudieran estos reputar por muy felices, si exhibieran sola la cantidad, que tributan los americanos, libres de otras cargas, y obligados solamente a una suave, y tolerable contribución, no impuesta generalmente, sino proporcionada a la fertilidad, o pobreza del país; más, o menos, según los frutos del terreno: ni les obligan a que aquellos dos, o cuatro pesos los den en moneda efectiva, porque deben los corregidores recibir el tributo en los frutos, o en los géneros, que ya naturales, ya artificiales, corren en la tierra. 
 
-_El yugo que se idea, no es capaz de minorargente alguna._  
-_Prúebase con eficacia de ejemplares._  
+##### _De tal tributo se sustentan los párrocos._  
+##### _El rey N. señor mantiene a su costa a los padres misioneros._  
+Y este tributo cede en bien de los mismos indios; porque aunque es cierto que entran en las reales cajas, pero de él se saca primero, y se da el estipendio anual del párroco, que cuida de cada pueblo; y si lo tributado no alcanza, como acontece en muchos curatos, suple su majestad de su real erario: esto es en lo pueblos de curas colados, que en las casi innumerables misiones, en que por poco doméstico los indios, todavía no tributan, mantiene su majestad enteramente, a su costa, los ministros evangélicos: esta magnífica piedad de su majestad, no necesita de que yo añada aquí, ni una letra en su alabanza.
+
+##### _El yugo que se idea, no es capaz de minorargente alguna._
+##### _Prúebase con eficacia de ejemplares._  
 Voy sí (y lo debo hacer por los autores, que se inclinan a la opinión opuesta, dignos de todo respeto) a roborar mi dictamen, arriba propuesto, sobre esta materia; y aunque con lo que acabo de apuntar, supongo ya superada, y vencida la controversia, con todo, demos que fuera el yugo impuesto a los indios grave; y tanto, cuanto indicaban las quejas, que a Roboam daban los hebreos, (14) contra el que les había recargado Salomón: y digo aún en esta suposición, que el peso del tributo puede perturbar el reino, melancolizar a los vasallos, y reducirlos a una vida amarga; pero si no se añade otra causa, no basta aquella para minorar el número de los vasallos. (15) Faraón en Egipto, no sólo tiraba o oprimir a los hebreos, sino tambien tiraba derechamente a minorar su número; y vemos en las divinas letras, que cuanto más los recargaba, tanto más crecían, y se aumentaban. Ya veo, que esta fue obra del brazo poderoso de Dios, por lo cual cumplía la palabra, que su Majestad dió (16) al patriarca Abraham, de que su descendencia había de competir en número con las arenas del mar, y con las estrellas del cielo. Pero a los gabaonitas, que engañaron a Josué, (17) y a los demás jueces de Israel, no hizo Dios esta, ni alguna otra promesa semejante, y con todo crecieron, y se multiplicaron, en medio de la mayor opresión imaginable; porque viéndose engañado Josué por los gabaonitas, les concedió la vida, (18) pero los oprimió sobre manera en todo género de oficios serviles, y de excesivo trabajo, como se ve en las divinas letras, sin que saltase la multitud, y numeroso gentío, en medio de una opresión hecha de estudio: luego la carga, y servidumbre, por grave que sea (si es sola) no es causa suficiente para disminuir una nación.
 
-_Confírmarse más todo lo dicho._  
+##### _Confírmarse más todo lo dicho._  
 ¿Qué mayor servidumbre se puede idear, que la de los infelices judíos, desterrados de su patria (y aun del mundo, porque en él no tiene ciudad, ni territorio) derramados sobre la faz de la tierra, despreciados, oprimidos, cargados de tributos, en castigo del deicidio, que ciegamente cometieron sus mayores? Aunque tan bien merecido, da horror tan grande castigo. Y después de todo él, o por mejor decir, oprimidos con todo él, en lugar de ir a menos, vemos, que van a más; y aun abandonados de la mano de Dios, no se minoran, antes crecen en número, porque Dios deja correr el curso ordinario de las causas naturales, a que no falta el concurso de su omnipotencia.
 
 De modo, que ni las _guerras_ , ni el _trabajo_ personal, ni las _pestes_ , ni los _tributos_ , y _opresiones_ , con tal que no sean de una exorbitancia nunca vista, pueden ser causa total, y suficiente para disminuir tan notablemente las naciones; porque a serlo, estuviera casi despoblado este mundo antiguo, ni hubiera rastro de húngaros, de turcos, de moros, de judíos, ni de otras naciones, de cuyas calamidades se ha hecho mención. Es verdad, que si las plagas fueran permanentes, o por algunas otras circunstancias fueran extraordinarias, precisamente acabaran, o disminuyeran las naciones; pero como Dios mira a los mortales, temperando su ira (19) con su misericordia, no llega a tan último extremo su indignación, que es de padre amantísimo.
 
-* * *
+###### (1) Virgil. Eneid. lib. 4.
 
-##### (1) Virgil. Eneid. lib. 4.
+###### (2) _Histor. Cinaloa, lib,_ 8\. _cap_ . 3. _fol._ 476.
 
-##### (2) _Histor. Cinaloa, lib,_ 8\. _cap_ . 3. _fol._ 476.
+###### (3) _Lib._ 3\. _cap._ 2\. § 3.
 
-##### (3) _Lib._ 3\. _cap._ 2\. § 3.
+###### (4) Herrera _Dec._ 5\. _lib._ 5\. _cap._ 11\. Fr. Bartolomé de las Casas. _Ep_ . _Chiap. in Relat._ Gomara I _part: Hist. Ind. Torquemad. lib_ . 17. _cap._ 15\. _etc._ alij. plures.
 
-##### (4) Herrera _Dec._ 5\. _lib._ 5\. _cap._ 11\. Fr. Bartolomé de las Casas. _Ep_ . _Chiap. in Relat._ Gomara I _part: Hist. Ind. Torquemad. lib_ . 17. _cap._ 15\. _etc._ alij. plures.
+###### (5) Padre Diego Garbia, y Padre Juan José Rico.
 
-##### (5) Padre Diego Garbia, y Padre Juan José Rico.
+###### (6) García, _lib._ 3\. _cap._ 2\. _§_ 3.
 
-##### (6) García, _lib._ 3\. _cap._ 2\. _§_ 3.
+###### (7) Job. _per totum, lib._
 
-##### (7) Job. _per totum, lib._
+###### (8) Tob. _per totum. lib._
 
-##### (8) Tob. _per totum. lib._
+###### (9) _Lib._ 2\. _Regum._
 
-##### (9) _Lib._ 2\. _Regum._
+###### (10) Actor Apóstol, cap. 28. lib. 4. _Utique homicida est homo hic. etc._
 
-##### (10) Actor Apóstol, cap. 28. lib. 4. _Utique homicida est homo hic. etc._
+###### (11) Joann. cap. _9_ . vers. _2._
 
-##### (11) Joann. cap. _9_ . vers. _2._
+###### (12) Joann. ibid, vers. 3.
 
-##### (12) Joann. ibid, vers. 3.
+###### (13) Joann. cap. 9. vers. 2. § 3.
 
-##### (13) Joann. cap. 9. vers. 2. § 3.
+###### (14) 3. Regum. cap. 12, vers. 4. etc. 9.
 
-##### (14) 3. Regum. cap. 12, vers. 4. etc. 9.
+###### (15) _Ecce Populus filiorm. Isral. multus._ Exod. cap. I . vers. 9.
 
-##### (15) _Ecce Populus filiorm. Isral. multus._ Exod. cap. I . vers. 9.
+###### (16) _Faciamque te crescere vehementer. Genes._ 17 _vers._ 20.
 
-##### (16) _Faciamque te crescere vehementer. Genes._ 17 _vers._ 20.
+###### (17) _Josué. cap._ 10 _vers._ 6.
 
-##### (17) _Josué. cap._ 10 _vers._ 6.
+###### (18) _Josué. cap._ 9\. _vers._ 20\. _etc._
 
-##### (18) _Josué. cap._ 9\. _vers._ 20\. _etc._
-
-##### (19) Eccl. cap. 16. v. 13.
+###### (19) Eccl. cap. 16. v. 13.
 
 * * *

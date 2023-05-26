@@ -728,8 +728,8 @@ details,
 }
 
 dialog :is(p, ol, ul),
-.sectionContent :is(a, p, mark, ol, ul, h5),
-#sectionContent :is(a, p, mark, ol, ul, h5),
+.sectionContent :is(a, p, mark, ol, ul, h5, h6),
+#sectionContent :is(a, p, mark, ol, ul, h5, h6),
 .fragmento {
 	font-family: 'cormorant';
 }
