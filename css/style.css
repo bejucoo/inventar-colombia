@@ -295,7 +295,6 @@ a:visited {
 
 a:hover {
 	color: var(--black);
-	text-decoration: underline;
 	cursor: pointer;
 }
 
@@ -361,7 +360,7 @@ button:hover {
 
 #menuContent {
 	justify-content: start;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	line-height: 1em;
 	overflow: hidden;
 	padding: 0 10%;
@@ -589,7 +588,7 @@ button:hover {
 
 /* ORINOCO */
 .orinocoSeccion {
-	margin: 45% 0;
+	margin: 15% 0;
 }
 
 .orinocoSeccion > a > h1,
@@ -701,6 +700,14 @@ button:hover {
 	transform: translate(-50%, -23%);
 }
 
+#narrativaIndexMapElm {
+		display: block;
+	}
+
+#titulosNarrativaMovil {
+	display: none;
+}
+
 
 
 
@@ -722,14 +729,14 @@ details,
 #menuDiv,
 .indexPopup,
 #indexMapControl,
-.sectionContent :is(h1, h2, h3, h4),
-#sectionContent :is(h1, h2, h3, h4) {
+.sectionContent :is(a, h1, h2, h3, h4),
+#sectionContent :is(a, h1, h2, h3, h4) {
 	font-family: 'cormorant-up';
 }
 
 dialog :is(p, ol, ul),
-.sectionContent :is(a, p, mark, ol, ul, h5, h6),
-#sectionContent :is(a, p, mark, ol, ul, h5, h6),
+.sectionContent :is(p, mark, ol, ul, h5, h6),
+#sectionContent :is(p, mark, ol, ul, h5, h6),
 .fragmento {
 	font-family: 'cormorant';
 }
@@ -781,7 +788,7 @@ dialog :is(p, ol, ul),
 	#menuContent {
 		height: unset;
 		padding: unset;
-		font-size: 1.2em;
+		font-size: 1.1em;
 		text-align: center;
 		line-height: 0.7em;
 		overflow: scroll;
@@ -839,7 +846,17 @@ dialog :is(p, ol, ul),
 	}
 
 	#indexMapControlWrap {
-		padding: 10px 10px 40px 10px;
+		padding: 10px 10px 30px 10px;
+	}
+
+
+
+
+	#tira_logos {
+		grid-template-columns: 1fr;
+		grid-gap: 25px;
+		text-align: center;
+		justify-items: center;
 	}
 
 
@@ -887,7 +904,8 @@ dialog :is(p, ol, ul),
 
 	/* ORINOCO */
 	.orinocoSeccion {
-		margin: 15% 0 60% 0;
+		margin: 20% 0;
+		max-width: 100%;
 	}
 
 
@@ -901,5 +919,18 @@ dialog :is(p, ol, ul),
 
 	#miniMap {
 		display: none;
+	}
+
+
+
+
+
+	/* NARRATIVA */
+	#narrativaIndexMapElm {
+		display: none;
+	}
+
+	#titulosNarrativaMovil {
+		display: unset;
 	}
 }
