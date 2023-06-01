@@ -343,6 +343,25 @@ button:hover {
 
 
 
+/* NAVBAR */
+#navBar {
+	padding: 0 5%;
+	height: 60px;
+	top: 0;
+	z-index: 1;
+	background: var(--white1);
+	align-items: center;
+	font-size: 1.3em;
+}
+
+#navTitle {
+	margin: 0;
+}
+
+
+
+
+
 /* MENU */
 #menuDiv {
 	width: 16%;
@@ -350,7 +369,7 @@ button:hover {
 	background: var(--black2);
 	color: var(--white1);
 	transition: left 0.4s;
-	z-index: 10;
+	z-index: 999;
 	overflow: hidden;
 }
 
@@ -726,17 +745,18 @@ select, select > optgroup, select > option,
 legend, label, button,
 dialog :is(h1, h2),
 details,
+#navBar,
 #menuDiv,
 .indexPopup,
 #indexMapControl,
-.sectionContent :is(a, h1, h2, h3, h4),
-#sectionContent :is(a, h1, h2, h3, h4) {
+.sectionContent :is(a, h1, h2, h3, h4, h5, h6),
+#sectionContent :is(a, h1, h2, h3, h4, h5, h6) {
 	font-family: 'cormorant-up';
 }
 
 dialog :is(p, ol, ul),
-.sectionContent :is(p, mark, ol, ul, h5, h6),
-#sectionContent :is(p, mark, ol, ul, h5, h6),
+.sectionContent :is(p, mark, ol, ul),
+#sectionContent :is(p, mark, ol, ul),
 .fragmento {
 	font-family: 'cormorant';
 }
@@ -767,6 +787,18 @@ dialog :is(p, ol, ul),
 		padding: 0 0 30px 0;
 		border: none;
 	}
+
+
+
+
+	/* NAVBAR */
+	#navBar {
+		position: relative;
+		display: block;
+		top: 70px;
+	}
+
+
 
 
 	/* MENU */
@@ -866,12 +898,14 @@ dialog :is(p, ol, ul),
 	/* SECTIONS */
 	#sectionContent {
 		height: unset;
+		min-height: 100vh;
 		grid-template-columns: 1fr;
 		padding: 20% 5%;
 	}
 
 	.sectionContent {
 		height: unset;
+		min-height: 100vh;
 		grid-template-columns: 1fr;
 		padding: 20% 5%;
 	}
