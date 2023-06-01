@@ -57,21 +57,23 @@ let biodiversidadMap_1 = new maplibregl.Map({
 	bearing: 0,
 	interactive: false,
 	attributionControl: false
-});	
+});
+
+biodiversidadMap_1.on('error', function() {
+	console.error('Ocurrió un error con la instancia de MapLibre');
+});
 
 
 // Agregar capa al mapa.
 biodiversidadMap_1.on('load', () => {
-	orinoco_1.features[0].geometry.coordinates.splice(0, orinoco_1.features[0].geometry.coordinates.length, ...orinocoPasado)
-
-	biodiversidadMap_1.addSource('line', {
+	biodiversidadMap_1.addSource('orinoco_1', {
 		type: 'geojson',
-		data: orinoco_1
+		data: './resources/geojson/narrativa/biodiversidad/orinoco_1.geojson'
 	});
 
 	biodiversidadMap_1.addLayer({
 		type: 'line',
-		source: 'line',
+		source: 'orinoco_1',
 		id: 'lineBack',
 		paint: {
 			'line-color': '#92a9a4',
@@ -82,7 +84,7 @@ biodiversidadMap_1.on('load', () => {
 
 	biodiversidadMap_1.addLayer({
 		type: 'line',
-		source: 'line',
+		source: 'orinoco_1',
 		id: 'lineAnim',
 		paint: {
 			'line-color': '#bccac7',
@@ -97,11 +99,10 @@ biodiversidadMap_1.on('load', () => {
 
 // Cambios en mapas.
 const changeMap_1 = (index) => {
-	if (biodiversidadMap_1.getSource('line') != null) {
+	if (biodiversidadMap_1.getSource('orinoco_1') != null) {
 		if (index === 2) {
 			biodiversidadMap_1.setLayoutProperty('waterway_river', 'visibility', 'none');
-			orinoco_1.features[0].geometry.coordinates.splice(0, orinoco_1.features[0].geometry.coordinates.length, ...orinocoPasado);
-			biodiversidadMap_1.getSource('line').setData(orinoco_1);
+			biodiversidadMap_1.getSource('orinoco_1').setData('./resources/geojson/narrativa/biodiversidad/orinoco_1.geojson');
 			biodiversidadMap_1.flyTo({
 				center: [-69.35067, 2.85314],
 				zoom: 5,
@@ -109,8 +110,7 @@ const changeMap_1 = (index) => {
 			});
 		} else if(index === 3){
 			biodiversidadMap_1.setLayoutProperty('waterway_river', 'visibility', 'visible');
-			orinoco_1.features[0].geometry.coordinates.splice(0, orinoco_1.features[0].geometry.coordinates.length, ...orinocoActual);
-			biodiversidadMap_1.getSource('line').setData(orinoco_1);
+			biodiversidadMap_1.getSource('orinoco_1').setData('./resources/geojson/narrativa/biodiversidad/orinoco_2.geojson');
 			biodiversidadMap_1.flyTo({
 				center: [-66.2, 5.96424],
 				zoom: 6,
@@ -149,217 +149,3 @@ tippy.delegate('#biodiversidadTexto_2', {
 	trigger: 'mouseenter focus',
 	theme: 'colombia'
 });
-
-
-// geoJSON 1
-var orinoco_1 = {
-	"type": "FeatureCollection",
-	"features": [
-	{
-		"type": "Feature",
-		"properties": {
-		},
-		"geometry": {
-			"coordinates": [],
-			"type": "LineString"
-		}
-	}
-	]
-}
-
-
-// Coordenadas
-const orinocoPasado = [
-	[
-		-75.19968283319523,
-		-3.886219261126925
-		],
-	[
-		-74.9484014109866,
-		-3.688493283819284
-		],
-	[
-		-74.40506857696597,
-		-3.101279635302319
-		],
-	[
-		-73.62248754911755,
-		-2.131761486347031
-		],
-	[
-		-73.09209458619458,
-		-0.980147125755181
-		],
-	[
-		-72.73164558452945,
-		0.16569020097598752
-		],
-	[
-		-72.26453925923332,
-		1.6900842981533515
-		],
-	[
-		-71.80620785423568,
-		2.9092269985251136
-		],
-	[
-		-71.24469686214324,
-		4.4752486941487035
-		],
-	[
-		-70.73020245788072,
-		5.973755168280505
-		],
-	[
-		-70.17854311943657,
-		7.3286330025006805
-		],
-	[
-		-69.86140499684961,
-		8.543071875632819
-		],
-	[
-		-69.5877619092154,
-		9.812780823529224
-		],
-	[
-		-69.45483861656513,
-		10.53539768112499
-		],
-	[
-		-69.47141142224703,
-		10.98202276381133
-		],
-	[
-		-69.55418565474847,
-		11.55
-		]
-	];
-
-const orinocoActual = [
-	[
-		-72.67119333154248,
-		4.320556061579026
-		],
-	[
-		-72.50574486896961,
-		4.32387792132441
-		],
-	[
-		-71.9652302134551,
-		4.515862235761631
-		],
-	[
-		-71.42989905029086,
-		4.796085618554727
-		],
-	[
-		-71.00281725085085,
-		5.061242488062305
-		],
-	[
-		-70.64731365536834,
-		5.35781506633225
-		],
-	[
-		-70.33916405044602,
-		5.619004438614567
-		],
-	[
-		-69.827535004319,
-		5.936556091110035
-		],
-	[
-		-69.15883244810948,
-		6.040453647230635
-		],
-	[
-		-68.38022964731401,
-		6.0875642653340805
-		],
-	[
-		-67.44691556542925,
-		6.39051858948514
-		],
-	[
-		-67.42444384792111,
-		6.4128744311547905
-		],
-	[
-		-67.32342363732917,
-		6.792900868411991
-		],
-	[
-		-67.22219869250611,
-		7.0501542634184915
-		],
-	[
-		-67.04189925142879,
-		7.352418800388122
-		],
-	[
-		-66.86128354160428,
-		7.565352887398987
-		],
-	[
-		-66.51078602878198,
-		7.80099180225929
-		],
-	[
-		-65.79718801326513,
-		7.947144280617692
-		],
-	[
-		-64.85515215867642,
-		7.800912340825235
-		],
-	[
-		-64.79826482588572,
-		7.7896471157027065
-		],
-	[
-		-64.04053945113739,
-		7.9815166368729535
-		],
-	[
-		-63.57617646380592,
-		8.185615223116372
-		],
-	[
-		-63.33033860685491,
-		8.322153541840919
-		],
-	[
-		-63.01327287427955,
-		8.45932916649258
-		],
-	[
-		-62.730741639724414,
-		8.539936941840523
-		],
-	[
-		-62.38893412210919,
-		8.575379597375232
-		],
-	[
-		-61.99853201864218,
-		8.576885468213533
-		],
-	[
-		-61.581109835756365,
-		8.590104262207063
-		],
-	[
-		-61.2551806900336,
-		8.64909840979513
-		],
-	[
-		-61.03510716981714,
-		8.730906776215619
-		],
-	[
-		-60.788548009129045,
-		8.9
-		]
-
-	];
