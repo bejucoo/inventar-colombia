@@ -14,7 +14,7 @@ async function fetchBiodiversidad() {
 fetchBiodiversidad().then(data => scrollBiodiversidad(data));
 
 
-// Crear la instancia de Scrollama y llamar la función chageContent cuando se halla cargado el DOM y se cambie de step.
+// Instancia de Scrollama y funciones cuando se cargue el DOM y se cambie de step.
 const scrollBiodiversidad = (data) => {
 	const scroller = scrollama();
 	scroller
@@ -27,21 +27,21 @@ const scrollBiodiversidad = (data) => {
 		} else {
 			changeContent(data, step);
 		}
-		changeMap_1(step.index);
+		changeMap(step.index);
 	});
 }
 
 
-// Función para cambiar el contenido de los divs de texto e imagen.
+// Cambiar el contenido de los divs de texto e imagen.
 const changeContent = (data, step) => {
 	let divText = document.getElementById("biodiversidadTexto_" + data[step.element.id].div);
 	let divAnim = document.getElementById("biodiversidadAnim_" + data[step.element.id].div);
 
-	if (divText != null) {
+	if (divText) {
 		divText.innerHTML = data[step.element.id].text;
 	}
 
-	if (divAnim != null) {
+	if (divAnim) {
 		divAnim.innerHTML = data[step.element.id].img;
 	}
 }
@@ -59,16 +59,12 @@ let biodiversidadMap_1 = new maplibregl.Map({
 	attributionControl: false
 });
 
-biodiversidadMap_1.on('error', function() {
-	console.error('Ocurrió un error con la instancia de MapLibre');
-});
 
-
-// Agregar capa al mapa.
+// Agregar source y primeras layers al mapa.
 biodiversidadMap_1.on('load', () => {
 	biodiversidadMap_1.addSource('orinoco_1', {
 		type: 'geojson',
-		data: './resources/geojson/narrativa/biodiversidad/orinoco_1.geojson'
+		data: './resources/geojson/narrativa/biodiversidad/step_2.geojson'
 	});
 
 	biodiversidadMap_1.addLayer({
@@ -79,6 +75,9 @@ biodiversidadMap_1.on('load', () => {
 			'line-color': '#92a9a4',
 			'line-width': 8,
 			'line-opacity': 1
+		},
+		layout: {
+			'line-cap': 'round'
 		}
 	});
 
@@ -90,42 +89,70 @@ biodiversidadMap_1.on('load', () => {
 			'line-color': '#bccac7',
 			'line-width': 8,
 			'line-opacity': 1
+		},
+		layout: {
+			'line-cap': 'round'
 		}
 	});
-
-	enableLineAnimation('lineAnim');
+	enableLineAnim('lineAnim', 72);
 });
 
-
-// Cambios en mapas.
-const changeMap_1 = (index) => {
-	if (biodiversidadMap_1.getSource('orinoco_1') != null) {
-		if (index === 2) {
+// Cambiar el contenido del mapa.
+const changeMap = (index) => {
+	if (biodiversidadMap_1.getSource('orinoco_1')) {
+		switch(index) {
+		case 2:
 			biodiversidadMap_1.setLayoutProperty('waterway_river', 'visibility', 'none');
-			biodiversidadMap_1.getSource('orinoco_1').setData('./resources/geojson/narrativa/biodiversidad/orinoco_1.geojson');
-			biodiversidadMap_1.flyTo({
-				center: [-69.35067, 2.85314],
-				zoom: 5,
-				speed: 0.36
-			});
-		} else if(index === 3){
-			biodiversidadMap_1.setLayoutProperty('waterway_river', 'visibility', 'visible');
-			biodiversidadMap_1.getSource('orinoco_1').setData('./resources/geojson/narrativa/biodiversidad/orinoco_2.geojson');
-			biodiversidadMap_1.flyTo({
-				center: [-66.2, 5.96424],
-				zoom: 6,
-				speed: 0.36
-			});
-		} else {
-			return;
+			changeGeoJSON(index);
+			changeMapView(index, 0.36);
+			break;
+		case 3:
+			changeGeoJSON(index);
+			changeMapView(index, 0.36);
+			break;
+		case 4:
+			changeGeoJSON(index);
+			break;
 		}
 	}
 }
 
+// Cambiar el archivo geoJSON con los datos de las capas.
+const changeGeoJSON = (index) => {
+	biodiversidadMap_1.getSource('orinoco_1').setData('./resources/geojson/narrativa/biodiversidad/step_' + index + '.geojson');
+}
 
-// Animación de las lineas.
-var animationStep = 72;
-function enableLineAnimation(layerId) {
+// Cambiar el centro y el zoom del mapa.
+const changeMapView = (index, vel) => {
+	biodiversidadMap_1.flyTo({
+		center: mapViews[index][0],
+		zoom: mapViews[index][1],
+		speed: vel
+	});
+}
+
+// Centros y zooms para el mapa.
+const mapViews = [
+	[],
+	[],
+	[
+		[-69.35067, 2.85314], 
+		5
+	],
+	[
+		[-66.2, 5.96424], 
+		5.5
+	],
+	[
+		[-66.55178, 5.85784],
+		5.5
+	]
+];
+
+
+// Iniciar animación de las lineas.
+let intervalAnim;
+function enableLineAnim(layerId, animStep) {
 	var step = 0;
 	let dashArraySeq = [
 		[0, 4, 3],
@@ -136,13 +163,19 @@ function enableLineAnimation(layerId) {
 		[0, 2, 3, 2],
 		[0, 3, 3, 1]
 		];
-	setInterval(() => {
+	intervalAnim = setInterval(() => {
 		step = (step + 1) % dashArraySeq.length;
 		biodiversidadMap_1.setPaintProperty(layerId, 'line-dasharray', dashArraySeq[step]);
-	}, animationStep);
+	}, animStep);
 }
 
+// Detener animación de las lineas.
+function stopLineAnim() {
+	clearInterval(intervalAnim);
+	intervalAnim = null;
+}
 
+// Instancia de tippy.js para tooltips.
 tippy.delegate('#biodiversidadTexto_2', {
 	target: ['#spanMioceno', '#spanCamino'],
 	content: (reference) => reference.dataset.tooltip,
