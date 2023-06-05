@@ -59,6 +59,17 @@ let biodiversidadMap_1 = new maplibregl.Map({
 	attributionControl: false
 });
 
+let biodiversidadMap_2 = new maplibregl.Map({
+	container: "biodiversidadMapElm_2",
+	style: "./resources/json/map_styles/narrativaMap_1.json",
+	center: [-64.13079, 5.70012],
+	zoom: 9.24,
+	pitch: 0,
+	bearing: 0,
+	interactive: false,
+	attributionControl: false
+});
+
 
 // Agregar source y primeras layers al mapa.
 biodiversidadMap_1.on('load', () => {
@@ -70,11 +81,11 @@ biodiversidadMap_1.on('load', () => {
 	biodiversidadMap_1.addLayer({
 		type: 'line',
 		source: 'orinoco_1',
-		id: 'lineBack',
+		id: 'lineBack_1',
 		paint: {
 			'line-color': '#92a9a4',
-			'line-width': 8,
-			'line-opacity': 1
+			'line-width': 7,
+			'line-opacity': 0.5
 		},
 		layout: {
 			'line-cap': 'round'
@@ -84,17 +95,54 @@ biodiversidadMap_1.on('load', () => {
 	biodiversidadMap_1.addLayer({
 		type: 'line',
 		source: 'orinoco_1',
-		id: 'lineAnim',
+		id: 'lineAnim_1',
 		paint: {
-			'line-color': '#bccac7',
-			'line-width': 8,
+			'line-color': '#92a9a4',
+			'line-width': 7,
 			'line-opacity': 1
 		},
 		layout: {
 			'line-cap': 'round'
 		}
 	});
-	enableLineAnim('lineAnim', 72);
+	enableLineAnim(biodiversidadMap_1, 'lineAnim_1', 70);
+});
+
+// Agregar source y primeras layers al mapa.
+biodiversidadMap_2.on('load', () => {
+	biodiversidadMap_2.addSource('orinoco_2', {
+		type: 'geojson',
+		data: './resources/geojson/narrativa/biodiversidad/step_6.geojson'
+	});
+
+	biodiversidadMap_2.addLayer({
+		type: 'line',
+		source: 'orinoco_2',
+		id: 'lineBack_2',
+		paint: {
+			'line-color': '#92a9a4',
+			'line-width': 7,
+			'line-opacity': 0.5
+		},
+		layout: {
+			'line-cap': 'round'
+		}
+	});
+
+	biodiversidadMap_2.addLayer({
+		type: 'line',
+		source: 'orinoco_2',
+		id: 'lineAnim_2',
+		paint: {
+			'line-color': '#92a9a4',
+			'line-width': 7,
+			'line-opacity': 1
+		},
+		layout: {
+			'line-cap': 'round'
+		}
+	});
+	enableLineAnim(biodiversidadMap_2, 'lineAnim_2', 90);
 });
 
 // Cambiar el contenido del mapa.
@@ -112,8 +160,14 @@ const changeMap = (index) => {
 			break;
 		case 4:
 			changeGeoJSON(index);
+			changeMapView(index, 0.8);
+			break;
+		case 5:
+			changeGeoJSON(index);
+			changeMapView(index, 0.8);
 			break;
 		}
+
 	}
 }
 
@@ -138,21 +192,25 @@ const mapViews = [
 	[
 		[-69.35067, 2.85314], 
 		5
-	],
+		],
 	[
 		[-66.2, 5.96424], 
 		5.5
-	],
+		],
 	[
-		[-66.55178, 5.85784],
+		[-66.2, 5.96424],
 		5.5
-	]
-];
+		],
+	[
+		[-73.26332, 4.50225],
+		10.5
+		]
+	];
 
 
 // Iniciar animación de las lineas.
 let intervalAnim;
-function enableLineAnim(layerId, animStep) {
+function enableLineAnim(mapId, layerId, animStep) {
 	var step = 0;
 	let dashArraySeq = [
 		[0, 4, 3],
@@ -165,7 +223,7 @@ function enableLineAnim(layerId, animStep) {
 		];
 	intervalAnim = setInterval(() => {
 		step = (step + 1) % dashArraySeq.length;
-		biodiversidadMap_1.setPaintProperty(layerId, 'line-dasharray', dashArraySeq[step]);
+		mapId.setPaintProperty(layerId, 'line-dasharray', dashArraySeq[step]);
 	}, animStep);
 }
 
