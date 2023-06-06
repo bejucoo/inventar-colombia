@@ -34,5 +34,17 @@
         "div": "2",
         "text": "<h1 class='centered padDer8'>Del occidente, caos; llegan ríos llenos de velocidad por las caídas entre crestas y valles de la cordillera. Dreno estos rápidos ríos que bajan arrastrando y transportando todo a su pasos por pronunciadas pendientes desde la Serranía de la Macarena, de la Sierra Nevada del Cocuy e incluso desde el Páramo de Sumapaz.</h1>",
         "img": ""
+    },
+    {
+        "id": "6",
+        "div": "3",
+        "text": "<h1 class='centered padDer8'>Con tanto espacio, estos ríos tienen más libertad para desbordarse en sus orillas, y poco a poco van llegando a mi, sin mucho arrastre de nutrientes y sedimentos, lo que torna sus aguas negras.</h1>",
+        "img": "<img class='centered w100' src='./resources/images/narrativa/biodiversidad/rioCaroni.jpg'>"
+    },
+    {
+        "id": "7",
+        "div": "3",
+        "text": "<h1 class='centered padDer8'>Los principales ríos que me alimentan, el Cuchivero y Ventuari, son muy distintos. El del norte trae aguas claras y con pocos nutrientes y sedimentos, mientras que el del sur llega desde los bosques amazónicos.</h1>",
+        "img": "<img class='centered w100' src='./resources/images/narrativa/biodiversidad/riosGuayanes.jpg'>"
     }
  ]
