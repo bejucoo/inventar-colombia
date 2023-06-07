@@ -48,7 +48,7 @@ const changeContent = (data, step) => {
 
 
 // Crear el mapa.
-let biodiversidadMap_1 = new maplibregl.Map({
+const biodiversidadMap_1 = new maplibregl.Map({
 	container: "biodiversidadMapElm_1",
 	style: "./resources/json/map_styles/narrativaMap_1.json",
 	center: [-69.35067, 2.85314],
@@ -59,7 +59,7 @@ let biodiversidadMap_1 = new maplibregl.Map({
 	attributionControl: false
 });
 
-let biodiversidadMap_2 = new maplibregl.Map({
+const biodiversidadMap_2 = new maplibregl.Map({
 	container: "biodiversidadMapElm_2",
 	style: "./resources/json/map_styles/narrativaMap_1.json",
 	center: [-64.13079, 5.70012],
@@ -70,7 +70,6 @@ let biodiversidadMap_2 = new maplibregl.Map({
 	attributionControl: false
 });
 
-
 // Agregar source y primeras layers al mapa.
 biodiversidadMap_1.on('load', () => {
 	biodiversidadMap_1.addSource('orinoco_1', {
@@ -79,33 +78,28 @@ biodiversidadMap_1.on('load', () => {
 	});
 
 	biodiversidadMap_1.addLayer({
+		id: 'lineBack_1',
 		type: 'line',
 		source: 'orinoco_1',
-		id: 'lineBack_1',
 		paint: {
 			'line-color': '#92a9a4',
 			'line-width': 7,
 			'line-opacity': 0.5
-		},
-		layout: {
-			'line-cap': 'round'
 		}
 	});
 
 	biodiversidadMap_1.addLayer({
+		id: 'lineAnim_1',
 		type: 'line',
 		source: 'orinoco_1',
-		id: 'lineAnim_1',
 		paint: {
 			'line-color': '#92a9a4',
 			'line-width': 7,
 			'line-opacity': 1
-		},
-		layout: {
-			'line-cap': 'round'
 		}
 	});
-	enableLineAnim(biodiversidadMap_1, 'lineAnim_1', 70);
+	
+	enableLineAnim(intervalAnim_1, biodiversidadMap_1, 'lineAnim_1', 0.1, 5, 5);
 });
 
 // Agregar source y primeras layers al mapa.
@@ -123,9 +117,6 @@ biodiversidadMap_2.on('load', () => {
 			'line-color': '#92a9a4',
 			'line-width': 7,
 			'line-opacity': 0.5
-		},
-		layout: {
-			'line-cap': 'round'
 		}
 	});
 
@@ -137,12 +128,10 @@ biodiversidadMap_2.on('load', () => {
 			'line-color': '#92a9a4',
 			'line-width': 7,
 			'line-opacity': 1
-		},
-		layout: {
-			'line-cap': 'round'
 		}
 	});
-	enableLineAnim(biodiversidadMap_2, 'lineAnim_2', 90);
+
+	enableLineAnim(intervalAnim_2, biodiversidadMap_2, 'lineAnim_2', 0.25, 2, 2);
 });
 
 // Cambiar el contenido del mapa.
@@ -208,29 +197,41 @@ const mapViews = [
 	];
 
 
-// Iniciar animación de las lineas.
-let intervalAnim;
-function enableLineAnim(mapId, layerId, animStep) {
-	var step = 0;
-	let dashArraySeq = [
-		[0, 4, 3],
-		[1, 4, 2],
-		[2, 4, 1],
-		[3, 4, 0],
-		[0, 1, 3, 3],
-		[0, 2, 3, 2],
-		[0, 3, 3, 1]
-		];
-	intervalAnim = setInterval(() => {
-		step = (step + 1) % dashArraySeq.length;
-		mapId.setPaintProperty(layerId, 'line-dasharray', dashArraySeq[step]);
-	}, animStep);
+// Animación de las lineas.
+let intervalAnim_1;
+let intervalAnim_2;
+var step = 0;
+
+const enableLineAnim = (interval, mapId, layerId, animSpeed, dashLength, gapLength) => {
+	const dashSteps = 40 * dashLength / (gapLength + dashLength);
+	const gapSteps = 40 - dashSteps;
+
+	step = step + animSpeed;
+	if (step >= 40) step = 0;
+
+	var t, a, b, c, d;
+	if (step < dashSteps) {
+		t = step / dashSteps;
+		a = (1 - t) * dashLength;
+		b = gapLength;
+		c = t * dashLength;
+		d = 0;
+	} else {
+		t = (step - dashSteps) / (gapSteps);
+		a = 0;
+		b = (1 - t) * gapLength;
+		c = dashLength;
+		d = t * gapLength;          
+	}
+
+	mapId.setPaintProperty(layerId, 'line-dasharray', [d, c, b, a]);
+	interval = requestAnimationFrame(() => enableLineAnim(interval, mapId, layerId, animSpeed, dashLength, gapLength));
 }
 
 // Detener animación de las lineas.
-function stopLineAnim() {
-	clearInterval(intervalAnim);
-	intervalAnim = null;
+function stopLineAnim(interval) {
+	cancelAnimationFrame(interval)
+	interval = null;
 }
 
 // Instancia de tippy.js para tooltips.
