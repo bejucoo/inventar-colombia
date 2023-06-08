@@ -27,6 +27,7 @@ const scrollBiodiversidad = (data) => {
 		} else {
 			changeContent(data, step);
 		}
+		
 		changeMap(step.index);
 	});
 }
@@ -47,7 +48,7 @@ const changeContent = (data, step) => {
 }
 
 
-// Crear el mapa.
+// Crear los mapas.
 const biodiversidadMap_1 = new maplibregl.Map({
 	container: "biodiversidadMapElm_1",
 	style: "./resources/json/map_styles/narrativaMap_1.json",
@@ -70,69 +71,47 @@ const biodiversidadMap_2 = new maplibregl.Map({
 	attributionControl: false
 });
 
-// Agregar source y primeras layers al mapa.
+
+// Agregar source, primeras layers y animar.
+const addSource_Layers_Anim = (num, mapId, firstSource, animSpeed, dash, gap) => {
+	mapId.addSource('orinoco_' + num, {
+		type: 'geojson',
+		data: './resources/geojson/narrativa/biodiversidad/' + firstSource + '.geojson'
+	});
+
+	mapId.addLayer({
+		id: 'lineBack_' + num,
+		type: 'line',
+		source: 'orinoco_' + num,
+		paint: {
+			'line-color': '#92a9a4',
+			'line-width': 10,
+			'line-opacity': 0.5
+		}
+	});
+
+	mapId.addLayer({
+		id: 'lineAnim_' + num,
+		type: 'line',
+		source: 'orinoco_' + num,
+		paint: {
+			'line-color': '#92a9a4',
+			'line-width': 10,
+			'line-opacity': 1
+		}
+	});
+
+	enableLineAnim(mapId, 'lineAnim_' + num, animSpeed, dash, gap);
+}
+
 biodiversidadMap_1.on('load', () => {
-	biodiversidadMap_1.addSource('orinoco_1', {
-		type: 'geojson',
-		data: './resources/geojson/narrativa/biodiversidad/step_2.geojson'
-	});
-
-	biodiversidadMap_1.addLayer({
-		id: 'lineBack_1',
-		type: 'line',
-		source: 'orinoco_1',
-		paint: {
-			'line-color': '#92a9a4',
-			'line-width': 7,
-			'line-opacity': 0.5
-		}
-	});
-
-	biodiversidadMap_1.addLayer({
-		id: 'lineAnim_1',
-		type: 'line',
-		source: 'orinoco_1',
-		paint: {
-			'line-color': '#92a9a4',
-			'line-width': 7,
-			'line-opacity': 1
-		}
-	});
-	
-	enableLineAnim(intervalAnim_1, biodiversidadMap_1, 'lineAnim_1', 0.1, 5, 5);
+	addSource_Layers_Anim(1, biodiversidadMap_1, 'step_2', 0.1, 5, 5);
 });
 
-// Agregar source y primeras layers al mapa.
 biodiversidadMap_2.on('load', () => {
-	biodiversidadMap_2.addSource('orinoco_2', {
-		type: 'geojson',
-		data: './resources/geojson/narrativa/biodiversidad/step_6.geojson'
-	});
-
-	biodiversidadMap_2.addLayer({
-		type: 'line',
-		source: 'orinoco_2',
-		id: 'lineBack_2',
-		paint: {
-			'line-color': '#92a9a4',
-			'line-width': 7,
-			'line-opacity': 0.5
-		}
-	});
-
-	biodiversidadMap_2.addLayer({
-		type: 'line',
-		source: 'orinoco_2',
-		id: 'lineAnim_2',
-		paint: {
-			'line-color': '#92a9a4',
-			'line-width': 7,
-			'line-opacity': 1
-		}
-	});
-
-	enableLineAnim(intervalAnim_2, biodiversidadMap_2, 'lineAnim_2', 0.25, 2, 2);
+	addSource_Layers_Anim(2, biodiversidadMap_2, 'step_6', 0.25, 2, 2);
 });
+
 
 // Cambiar el contenido del mapa.
 const changeMap = (index) => {
@@ -160,10 +139,12 @@ const changeMap = (index) => {
 	}
 }
 
+
 // Cambiar el archivo geoJSON con los datos de las capas.
 const changeGeoJSON = (index) => {
 	biodiversidadMap_1.getSource('orinoco_1').setData('./resources/geojson/narrativa/biodiversidad/step_' + index + '.geojson');
 }
+
 
 // Cambiar el centro y el zoom del mapa.
 const changeMapView = (index, vel) => {
@@ -173,6 +154,7 @@ const changeMapView = (index, vel) => {
 		speed: vel
 	});
 }
+
 
 // Centros y zooms para el mapa.
 const mapViews = [
@@ -198,11 +180,8 @@ const mapViews = [
 
 
 // Animación de las lineas.
-let intervalAnim_1;
-let intervalAnim_2;
 var step = 0;
-
-const enableLineAnim = (interval, mapId, layerId, animSpeed, dashLength, gapLength) => {
+const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength) => {
 	const dashSteps = 40 * dashLength / (gapLength + dashLength);
 	const gapSteps = 40 - dashSteps;
 
@@ -225,14 +204,9 @@ const enableLineAnim = (interval, mapId, layerId, animSpeed, dashLength, gapLeng
 	}
 
 	mapId.setPaintProperty(layerId, 'line-dasharray', [d, c, b, a]);
-	interval = requestAnimationFrame(() => enableLineAnim(interval, mapId, layerId, animSpeed, dashLength, gapLength));
+	requestAnimationFrame(() => enableLineAnim(mapId, layerId, animSpeed, dashLength, gapLength));
 }
 
-// Detener animación de las lineas.
-function stopLineAnim(interval) {
-	cancelAnimationFrame(interval)
-	interval = null;
-}
 
 // Instancia de tippy.js para tooltips.
 tippy.delegate('#biodiversidadTexto_2', {
