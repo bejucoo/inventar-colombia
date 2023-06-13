@@ -84,7 +84,7 @@ const addSource_Layers_Anim = (num, mapId, firstSource, animSpeed, dash, gap) =>
 		type: 'line',
 		source: 'orinoco_' + num,
 		paint: {
-			'line-color': '#92a9a4',
+			'line-color': ['get', 'color'],
 			'line-width': 10,
 			'line-opacity': 0.5
 		}
@@ -95,7 +95,7 @@ const addSource_Layers_Anim = (num, mapId, firstSource, animSpeed, dash, gap) =>
 		type: 'line',
 		source: 'orinoco_' + num,
 		paint: {
-			'line-color': '#92a9a4',
+			'line-color': ['get', 'color'],
 			'line-width': 10,
 			'line-opacity': 1
 		}
@@ -109,7 +109,7 @@ biodiversidadMap_1.on('load', () => {
 });
 
 biodiversidadMap_2.on('load', () => {
-	addSource_Layers_Anim(2, biodiversidadMap_2, 'step_6', 0.25, 2, 2);
+	addSource_Layers_Anim(2, biodiversidadMap_2, 'step_6', 0.12, 2, 2);
 });
 
 
