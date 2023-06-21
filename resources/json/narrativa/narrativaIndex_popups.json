@@ -23,7 +23,7 @@
 		"zoom": 9,
 		"pitch": 60,
 		"bearing": 150,
-		"html": "<img src='./resources/images/index/popup_2.svg' alt=''><div><a href='#'><h2 style='margin: 10% 0'>II</h2><h3 style='font-weight: lighter; margin: 10% 0'>Sociodiversidad</h3></a></div>"
+		"html": "<img src='./resources/images/index/popup_2.svg' alt=''><div><a href='sociodiversidad.html'><h2 style='margin: 10% 0'>II</h2><h3 style='font-weight: lighter; margin: 10% 0'>Sociodiversidad</h3></a></div>"
 	},
 	{
 		"id": "intro_1",

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sección 2: Sociodiversidad</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/biodiversidadAnim.css">
+	<link rel="stylesheet" href="./css/libraries/maplibre-gl.css"/>
+	<script type="module" src="./js/libraries/md-block.js"></script>
+	<script src="./js/libraries/maplibre-gl.js"></script>
+	<script src="./js/libraries/scrollama.js"></script>
+</head>
+<body>
+	<div id="menuDiv" class="h100 p_fix">
+		<div id="menuContent" class="h100 d_flex flex_column">
+			<md-block id="menuMDBlock" src="./resources/md/menu.md"></md-block>
+		</div>
+		<div id="menuToggle" class="p_abs">
+			<span>
+				<b>☰</b>
+			</span>
+		</div>
+	</div>
+
+	<div id="navBar" class="p_fix d_flex">
+		<h5 id="navTitle">
+			<a href="index.html">Inicio</a> &nbsp; / &nbsp; <a href="orinoco.html">El Orinoco</a> &nbsp; / &nbsp; <a href="narrativa.html">Narrativa Cartográfica</a> &nbsp; / &nbsp; Sociodiversidad
+		</h5>
+	</div>
+
+	<div class="p_stk">
+		<div class="p_stk sectionContent top0 h100vh d_grid grid_twoCol_2-3">
+			<div id="biodiversidadTexto_1" class="p_stk izq padTop30px">
+				<h1 class='centered padDer8'>Zigzagueando voy transportando a los antiguos pobladores por mis aguas. Las regiones que recorren mis aguas son muy diversas al igual que las personas que las habitan.</h1>
+			</div>
+
+			<div id="biodiversidadAnim_1" class="der_full">
+				<div id="sociodiversidadMapElm_1" class="mapElm"></div>
+			</div>
+		</div>
+
+		<div id="biodiversidadSteps_1">
+			<div id="0" class="biodiversidadStep"></div>
+			<div id="1" class="biodiversidadStep"></div>
+		</div>
+
+		<div class="p_stk sectionContent top0 h100vh d_grid grid_oneCol">
+			<h1 class='centered w90'>Mi cuerpo es casi tan largo como la costa de Ecuador y por él fluyen 31.000m³ por segundo, lo que sería equivalente a estar en un peaje viendo pasar 400 tractomulas cada segundo. Además, soy tan grande que con mis movimientos impacto casi un millón de km².</h1>
+		</div>
+
+		<div id="biodiversidadSpace_1">
+			<div class="biodiversidadSpace"></div>
+			<div class="biodiversidadSpace"></div>
+		</div>
+
+		<div class="p_stk sectionContent top0 h100vh d_grid grid_twoCol_2-3">
+			<div id="biodiversidadTexto_2" class="p_stk izq padTop30px">
+				<h1 class='centered padDer8'>Hace <span id='spanMioceno' class="textoVerde mousePointer" data-tooltip="Las ciencias de la tierra que estudian el pasado histórico físico son la geomorfología, paleontología y la biogeografía.">23 millones de años, durante el Mioceno temprano</span>, ondulaba de una forma diferente, atraía los cursos de agua de toda la cordillera central y de las sierras guayanesas, con una dirección sur-norte del continente.</h1>
+			</div>
+
+			<div class="der_full">
+			</div>
+		</div>
+
+		<div id="biodiversidadSteps_2" class="h100">
+			<div id="2" class="biodiversidadStep"></div>
+			<div id="3" class="biodiversidadStep"></div>
+			<div id="4" class="biodiversidadStep"></div>
+			<div id="5" class="biodiversidadStep"></div>
+		</div>
+
+		<div class="p_stk sectionContent top0 h100vh d_grid grid_twoCol_2-3">
+			<div class="p_stk izq padTop30px">
+				<h1 class='centered padDer8'>Los ríos de la cordillera mantienen su curso determinado por las montañas y cargados de tantos sedimentos y nutrientes que sus aguas se tornan blancas.</h1>
+			</div>
+
+			<div class="p_stk der">
+				<!-- <img class="centered w100" src="./resources/images/narrativa/biodiversidad/rioMeta.jpg"> -->
+			</div>
+		</div>
+
+		<div id="biodiversidadSpace_2">
+			<div class="biodiversidadSpace"></div>
+			<div class="biodiversidadSpace"></div>
+		</div>
+
+		<div class="p_stk sectionContent top0 h100vh d_grid grid_twoCol_2-3">
+			<div class="p_stk izq padTop30px">
+				<h1 class='centered padDer8'>A diferencia del caos del occidente, desde el oriente el agua llega con lentitud y calma. Las aguas que nacen del Escudo Guayanés, la forma terrestre más vieja del planeta, van bajando por escalones entre planicies.</h1>
+			</div>
+
+			<div class="der_full">
+				<!--<div id="biodiversidadMapElm_2" class="mapElm"></div>-->
+			</div>
+		</div>
+
+		<div id="biodiversidadSpace_3">
+			<div class="biodiversidadSpace"></div>
+			<div class="biodiversidadSpace"></div>
+		</div>
+
+		<div class="p_stk sectionContent top0 h100vh d_grid grid_twoCol_2-3">
+			<div id="biodiversidadTexto_3" class="p_stk izq padTop30px">
+				<h1 class='centered padDer8'>Con tanto espacio, estos ríos tienen más libertad para desbordarse en sus orillas, y poco a poco van llegando a mi, sin mucho arrastre de nutrientes y sedimentos, lo que torna sus aguas negras.</h1>
+			</div>
+
+			<div id="biodiversidadAnim_3" class="p_stk der">
+				<!-- <img class="centered w100" src="./resources/images/narrativa/biodiversidad/rioCaroni.jpg"> -->
+			</div>
+		</div>
+
+		<div id="biodiversidadSteps_3" class="h100">
+			<div id="6" class="biodiversidadStep"></div>
+			<div id="7" class="biodiversidadStep"></div>
+		</div>
+
+		<div class="p_stk sectionContent top0 h100vh d_grid grid_oneCol">
+			<h1 class='centered w90'>Las pequeñas y grandes serpientes de agua que nacen en las montañas y en las planicies han moldeado, moldean y seguirán moldeando el paisaje y sus habitantes. Desde hace muchos años y por muchos más, expertos en <span class="textoAzul mousePointer">ecosistemas acuáticos</span> me han estudiado y me seguirán estudiando.</h1>
+		</div>
+
+		<div id="biodiversidadSpace_4">
+			<div class="biodiversidadSpace"></div>
+			<div class="biodiversidadSpace"></div>
+		</div>
+
+		<div class="p_stk sectionContent top0 h100vh d_grid grid_oneCol">
+			<h1 class='centered w90'><a href="">Siguiente sección »</a> </h1>
+		</div>
+	</div>
+	<script src="./js/libraries/popper.min.js"></script>
+	<script src="./js/libraries/tippy-bundle.umd.js"></script>
+	<script src="./js/menu.js"></script>
+	<script src="./js/sociodiversidad.js"></script>
+</body>
+</html>
