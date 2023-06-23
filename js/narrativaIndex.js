@@ -14,7 +14,7 @@ let map = new maplibregl.Map({
 // Obtener el archivo de los popups y ejecutar las funciones.
 async function fetchPopups() {
 	try {
-		const response = await fetch("./resources/json/narrativa/narrativaIndex_popups.json");
+		const response = await fetch("./resources/json/narrativa/narrativaIndexPopups.json");
 		const data = await response.json();
 		return data;
 	} catch(error) {

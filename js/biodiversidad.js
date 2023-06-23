@@ -1,7 +1,7 @@
 // Obtener el archivo JSON.
 async function fetchBiodiversidad() {
 	try {
-		const response = await fetch("./resources/json/narrativa/biodiversidad/biodiversidadAnim.json")
+		const response = await fetch("./resources/json/narrativa/biodiversidadSteps.json")
 		const data = await response.json();
 		return data;
 	} catch(error) {

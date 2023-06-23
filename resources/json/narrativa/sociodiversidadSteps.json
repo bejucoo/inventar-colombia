@@ -1,0 +1,44 @@
+ [
+ 	{
+ 		"id": "0",
+ 		"div": "1",
+ 		"text": "<h1 class='centered padDer8'>Zigzagueando voy transportando a los antiguos pobladores por mis aguas. Las regiones que recorren mis aguas son muy diversas al igual que las personas que las habitan.</h1>",
+ 		"img": ""
+ 	},
+ 	{
+ 		"id": "1",
+ 		"div": "1",
+ 		"text": "<h1 class='centered padDer8'>Estas regiones geofísicas que me rodean conforman mi identidad, es decir, la particularidad que me hace reunir y distribuir diferentes sabores, olores, frutos, hortalizas, árboles, o materiales de vida.</h1>",
+ 		"img": ""
+ 	},
+    {
+        "id": "2",
+        "div": "1",
+        "text": "<h1 class='centered padDer8'>En la región andina abundaban los cultivos de papa y a veces maíz, en los llanos del norte y sur las frutas rastreras, palmas de moriche y raíces olorosas. La yuca ha sido el cultivo principal de los cultivadores. </h1>",
+        "img": ""
+    },
+    {
+        "id": "3",
+        "div": "1",
+        "text": "<h1 class='centered padDer8'>En el sur amazónico había especies particulares para pintar el cuerpo, envenenar las presas.</h1>",
+        "img": ""
+    },
+    {
+        "id": "4",
+        "div": "1",
+        "text": "<h1 class='centered padDer8'>En torno al escudo guayanés se encontraban las mejores rocas igneas para extraer una arcilla de infinita calidad y con muchos nutrientes  desaguados por el Río Meta.</h1>",
+        "img": ""
+    },
+    {
+        "id": "5",
+        "div": "1",
+        "text": "<h1 class='centered padDer8'>La región costera es otra forma terrestre de picos elevados, de allí el algodón era de gran calidad y muy apetecido en el resto de suramerica.</h1>",
+        "img": ""
+    },
+    {
+        "id": "6",
+        "div": "1",
+        "text": "<h1 class='centered padDer8'>Mis regiones entonces me configuran como un mosaico biodiverso que facilitó la habitación, comunicación y flujo de un gran panorama multiétnico o sociodiverso.</h1>",
+        "img": ""
+    }
+ ]

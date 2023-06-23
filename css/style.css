@@ -731,8 +731,9 @@ button:hover {
 
 
 
-/* BIODIVERSIDAD */
-.biodiversidadStep, .biodiversidadSpace {
+/* STEPS */
+.biodiversidadStep, .biodiversidadSpace,
+.sociodiversidadStep, .sociodiversidadSpace {
 	height: 1500px;
 }
 

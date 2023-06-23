@@ -1,7 +1,7 @@
 // Obtener el archivo JSON.
 async function fetchBiodiversidad() {
 	try {
-		const response = await fetch("./resources/json/narrativa/biodiversidad/biodiversidadAnim.json")
+		const response = await fetch('./resources/json/narrativa/sociodiversidadSteps.json')
 		const data = await response.json();
 		return data;
 	} catch(error) {
@@ -19,178 +19,178 @@ const scrollBiodiversidad = (data) => {
 	const scroller = scrollama();
 	scroller
 	.setup({
-		step: ".biodiversidadStep"
+		step: '.sociodiversidadStep'
 	})
 	.onStepEnter((step) => {
-		if (document.readyState === "loading") {
-			console.log("Cargando");
+		if (document.readyState === 'loading') {
+			console.log('Cargando');
 		} else {
-			//changeContent(data, step);
+			changeContent(data, step);
 		}
-		
-		//changeMap(step.index);
+		changeMap(step.index);
 	});
 }
 
 
 // Cambiar el contenido de los divs de texto e imagen.
 const changeContent = (data, step) => {
-	let divText = document.getElementById("biodiversidadTexto_" + data[step.element.id].div);
-	let divAnim = document.getElementById("biodiversidadAnim_" + data[step.element.id].div);
-
-	if (divText) {
-		divText.innerHTML = data[step.element.id].text;
-	}
-
-	if (divAnim) {
-		divAnim.innerHTML = data[step.element.id].img;
-	}
+	let divText = document.getElementById('sociodiversidadTexto_' + data[step.element.id].div);
+	if (divText) divText.innerHTML = data[step.element.id].text;
 }
 
 
 // Crear los mapas.
 const sociodiversidadMap_1 = new maplibregl.Map({
-	container: "sociodiversidadMapElm_1",
-	style: "./resources/json/map_styles/narrativaMap_2.json",
+	container: 'sociodiversidadMapElm_1',
+	style: './resources/json/map_styles/narrativaMap_2.json',
 	center: [-66.7, 5.61499],
 	zoom: 5.5,
 	pitch: 0,
 	bearing: 0,
-	interactive: true,
+	interactive: false,
 	attributionControl: false
 });
 
-
-// Agregar source, primeras layers y animar.
-const addSource_Layers_Anim = (num, mapId, firstSource, animSpeed, dash, gap) => {
-	mapId.addSource('orinoco_' + num, {
-		type: 'geojson',
-		data: './resources/geojson/narrativa/biodiversidad/' + firstSource + '.geojson'
-	});
-
-	mapId.addLayer({
-		id: 'lineBack_' + num,
-		type: 'line',
-		source: 'orinoco_' + num,
-		paint: {
-			'line-color': ['get', 'color'],
-			'line-width': 10,
-			'line-opacity': 0.5
-		}
-	});
-
-	mapId.addLayer({
-		id: 'lineAnim_' + num,
-		type: 'line',
-		source: 'orinoco_' + num,
-		paint: {
-			'line-color': ['get', 'color'],
-			'line-width': 10,
-			'line-opacity': 1
-		}
-	});
-
-	enableLineAnim(mapId, 'lineAnim_' + num, animSpeed, dash, gap);
-}
-
 sociodiversidadMap_1.on('load', () => {
-	sociodiversidadMap_1.addSource('orinoco_1', {
+	sociodiversidadMap_1.addSource('habitatsOrinoco', {
 		type: 'geojson',
 		data: './resources/geojson/narrativa/sociodiversidad/HabitatsRibereñosOrinoco.geojson'
 	});
 
-	sociodiversidadMap_1.addLayer({
-		id: 'lineAnim_1',
-		type: 'line',
-		source: 'orinoco_1',
-		filter: ["==", ["geometry-type"], "MultiLineString"],
-		filter: ["!=", "nombre", "Río Orinoco"],
-		paint: {
-			'line-color': [
-				'match',
-				['get', 'region'],
-				'Amazónica',
-				'#66496e',
-				'Andina',
-				'#b196b9',
-				'Costera',
-				'#b55845',
-				'Guayanesa',
-				'#d4978b',
-				'Llanera',
-				'#d98a30',
-				'#92a9a4'
+	const regiones = ['Andina', 'Amazónica', 'Guayanesa', 'Llanera', 'Costera'];
+
+	// Tributarios sin animar
+	regiones.forEach(e => {
+		sociodiversidadMap_1.addLayer({
+			id: 'tributariosRegion' + e,
+			source: 'habitatsOrinoco',
+			type: 'line',
+			filter: ['==', ['geometry-type'], 'LineString'],
+			filter: ['==', 'region', e],
+			layout: {
+				'visibility': 'visible'
+			},
+			paint: {
+				'line-color': ['match',	['get', 'region'],
+					'Amazónica', '#66496E',
+					'Andina', '#B196B9',
+					'Costera', '#B55845',
+					'Guayanesa', '#D4978B',
+					'Llanera', '#D98A30',
+					'#92A9A4'
 				],
-			'line-width': 3,
-			'line-opacity': 0.72
-		}
-	});
+				'line-width': 5,
+				'line-opacity': 1
+			}
+		});
+	})
 
+	// Tributarios animados
 	sociodiversidadMap_1.addLayer({
-		id: 'rioOrinoco',
+		id: 'tributariosAnimados',
+		source: 'habitatsOrinoco',
 		type: 'line',
-		source: 'orinoco_1',
-		filter: ["==", ["geometry-type"], "MultiLineString"],
-		filter: ["==", "nombre", "Río Orinoco"],
-		paint: {
-			'line-color': '#92a9a4',
-			'line-width': 3,
-			'line-opacity': 0.72
-		}
-	});
-
-	sociodiversidadMap_1.addLayer({
-		id: "symbols",
-		type: "symbol",
-		source: "orinoco_1",
-		filter: ["==", ["geometry-type"], "Point"],
+		filter: ['==', ['geometry-type'], 'LineString'],
+		filter: ['!=', 'nombre', 'Río Orinoco'],
 		layout: {
-			"symbol-placement": "point",
-			"text-field": '{grupo}',
-			"text-font": ["Cormorant Italic"],
-			"text-size": 18,
-			"text-anchor": "bottom",
+			'visibility': 'visible'
 		},
 		paint: {
-			"text-color": "#241d15",
-			"text-halo-color": "#241d15",
-			"text-halo-width": 0.05
+			'line-color': ['match', ['get', 'region'],
+				'Amazónica', '#66496e',
+				'Andina', '#b196b9',
+				'Costera', '#b55845',
+				'Guayanesa', '#d4978b',
+				'Llanera', '#d98a30',
+				'#92a9a4'
+				],
+			'line-width': 5,
+			'line-opacity': 1
 		}
 	});
 
-	animRiver_1(0.0024);
+	// Río Orinoco
+	sociodiversidadMap_1.addLayer({
+		id: 'orinoco',
+		type: 'line',
+		source: 'habitatsOrinoco',
+		filter: ['==', ['geometry-type'], 'LineString'],
+		filter: ['==', 'nombre', 'Río Orinoco'],
+		layout: {
+			'visibility': 'visible'
+		},
+		paint: {
+			'line-color': '#92a9a4',
+			'line-width': 5,
+			'line-opacity': 1
+		}
+	});
+
+	// Etiquetas y símbolos
+	sociodiversidadMap_1.addLayer({
+		id: 'labels',
+		source: 'habitatsOrinoco',
+		type: 'symbol',
+		filter: ['==', ['geometry-type'], 'Point'],
+		layout: {
+			'visibility': 'visible',
+			'symbol-placement': 'point',
+			'text-field': '{grupo}',
+			'text-font': ['Cormorant Italic'],
+			'text-size': 18,
+			'text-anchor': 'bottom',
+		},
+		paint: {
+			'text-color': '#241d15',
+			'text-halo-color': '#241d15',
+			'text-halo-width': 0.05
+		}
+	});
+
+	enableLineAnim(sociodiversidadMap_1, 'tributariosAnimados', 0.1, 10, 10);
+	//animRiver_1(0.0024);
 });
 
-// biodiversidadMap_2.on('load', () => {
-// 	addSource_Layers_Anim(2, biodiversidadMap_2, 'step_6', 0.12, 2, 2);
-// });
 
-
-// Cambiar el contenido del mapa.
-// const changeMap = (index) => {
-// 	if (biodiversidadMap_1.getSource('orinoco_1')) {
-// 		switch(index) {
-// 		case 2:
-// 			biodiversidadMap_1.setLayoutProperty('waterway_river', 'visibility', 'none');
-// 			changeGeoJSON(index);
-// 			changeMapView(index, 0.36);
-// 			break;
-// 		case 3:
-// 			changeGeoJSON(index);
-// 			changeMapView(index, 0.36);
-// 			break;
-// 		case 4:
-// 			changeGeoJSON(index);
-// 			changeMapView(index, 0.8);
-// 			break;
-// 		case 5:
-// 			changeGeoJSON(index);
-// 			changeMapView(index, 0.8);
-// 			break;
-// 		}
-
-// 	}
-// }
+// Cambiar el contenido del mapa
+const changeMap = (index) => {
+	if (sociodiversidadMap_1.getSource('habitatsOrinoco')) {
+		switch(index) {
+		case 0:
+			sociodiversidadMap_1.setLayoutProperty('labels', 'text-field', '{grupo}');
+			break;
+		case 1:
+			sociodiversidadMap_1.setLayoutProperty('labels', 'text-field', '{nombre}');
+			sociodiversidadMap_1.setPaintProperty('tributariosRegionAndina', 'line-opacity', 1);
+			changeMapView(1, 0.3)
+			break;
+		case 2:
+			sociodiversidadMap_1.setPaintProperty('tributariosRegionAndina', 'line-opacity', 0.3);
+			sociodiversidadMap_1.setPaintProperty('tributariosRegionAmazónica', 'line-opacity', 1);
+			changeMapView(2, 0.3)
+			break;
+		case 3:
+			sociodiversidadMap_1.setPaintProperty('tributariosRegionAmazónica', 'line-opacity', 0.3);
+			sociodiversidadMap_1.setPaintProperty('tributariosRegionGuayanesa', 'line-opacity', 1);
+			changeMapView(3, 0.3)
+			break;
+		case 4:
+			sociodiversidadMap_1.setPaintProperty('tributariosRegionGuayanesa', 'line-opacity', 0.3);
+			sociodiversidadMap_1.setPaintProperty('tributariosRegionCostera', 'line-opacity', 1);
+			changeMapView(4, 0.3)
+			break;
+		case 5:
+			sociodiversidadMap_1.setPaintProperty('tributariosRegionCostera', 'line-opacity', 0.3);
+			sociodiversidadMap_1.setPaintProperty('tributariosRegionLlanera', 'line-opacity', 1);
+			changeMapView(5, 0.3)
+			break;
+		case 6:
+			sociodiversidadMap_1.setPaintProperty('tributariosRegionLlanera', 'line-opacity', 0.3);
+			changeMapView(1, 0.3)
+			break;
+		}
+	}
+}
 
 
 // Cambiar el archivo geoJSON con los datos de las capas.
@@ -201,7 +201,7 @@ const changeGeoJSON = (index) => {
 
 // Cambiar el centro y el zoom del mapa.
 const changeMapView = (index, vel) => {
-	biodiversidadMap_1.flyTo({
+	sociodiversidadMap_1.flyTo({
 		center: mapViews[index][0],
 		zoom: mapViews[index][1],
 		speed: vel
@@ -212,22 +212,25 @@ const changeMapView = (index, vel) => {
 // Centros y zooms para el mapa.
 const mapViews = [
 	[],
-	[],
 	[
-		[-69.35067, 2.85314], 
-		5
-		],
-	[
-		[-66.2, 5.96424], 
+		[-66.7, 5.61499],
 		5.5
 		],
 	[
-		[-66.2, 5.96424],
-		5.5
+		[-71.12313, 4.87724], 
+		6.5
 		],
 	[
-		[-73.26332, 4.50225],
-		10.5
+		[-69.52653, 3.58252], 
+		6
+		],
+	[
+		[-63.26517, 5.93455],
+		6.2
+		],
+	[
+		[-66.19598, 8.44916],
+		6.5
 		]
 	];
 
