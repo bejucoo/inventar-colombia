@@ -38,7 +38,7 @@
       "source": "terrain-rgb",
       "maxzoom": 12,
       "layout": {
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "hillshade-shadow-color": "rgba(36, 29, 21, 1)",
@@ -100,7 +100,7 @@
       "source": "ocean-rgb",
       "maxzoom": 12,
       "layout": {
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "hillshade-exaggeration": 0.12,

@@ -85,7 +85,7 @@ const addSource_Layers_Anim = (num, mapId, firstSource, animSpeed, dash, gap) =>
 		source: 'orinoco_' + num,
 		paint: {
 			'line-color': ['get', 'color'],
-			'line-width': 10,
+			'line-width': 7,
 			'line-opacity': 0.5
 		}
 	});
@@ -96,7 +96,7 @@ const addSource_Layers_Anim = (num, mapId, firstSource, animSpeed, dash, gap) =>
 		source: 'orinoco_' + num,
 		paint: {
 			'line-color': ['get', 'color'],
-			'line-width': 10,
+			'line-width': 7,
 			'line-opacity': 1
 		}
 	});
@@ -105,11 +105,11 @@ const addSource_Layers_Anim = (num, mapId, firstSource, animSpeed, dash, gap) =>
 }
 
 biodiversidadMap_1.on('load', () => {
-	addSource_Layers_Anim(1, biodiversidadMap_1, 'step_2', 0.1, 5, 5);
+	addSource_Layers_Anim(1, biodiversidadMap_1, 'step_2', 0.3, 8, 8);
 });
 
 biodiversidadMap_2.on('load', () => {
-	addSource_Layers_Anim(2, biodiversidadMap_2, 'step_6', 0.12, 2, 2);
+	addSource_Layers_Anim(2, biodiversidadMap_2, 'step_6', 0.01, 2, 2);
 });
 
 
@@ -209,8 +209,8 @@ const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength) => {
 
 
 // Instancia de tippy.js para tooltips.
-tippy.delegate('#biodiversidadTexto_2', {
-	target: ['#spanMioceno', '#spanCamino'],
+tippy.delegate('.sectionContent', {
+	target: ['#spanMioceno', '#spanCamino', '#spanBlancasNegras', '#spanEcosistemas'],
 	content: (reference) => reference.dataset.tooltip,
 	trigger: 'mouseenter focus',
 	theme: 'colombia'
