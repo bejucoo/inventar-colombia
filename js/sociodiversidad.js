@@ -51,13 +51,13 @@ const sociodiversidadMap_1 = new maplibregl.Map({
 	attributionControl: false
 });
 
+const regiones = ['Andina', 'Amazónica', 'Guayanesa', 'Llanera', 'Costera'];
+
 sociodiversidadMap_1.on('load', () => {
 	sociodiversidadMap_1.addSource('habitatsOrinoco', {
 		type: 'geojson',
 		data: './resources/geojson/narrativa/sociodiversidad/HabitatsRibereñosOrinoco.geojson'
 	});
-
-	const regiones = ['Andina', 'Amazónica', 'Guayanesa', 'Llanera', 'Costera'];
 
 	// Tributarios sin animar
 	regiones.forEach(e => {
@@ -79,8 +79,16 @@ sociodiversidadMap_1.on('load', () => {
 					'Llanera', '#D98A30',
 					'#92A9A4'
 				],
-				'line-width': 5,
-				'line-opacity': 1
+				'line-width': 3,
+				'line-opacity': 1,
+				'line-width-transition': { 
+					duration: 5000, 
+					delay: 0
+				},
+				'line-opacity-transition': { 
+					duration: 2500, 
+					delay: 0
+				}
 			}
 		});
 	})
@@ -104,8 +112,12 @@ sociodiversidadMap_1.on('load', () => {
 				'Llanera', '#d98a30',
 				'#92a9a4'
 				],
-			'line-width': 5,
-			'line-opacity': 1
+			'line-width': 3,
+			'line-opacity': 1,
+			'line-width-transition': { 
+					duration: 5000, 
+					delay: 0
+			}
 		}
 	});
 
@@ -122,7 +134,11 @@ sociodiversidadMap_1.on('load', () => {
 		paint: {
 			'line-color': '#92a9a4',
 			'line-width': 5,
-			'line-opacity': 1
+			'line-opacity': 1,
+			'line-width-transition': { 
+					duration: 2000, 
+					delay: 0
+			}
 		}
 	});
 
@@ -185,8 +201,36 @@ const changeMap = (index) => {
 			changeMapView(5, 0.3)
 			break;
 		case 6:
+			sociodiversidadMap_1.setLayoutProperty('labels', 'visibility', 'visible');
+			sociodiversidadMap_1.setPaintProperty('orinoco', 'line-width', 3);
 			sociodiversidadMap_1.setPaintProperty('tributariosRegionLlanera', 'line-opacity', 0.3);
+			regiones.forEach(e => {
+				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 3);
+			});
 			changeMapView(1, 0.3)
+			break;
+		case 7:
+			sociodiversidadMap_1.setLayoutProperty('labels', 'visibility', 'none');
+			sociodiversidadMap_1.setPaintProperty('orinoco', 'line-width', 7);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
+			regiones.forEach(e => {
+				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-opacity', 1);
+				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 7);
+			});
+			break;
+		case 8:
+			sociodiversidadMap_1.setPaintProperty('orinoco', 'line-width', 5);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 1);
+			regiones.forEach(e => {
+				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 1);
+			});
+			break;
+		case 9:
+			sociodiversidadMap_1.setLayoutProperty('labels', 'text-field', '{grupo}');
+			sociodiversidadMap_1.setLayoutProperty('labels', 'visibility', 'visible');
+			regiones.forEach(e => {
+				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 3);
+			});
 			break;
 		}
 	}
