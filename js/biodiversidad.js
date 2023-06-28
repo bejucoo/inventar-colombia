@@ -27,7 +27,6 @@ const scrollBiodiversidad = (data) => {
 		} else {
 			changeContent(data, step);
 		}
-		
 		changeMap(step.index);
 	});
 }

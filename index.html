@@ -1,73 +1,73 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Inventar Colombia</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/libraries/maplibre-gl.css"/>
-  <script type="module" src="./js/libraries/md-block.js"></script>
-  <script src="./js/libraries/maplibre-gl.js"></script>
-  <script src="./js/libraries/scrollama.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inventar Colombia</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/libraries/maplibre-gl.css"/>
+	<script type="module" src="./js/libraries/md-block.js"></script>
+	<script src="./js/libraries/maplibre-gl.js"></script>
+	<script src="./js/libraries/scrollama.js"></script>
 </head>
 <body>
-  <div id="menuDiv" class="h100 p_fix">
-    <div id="menuContent" class="h100 d_flex flex_column">
-      <md-block id="menuMDBlock" src="./resources/md/menu.md"></md-block>
-    </div>
-    <div id="menuToggle" class="p_abs">
-      <span>
-        <b>☰</b>
-      </span>
-    </div>
-  </div>
+	<div id="menuDiv" class="h100 p_fix">
+		<div id="menuContent" class="h100 d_flex flex_column">
+			<md-block id="menuMDBlock" src="./resources/md/menu.md"></md-block>
+		</div>
+		<div id="menuToggle" class="p_abs">
+			<span>
+				<b>☰</b>
+			</span>
+		</div>
+	</div>
 
-  <div id="indexContent">
-    <section id="indexMap" class="w100vw">
-      <div id="indexMapElm" class="mapElm">
-        <img id="scrollAnim" class="p_abs" src="./resources/images/index/scroll.svg" alt="Scroll Indicator">
+	<div id="indexContent">
+		<section id="indexMap" class="w100vw">
+			<div id="indexMapElm" class="mapElm">
+				<img id="scrollAnim" class="p_abs" src="./resources/images/index/scroll.svg" alt="Scroll Indicator">
 
-        <div id="indexMapControl" class="p_abs d_flex h100">
-          <div id="indexMapControlWrap">
-            <a id="controlLink_0" class="controlLink d_flex" href="#popup_0">
-              <div id="controlLabel_0" class="controlLabel">Inicio</div>
-              <div id="controlDot_0" class="controlDot"></div>
-            </a>
-            <a id="controlLink_1" class="controlLink d_flex" href="#popup_1">
-              <div id="controlLabel_1" class="controlLabel">Introducción</div>
-              <div id="controlDot_1" class="controlDot"></div>
-            </a>
-            <a id="controlLink_2" class="controlLink d_flex" href="#popup_2">
-              <div id="controlLabel_2" class="controlLabel">El Orinoco</div>
-              <div id="controlDot_2" class="controlDot"></div>
-            </a>
-            <a id="controlLink_3" class="controlLink d_flex" href="#popup_3">
-              <div id="controlLabel_3" class="controlLabel">Epílogo</div>
-              <div id="controlDot_3" class="controlDot"></div>
-            </a>
-            <a id="controlLink_4" class="controlLink d_flex" href="#popup_4">
-              <div id="controlLabel_4" class="controlLabel">Equipo</div>
-              <div id="controlDot_4" class="controlDot"></div>
-            </a>
-            <a id="controlLink_5" class="controlLink d_flex" href="#popup_5">
-              <div id="controlLabel_5" class="controlLabel">Citar</div>
-              <div id="controlDot_5" class="controlDot"></div>
-            </a>
-          </div>
-        </div>
-      </div>
+				<div id="indexMapControl" class="p_abs d_flex h100">
+					<div id="indexMapControlWrap">
+						<a id="controlLink_0" class="controlLink d_flex" href="#popup_0">
+							<div id="controlLabel_0" class="controlLabel">Inicio</div>
+							<div id="controlDot_0" class="controlDot"></div>
+						</a>
+						<a id="controlLink_1" class="controlLink d_flex" href="#popup_1">
+							<div id="controlLabel_1" class="controlLabel">Introducción</div>
+							<div id="controlDot_1" class="controlDot"></div>
+						</a>
+						<a id="controlLink_2" class="controlLink d_flex" href="#popup_2">
+							<div id="controlLabel_2" class="controlLabel">El Orinoco</div>
+							<div id="controlDot_2" class="controlDot"></div>
+						</a>
+						<a id="controlLink_3" class="controlLink d_flex" href="#popup_3">
+							<div id="controlLabel_3" class="controlLabel">Epílogo</div>
+							<div id="controlDot_3" class="controlDot"></div>
+						</a>
+						<a id="controlLink_4" class="controlLink d_flex" href="#popup_4">
+							<div id="controlLabel_4" class="controlLabel">Equipo</div>
+							<div id="controlDot_4" class="controlDot"></div>
+						</a>
+						<a id="controlLink_5" class="controlLink d_flex" href="#popup_5">
+							<div id="controlLabel_5" class="controlLabel">Citar</div>
+							<div id="controlDot_5" class="controlDot"></div>
+						</a>
+					</div>
+				</div>
+			</div>
 
-      <div id="stepsIndexMap">
-        <div id="popup_0" class="indexMapStep"></div>
-        <div id="popup_1" class="indexMapStep"></div>
-        <div id="popup_2" class="indexMapStep"></div>
-        <div id="popup_3" class="indexMapStep"></div>
-        <div id="popup_4" class="indexMapStep"></div>
-        <div id="popup_5" class="indexMapStep"></div>
-      </div>
-    </section>
-  </div>
-  <script src="./js/menu.js"></script>
-  <script src="./js/index.js"></script>
+			<div id="stepsIndexMap">
+				<div id="popup_0" class="indexMapStep"></div>
+				<div id="popup_1" class="indexMapStep"></div>
+				<div id="popup_2" class="indexMapStep"></div>
+				<div id="popup_3" class="indexMapStep"></div>
+				<div id="popup_4" class="indexMapStep"></div>
+				<div id="popup_5" class="indexMapStep"></div>
+			</div>
+		</section>
+	</div>
+	<script src="./js/menu.js"></script>
+	<script src="./js/index.js"></script>
 </body>
 </html>

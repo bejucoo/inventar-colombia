@@ -74,7 +74,7 @@ const scrollToPoint = (json) => {
 			scrollIcon.classList.remove("hidden");
 		}
 
-		setActiveDot(response.index)
+		setActiveDot(response.index);
 	});
 };
 

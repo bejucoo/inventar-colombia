@@ -47,16 +47,25 @@ const sociodiversidadMap_1 = new maplibregl.Map({
 	zoom: 5.5,
 	pitch: 0,
 	bearing: 0,
-	interactive: false,
+	interactive: true,
 	attributionControl: false
 });
 
 const regiones = ['Andina', 'Amazónica', 'Guayanesa', 'Llanera', 'Costera'];
+const actividades = ['pescadores', 'recolectores', 'cazadores', 'cultivadores'];
 
 sociodiversidadMap_1.on('load', () => {
 	sociodiversidadMap_1.addSource('habitatsOrinoco', {
 		type: 'geojson',
 		data: './resources/geojson/narrativa/sociodiversidad/HabitatsRibereñosOrinoco.geojson'
+	});
+
+	actividades.forEach(e => {
+		sociodiversidadMap_1.loadImage('./resources/images/narrativa/sociodiversidad/' + e + '.png', (error, img) => {
+			if (error) throw error;
+			sociodiversidadMap_1.addImage(e, img);
+			console.log('Imagen cargada');
+		})
 	});
 
 	// Tributarios sin animar
@@ -78,8 +87,8 @@ sociodiversidadMap_1.on('load', () => {
 					'Guayanesa', '#D4978B',
 					'Llanera', '#D98A30',
 					'#92A9A4'
-				],
-				'line-width': 3,
+					],
+				'line-width': 4,
 				'line-opacity': 1,
 				'line-width-transition': { 
 					duration: 5000, 
@@ -112,11 +121,11 @@ sociodiversidadMap_1.on('load', () => {
 				'Llanera', '#d98a30',
 				'#92a9a4'
 				],
-			'line-width': 3,
+			'line-width': 4,
 			'line-opacity': 1,
 			'line-width-transition': { 
-					duration: 5000, 
-					delay: 0
+				duration: 5000, 
+				delay: 0
 			}
 		}
 	});
@@ -136,8 +145,8 @@ sociodiversidadMap_1.on('load', () => {
 			'line-width': 5,
 			'line-opacity': 1,
 			'line-width-transition': { 
-					duration: 2000, 
-					delay: 0
+				duration: 2000, 
+				delay: 0
 			}
 		}
 	});
@@ -155,11 +164,24 @@ sociodiversidadMap_1.on('load', () => {
 			'text-font': ['Cormorant Italic'],
 			'text-size': 18,
 			'text-anchor': 'bottom',
+			'icon-image': ['match', ['get', 'actividad'],
+				'Recolectores', 'recolectores',
+				'Pescadores', 'pescadores',
+				'Cazadores', 'cazadores',
+				'Cultivadores', 'cultivadores',
+				'pescadores'
+				],
+			'icon-size': 0.05,
+			'icon-anchor': 'center',
+			'icon-offset': [0, -600],
+			'icon-allow-overlap': true,
+			'icon-overlap': 'always'
 		},
 		paint: {
 			'text-color': '#241d15',
 			'text-halo-color': '#241d15',
-			'text-halo-width': 0.05
+			'text-halo-width': 0.1,
+			'icon-opacity': 0
 		}
 	});
 
@@ -205,14 +227,14 @@ const changeMap = (index) => {
 			sociodiversidadMap_1.setPaintProperty('orinoco', 'line-width', 3);
 			sociodiversidadMap_1.setPaintProperty('tributariosRegionLlanera', 'line-opacity', 0.3);
 			regiones.forEach(e => {
-				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 3);
+				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 4);
 			});
 			changeMapView(1, 0.3)
 			break;
 		case 7:
 			sociodiversidadMap_1.setLayoutProperty('labels', 'visibility', 'none');
 			sociodiversidadMap_1.setPaintProperty('orinoco', 'line-width', 7);
-			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 4);
 			regiones.forEach(e => {
 				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-opacity', 1);
 				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 7);
@@ -229,9 +251,12 @@ const changeMap = (index) => {
 			sociodiversidadMap_1.setLayoutProperty('labels', 'text-field', '{grupo}');
 			sociodiversidadMap_1.setLayoutProperty('labels', 'visibility', 'visible');
 			regiones.forEach(e => {
-				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 3);
+				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 4);
 			});
+			sociodiversidadMap_1.setPaintProperty('labels', 'icon-opacity', 0);
 			break;
+		case 10:
+			sociodiversidadMap_1.setPaintProperty('labels', 'icon-opacity', 1);
 		}
 	}
 }
