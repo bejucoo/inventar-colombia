@@ -51,8 +51,10 @@ const sociodiversidadMap_1 = new maplibregl.Map({
 	attributionControl: false
 });
 
+
 const regiones = ['Andina', 'Amazónica', 'Guayanesa', 'Llanera', 'Costera'];
 const actividades = ['pescadores', 'recolectores', 'cazadores', 'cultivadores'];
+
 
 sociodiversidadMap_1.on('load', () => {
 	sociodiversidadMap_1.addSource('habitatsOrinoco', {
@@ -66,40 +68,6 @@ sociodiversidadMap_1.on('load', () => {
 			sociodiversidadMap_1.addImage(e, img);
 		})
 	});
-
-	// Tributarios sin animar
-	regiones.forEach(e => {
-		sociodiversidadMap_1.addLayer({
-			id: 'tributariosRegion' + e,
-			source: 'habitatsOrinoco',
-			type: 'line',
-			filter: ['==', ['geometry-type'], 'LineString'],
-			filter: ['==', 'region', e],
-			layout: {
-				'visibility': 'visible'
-			},
-			paint: {
-				'line-color': ['match',	['get', 'region'],
-					'Amazónica', '#66496E',
-					'Andina', '#B196B9',
-					'Costera', '#B55845',
-					'Guayanesa', '#D4978B',
-					'Llanera', '#D98A30',
-					'#92A9A4'
-					],
-				'line-width': 4,
-				'line-opacity': 1,
-				'line-width-transition': { 
-					duration: 5000, 
-					delay: 0
-				},
-				'line-opacity-transition': { 
-					duration: 2500, 
-					delay: 0
-				}
-			}
-		});
-	})
 
 	// Tributarios animados
 	sociodiversidadMap_1.addLayer({
@@ -120,8 +88,8 @@ sociodiversidadMap_1.on('load', () => {
 				'Llanera', '#d98a30',
 				'#92a9a4'
 				],
-			'line-width': 4,
 			'line-opacity': 1,
+			'line-width': 2,
 			'line-width-transition': { 
 				duration: 5000, 
 				delay: 0
@@ -141,8 +109,8 @@ sociodiversidadMap_1.on('load', () => {
 		},
 		paint: {
 			'line-color': '#92a9a4',
-			'line-width': 5,
 			'line-opacity': 1,
+			'line-width': 5,
 			'line-width-transition': { 
 				duration: 2000, 
 				delay: 0
@@ -180,12 +148,13 @@ sociodiversidadMap_1.on('load', () => {
 			'text-color': '#241d15',
 			'text-halo-color': '#241d15',
 			'text-halo-width': 0.1,
-			'icon-opacity': 0
+			'text-opacity': 1,
+			'icon-opacity': 0,
 		}
 	});
 
-	enableLineAnim(sociodiversidadMap_1, 'tributariosAnimados', 0.1, 10, 10);
-	//animRiver_1(0.0024);
+	enableLineAnim(sociodiversidadMap_1, 'tributariosAnimados', 0.1, 4, 4);
+	enableLineAnim(sociodiversidadMap_1, 'orinoco', 0.1, 6, 6);
 });
 
 
@@ -195,64 +164,85 @@ const changeMap = (index) => {
 		switch(index) {
 		case 0:
 			sociodiversidadMap_1.setLayoutProperty('labels', 'text-field', '{nombre}');
-			sociodiversidadMap_1.setPaintProperty('tributariosRegionAndina', 'line-opacity', 1);
-			changeMapView(1, 0.3)
+			sociodiversidadMap_1.setPaintProperty('labels', 'text-opacity', 1);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', 1);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 2);
+			changeMapView(0, 0.3)
 			break;
 		case 1:
-			sociodiversidadMap_1.setPaintProperty('tributariosRegionAndina', 'line-opacity', 0.3);
-			sociodiversidadMap_1.setPaintProperty('tributariosRegionAmazónica', 'line-opacity', 1);
-			changeMapView(2, 0.3)
+			sociodiversidadMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'region'], 'Andina', 1, 0]);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'region'], 'Andina', 1, 0]);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
+			changeMapView(1, 0.3)
 			break;
 		case 2:
-			sociodiversidadMap_1.setPaintProperty('tributariosRegionAmazónica', 'line-opacity', 0.3);
-			sociodiversidadMap_1.setPaintProperty('tributariosRegionGuayanesa', 'line-opacity', 1);
-			changeMapView(3, 0.3)
+			sociodiversidadMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'region'], 'Amazónica', 1, 0]);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'region'], 'Amazónica', 1, 0]);
+			changeMapView(2, 0.3)
 			break;
 		case 3:
-			sociodiversidadMap_1.setPaintProperty('tributariosRegionGuayanesa', 'line-opacity', 0.3);
-			sociodiversidadMap_1.setPaintProperty('tributariosRegionCostera', 'line-opacity', 1);
-			changeMapView(4, 0.3)
+			sociodiversidadMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'region'], 'Guayanesa', 1, 0]);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'region'], 'Guayanesa', 1, 0]);
+			changeMapView(3, 0.3)
 			break;
 		case 4:
-			sociodiversidadMap_1.setPaintProperty('tributariosRegionCostera', 'line-opacity', 0.3);
-			sociodiversidadMap_1.setPaintProperty('tributariosRegionLlanera', 'line-opacity', 1);
-			changeMapView(5, 0.3)
+			sociodiversidadMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'region'], 'Costera', 1, 0]);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'region'], 'Costera', 1, 0]);
+			changeMapView(4, 0.3)
 			break;
 		case 5:
 			sociodiversidadMap_1.setLayoutProperty('labels', 'visibility', 'visible');
-			sociodiversidadMap_1.setPaintProperty('orinoco', 'line-width', 3);
-			sociodiversidadMap_1.setPaintProperty('tributariosRegionLlanera', 'line-opacity', 0.3);
-			regiones.forEach(e => {
-				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 4);
-			});
-			changeMapView(1, 0.3)
+			sociodiversidadMap_1.setPaintProperty('labels', 'text-opacity', 1);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', 1);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 2);
+			sociodiversidadMap_1.setPaintProperty('orinoco', 'line-width', 5);
+			changeMapView(0, 0.3)
 			break;
 		case 6:
 			sociodiversidadMap_1.setLayoutProperty('labels', 'visibility', 'none');
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 7);
 			sociodiversidadMap_1.setPaintProperty('orinoco', 'line-width', 7);
-			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 4);
-			regiones.forEach(e => {
-				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-opacity', 1);
-				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 7);
-			});
 			break;
 		case 7:
-			sociodiversidadMap_1.setPaintProperty('orinoco', 'line-width', 5);
+			sociodiversidadMap_1.setLayoutProperty('labels', 'text-field', '{nombre}');
+			sociodiversidadMap_1.setLayoutProperty('labels', 'visibility', 'none');
 			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 1);
-			regiones.forEach(e => {
-				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 1);
-			});
+			sociodiversidadMap_1.setPaintProperty('orinoco', 'line-width', 5);
 			break;
 		case 8:
-			sociodiversidadMap_1.setLayoutProperty('labels', 'text-field', '{grupo}');
 			sociodiversidadMap_1.setLayoutProperty('labels', 'visibility', 'visible');
-			regiones.forEach(e => {
-				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 4);
-			});
+			sociodiversidadMap_1.setLayoutProperty('labels', 'text-field', '{grupo}');
+			sociodiversidadMap_1.setPaintProperty('labels', 'text-opacity', 1);
 			sociodiversidadMap_1.setPaintProperty('labels', 'icon-opacity', 0);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', 1);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
 			break;
 		case 9:
-			sociodiversidadMap_1.setPaintProperty('labels', 'icon-opacity', 1);
+			sociodiversidadMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'actividad'], 'Cultivadores', 1, 0]);
+			sociodiversidadMap_1.setPaintProperty('labels', 'icon-opacity', ['match', ['get', 'actividad'], 'Cultivadores', 1, 0]);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'actividad'], 'Cultivadores', 1, 0]);
+			changeMapView(0, 0.3);
+			break;
+		case 10:
+			sociodiversidadMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'actividad'], 'Pescadores', 1, 0]);
+			sociodiversidadMap_1.setPaintProperty('labels', 'icon-opacity', ['match', ['get', 'actividad'], 'Pescadores', 1, 0]);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'actividad'], 'Pescadores', 1, 0]);
+			changeMapView(5, 0.3);
+			break;
+		case 11:
+			sociodiversidadMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'actividad'], 'Cazadores', 1, 0]);
+			sociodiversidadMap_1.setPaintProperty('labels', 'icon-opacity', ['match', ['get', 'actividad'], 'Cazadores', 1, 0]);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'actividad'], 'Cazadores', 1, 0]);
+			changeMapView(6, 0.3);
+			break;
+		case 12:
+			sociodiversidadMap_1.setPaintProperty('labels', 'text-opacity', 1);
+			sociodiversidadMap_1.setPaintProperty('labels', 'icon-opacity', 0);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', 1);
+			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 2);
+			changeMapView(0, 0.3)
 		}
 	}
 }
@@ -276,26 +266,33 @@ const changeMapView = (index, vel) => {
 
 // Centros y zooms para el mapa.
 const mapViews = [
-	[],
 	[
 		[-66.7, 6.61499],
 		5.9
 		],
 	[
 		[-71.12313, 4.87724], 
-		7
+		6.5
 		],
 	[
 		[-69.52653, 3.58252], 
 		6.5
 		],
 	[
-		[-63.26517, 6.03455],
+		[-63.86517, 6.03455],
 		6.5
 		],
 	[
-		[-65.59598, 8.44916],
-		6.5
+		[-66.19598, 8.44916],
+		6.2
+		],
+	[
+		[-68.75561, 6.83224],
+		6.8
+		],
+	[
+		[-68.14159, 7.16971],
+		7.5
 		]
 	];
 
@@ -327,20 +324,3 @@ const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength) => {
 	mapId.setPaintProperty(layerId, 'line-dasharray', [d, c, b, a]);
 	requestAnimationFrame(() => enableLineAnim(mapId, layerId, animSpeed, dashLength, gapLength));
 }
-
-const animRiver_1 = (animSpeed) => {
-	step = step + animSpeed;
-	//if (step >= 1) step = 0;
-
-	sociodiversidadMap_1.setPaintProperty('lineAnim_1', 'line-width', Math.abs(Math.sin(step)* 3));
-	requestAnimationFrame(() => animRiver_1(animSpeed));
-}
-
-
-// // Instancia de tippy.js para tooltips.
-// tippy.delegate('#biodiversidadTexto_2', {
-// 	target: ['#spanMioceno', '#spanCamino'],
-// 	content: (reference) => reference.dataset.tooltip,
-// 	trigger: 'mouseenter focus',
-// 	theme: 'colombia'
-// });

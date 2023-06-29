@@ -15,6 +15,8 @@
 	--red1: #c67767ff;
 	--red2: #e4bfb7ff;
 	--red3: #ab513fff;
+	--red4: #D4978Bff;
+	--red5: #B55845ff;
 	
 	--blue1: #92a9a4;
 	--blue2: #bccac7ff;
@@ -30,6 +32,8 @@
 
 	--purple1: #9b78a5ff;
 	--purple2: #d6c8daff;
+	--purple3: #B196B9ff;
+	--purple4: #66496Eff;
 	
 	--transparent: rbga(0,0,0,0);
 	
@@ -797,6 +801,23 @@ dialog :is(p, ol, ul),
 .textoAzul {
 	color: var(--blue1);
 }
+
+.textoLila {
+	color: var(--purple3);
+}
+
+.textoMorado {
+	color: var(--purple4);
+}
+
+.textoRosado {
+	color: var(--red4);
+}
+
+.textoRojo {
+	color: var(--red5);
+}
+
 
 
 
