@@ -14,19 +14,19 @@
  	{
  		"id": "2",
  		"div": "2",
- 		"text": "<p class='centered padDer10 parrafoGrande'>Hace <span id='spanMioceno' class='textoVerde mousePointer' data-tooltip='Las ciencias de la tierra que estudian el pasado histórico físico son la geomorfología, paleontología y la biogeografía.'>23 millones de años, durante el Mioceno temprano</span>, ondulaba de una forma diferente, atraía los cursos de agua de toda la cordillera central y de las sierras guayanesas, con una dirección sur-norte del continente.</p>",
+ 		"text": "<p class='centered padDer10 parrafoGrande'>Hace <span id='spanMioceno' class='textoVerde mousePointer' data-tooltip='Las ciencias de la tierra que estudian el pasado histórico físico son la geomorfología, paleontología y la biogeografía.'><b>23 millones de años, durante el Mioceno temprano</b></span>, ondulaba de una forma diferente, atraía los cursos de agua de toda la cordillera central y de las sierras guayanesas, con una dirección sur-norte del continente.</p>",
  		"img": ""
  	},
  	{
  		"id": "3",
  		"div": "2",
- 		"text": "<p class='centered padDer10 parrafoGrande'>Me tomó otros 10 millones de años encontrar <span id='spanCamino' class='textoAzul mousePointer' data-tooltip='Esperaba el levantamiento absoluto de las crestas boreales de las cordilleras para que mi curso de agua desembocara en el Atlántico, hacia el final de esta era geológica, o, hace 7 millones de años.'>el camino que recorro hoy</span>, ahora fluyo y absorbo agua desde el eje oriental de la cordillera de los Andes, hasta el macizo guayanés y me desaguo al océano Atlántico en el noroeste suramericano.</p>",
+ 		"text": "<p class='centered padDer10 parrafoGrande'>Me tomó otros 10 millones de años encontrar <span id='spanCamino' class='textoAzul mousePointer' data-tooltip='Esperaba el levantamiento absoluto de las crestas boreales de las cordilleras para que mi curso de agua desembocara en el Atlántico, hacia el final de esta era geológica, o, hace 7 millones de años.'><b>el camino que recorro hoy</b></span>, ahora fluyo y absorbo agua desde el eje oriental de la cordillera de los Andes, hasta el macizo guayanés y me desaguo al océano Atlántico en el noroeste suramericano.</p>",
  		"img": ""
  	},
     {
         "id": "4",
         "div": "2",
-        "text": "<p class='centered padDer10 parrafoGrande'>Mi cuerpo se alimenta de otras pequeñas serpientes, <span id='spanBlancasNegras' class='textoAzul mousePointer' data-tooltip='El agua con la que existo arrastra y deposita mucho de lo que hay por su paso, es decir, mi cuerpo se impregna de los suelos que recorre y vuelve a ser alimentado por otros suelos. Aquello que se vuelve mi carga o mis sedimentos, según la región, da tonalidades a mi cuerpo y características únicas a las tierras húmedas o arcillosas por las que paso. Además, se impregna y finalmente deposita en las porciones más planas de mis espirales.'>unas negras, otras blancas</span>, cada una aportando para mantener y moldear el territorio donde habito.</p>",
+        "text": "<p class='centered padDer10 parrafoGrande'>Mi cuerpo se alimenta de otras pequeñas serpientes, <span id='spanBlancasNegras' class='textoAzul mousePointer' data-tooltip='El agua con la que existo arrastra y deposita mucho de lo que hay por su paso, es decir, mi cuerpo se impregna de los suelos que recorre y vuelve a ser alimentado por otros suelos. Aquello que se vuelve mi carga o mis sedimentos, según la región, da tonalidades a mi cuerpo y características únicas a las tierras húmedas o arcillosas por las que paso. Además, se impregna y finalmente deposita en las porciones más planas de mis espirales.'><b>unas negras, otras blancas</b></span>, cada una aportando para mantener y moldear el territorio donde habito.</p>",
         "img": ""
     },
     {

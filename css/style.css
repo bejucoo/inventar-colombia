@@ -310,6 +310,7 @@ a:visited {
 a:hover {
 	color: var(--black);
 	cursor: pointer;
+	text-decoration: underline;
 }
 
 .mousePointer {
@@ -502,7 +503,7 @@ button:hover {
 }
 
 .indexPopup_sub img {
-	max-width: 550px;
+	max-width: 500px;
 	transform: translate(-50%, -27%);
 }
 
