@@ -1,18 +1,10 @@
  [
  	{
  		"id": "0",
- 		"content": "<h1 class='centered'>Colombia es una idea.</h1>"
+ 		"content": "<p class='centered parrafoGrande'>Colombia es una idea.</p>"
  	},
  	{
  		"id": "1",
- 		"content": "<h1 class='centered'>Colombia es unas montañas.</h1>"
- 	},
- 	{
- 		"id": "2",
- 		"content": "<h1 class='centered'>Colombia es unos rios.</h1>"
- 	},
- 	{
- 		"id": "3",
- 		"content": "<h1 class='centered'>Colombia es unas personas.</h1>"
+ 		"content": "<p class='centered parrafoGrande'>Colombia es unas montañas.</p>"
  	}
  ]

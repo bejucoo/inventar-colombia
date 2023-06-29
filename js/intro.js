@@ -28,5 +28,5 @@ const scrollIntro = (text) => {
 
 const changeIntroContent = (text, step) => {
 	introContent.innerHTML = text[step.element.id].content;
-	introImage.innerHTML = `<img class="centered" src="./resources/images/intro/intro_${step.element.id}.png">`
+	introImage.innerHTML = `<img class="centered w100" src="./resources/images/intro/intro_${step.element.id}.png">`
 }

@@ -1,7 +1,7 @@
 // Obtener el archivo JSON.
 async function fetchBiodiversidad() {
 	try {
-		const response = await fetch('./resources/json/narrativa/sociodiversidadSteps.json')
+		const response = await fetch('./resources/json/narrativa/pobladoresSteps.json')
 		const data = await response.json();
 		return data;
 	} catch(error) {
@@ -43,8 +43,8 @@ const changeContent = (data, step) => {
 const sociodiversidadMap_1 = new maplibregl.Map({
 	container: 'sociodiversidadMapElm_1',
 	style: './resources/json/map_styles/narrativaMap_2.json',
-	center: [-66.7, 5.61499],
-	zoom: 5.5,
+	center: [-66.7, 6.61499],
+	zoom: 5.9,
 	pitch: 0,
 	bearing: 0,
 	interactive: true,
@@ -57,14 +57,13 @@ const actividades = ['pescadores', 'recolectores', 'cazadores', 'cultivadores'];
 sociodiversidadMap_1.on('load', () => {
 	sociodiversidadMap_1.addSource('habitatsOrinoco', {
 		type: 'geojson',
-		data: './resources/geojson/narrativa/sociodiversidad/HabitatsRibereñosOrinoco.geojson'
+		data: './resources/geojson/narrativa/pobladores/HabitatsRibereñosOrinoco.geojson'
 	});
 
 	actividades.forEach(e => {
-		sociodiversidadMap_1.loadImage('./resources/images/narrativa/sociodiversidad/' + e + '.png', (error, img) => {
+		sociodiversidadMap_1.loadImage('./resources/images/narrativa/pobladores/' + e + '.png', (error, img) => {
 			if (error) throw error;
 			sociodiversidadMap_1.addImage(e, img);
-			console.log('Imagen cargada');
 		})
 	});
 
@@ -160,7 +159,7 @@ sociodiversidadMap_1.on('load', () => {
 		layout: {
 			'visibility': 'visible',
 			'symbol-placement': 'point',
-			'text-field': '{grupo}',
+			'text-field': '{nombre}',
 			'text-font': ['Cormorant Italic'],
 			'text-size': 18,
 			'text-anchor': 'bottom',
@@ -195,34 +194,31 @@ const changeMap = (index) => {
 	if (sociodiversidadMap_1.getSource('habitatsOrinoco')) {
 		switch(index) {
 		case 0:
-			sociodiversidadMap_1.setLayoutProperty('labels', 'text-field', '{grupo}');
-			break;
-		case 1:
 			sociodiversidadMap_1.setLayoutProperty('labels', 'text-field', '{nombre}');
 			sociodiversidadMap_1.setPaintProperty('tributariosRegionAndina', 'line-opacity', 1);
 			changeMapView(1, 0.3)
 			break;
-		case 2:
+		case 1:
 			sociodiversidadMap_1.setPaintProperty('tributariosRegionAndina', 'line-opacity', 0.3);
 			sociodiversidadMap_1.setPaintProperty('tributariosRegionAmazónica', 'line-opacity', 1);
 			changeMapView(2, 0.3)
 			break;
-		case 3:
+		case 2:
 			sociodiversidadMap_1.setPaintProperty('tributariosRegionAmazónica', 'line-opacity', 0.3);
 			sociodiversidadMap_1.setPaintProperty('tributariosRegionGuayanesa', 'line-opacity', 1);
 			changeMapView(3, 0.3)
 			break;
-		case 4:
+		case 3:
 			sociodiversidadMap_1.setPaintProperty('tributariosRegionGuayanesa', 'line-opacity', 0.3);
 			sociodiversidadMap_1.setPaintProperty('tributariosRegionCostera', 'line-opacity', 1);
 			changeMapView(4, 0.3)
 			break;
-		case 5:
+		case 4:
 			sociodiversidadMap_1.setPaintProperty('tributariosRegionCostera', 'line-opacity', 0.3);
 			sociodiversidadMap_1.setPaintProperty('tributariosRegionLlanera', 'line-opacity', 1);
 			changeMapView(5, 0.3)
 			break;
-		case 6:
+		case 5:
 			sociodiversidadMap_1.setLayoutProperty('labels', 'visibility', 'visible');
 			sociodiversidadMap_1.setPaintProperty('orinoco', 'line-width', 3);
 			sociodiversidadMap_1.setPaintProperty('tributariosRegionLlanera', 'line-opacity', 0.3);
@@ -231,7 +227,7 @@ const changeMap = (index) => {
 			});
 			changeMapView(1, 0.3)
 			break;
-		case 7:
+		case 6:
 			sociodiversidadMap_1.setLayoutProperty('labels', 'visibility', 'none');
 			sociodiversidadMap_1.setPaintProperty('orinoco', 'line-width', 7);
 			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 4);
@@ -240,14 +236,14 @@ const changeMap = (index) => {
 				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 7);
 			});
 			break;
-		case 8:
+		case 7:
 			sociodiversidadMap_1.setPaintProperty('orinoco', 'line-width', 5);
 			sociodiversidadMap_1.setPaintProperty('tributariosAnimados', 'line-width', 1);
 			regiones.forEach(e => {
 				sociodiversidadMap_1.setPaintProperty('tributariosRegion' + e, 'line-width', 1);
 			});
 			break;
-		case 9:
+		case 8:
 			sociodiversidadMap_1.setLayoutProperty('labels', 'text-field', '{grupo}');
 			sociodiversidadMap_1.setLayoutProperty('labels', 'visibility', 'visible');
 			regiones.forEach(e => {
@@ -255,7 +251,7 @@ const changeMap = (index) => {
 			});
 			sociodiversidadMap_1.setPaintProperty('labels', 'icon-opacity', 0);
 			break;
-		case 10:
+		case 9:
 			sociodiversidadMap_1.setPaintProperty('labels', 'icon-opacity', 1);
 		}
 	}
@@ -282,23 +278,23 @@ const changeMapView = (index, vel) => {
 const mapViews = [
 	[],
 	[
-		[-66.7, 5.61499],
-		5.5
+		[-66.7, 6.61499],
+		5.9
 		],
 	[
 		[-71.12313, 4.87724], 
-		6.5
+		7
 		],
 	[
 		[-69.52653, 3.58252], 
-		6
+		6.5
 		],
 	[
-		[-63.26517, 5.93455],
-		6.2
+		[-63.26517, 6.03455],
+		6.5
 		],
 	[
-		[-66.19598, 8.44916],
+		[-65.59598, 8.44916],
 		6.5
 		]
 	];

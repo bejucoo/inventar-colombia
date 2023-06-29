@@ -149,8 +149,8 @@ details>summary {
 	scroll-behavior: smooth;
 }
 
-.padDer8 {
-	padding-right: 8%;
+.padDer10 {
+	padding-right: 10%;
 }
 
 .padTop30px {
@@ -355,13 +355,13 @@ button:hover {
 
 /* NAVBAR */
 #navBar {
-	padding: 0 5%;
+	padding: 0 0 0 5%;
 	height: 60px;
 	top: 2px;
 	z-index: 1;
 	background: var(--white1);
 	align-items: center;
-	font-size: 1.3em;
+	font-size: 1.1em;
 }
 
 #navTitle {
@@ -380,7 +380,6 @@ button:hover {
 	color: var(--white1);
 	transition: left 0.4s;
 	z-index: 999;
-	overflow: hidden;
 }
 
 #menuDiv.active {
@@ -391,7 +390,7 @@ button:hover {
 	justify-content: start;
 	font-size: 1.2em;
 	line-height: 1em;
-	overflow: hidden;
+	overflow: scroll;
 	padding: 0 10%;
 }
 
@@ -734,12 +733,8 @@ button:hover {
 		display: block;
 	}
 
-#titulosNarrativaMovil {
-	display: none;
-}
-
-#biodiversidadAnim_1 {
-	background-color: var(--black);
+#biodiversidadAnim_1, #sociodiversidadAnim_0 {
+	background-color: var(--black2);
 }
 
 .imgCover {
@@ -790,6 +785,11 @@ dialog :is(p, ol, ul),
 	line-height: 1.2em;
 }
 
+.parrafoGrande {
+	font-size: 1.75em;
+	font-family: 'cormorant-up' !important;
+}
+
 .textoVerde {
 	color: var(--green1);
 }
@@ -832,7 +832,6 @@ dialog :is(p, ol, ul),
 		top: -94%;
 		left: 0;
 		transition: top 0.4s;
-		overflow: scroll;
 	}
 
 	#menuDiv.active {
@@ -845,7 +844,6 @@ dialog :is(p, ol, ul),
 		font-size: 1.1em;
 		text-align: center;
 		line-height: 0.7em;
-		overflow: scroll;
 	}
 
 	#menuToggle {
@@ -975,18 +973,5 @@ dialog :is(p, ol, ul),
 
 	#miniMap {
 		display: none;
-	}
-
-
-
-
-
-	/* NARRATIVA */
-	#narrativaIndexMapElm {
-		display: none;
-	}
-
-	#titulosNarrativaMovil {
-		display: unset;
 	}
 }
