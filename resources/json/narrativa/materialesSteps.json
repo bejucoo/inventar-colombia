@@ -10,5 +10,143 @@
         "div": "1",
         "text": "<p class='centered padDer10 parrafoGrande'>Los alfareros principales de mi cuenca fueron los otomacos, que incluso llegaron a conocer las propiedades nutritivas de la arcilla y hacían pan de arcilla fermentado con frutas, semillas y raíces.</p>",
         "img": ""
+    },
+    {
+        "id": "2",
+        "div": "1",
+        "text": "<p class='centered padDer10 parrafoGrande'>Alrededor del río Cataniapo hay <span id='spanExcavaciones'>lugares de excavación arqueológica</span> donde se encontraron varios estilos de cerámica, realizados con pastas, recetas y motivos diferentes, lo cual evidencia el corredor multiétnico que eran mis aguas.</p>",
+        "img": ""
+    },
+    {
+    	"id": "3",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>Además de cerámica, cultivos como el algodón era común en las huertas llaneras, y se compartían con la yuca, la papa dulce, hierbas y raíces, entre otros.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "4",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>Grupos como los guayupe, achaguas, guahibos (churoyas) y caquetíos producían fibra de algodón. Las mujeres se encargaban de hilarlo para ser intercambiado al viajar hasta la zona andina. Allá era un producto muy apetecido y era intercambiado por sal, cerámicas, algunas prendas y oro. Estos productos también eran intercambiados llanos adentro.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "5",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>El único grupo que habitaba mi cuerpo y que intercambiaba tejidos eran los caribes. Sus hamacas de algodón se convirtieron en una moda para los demás habitantes, especialmente entre los siglos XVI y XVII dada la influencia del grupo a lo largo de mi cuenca.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "6",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>La quiripa era un medio de intercambio suntuoso a lo largo de mis aguas. Funcionaba como una especie de moneda en este extenso corredor y por fuera de él.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "7",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>La quiripa eran cuerdas con conchas de caracol nemu-nemu, era un objeto de valor y prestigio. Las mujeres las usaban para adornar su cuerpo, las achaguas y caberres a veces cargaban hasta 12 libras en sus cuellos.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "8",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>El grupo especializado en la producción de quiripa eran los achaguas, sin embargo, los maibas, yaruros y jiraras la producían para intercambios más próximo en temporadas de lluvias o para lazos matrimoniales con los sálivas.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "9",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>A causa del declive poblacional achagua, la quiripa fue especialmente producida por los otomacos desde el finales del siglo XVII.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "10",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>El curare era un veneno del sur y sur oriente de mi cuerpo. Los cazadores lo usaban en sus flechas o arpones para apaciguar a las presas. Los principales productores eran los caberres. Este se embotellaba en recipientes cerámicos en forma de tubo, en vasijas y otros envases.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "11",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>En el río Atabapo ocurría cada año una feria de curare para su distribución masiva.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "12",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>Después del siglo XVII el curare circula también en Europa, donde se reconocía por el tipo de recipiente.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "13",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>Los caberres fueron disminuídos considerablemente por los guaypunavi, así que los piaroa suplieron la producción del veneno desde finales del siglo XVII. Aunque los tamanacos también fueron productores de curare, desconozco con quienes lo intercambiaban.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "14",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>A lo largo de mis aguas varias comunidades eran capaces de suplir el producto especializado de un grupo para no bloquear su circulación y tránsito.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "15",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>En el área que recorre mi cuerpo, el yopo es un árbol sagrado. De sus semillas redondas se prepara un polvo para esnifar y tener diferentes conexiones divinas con el futuro, con el pasado, con los ancestros.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "16",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>El cuidado y cultivo de este árbol era de todos los grupos, sin embargo, los guahibos podían siempre intercambiarlo en sus caminatas incesantes con el resto de grupos y obtener algunas cosas como ropa, comestibles y quiripa.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "17",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>El yopo era conocido en los Andes por parte de los chibchas como el recurso para hablar con el diablo, aún hoy es un recurso para ser vidente entre los grupos orinoquenses que sobreviven.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "18",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>Los otomacos se encargaron de traficarlo en el siglo XVIII durante las misiones, pues hubo restricción de su receta, cultivo y uso.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "19",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>Los huevos de la tortuga Arrau reunían a todos mis habitantes en temporada seca, hacia finales y comienzos del año.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "20",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>En las playas de la Uruana, las tortugas desovavan alrededor de 33 millones de huevos durante un mes. Los grupos los usaban principalmente para extraer el aceite.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "21",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>A lo largo de mis aguas este producto funcionaba para cocinar, quemar y mezclarse con tintes corporales. En esta reunión también se reafirmaban lazos, parentescos e identidades. Cada grupo tenía su tiempo y sus tácticas para atraer a la tortuga arrau.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "22",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>Aunque los otomacos eran los anfitriones de este evento, el aceite de tortuga era un producto de todos y para todos.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "23",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>A partir del siglo XVIII esta reunión era vigilada por los jesuitas y parte del aceite era llevado a Europa y pagado con subvenciones o armas a los indígenas.</p>",
+    	"img": ""
+    },
+    {
+    	"id": "24",
+    	"div": "1",
+    	"text": "<p class='centered padDer10 parrafoGrande'>Con el proceso colonizador, la interrupción de esta lógica rompió también con la cohesión que promovía esta congregación de los diferentes grupos que habitaban mis aguas.</p>",
+    	"img": ""
     }
  ]	

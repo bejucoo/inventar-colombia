@@ -22,6 +22,7 @@ const scrollSteps = (data) => {
 		step: '.narrativaStep'
 	})
 	.onStepEnter((step) => {
+		console.log(step);
 		document.readyState === 'loading' ? console.log('Cargando') : changeContent(data, step);
 		changeMap(step.index);
 	});
@@ -50,7 +51,7 @@ const actividades = ['pescadores', 'recolectores', 'cazadores', 'cultivadores'];
 pobladoresMap_1.on('load', () => {
 	pobladoresMap_1.addSource('habitatsOrinoco', {
 		type: 'geojson',
-		data: './resources/geojson/narrativa/pobladores/HabitatsRibereñosOrinoco.geojson'
+		data: './resources/geojson/narrativa/habitatsRibereñosOrinoco.geojson'
 	});
 
 	// Tributarios animados
@@ -161,36 +162,36 @@ const changeContent = (data, step) => {
 const changeMap = (index) => {
 	if (pobladoresMap_1.getSource('habitatsOrinoco')) {
 		switch(index) {
-		case 0:
+		case 2:
 			pobladoresMap_1.setLayoutProperty('labels', 'text-field', '{nombre}');
 			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', 1);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', 1);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 2);
 			changeMapView(0, 0.3)
 			break;
-		case 1:
+		case 3:
 			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'region'], 'Andina', 1, 0]);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'region'], 'Andina', 1, 0]);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
 			changeMapView(1, 0.3)
 			break;
-		case 2:
+		case 4:
 			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'region'], 'Amazónica', 1, 0]);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'region'], 'Amazónica', 1, 0]);
 			changeMapView(2, 0.3)
 			break;
-		case 3:
+		case 5:
 			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'region'], 'Guayanesa', 1, 0]);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'region'], 'Guayanesa', 1, 0]);
 			changeMapView(3, 0.3)
 			break;
-		case 4:
+		case 6:
 			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'region'], 'Costera', 1, 0]);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'region'], 'Costera', 1, 0]);
 			changeMapView(4, 0.3)
 			break;
-		case 5:
+		case 7:
 			pobladoresMap_1.setLayoutProperty('labels', 'visibility', 'visible');
 			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', 1);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', 1);
@@ -198,18 +199,18 @@ const changeMap = (index) => {
 			pobladoresMap_1.setPaintProperty('orinoco', 'line-width', 5);
 			changeMapView(0, 0.3)
 			break;
-		case 6:
+		case 8:
 			pobladoresMap_1.setLayoutProperty('labels', 'visibility', 'none');
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 7);
 			pobladoresMap_1.setPaintProperty('orinoco', 'line-width', 7);
 			break;
-		case 7:
+		case 9:
 			pobladoresMap_1.setLayoutProperty('labels', 'text-field', '{nombre}');
 			pobladoresMap_1.setLayoutProperty('labels', 'visibility', 'none');
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 1);
 			pobladoresMap_1.setPaintProperty('orinoco', 'line-width', 5);
 			break;
-		case 8:
+		case 10:
 			pobladoresMap_1.setLayoutProperty('labels', 'visibility', 'visible');
 			pobladoresMap_1.setLayoutProperty('labels', 'text-field', '{grupo}');
 			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', 1);
@@ -217,31 +218,32 @@ const changeMap = (index) => {
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', 1);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
 			break;
-		case 9:
+		case 11:
 			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'actividad'], 'Cultivadores', 1, 0]);
 			pobladoresMap_1.setPaintProperty('labels', 'icon-opacity', ['match', ['get', 'actividad'], 'Cultivadores', 1, 0]);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'actividad'], 'Cultivadores', 1, 0]);
 			changeMapView(0, 0.3);
 			break;
-		case 10:
+		case 12:
 			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'actividad'], 'Pescadores', 1, 0]);
 			pobladoresMap_1.setPaintProperty('labels', 'icon-opacity', ['match', ['get', 'actividad'], 'Pescadores', 1, 0]);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'actividad'], 'Pescadores', 1, 0]);
 			changeMapView(5, 0.3);
 			break;
-		case 11:
+		case 13:
 			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'actividad'], 'Cazadores', 1, 0]);
 			pobladoresMap_1.setPaintProperty('labels', 'icon-opacity', ['match', ['get', 'actividad'], 'Cazadores', 1, 0]);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'actividad'], 'Cazadores', 1, 0]);
 			changeMapView(6, 0.3);
 			break;
-		case 12:
+		case 14:
 			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', 1);
 			pobladoresMap_1.setPaintProperty('labels', 'icon-opacity', 0);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', 1);
 			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 2);
-			changeMapView(0, 0.3)
+			changeMapView(0, 0.3);
+			break;
 		}
 	}
 }

@@ -4,12 +4,6 @@
 	animation: dash 16s linear infinite;
 }
 
-#serpiente_2 {
-	stroke-dasharray: 400;
-	stroke-dashoffset: 30;
-	animation: dash 6s linear infinite;
-}
-
 @keyframes dash {
 	from {
 		stroke-dashoffset: 500;

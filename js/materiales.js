@@ -1,7 +1,7 @@
 // Obtener el archivo JSON de pasos.
 async function fetchSteps() {
 	try {
-		const response = await fetch('./resources/json/narrativa/pobladoresSteps.json')
+		const response = await fetch('./resources/json/narrativa/materialesSteps.json')
 		const data = await response.json();
 		return data;
 	} catch(error) {
@@ -22,23 +22,23 @@ const scrollSteps = (data) => {
 		step: '.narrativaStep'
 	})
 	.onStepEnter((step) => {
-		//document.readyState === 'loading' ? console.log('Cargando') : changeContent(data, step);
+		document.readyState === 'loading' ? console.log('Cargando') : changeContent(data, step);
 		//changeMap(step.index);
 	});
 }
 
 
-// Crear el mapa.
-const pobladoresMap_1 = new maplibregl.Map({
-	container: 'pobladoresMapElm_1',
-	style: './resources/json/map_styles/narrativaMap_2.json',
-	center: [-66.7, 6.61499],
-	zoom: 5.9,
-	pitch: 0,
-	bearing: 0,
-	interactive: true,
-	attributionControl: false
-});
+// // Crear el mapa.
+// const pobladoresMap_1 = new maplibregl.Map({
+// 	container: 'pobladoresMapElm_1',
+// 	style: './resources/json/map_styles/narrativaMap_2.json',
+// 	center: [-66.7, 6.61499],
+// 	zoom: 5.9,
+// 	pitch: 0,
+// 	bearing: 0,
+// 	interactive: true,
+// 	attributionControl: false
+// });
 
 
 // Regiones y actividades para crear diferentes capas en el mapa.
@@ -46,113 +46,113 @@ const regiones = ['Andina', 'Amazónica', 'Guayanesa', 'Llanera', 'Costera'];
 const actividades = ['pescadores', 'recolectores', 'cazadores', 'cultivadores'];
 
 
-// Agregar sources, layers y animar.
-pobladoresMap_1.on('load', () => {
-	pobladoresMap_1.addSource('habitatsOrinoco', {
-		type: 'geojson',
-		data: './resources/geojson/narrativa/pobladores/HabitatsRibereñosOrinoco.geojson'
-	});
+// // Agregar sources, layers y animar.
+// pobladoresMap_1.on('load', () => {
+// 	pobladoresMap_1.addSource('habitatsOrinoco', {
+// 		type: 'geojson',
+// 		data: './resources/geojson/narrativa/habitatsRibereñosOrinoco.geojson'
+// 	});
 
-	// Tributarios animados
-	pobladoresMap_1.addLayer({
-		id: 'tributariosAnimados',
-		source: 'habitatsOrinoco',
-		type: 'line',
-		filter: ['==', ['geometry-type'], 'LineString'],
-		filter: ['!=', 'nombre', 'Río Orinoco'],
-		layout: {
-			'visibility': 'visible'
-		},
-		paint: {
-			'line-color': ['match', ['get', 'region'],
-				'Amazónica', '#66496e',
-				'Andina', '#b196b9',
-				'Costera', '#b55845',
-				'Guayanesa', '#d4978b',
-				'Llanera', '#d98a30',
-				'#92a9a4'
-				],
-			'line-opacity': 1,
-			'line-width': 2,
-			'line-width-transition': { 
-				duration: 5000, 
-				delay: 0
-			}
-		}
-	});
+// 	// Tributarios animados
+// 	pobladoresMap_1.addLayer({
+// 		id: 'tributariosAnimados',
+// 		source: 'habitatsOrinoco',
+// 		type: 'line',
+// 		filter: ['==', ['geometry-type'], 'LineString'],
+// 		filter: ['!=', 'nombre', 'Río Orinoco'],
+// 		layout: {
+// 			'visibility': 'visible'
+// 		},
+// 		paint: {
+// 			'line-color': ['match', ['get', 'region'],
+// 				'Amazónica', '#66496e',
+// 				'Andina', '#b196b9',
+// 				'Costera', '#b55845',
+// 				'Guayanesa', '#d4978b',
+// 				'Llanera', '#d98a30',
+// 				'#92a9a4'
+// 				],
+// 			'line-opacity': 1,
+// 			'line-width': 2,
+// 			'line-width-transition': { 
+// 				duration: 5000, 
+// 				delay: 0
+// 			}
+// 		}
+// 	});
 
-	// Río Orinoco
-	pobladoresMap_1.addLayer({
-		id: 'orinoco',
-		type: 'line',
-		source: 'habitatsOrinoco',
-		filter: ['==', ['geometry-type'], 'LineString'],
-		filter: ['==', 'nombre', 'Río Orinoco'],
-		layout: {
-			'visibility': 'visible'
-		},
-		paint: {
-			'line-color': '#92a9a4',
-			'line-opacity': 1,
-			'line-width': 5,
-			'line-width-transition': { 
-				duration: 2000, 
-				delay: 0
-			}
-		}
-	});
+// 	// Río Orinoco
+// 	pobladoresMap_1.addLayer({
+// 		id: 'orinoco',
+// 		type: 'line',
+// 		source: 'habitatsOrinoco',
+// 		filter: ['==', ['geometry-type'], 'LineString'],
+// 		filter: ['==', 'nombre', 'Río Orinoco'],
+// 		layout: {
+// 			'visibility': 'visible'
+// 		},
+// 		paint: {
+// 			'line-color': '#92a9a4',
+// 			'line-opacity': 1,
+// 			'line-width': 5,
+// 			'line-width-transition': { 
+// 				duration: 2000, 
+// 				delay: 0
+// 			}
+// 		}
+// 	});
 
-	// Imágenes para íconos.
-	actividades.forEach(e => {
-		pobladoresMap_1.loadImage('./resources/images/narrativa/pobladores/' + e + '.png', (error, img) => {
-			if (error) throw error;
-			pobladoresMap_1.addImage(e, img);
-		})
-	});
+// 	// Imágenes para íconos.
+// 	actividades.forEach(e => {
+// 		pobladoresMap_1.loadImage('./resources/images/narrativa/pobladores/' + e + '.png', (error, img) => {
+// 			if (error) throw error;
+// 			pobladoresMap_1.addImage(e, img);
+// 		})
+// 	});
 
-	// Etiquetas es íconos.
-	pobladoresMap_1.addLayer({
-		id: 'labels',
-		source: 'habitatsOrinoco',
-		type: 'symbol',
-		filter: ['==', ['geometry-type'], 'Point'],
-		layout: {
-			'visibility': 'visible',
-			'symbol-placement': 'point',
-			'text-field': '{nombre}',
-			'text-font': ['Cormorant Italic'],
-			'text-size': 18,
-			'text-anchor': 'bottom',
-			'icon-image': ['match', ['get', 'actividad'],
-				'Recolectores', 'recolectores',
-				'Pescadores', 'pescadores',
-				'Cazadores', 'cazadores',
-				'Cultivadores', 'cultivadores',
-				'pescadores'
-				],
-			'icon-size': 0.05,
-			'icon-anchor': 'center',
-			'icon-offset': [0, -600],
-			'icon-allow-overlap': true,
-			'icon-overlap': 'always'
-		},
-		paint: {
-			'text-color': '#241d15',
-			'text-halo-color': '#241d15',
-			'text-halo-width': 0.1,
-			'text-opacity': 1,
-			'icon-opacity': 0,
-		}
-	});
+// 	// Etiquetas es íconos.
+// 	pobladoresMap_1.addLayer({
+// 		id: 'labels',
+// 		source: 'habitatsOrinoco',
+// 		type: 'symbol',
+// 		filter: ['==', ['geometry-type'], 'Point'],
+// 		layout: {
+// 			'visibility': 'visible',
+// 			'symbol-placement': 'point',
+// 			'text-field': '{nombre}',
+// 			'text-font': ['Cormorant Italic'],
+// 			'text-size': 18,
+// 			'text-anchor': 'bottom',
+// 			'icon-image': ['match', ['get', 'actividad'],
+// 				'Recolectores', 'recolectores',
+// 				'Pescadores', 'pescadores',
+// 				'Cazadores', 'cazadores',
+// 				'Cultivadores', 'cultivadores',
+// 				'pescadores'
+// 				],
+// 			'icon-size': 0.05,
+// 			'icon-anchor': 'center',
+// 			'icon-offset': [0, -600],
+// 			'icon-allow-overlap': true,
+// 			'icon-overlap': 'always'
+// 		},
+// 		paint: {
+// 			'text-color': '#241d15',
+// 			'text-halo-color': '#241d15',
+// 			'text-halo-width': 0.1,
+// 			'text-opacity': 1,
+// 			'icon-opacity': 0,
+// 		}
+// 	});
 
-	enableLineAnim(pobladoresMap_1, 'tributariosAnimados', 0.1, 4, 4);
-	enableLineAnim(pobladoresMap_1, 'orinoco', 0.1, 6, 6);
-});
+// 	enableLineAnim(pobladoresMap_1, 'tributariosAnimados', 0.1, 4, 4);
+// 	enableLineAnim(pobladoresMap_1, 'orinoco', 0.1, 6, 6);
+// });
 
 
 // Cambiar el contenido de los divs de texto.
 const changeContent = (data, step) => {
-	let divTxt = document.getElementById('pobladoresTxt_' + data[step.element.id].div);
+	let divTxt = document.getElementById('materialesTxt_' + data[step.element.id].div);
 	if (divTxt) divTxt.innerHTML = data[step.element.id].text;
 }
 
@@ -162,86 +162,31 @@ const changeMap = (index) => {
 	if (pobladoresMap_1.getSource('habitatsOrinoco')) {
 		switch(index) {
 		case 0:
-			pobladoresMap_1.setLayoutProperty('labels', 'text-field', '{nombre}');
-			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', 1);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', 1);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 2);
-			changeMapView(0, 0.3)
 			break;
 		case 1:
-			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'region'], 'Andina', 1, 0]);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'region'], 'Andina', 1, 0]);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
-			changeMapView(1, 0.3)
 			break;
 		case 2:
-			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'region'], 'Amazónica', 1, 0]);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'region'], 'Amazónica', 1, 0]);
-			changeMapView(2, 0.3)
 			break;
 		case 3:
-			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'region'], 'Guayanesa', 1, 0]);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'region'], 'Guayanesa', 1, 0]);
-			changeMapView(3, 0.3)
 			break;
 		case 4:
-			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'region'], 'Costera', 1, 0]);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'region'], 'Costera', 1, 0]);
-			changeMapView(4, 0.3)
 			break;
 		case 5:
-			pobladoresMap_1.setLayoutProperty('labels', 'visibility', 'visible');
-			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', 1);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', 1);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 2);
-			pobladoresMap_1.setPaintProperty('orinoco', 'line-width', 5);
-			changeMapView(0, 0.3)
 			break;
 		case 6:
-			pobladoresMap_1.setLayoutProperty('labels', 'visibility', 'none');
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 7);
-			pobladoresMap_1.setPaintProperty('orinoco', 'line-width', 7);
 			break;
 		case 7:
-			pobladoresMap_1.setLayoutProperty('labels', 'text-field', '{nombre}');
-			pobladoresMap_1.setLayoutProperty('labels', 'visibility', 'none');
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 1);
-			pobladoresMap_1.setPaintProperty('orinoco', 'line-width', 5);
 			break;
 		case 8:
-			pobladoresMap_1.setLayoutProperty('labels', 'visibility', 'visible');
-			pobladoresMap_1.setLayoutProperty('labels', 'text-field', '{grupo}');
-			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', 1);
-			pobladoresMap_1.setPaintProperty('labels', 'icon-opacity', 0);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', 1);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
 			break;
 		case 9:
-			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'actividad'], 'Cultivadores', 1, 0]);
-			pobladoresMap_1.setPaintProperty('labels', 'icon-opacity', ['match', ['get', 'actividad'], 'Cultivadores', 1, 0]);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'actividad'], 'Cultivadores', 1, 0]);
-			changeMapView(0, 0.3);
 			break;
 		case 10:
-			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'actividad'], 'Pescadores', 1, 0]);
-			pobladoresMap_1.setPaintProperty('labels', 'icon-opacity', ['match', ['get', 'actividad'], 'Pescadores', 1, 0]);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'actividad'], 'Pescadores', 1, 0]);
-			changeMapView(5, 0.3);
 			break;
 		case 11:
-			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'actividad'], 'Cazadores', 1, 0]);
-			pobladoresMap_1.setPaintProperty('labels', 'icon-opacity', ['match', ['get', 'actividad'], 'Cazadores', 1, 0]);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 3);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', ['match', ['get', 'actividad'], 'Cazadores', 1, 0]);
-			changeMapView(6, 0.3);
 			break;
 		case 12:
-			pobladoresMap_1.setPaintProperty('labels', 'text-opacity', 1);
-			pobladoresMap_1.setPaintProperty('labels', 'icon-opacity', 0);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-opacity', 1);
-			pobladoresMap_1.setPaintProperty('tributariosAnimados', 'line-width', 2);
-			changeMapView(0, 0.3)
+			break;
 		}
 	}
 }

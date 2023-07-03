@@ -56,7 +56,7 @@ const tiempoMap_2 = new maplibregl.Map({
 tiempoMap_1.on('load', () => {
 	tiempoMap_1.addSource('transformacionOrinoco_1', {
 		type: 'geojson',
-		data: './resources/geojson/narrativa/tiempo/transformacionOrinoco.geojson'
+		data: './resources/geojson/narrativa/transformacionOrinoco.geojson'
 	});
 
 	tiempoMap_1.addLayer({
