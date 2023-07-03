@@ -88,7 +88,7 @@ tiempoMap_1.on('load', () => {
 tiempoMap_2.on('load', () => {
 	tiempoMap_2.addSource('transformacionOrinoco_2', {
 		type: 'geojson',
-		data: './resources/geojson/narrativa/tiempo/transformacionOrinoco.geojson'
+		data: './resources/geojson/narrativa/transformacionOrinoco.geojson'
 	});
 
 	tiempoMap_2.addLayer({
