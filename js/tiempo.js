@@ -1,7 +1,7 @@
-// Obtener el archivo JSON.
-async function fetchBiodiversidad() {
+// Obtener el archivo JSON de pasos.
+async function fetchSteps() {
 	try {
-		const response = await fetch("./resources/json/narrativa/tiempoSteps.json")
+		const response = await fetch('./resources/json/narrativa/tiempoSteps.json')
 		const data = await response.json();
 		return data;
 	} catch(error) {
@@ -11,49 +11,27 @@ async function fetchBiodiversidad() {
 
 
 // Ejecutar las funciones cuando se reciba la respuesta.
-fetchBiodiversidad().then(data => scrollBiodiversidad(data));
+fetchSteps().then(data => scrollSteps(data));
 
 
-// Instancia de Scrollama y funciones cuando se cargue el DOM y se cambie de step.
-const scrollBiodiversidad = (data) => {
+// Iniciar Scrollama y ejecutar funciones cuando se cargue el DOM y se entre en cada paso.
+const scrollSteps = (data) => {
 	const scroller = scrollama();
 	scroller
 	.setup({
-		step: ".biodiversidadStep"
+		step: '.narrativaStep'
 	})
 	.onStepEnter((step) => {
-		if (document.readyState === "loading") {
-			console.log("Cargando");
-		} else {
-			changeContent(data, step);
-		}
+		document.readyState === 'loading' ? console.log('Cargando') : changeContent(data, step);		
 		changeMap(step.index);
 	});
 }
 
 
-// Cambiar el contenido de los divs de texto e imagen.
-const changeContent = (data, step) => {
-	let divText = document.getElementById("biodiversidadTexto_" + data[step.element.id].div);
-	let divAnim = document.getElementById("biodiversidadAnim_" + data[step.element.id].div);
-
-	if (divText) {
-		divText.innerHTML = data[step.element.id].text;
-	}
-
-	if (divAnim) {
-		divAnim.innerHTML = data[step.element.id].img;
-	}
-}
-
-
-// Variables para las animaciones
-var stepInit = 0;
-
 // Crear los mapas.
-const biodiversidadMap_1 = new maplibregl.Map({
-	container: "biodiversidadMapElm_1",
-	style: "./resources/json/map_styles/narrativaMap_1.json",
+const tiempoMap_1 = new maplibregl.Map({
+	container: 'tiempoMapElm_1',
+	style: './resources/json/map_styles/narrativaMap_1.json',
 	center: [-69.35067, 2.85314],
 	zoom: 5,
 	pitch: 0,
@@ -62,9 +40,9 @@ const biodiversidadMap_1 = new maplibregl.Map({
 	attributionControl: false
 });
 
-const biodiversidadMap_2 = new maplibregl.Map({
-	container: "biodiversidadMapElm_2",
-	style: "./resources/json/map_styles/narrativaMap_1.json",
+const tiempoMap_2 = new maplibregl.Map({
+	container: 'tiempoMapElm_2',
+	style: './resources/json/map_styles/narrativaMap_1.json',
 	center: [-64.13079, 5.70012],
 	zoom: 9.24,
 	pitch: 0,
@@ -75,49 +53,45 @@ const biodiversidadMap_2 = new maplibregl.Map({
 
 
 // Agregar sources, layers y animar.
-biodiversidadMap_1.on('load', () => {
-	biodiversidadMap_1.addSource('transformacionOrinoco_1', {
+tiempoMap_1.on('load', () => {
+	tiempoMap_1.addSource('transformacionOrinoco_1', {
 		type: 'geojson',
 		data: './resources/geojson/narrativa/tiempo/transformacionOrinoco.geojson'
 	});
 
-	for (var i = 2; i <= 5; i++) {
-		biodiversidadMap_1.addLayer({
-			id: 'step_' + i + '_solid',
-			type: 'line',
-			filter: ['==', 'step', i],
-			source: 'transformacionOrinoco_1',
-			paint: {
-				'line-color': ['get', 'color'],
-				'line-width': 7,
-				'line-opacity': (i === 2) ? 0.5 : 0
+	tiempoMap_1.addLayer({
+		id: 'stepSolid',
+		type: 'line',
+		source: 'transformacionOrinoco_1',
+		paint: {
+			'line-color': ['get', 'color'],
+			'line-width': 7,
+			'line-opacity': ['match', ['get', 'step'], 2, 0.5, 0]
 			}
-		});
-	}
+	});
 
-	for (var i = 2; i <= 5; i++) {
-		biodiversidadMap_1.addLayer({
-			id: 'step_' + i + '_anim',
-			type: 'line',
-			filter: ['==', 'step', i],
-			source: 'transformacionOrinoco_1',
-			paint: {
-				'line-color': ['get', 'color'],
-				'line-width': 7,
-				'line-opacity': (i === 2) ? 1 : 0
-			}
-		});
-		enableLineAnim(biodiversidadMap_1, 'step_' + i + '_anim', 0.3, 8, 8, stepInit);
-	}
+	tiempoMap_1.addLayer({
+		id: 'stepAnim',
+		type: 'line',
+		source: 'transformacionOrinoco_1',
+		paint: {
+			'line-color': ['get', 'color'],
+			'line-width': 7,
+			'line-opacity': ['match', ['get', 'step'], 2, 1, 0]
+		}
+	});
+		
+	enableLineAnim(tiempoMap_1, 'stepAnim', 0.3, 8, 8, stepInit);
 });
 
-biodiversidadMap_2.on('load', () => {
-	biodiversidadMap_2.addSource('transformacionOrinoco_2', {
+
+tiempoMap_2.on('load', () => {
+	tiempoMap_2.addSource('transformacionOrinoco_2', {
 		type: 'geojson',
 		data: './resources/geojson/narrativa/tiempo/transformacionOrinoco.geojson'
 	});
 
-	biodiversidadMap_2.addLayer({
+	tiempoMap_2.addLayer({
 		id: 'step_6_solid',
 		type: 'line',
 		filter: ['==', 'step', 6],
@@ -129,7 +103,7 @@ biodiversidadMap_2.on('load', () => {
 		}
 	});
 
-	biodiversidadMap_2.addLayer({
+	tiempoMap_2.addLayer({
 		id: 'step_6_anim',
 		type: 'line',
 		filter: ['==', 'step', 6],
@@ -141,50 +115,52 @@ biodiversidadMap_2.on('load', () => {
 		}
 	});
 
-	enableLineAnim(biodiversidadMap_2, 'step_6_anim', 0.1, 5, 5, stepInit);
+	enableLineAnim(tiempoMap_2, 'step_6_anim', 0.1, 5, 5, stepInit);
 });
+
+
+// Cambiar el contenido de los divs de texto e imagen.
+const changeContent = (data, step) => {
+	let divTxt = document.getElementById('tiempoTxt_' + data[step.element.id].div);
+	let divImg = document.getElementById('tiempoImg_' + data[step.element.id].div);
+
+	if (divTxt) divTxt.innerHTML = data[step.element.id].text;
+	if (divImg) divImg.innerHTML = data[step.element.id].img;
+}
 
 
 // Cambiar el contenido del mapa 1.
 const changeMap = (index) => {
-	if (biodiversidadMap_1.getSource('transformacionOrinoco_1')) {
+	if (tiempoMap_1.getSource('transformacionOrinoco_1')) {
 		switch(index) {
 		case 2:
-			for (var i = 2; i <= 5; i++) {
-				biodiversidadMap_1.setPaintProperty('step_' + i + '_solid', 'line-opacity', (i === 2) ? 0.5 : 0);
-				biodiversidadMap_1.setPaintProperty('step_' + i + '_anim', 'line-opacity', (i === 2) ? 1 : 0);
-			}
-			changeMapView(index, 0.36);
+			tiempoMap_1.setPaintProperty('stepSolid', 'line-opacity', ['match', ['get', 'step'], 2, 0.5, 0]);
+			tiempoMap_1.setPaintProperty('stepAnim', 'line-opacity', ['match', ['get', 'step'], 2, 1, 0]);
+			changeMapView(0, 0.36);
 			break;
 		case 3:
-			for (var i = 2; i <= 5; i++) {
-				biodiversidadMap_1.setPaintProperty('step_' + i + '_solid', 'line-opacity', (i === 3) ? 0.5 : 0);
-				biodiversidadMap_1.setPaintProperty('step_' + i + '_anim', 'line-opacity', (i === 3) ? 1 : 0);
-			}
-			changeMapView(index, 0.36);
+			tiempoMap_1.setPaintProperty('stepSolid', 'line-opacity', ['match', ['get', 'step'], 3, 0.5, 0]);
+			tiempoMap_1.setPaintProperty('stepAnim', 'line-opacity', ['match', ['get', 'step'], 3, 1, 0]);
+			changeMapView(1, 0.36);
 			break;
 		case 4:
-			for (var i = 2; i <= 5; i++) {
-				biodiversidadMap_1.setPaintProperty('step_' + i + '_solid', 'line-opacity', (i === 4) ? 0.5 : 0);
-				biodiversidadMap_1.setPaintProperty('step_' + i + '_anim', 'line-opacity', (i === 4) ? 1 : 0);
-			}
-			changeMapView(index, 0.8);
+			tiempoMap_1.setPaintProperty('stepSolid', 'line-opacity', ['match', ['get', 'step'], 4, 0.5, 0]);
+			tiempoMap_1.setPaintProperty('stepAnim', 'line-opacity', ['match', ['get', 'step'], 4, 1, 0]);
+			changeMapView(2, 0.8);
 			break;
 		case 5:
-			for (var i = 2; i <= 5; i++) {
-				biodiversidadMap_1.setPaintProperty('step_' + i + '_solid', 'line-opacity', (i === 5) ? 0.5 : 0);
-				biodiversidadMap_1.setPaintProperty('step_' + i + '_anim', 'line-opacity', (i === 5) ? 1 : 0);
-			}
-			changeMapView(index, 0.8);
+			tiempoMap_1.setPaintProperty('stepSolid', 'line-opacity', ['match', ['get', 'step'], 5, 0.5, 0]);
+			tiempoMap_1.setPaintProperty('stepAnim', 'line-opacity', ['match', ['get', 'step'], 5, 1, 0]);
+			changeMapView(3, 0.8);
 			break;
 		}
 	}
 }
 
 
-// Cambiar el centro y el zoom del mapa.
+// Cambiar el centro y el zoom del mapa 1.
 const changeMapView = (index, vel) => {
-	biodiversidadMap_1.flyTo({
+	tiempoMap_1.flyTo({
 		center: mapViews[index][0],
 		zoom: mapViews[index][1],
 		speed: vel
@@ -192,27 +168,25 @@ const changeMapView = (index, vel) => {
 }
 
 
-// Centros y zooms para el mapa.
+// Centros y zooms para el mapa 1.
 const mapViews = [
-	[],
-	[],
 	[
-		[-69.35067, 2.85314], 
-		5
-		],
+		[-69.35067, 2.85314], 5
+	],
 	[
-		[-66.2, 5.96424], 
-		5.5
-		],
+		[-66.2, 5.96424], 5.5
+	],
 	[
-		[-66.2, 5.96424],
-		5.5
-		],
+		[-66.2, 5.96424], 5.5
+	],
 	[
-		[-73.26332, 4.50225],
-		10.5
-		]
-	];
+		[-73.26332, 4.50225], 10.5
+	]
+];
+
+
+// Variable para las animaciones.
+var stepInit = 0;
 
 
 // Animación de las lineas.
@@ -245,7 +219,7 @@ const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength, step) 
 }
 
 
-// Instancia de tippy.js para tooltips.
+// Iniciar tippy.js para tooltips.
 tippy.delegate('.sectionContent', {
 	target: ['#spanMioceno', '#spanCamino', '#spanBlancasNegras', '#spanEcosistemas'],
 	content: (reference) => reference.dataset.tooltip,

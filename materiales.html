@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Los materiales de vida</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" href="./css/libraries/maplibre-gl.css"/>
+	<script type="module" src="./js/libraries/md-block.js"></script>
+	<script src="./js/libraries/maplibre-gl.js"></script>
+	<script src="./js/libraries/scrollama.js"></script>
+</head>
+<body>
+	<div id="menuDiv" class="h100 p_fix">
+		<div id="menuContent" class="h100 d_flex flex_column">
+			<md-block id="menuMDBlock" src="./resources/md/menu.md"></md-block>
+		</div>
+		<div id="menuToggle" class="p_abs">
+			<span>
+				<b>☰</b>
+			</span>
+		</div>
+	</div>
+
+	<div id="navBar" class="p_fix d_flex">
+		<h5 id="navTitle">
+			<a href="index.html">Inicio</a> &nbsp; / &nbsp; <a href="orinoco.html">El Orinoco</a> &nbsp; / &nbsp; <a href="recorrer.html">Recorrer</a> &nbsp; / &nbsp; Los materiales de vida
+		</h5>
+	</div>
+
+	<div class="p_stk">
+		<div id="div_0" class="p_stk sectionContent top0 h100vh d_grid grid_twoCol_1-3">
+			<div id="materialesTexto_0" class="p_stk izq padTop30px">
+				<p class='centered padDer10 parrafoGrande'>Zigzagueando voy distribuyendo materias y productos de vida.</p>
+			</div>
+
+			<div id="materialesAnim_0" class="p_stk der bg_black">
+			</div>
+		</div>
+
+		<div id="div_1" class="p_stk sectionContent top0 h100vh d_grid grid_twoCol_1-3 borderTop">
+			<div id="materialesTexto_1" class="p_stk izq padTop30px">
+				<p class='centered padDer10 parrafoGrande'>Un material como la arcilla y un producto como la cerámica nos permiten acercarnos a las circulaciones de mi cuerpo lleno de gentes.</p>
+			</div>
+
+			<div id="materialesAnim_1" class="der_full">
+				<div id="materialesMapElm_1" class="mapElm"></div>
+			</div>
+		</div>
+
+		<div id="materialesSteps_1">
+			<div id="0" class="sociodiversidadStep"></div>
+			<div id="1" class="sociodiversidadStep"></div>
+		</div>
+
+		<div class="p_stk sectionContent top0 h100vh d_grid grid_oneCol borderTop">
+			<p class='centered w90 parrafoGrande'><b>Especializarse en un producto o en una intermediación era ser responsable de su circulación y distribución</b> por todas mis aguas, así como, era ser miembro de un intercambio equitativo entre las diferentes materias o productos que confluían en el Orinoco multiétnico.</p>
+		</div>
+
+		<div class="p_stk sectionContent top0 h100vh d_grid grid_oneCol borderTop">
+			<div class="t_center centered">
+				<img style="transform: rotate(180deg); max-width: 100%;" src="./resources/images/orinoco/title_1.svg" alt="">
+				<p style="margin-bottom: 0">« Anterior sección</p>
+				<a class="p_rel" style="z-index: 10;" href="#"><h1>El flujo de los pobladores</h1></a>
+				<img style="transform: translate(0, 20%); max-width: 100%;" src="./resources/images/orinoco/title_1.svg" alt="">
+			</div>
+		</div>
+	</div>
+	<script src="./js/libraries/popper.min.js"></script>
+	<script src="./js/libraries/tippy-bundle.umd.js"></script>
+	<script src="./js/menu.js"></script>
+	<script src="./js/materiales.js"></script>
+</body>
+</html>

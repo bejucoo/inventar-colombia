@@ -22,8 +22,8 @@ const scrollSteps = (data) => {
 		step: '.narrativaStep'
 	})
 	.onStepEnter((step) => {
-		document.readyState === 'loading' ? console.log('Cargando') : changeContent(data, step);
-		changeMap(step.index);
+		//document.readyState === 'loading' ? console.log('Cargando') : changeContent(data, step);
+		//changeMap(step.index);
 	});
 }
 

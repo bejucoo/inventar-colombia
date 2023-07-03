@@ -738,7 +738,7 @@ button:hover {
 		display: block;
 	}
 
-#biodiversidadAnim_1, #sociodiversidadAnim_0 {
+.bg_black {
 	background-color: var(--black2);
 }
 
@@ -753,8 +753,7 @@ button:hover {
 
 
 /* STEPS */
-.biodiversidadStep, .biodiversidadSpace,
-.sociodiversidadStep, .sociodiversidadSpace {
+.narrativaStep, .narrativaSpace {
 	height: 1500px;
 }
 
