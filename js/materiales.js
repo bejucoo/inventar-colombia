@@ -22,7 +22,6 @@ const scrollSteps = (data) => {
 		step: '.narrativaStep'
 	})
 	.onStepEnter((step) => {
-		console.log(step);
 		document.readyState === 'loading' ? console.log('Cargando') : changeContent(data, step);
 		changeMap(step.index);
 	});
@@ -48,7 +47,7 @@ const actividades = ['pescadores', 'recolectores', 'cazadores', 'cultivadores'];
 
 
 // Agregar sources, layers y animar.
-materialesMap_1.on('load', () => {
+materialesMap_1.on('load', async() => {
 	materialesMap_1.addSource('habitatsOrinoco', {
 		type: 'geojson',
 		data: './resources/geojson/narrativa/habitatsRibereñosOrinoco_Intercambio.geojson'
@@ -99,22 +98,42 @@ materialesMap_1.on('load', () => {
 
 	// Flechas
 	materialesMap_1.addLayer({
-		id: 'flechas',
+		id: 'lineasFlujo',
 		source: 'habitatsOrinoco',
 		type: 'line',
 		filter: ['==', ['geometry-type'], 'LineString'],
 		filter: ['==', ['get', 'intercambio'], 'ceramica'],
 		layout: {
-			'visibility': 'visible'
+			'visibility': 'visible',
 		},
 		paint: {
 			'line-color': "#d98a30",
 			'line-opacity': 0,
-			'line-width': 5,
+			'line-width': 4,
 			'line-width-transition': { 
 				duration: 5000, 
 				delay: 0
 			}
+		}
+	});
+
+	materialesMap_1.addImage('arrow-head', await arrowHeadImage("#484848"));
+
+	materialesMap_1.addLayer({
+		id: "flechas",
+		type: "symbol",
+		filter: ['==', ['geometry-type'], 'LineString'],
+		filter: ['==', ['get', 'intercambio'], 'ceramica'],
+		source: "habitatsOrinoco",
+		layout: {
+			"visibility": "visible",
+			"symbol-placement": "line",
+			"icon-image": "arrow-head",
+			"icon-rotate": 180,
+			"icon-overlap": "always"
+		},
+		paint: {
+			"icon-opacity": 0
 		}
 	});
 
@@ -145,6 +164,16 @@ materialesMap_1.on('load', () => {
 	enableLineAnim(materialesMap_1, 'orinoco', 0.1, 6, 6);
 });
 
+function arrowHeadImage(color) {
+	const param = {"color": color, "size": 34, "rotation": 90};
+	const data = `<svg width='${param.size}' height='${param.size}' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg' version='1.1'><polygon fill='${param.color}' stroke='gray' stroke-width='1' points='20,90 50,10 80,90 50,70' transform='rotate(${param.rotation} 50 50)'/></svg>`;
+	return new Promise((resolve) => {
+		const img = new Image(param.size, param.size);
+		img.src = "data:image/svg+xml;base64," + btoa(data);
+		img.onload = () => resolve(createImageBitmap(img));
+	});
+}
+
 
 // Cambiar el contenido de los divs de texto.
 const changeContent = (data, step) => {
@@ -158,11 +187,11 @@ const changeMap = (index) => {
 	if (materialesMap_1.getSource('habitatsOrinoco')) {
 		switch(index) {
 		case 0:
-			console.log('000')
 			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', ['match', ['get', 'nombre'], ['Río Cinaruco', 'Río Negro', 'Río Cataniapo', 'Río Sipapo', 'Río Mariusa'], 4, 1]);
 			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-color', ['match', ['get', 'nombre'], ['Río Cinaruco', 'Río Negro', 'Río Cataniapo', 'Río Sipapo', 'Río Mariusa'], "#eac862", "#92a9a4"]);
-			materialesMap_1.setPaintProperty('flechas', 'line-opacity', 1);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', 1);
 			materialesMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'nombre'], ['Río Cinaruco', 'Río Negro', 'Río Cataniapo', 'Río Sipapo', 'Río Mariusa'], 1, 0]);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', 1);
 			break;
 		case 1:
 			break;
@@ -207,26 +236,26 @@ const changeMapView = (index, vel) => {
 const mapViews = [
 	[
 		[-66.7, 6.61499], 5.9
-	],
+		],
 	[
 		[-71.12313, 4.87724], 6.5
-	],
+		],
 	[
 		[-69.52653, 3.58252], 6.5
-	],
+		],
 	[
 		[-63.86517, 6.03455], 6.5
-	],
+		],
 	[
 		[-66.19598, 8.44916], 6.2
-	],
+		],
 	[
 		[-68.75561, 6.83224], 6.8
-	],
+		],
 	[
 		[-68.14159, 7.16971], 7.5
-	]
-];
+		]
+	];
 
 
 // Animación de las lineas.
