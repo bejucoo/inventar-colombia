@@ -22,23 +22,24 @@ const scrollSteps = (data) => {
 		step: '.narrativaStep'
 	})
 	.onStepEnter((step) => {
+		console.log(step);
 		document.readyState === 'loading' ? console.log('Cargando') : changeContent(data, step);
-		//changeMap(step.index);
+		changeMap(step.index);
 	});
 }
 
 
-// // Crear el mapa.
-// const pobladoresMap_1 = new maplibregl.Map({
-// 	container: 'pobladoresMapElm_1',
-// 	style: './resources/json/map_styles/narrativaMap_2.json',
-// 	center: [-66.7, 6.61499],
-// 	zoom: 5.9,
-// 	pitch: 0,
-// 	bearing: 0,
-// 	interactive: true,
-// 	attributionControl: false
-// });
+// Crear el mapa.
+const materialesMap_1 = new maplibregl.Map({
+	container: 'materialesMapElm_1',
+	style: './resources/json/map_styles/narrativaMap_2.json',
+	center: [-66.7, 5.61499],
+	zoom: 5.8,
+	pitch: 0,
+	bearing: 0,
+	interactive: true,
+	attributionControl: false
+});
 
 
 // Regiones y actividades para crear diferentes capas en el mapa.
@@ -46,108 +47,103 @@ const regiones = ['Andina', 'Amazónica', 'Guayanesa', 'Llanera', 'Costera'];
 const actividades = ['pescadores', 'recolectores', 'cazadores', 'cultivadores'];
 
 
-// // Agregar sources, layers y animar.
-// pobladoresMap_1.on('load', () => {
-// 	pobladoresMap_1.addSource('habitatsOrinoco', {
-// 		type: 'geojson',
-// 		data: './resources/geojson/narrativa/habitatsRibereñosOrinoco.geojson'
-// 	});
+// Agregar sources, layers y animar.
+materialesMap_1.on('load', () => {
+	materialesMap_1.addSource('habitatsOrinoco', {
+		type: 'geojson',
+		data: './resources/geojson/narrativa/habitatsRibereñosOrinoco_Intercambio.geojson'
+	});
 
-// 	// Tributarios animados
-// 	pobladoresMap_1.addLayer({
-// 		id: 'tributariosAnimados',
-// 		source: 'habitatsOrinoco',
-// 		type: 'line',
-// 		filter: ['==', ['geometry-type'], 'LineString'],
-// 		filter: ['!=', 'nombre', 'Río Orinoco'],
-// 		layout: {
-// 			'visibility': 'visible'
-// 		},
-// 		paint: {
-// 			'line-color': ['match', ['get', 'region'],
-// 				'Amazónica', '#66496e',
-// 				'Andina', '#b196b9',
-// 				'Costera', '#b55845',
-// 				'Guayanesa', '#d4978b',
-// 				'Llanera', '#d98a30',
-// 				'#92a9a4'
-// 				],
-// 			'line-opacity': 1,
-// 			'line-width': 2,
-// 			'line-width-transition': { 
-// 				duration: 5000, 
-// 				delay: 0
-// 			}
-// 		}
-// 	});
+	// Tributarios animados
+	materialesMap_1.addLayer({
+		id: 'tributariosAnimados',
+		source: 'habitatsOrinoco',
+		type: 'line',
+		filter: ['==', ['geometry-type'], 'LineString'],
+		filter: ['!=', 'nombre', 'Río Orinoco'],
+		filter: ['!=', ['get', 'intercambio'], 'ceramica'],
+		layout: {
+			'visibility': 'visible'
+		},
+		paint: {
+			'line-color': "#92a9a4",
+			'line-opacity': 1,
+			'line-width': 2,
+			'line-width-transition': { 
+				duration: 5000, 
+				delay: 0
+			}
+		}
+	});
 
-// 	// Río Orinoco
-// 	pobladoresMap_1.addLayer({
-// 		id: 'orinoco',
-// 		type: 'line',
-// 		source: 'habitatsOrinoco',
-// 		filter: ['==', ['geometry-type'], 'LineString'],
-// 		filter: ['==', 'nombre', 'Río Orinoco'],
-// 		layout: {
-// 			'visibility': 'visible'
-// 		},
-// 		paint: {
-// 			'line-color': '#92a9a4',
-// 			'line-opacity': 1,
-// 			'line-width': 5,
-// 			'line-width-transition': { 
-// 				duration: 2000, 
-// 				delay: 0
-// 			}
-// 		}
-// 	});
+	// Río Orinoco
+	materialesMap_1.addLayer({
+		id: 'orinoco',
+		type: 'line',
+		source: 'habitatsOrinoco',
+		filter: ['==', ['geometry-type'], 'LineString'],
+		filter: ['==', 'nombre', 'Río Orinoco'],
+		layout: {
+			'visibility': 'visible'
+		},
+		paint: {
+			'line-color': '#92a9a4',
+			'line-opacity': 1,
+			'line-width': 3,
+			'line-width-transition': { 
+				duration: 2000, 
+				delay: 0
+			}
+		}
+	});
 
-// 	// Imágenes para íconos.
-// 	actividades.forEach(e => {
-// 		pobladoresMap_1.loadImage('./resources/images/narrativa/pobladores/' + e + '.png', (error, img) => {
-// 			if (error) throw error;
-// 			pobladoresMap_1.addImage(e, img);
-// 		})
-// 	});
+	// Flechas
+	materialesMap_1.addLayer({
+		id: 'flechas',
+		source: 'habitatsOrinoco',
+		type: 'line',
+		filter: ['==', ['geometry-type'], 'LineString'],
+		filter: ['==', ['get', 'intercambio'], 'ceramica'],
+		layout: {
+			'visibility': 'visible'
+		},
+		paint: {
+			'line-color': "#d98a30",
+			'line-opacity': 0,
+			'line-width': 5,
+			'line-width-transition': { 
+				duration: 5000, 
+				delay: 0
+			}
+		}
+	});
 
-// 	// Etiquetas es íconos.
-// 	pobladoresMap_1.addLayer({
-// 		id: 'labels',
-// 		source: 'habitatsOrinoco',
-// 		type: 'symbol',
-// 		filter: ['==', ['geometry-type'], 'Point'],
-// 		layout: {
-// 			'visibility': 'visible',
-// 			'symbol-placement': 'point',
-// 			'text-field': '{nombre}',
-// 			'text-font': ['Cormorant Italic'],
-// 			'text-size': 18,
-// 			'text-anchor': 'bottom',
-// 			'icon-image': ['match', ['get', 'actividad'],
-// 				'Recolectores', 'recolectores',
-// 				'Pescadores', 'pescadores',
-// 				'Cazadores', 'cazadores',
-// 				'Cultivadores', 'cultivadores',
-// 				'pescadores'
-// 				],
-// 			'icon-size': 0.05,
-// 			'icon-anchor': 'center',
-// 			'icon-offset': [0, -600],
-// 			'icon-allow-overlap': true,
-// 			'icon-overlap': 'always'
-// 		},
-// 		paint: {
-// 			'text-color': '#241d15',
-// 			'text-halo-color': '#241d15',
-// 			'text-halo-width': 0.1,
-// 			'text-opacity': 1,
-// 			'icon-opacity': 0,
-// 		}
-// 	});
+	// Etiquetas.
+	materialesMap_1.addLayer({
+		id: 'labels',
+		source: 'habitatsOrinoco',
+		type: 'symbol',
+		filter: ['==', ['geometry-type'], 'Point'],
+		layout: {
+			'visibility': 'visible',
+			'symbol-placement': 'point',
+			'text-field': '{nombre} | {grupo}',
+			'text-font': ['Cormorant Italic'],
+			'text-size': 20,
+			'text-anchor': 'bottom',
+			'text-overlap': 'always'
+		},
+		paint: {
+			'text-color': '#241d15',
+			'text-halo-color': '#241d15',
+			'text-halo-width': 0.1,
+			'text-opacity': 0
+		}
+	});
 
-// 	enableLineAnim(pobladoresMap_1, 'tributariosAnimados', 0.1, 4, 4);
-// 	enableLineAnim(pobladoresMap_1, 'orinoco', 0.1, 6, 6);
-// });
+	enableLineAnim(materialesMap_1, 'tributariosAnimados', 0.1, 4, 4);
+	enableLineAnim(materialesMap_1, 'orinoco', 0.1, 6, 6);
+});
 
 
 // Cambiar el contenido de los divs de texto.
@@ -159,9 +155,14 @@ const changeContent = (data, step) => {
 
 // Cambiar el contenido del mapa
 const changeMap = (index) => {
-	if (pobladoresMap_1.getSource('habitatsOrinoco')) {
+	if (materialesMap_1.getSource('habitatsOrinoco')) {
 		switch(index) {
 		case 0:
+			console.log('000')
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', ['match', ['get', 'nombre'], ['Río Cinaruco', 'Río Negro', 'Río Cataniapo', 'Río Sipapo', 'Río Mariusa'], 4, 1]);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-color', ['match', ['get', 'nombre'], ['Río Cinaruco', 'Río Negro', 'Río Cataniapo', 'Río Sipapo', 'Río Mariusa'], "#eac862", "#92a9a4"]);
+			materialesMap_1.setPaintProperty('flechas', 'line-opacity', 1);
+			materialesMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'nombre'], ['Río Cinaruco', 'Río Negro', 'Río Cataniapo', 'Río Sipapo', 'Río Mariusa'], 1, 0]);
 			break;
 		case 1:
 			break;

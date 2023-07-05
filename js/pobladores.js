@@ -111,7 +111,7 @@ pobladoresMap_1.on('load', () => {
 		})
 	});
 
-	// Etiquetas es íconos.
+	// Etiquetas e íconos.
 	pobladoresMap_1.addLayer({
 		id: 'labels',
 		source: 'habitatsOrinoco',
