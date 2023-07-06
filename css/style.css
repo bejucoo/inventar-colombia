@@ -748,6 +748,16 @@ button:hover {
 	object-fit: cover;
 }
 
+.leyenda {
+	right: 10px;
+	bottom: 10px;
+	width: 300px;
+	padding: 0 20px;
+	background-color: var(--white1);
+	border: var(--bd_doubleSimple);
+	z-index: 100;
+}
+
 
 
 
