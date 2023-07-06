@@ -14,7 +14,7 @@
     {
         "id": "2",
         "div": "1",
-        "text": "<p class='centered padDer10 parrafoGrande'>Alrededor del río Cataniapo hay <span id='spanExcavaciones'>lugares de excavación arqueológica</span> donde se encontraron varios estilos de cerámica, realizados con pastas, recetas y motivos diferentes, lo cual evidencia el corredor multiétnico que eran mis aguas.</p>",
+        "text": "<p class='centered padDer10 parrafoGrande'>Alrededor del río Cataniapo hay <span id='spanExcavaciones' class='textoNaranja mousePointer' data-tooltip='Sobre las prácticas y saberes de los antiguos alfareros del Orinoco, Natalia Lozada nos muestra que conocían muy bien sus tierras y sabían como complementarse para tener lo esperado, lo mejor o el material más fino. <br><br> https://www.banrepcultural.org/biblioteca-virtual/credencial-historia/numero-378/los-antiguos-alfareros-del-orinoco'><b>lugares de excavación arqueológica</b></span> donde se encontraron varios estilos de cerámica, realizados con pastas, recetas y motivos diferentes, lo cual evidencia el gran corredor multiétnico que eran mis aguas.</p>",
         "img": ""
     },
     {

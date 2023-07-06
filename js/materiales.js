@@ -60,7 +60,7 @@ materialesMap_1.on('load', async() => {
 		type: 'line',
 		filter: ['==', ['geometry-type'], 'LineString'],
 		filter: ['!=', 'nombre', 'Río Orinoco'],
-		filter: ['!=', ['get', 'intercambio'], 'ceramica'],
+		filter: ['!', ['has', 'intercambio']],
 		layout: {
 			'visibility': 'visible'
 		},
@@ -96,13 +96,13 @@ materialesMap_1.on('load', async() => {
 		}
 	});
 
-	// Flechas
+	// Lineas flechas
 	materialesMap_1.addLayer({
 		id: 'lineasFlujo',
 		source: 'habitatsOrinoco',
 		type: 'line',
 		filter: ['==', ['geometry-type'], 'LineString'],
-		filter: ['==', ['get', 'intercambio'], 'ceramica'],
+		filter: ['has', 'intercambio'],
 		layout: {
 			'visibility': 'visible',
 		},
@@ -117,13 +117,14 @@ materialesMap_1.on('load', async() => {
 		}
 	});
 
+	// Flechas
 	materialesMap_1.addImage('arrow-head', await arrowHeadImage("#484848"));
 
 	materialesMap_1.addLayer({
 		id: "flechas",
 		type: "symbol",
 		filter: ['==', ['geometry-type'], 'LineString'],
-		filter: ['==', ['get', 'intercambio'], 'ceramica'],
+		filter: ['has', 'intercambio'],
 		source: "habitatsOrinoco",
 		layout: {
 			"visibility": "visible",
@@ -137,7 +138,7 @@ materialesMap_1.on('load', async() => {
 		}
 	});
 
-	// Etiquetas.
+	// Labels nombres.
 	materialesMap_1.addLayer({
 		id: 'labels',
 		source: 'habitatsOrinoco',
@@ -187,31 +188,67 @@ const changeMap = (index) => {
 	if (materialesMap_1.getSource('habitatsOrinoco')) {
 		switch(index) {
 		case 0:
+			changeMapView(0, 0.3)
 			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', ['match', ['get', 'nombre'], ['Río Cinaruco', 'Río Negro', 'Río Cataniapo', 'Río Sipapo', 'Río Mariusa'], 4, 1]);
 			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-color', ['match', ['get', 'nombre'], ['Río Cinaruco', 'Río Negro', 'Río Cataniapo', 'Río Sipapo', 'Río Mariusa'], "#eac862", "#92a9a4"]);
-			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', 1);
 			materialesMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'nombre'], ['Río Cinaruco', 'Río Negro', 'Río Cataniapo', 'Río Sipapo', 'Río Mariusa'], 1, 0]);
-			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', 1);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', ['match', ['get', 'intercambio'], 'ceramica', 1, 0]);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', ['match', ['get', 'intercambio'], 'ceramica', 1, 0]);
 			break;
 		case 1:
+			changeMapView(1, 0.8);
 			break;
 		case 2:
+			changeMapView(2, 0.8);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', ['match', ['get', 'nombre'], ['Río Cinaruco', 'Río Negro', 'Río Cataniapo', 'Río Sipapo', 'Río Mariusa'], 4, 1]);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-color', ['match', ['get', 'nombre'], ['Río Cinaruco', 'Río Negro', 'Río Cataniapo', 'Río Sipapo', 'Río Mariusa'], "#eac862", "#92a9a4"]);
+			materialesMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'nombre'], ['Río Cinaruco', 'Río Negro', 'Río Cataniapo', 'Río Sipapo', 'Río Mariusa'], 1, 0]);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', ['match', ['get', 'intercambio'], 'ceramica', 1, 0]);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', ['match', ['get', 'intercambio'], 'ceramica', 1, 0]);
 			break;
 		case 3:
+			changeMapView(0, 0.8);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', ['match', ['get', 'nombre'], ['Río Portuguesa', 'Río Guanipa', 'Río Casanare', 'Río Ariari', 'Río Duda'], 4, 1]);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-color', ['match', ['get', 'nombre'], ['Río Portuguesa', 'Río Guanipa', 'Río Casanare', 'Río Ariari', 'Río Duda'], "#eac862", "#92a9a4"]);
+			materialesMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'nombre'], ['Río Portuguesa', 'Río Guanipa', 'Río Casanare', 'Río Ariari', 'Río Duda', 'Laguna de Tota'], 1, 0]);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', ['match', ['get', 'intercambio'], 'algodon', 1, 0]);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', ['match', ['get', 'intercambio'], 'algodon', 1, 0]);
 			break;
 		case 4:
+			changeMapView(3, 0.8);
 			break;
 		case 5:
+			changeMapView(4, 0.8);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', ['match', ['get', 'nombre'], ['Río Portuguesa', 'Río Guanipa', 'Río Casanare', 'Río Ariari', 'Río Duda'], 4, 1]);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-color', ['match', ['get', 'nombre'], ['Río Portuguesa', 'Río Guanipa', 'Río Casanare', 'Río Ariari', 'Río Duda'], "#eac862", "#92a9a4"]);
+			materialesMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'nombre'], ['Río Portuguesa', 'Río Guanipa', 'Río Casanare', 'Río Ariari', 'Río Duda', 'Laguna de Tota'], 1, 0]);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', ['match', ['get', 'intercambio'], 'algodon', 1, 0]);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', ['match', ['get', 'intercambio'], 'algodon', 1, 0]);
 			break;
 		case 6:
+			changeMapView(0, 0.8);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', ['match', ['get', 'nombre'], ['Río Limo', 'Río Apure', 'Río Arauca', 'Río Capanaparo', 'Río Casanare', 'Río Meta', 'Río Upía', 'Río Guaviare'], 4, 1]);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-color', ['match', ['get', 'nombre'], ['Río Limo', 'Río Apure', 'Río Arauca', 'Río Capanaparo', 'Río Casanare', 'Río Meta', 'Río Upía', 'Río Guaviare'], "#eac862", "#92a9a4"]);
+			materialesMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'nombre'], ['Río Limo', 'Río Apure', 'Río Arauca', 'Río Capanaparo', 'Río Casanare', 'Río Meta', 'Río Upía', 'Río Guaviare'], 1, 0]);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', ['match', ['get', 'intercambio'], 'quiripa', 1, 0]);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', ['match', ['get', 'intercambio'], 'quiripa', 1, 0]);
 			break;
 		case 7:
+			changeMapView(0, 0.8);
 			break;
 		case 8:
+			changeMapView(5, 0.8);
 			break;
 		case 9:
+			changeMapView(6, 0.8);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', ['match', ['get', 'nombre'], ['Río Limo', 'Río Apure', 'Río Arauca', 'Río Capanaparo', 'Río Casanare', 'Río Meta', 'Río Upía', 'Río Guaviare'], 4, 1]);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-color', ['match', ['get', 'nombre'], ['Río Limo', 'Río Apure', 'Río Arauca', 'Río Capanaparo', 'Río Casanare', 'Río Meta', 'Río Upía', 'Río Guaviare'], "#eac862", "#92a9a4"]);
+			materialesMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'nombre'], ['Río Limo', 'Río Apure', 'Río Arauca', 'Río Capanaparo', 'Río Casanare', 'Río Meta', 'Río Upía', 'Río Guaviare'], 1, 0]);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', ['match', ['get', 'intercambio'], 'quiripa', 1, 0]);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', ['match', ['get', 'intercambio'], 'quiripa', 1, 0]);
 			break;
 		case 10:
+			changeMapView(0, 0.8);
 			break;
 		case 11:
 			break;
@@ -224,7 +261,7 @@ const changeMap = (index) => {
 
 // Cambiar el centro y el zoom del mapa.
 const changeMapView = (index, vel) => {
-	pobladoresMap_1.flyTo({
+	materialesMap_1.flyTo({
 		center: mapViews[index][0],
 		zoom: mapViews[index][1],
 		speed: vel
@@ -235,25 +272,25 @@ const changeMapView = (index, vel) => {
 // Centros y zooms para el mapa.
 const mapViews = [
 	[
-		[-66.7, 6.61499], 5.9
+		[-66.7, 5.61499], 5.8
 		],
 	[
-		[-71.12313, 4.87724], 6.5
+		[-68.34478, 6.45987], 8
 		],
 	[
-		[-69.52653, 3.58252], 6.5
+		[-67.23140, 5.57416], 9 
 		],
 	[
-		[-63.86517, 6.03455], 6.5
+		[-72.92327, 5.54615], 6.5
 		],
 	[
-		[-66.19598, 8.44916], 6.2
+		[-63.76068, 9.05238], 8
 		],
 	[
-		[-68.75561, 6.83224], 6.8
+		[-69.87530, 5.26663], 7
 		],
 	[
-		[-68.14159, 7.16971], 7.5
+		[-69.00180, 7.68865], 7
 		]
 	];
 
@@ -285,3 +322,13 @@ const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength) => {
 	mapId.setPaintProperty(layerId, 'line-dasharray', [d, c, b, a]);
 	requestAnimationFrame(() => enableLineAnim(mapId, layerId, animSpeed, dashLength, gapLength));
 }
+
+
+// Iniciar tippy.js para tooltips.
+tippy.delegate('.sectionContent', {
+	target: ['#spanExcavaciones'],
+	content: (reference) => reference.dataset.tooltip,
+	trigger: 'mouseenter click',
+	theme: 'colombia',
+	allowHTML: true
+});

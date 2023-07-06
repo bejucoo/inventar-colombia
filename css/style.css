@@ -818,6 +818,9 @@ dialog :is(p, ol, ul),
 	color: var(--red5);
 }
 
+.textoNaranja {
+	color: var(--orange1);
+}
 
 
 
