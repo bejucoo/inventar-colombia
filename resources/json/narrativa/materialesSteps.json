@@ -3,7 +3,7 @@
  		"id": "0",
  		"div": "1",
  		"text": "<p class='centered padDer10 parrafoGrande'>Un material como la arcilla y un producto como la cerámica nos permiten acercarnos a las circulaciones de mi cuerpo lleno de gentes.</p>",
- 		"img": ""
+ 		"img": "<h2>Cerámica</h2><img style='max-width: 100%;' src='./resources/images/narrativa/materiales/ceramica.png'><h4>Figurina zoomorfa en cerámica. 600 a 1500 d.C. Orinoco medio. Tomado de https://atlasprecolombino.com</h4>"
  	},
     {
         "id": "1",
@@ -15,13 +15,13 @@
         "id": "2",
         "div": "1",
         "text": "<p class='centered padDer10 parrafoGrande'>Alrededor del río Cataniapo hay <span id='spanExcavaciones' class='textoNaranja mousePointer' data-tooltip='Sobre las prácticas y saberes de los antiguos alfareros del Orinoco, Natalia Lozada nos muestra que conocían muy bien sus tierras y sabían como complementarse para tener lo esperado, lo mejor o el material más fino. <br><br> https://www.banrepcultural.org/biblioteca-virtual/credencial-historia/numero-378/los-antiguos-alfareros-del-orinoco'><b>lugares de excavación arqueológica</b></span> donde se encontraron varios estilos de cerámica, realizados con pastas, recetas y motivos diferentes, lo cual evidencia el gran corredor multiétnico que eran mis aguas.</p>",
-        "img": ""
+        "img": "<h2>Cerámica</h2><img style='max-width: 100%;' src='./resources/images/narrativa/materiales/ceramica.png'><h4>Figurina zoomorfa en cerámica. 600 a 1500 d.C. Orinoco medio. Tomado de https://atlasprecolombino.com</h4>"
     },
     {
     	"id": "3",
     	"div": "1",
     	"text": "<p class='centered padDer10 parrafoGrande'>Además de cerámica, cultivos como el algodón era común en las huertas llaneras, y se compartían con la yuca, la papa dulce, hierbas y raíces, entre otros.</p>",
-    	"img": ""
+    	"img": "<h2>Algodón</h2><img style='max-width: 100%;' src='./resources/images/narrativa/materiales/algodon.png'><h3>Planta de algodón. Tomada de https://www.pngall.com/</h3>"
     },
     {
     	"id": "4",
@@ -33,13 +33,13 @@
     	"id": "5",
     	"div": "1",
     	"text": "<p class='centered padDer10 parrafoGrande'>El único grupo que habitaba mi cuerpo y que intercambiaba tejidos eran los caribes. Sus hamacas de algodón se convirtieron en una moda para los demás habitantes, especialmente entre los siglos XVI y XVII dada la influencia del grupo a lo largo de mi cuenca.</p>",
-    	"img": ""
+    	"img": "<h2>Algodón</h2><img style='max-width: 100%;' src='./resources/images/narrativa/materiales/algodon.png'><h3>Planta de algodón. Tomada de https://www.pngall.com/</h3>"
     },
     {
     	"id": "6",
     	"div": "1",
     	"text": "<p class='centered padDer10 parrafoGrande'>La quiripa era un medio de intercambio suntuoso a lo largo de mis aguas. Funcionaba como una especie de moneda en este extenso corredor y por fuera de él.</p>",
-    	"img": ""
+    	"img": "<h2>Quiripa</h2><img style='max-width: 100%;' src='./resources/images/narrativa/materiales/quiripa.png'><h3>Conchas de caracol Muracypraea mus. Tomada de https://commons.wikimedia.org/</h3>"
     },
     {
     	"id": "7",
@@ -57,13 +57,13 @@
     	"id": "9",
     	"div": "1",
     	"text": "<p class='centered padDer10 parrafoGrande'>A causa del declive poblacional achagua, la quiripa fue especialmente producida por los otomacos desde el finales del siglo XVII.</p>",
-    	"img": ""
+    	"img": "<h2>Quiripa</h2><img style='max-width: 100%;' src='./resources/images/narrativa/materiales/quiripa.png'><h3>Conchas de caracol Muracypraea mus. Tomada de https://commons.wikimedia.org/</h3>"
     },
     {
     	"id": "10",
     	"div": "1",
     	"text": "<p class='centered padDer10 parrafoGrande'>El curare era un veneno del sur y sur oriente de mi cuerpo. Los cazadores lo usaban en sus flechas o arpones para apaciguar a las presas. Los principales productores eran los caberres. Este se embotellaba en recipientes cerámicos en forma de tubo, en vasijas y otros envases.</p>",
-    	"img": ""
+    	"img": "<h2>Curare</h2><img style='max-width: 100%;' src='./resources/images/narrativa/materiales/curare.png'><h3>Recipiente y dardos de curare. Tomada de https://commons.wikimedia.org/</h3>"
     },
     {
     	"id": "11",
@@ -87,13 +87,13 @@
     	"id": "14",
     	"div": "1",
     	"text": "<p class='centered padDer10 parrafoGrande'>A lo largo de mis aguas varias comunidades eran capaces de suplir el producto especializado de un grupo para no bloquear su circulación y tránsito.</p>",
-    	"img": ""
+    	"img": "<h2>Curare</h2><img style='max-width: 100%;' src='./resources/images/narrativa/materiales/curare.png'><h3>Recipiente y dardos de curare. Tomada de https://commons.wikimedia.org/</h3>"
     },
     {
     	"id": "15",
     	"div": "1",
     	"text": "<p class='centered padDer10 parrafoGrande'>En el área que recorre mi cuerpo, el yopo es un árbol sagrado. De sus semillas redondas se prepara un polvo para esnifar y tener diferentes conexiones divinas con el futuro, con el pasado, con los ancestros.</p>",
-    	"img": ""
+    	"img": "<h2>Yopo</h2><img style='max-width: 100%;' src='./resources/images/narrativa/materiales/yopo.png'><h3>Ilustración de la Anadenanthera peregrina. Tomada de https://commons.wikimedia.org/</h3>"
     },
     {
     	"id": "16",
@@ -111,13 +111,13 @@
     	"id": "18",
     	"div": "1",
     	"text": "<p class='centered padDer10 parrafoGrande'>Los otomacos se encargaron de traficarlo en el siglo XVIII durante las misiones, pues hubo restricción de su receta, cultivo y uso.</p>",
-    	"img": ""
+    	"img": "<h2>Yopo</h2><img style='max-width: 100%;' src='./resources/images/narrativa/materiales/yopo.png'><h3>Ilustración de la Anadenanthera peregrina. Tomada de https://commons.wikimedia.org/</h3>"
     },
     {
     	"id": "19",
     	"div": "1",
     	"text": "<p class='centered padDer10 parrafoGrande'>Los huevos de la tortuga Arrau reunían a todos mis habitantes en temporada seca, hacia finales y comienzos del año.</p>",
-    	"img": ""
+    	"img": "<h2>Tortuga Arrau</h2><img style='max-width: 100%;' src='./resources/images/narrativa/materiales/tortuga.png'><h3>Tortuga Podocnemis expansa. Tomada de https://www.flickr.com/</h3>"
     },
     {
     	"id": "20",
@@ -147,6 +147,6 @@
     	"id": "24",
     	"div": "1",
     	"text": "<p class='centered padDer10 parrafoGrande'>Con el proceso colonizador, la interrupción de esta lógica rompió también con la cohesión que promovía esta congregación de los diferentes grupos que habitaban mis aguas.</p>",
-    	"img": ""
+    	"img": "<h2>Tortuga Arrau</h2><img style='max-width: 100%;' src='./resources/images/narrativa/materiales/tortuga.png'><h3>Tortuga Podocnemis expansa. Tomada de https://www.flickr.com/</h3>"
     }
  ]	

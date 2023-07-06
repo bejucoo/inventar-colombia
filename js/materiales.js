@@ -24,6 +24,7 @@ const scrollSteps = (data) => {
 	.onStepEnter((step) => {
 		document.readyState === 'loading' ? console.log('Cargando') : changeContent(data, step);
 		changeMap(step.index);
+		changeLegendContent(data, step.index);
 	});
 }
 
@@ -184,9 +185,9 @@ const changeContent = (data, step) => {
 
 
 // Cambiar el contenido del mapa
-const changeMap = (index) => {
+const changeMap = (step) => {
 	if (materialesMap_1.getSource('habitatsOrinoco')) {
-		switch(index) {
+		switch(step) {
 		case 0:
 			changeMapView(0, 0.3)
 			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', ['match', ['get', 'nombre'], ['Río Cinaruco', 'Río Negro', 'Río Cataniapo', 'Río Sipapo', 'Río Mariusa'], 4, 1]);
@@ -249,12 +250,92 @@ const changeMap = (index) => {
 			break;
 		case 10:
 			changeMapView(0, 0.8);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', ['match', ['get', 'nombre'], ['Río Caroní', 'Río Manapiare', 'Río Capanaparo', 'Río Atabapo', 'Río Casiquiare', 'Río Ariari'], 4, 1]);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-color', ['match', ['get', 'nombre'], ['Río Caroní', 'Río Manapiare', 'Río Capanaparo', 'Río Atabapo', 'Río Casiquiare', 'Río Ariari'], "#eac862", "#92a9a4"]);
+			materialesMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'nombre'], ['Río Caroní', 'Río Manapiare', 'Río Capanaparo', 'Río Atabapo', 'Río Casiquiare', 'Río Ariari'], 1, 0]);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', ['match', ['get', 'intercambio'], 'curare', 1, 0]);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', ['match', ['get', 'intercambio'], 'curare', 1, 0]);
 			break;
 		case 11:
+			changeMapView(7, 0.8);
 			break;
 		case 12:
 			break;
+		case 13:
+			changeMapView(8, 0.8);
+			break;
+		case 14:
+			changeMapView(0, 0.8);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', ['match', ['get', 'nombre'], ['Río Caroní', 'Río Manapiare', 'Río Capanaparo', 'Río Atabapo', 'Río Casiquiare', 'Río Ariari'], 4, 1]);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-color', ['match', ['get', 'nombre'], ['Río Caroní', 'Río Manapiare', 'Río Capanaparo', 'Río Atabapo', 'Río Casiquiare', 'Río Ariari'], "#eac862", "#92a9a4"]);
+			materialesMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'nombre'], ['Río Caroní', 'Río Manapiare', 'Río Capanaparo', 'Río Atabapo', 'Río Casiquiare', 'Río Ariari'], 1, 0]);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', ['match', ['get', 'intercambio'], 'curare', 1, 0]);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', ['match', ['get', 'intercambio'], 'curare', 1, 0]);
+			break;
+		case 15:
+			changeMapView(0, 0.8);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', ['match', ['get', 'nombre'], ['Río Apure', 'Río Capanaparo', 'Río Cinaruco', 'Río Meta', 'Río Tomo', 'Río Vichada', 'Río Ariari'], 4, 1]);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-color', ['match', ['get', 'nombre'], ['Río Apure', 'Río Capanaparo', 'Río Cinaruco', 'Río Meta', 'Río Tomo', 'Río Vichada', 'Río Ariari'], "#eac862", "#92a9a4"]);
+			materialesMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'nombre'], ['Río Apure', 'Río Capanaparo', 'Río Cinaruco', 'Río Meta', 'Río Tomo', 'Río Vichada', 'Río Ariari', 'Laguna de Tota'], 1, 0]);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', 0);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', 0);
+			break;
+		case 16:
+			changeMapView(0, 0.8);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', ['match', ['get', 'intercambio'], 'yopo_3', 1, 0]);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', ['match', ['get', 'intercambio'], 'yopo_3', 1, 0]);
+			break;
+		case 17:
+			changeMapView(3, 0.8);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', ['match', ['get', 'intercambio'], 'yopo_2', 1, 0]);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', ['match', ['get', 'intercambio'], 'yopo_2', 1, 0]);
+			break;
+		case 18:
+			changeMapView(0, 0.8);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', ['match', ['get', 'nombre'], ['Río Apure', 'Río Capanaparo', 'Río Cinaruco', 'Río Meta', 'Río Tomo', 'Río Vichada', 'Río Ariari'], 4, 1]);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-color', ['match', ['get', 'nombre'], ['Río Apure', 'Río Capanaparo', 'Río Cinaruco', 'Río Meta', 'Río Tomo', 'Río Vichada', 'Río Ariari'], "#eac862", "#92a9a4"]);
+			materialesMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'nombre'], ['Río Apure', 'Río Capanaparo', 'Río Cinaruco', 'Río Meta', 'Río Tomo', 'Río Vichada', 'Río Ariari', 'Laguna de Tota'], 1, 0]);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', ['match', ['get', 'intercambio'], 'yopo_1', 1, 0]);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', ['match', ['get', 'intercambio'], 'yopo_1', 1, 0]);
+			materialesMap_1.setPaintProperty('orinoco', 'line-color', "#92a9a4");
+			break;
+		case 19:
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-width', 1);
+			materialesMap_1.setPaintProperty('tributariosAnimados', 'line-color', "#eac862");
+			materialesMap_1.setPaintProperty('labels', 'text-opacity', ['match', ['get', 'grupo'], ['Otomacos', 'Adoles'], 1, 0]);
+			materialesMap_1.setPaintProperty('lineasFlujo', 'line-opacity', ['match', ['get', 'intercambio'], 'tortuga', 1, 0]);
+			materialesMap_1.setPaintProperty('flechas', 'icon-opacity', ['match', ['get', 'intercambio'], 'tortuga', 1, 0]);
+			materialesMap_1.setPaintProperty('orinoco', 'line-color', "#eac862");
+			break;
+		case 20:
+			changeMapView(9, 0.8);
+			break;
+		case 21:
+			changeMapView(0, 0.8);
+			break;
 		}
+	}
+}
+
+
+// Cambiar el contenido de la leyenda.
+const changeLegendContent = (data, step) => {
+	let divLegend = document.getElementById('leyendaPobladores');
+	switch(step){
+		case 0:
+		case 2:
+		case 3:
+		case 5:
+		case 6:
+		case 9:
+		case 10:
+		case 14:
+		case 15:
+		case 18:
+		case 19:
+		case 24:
+			divLegend.innerHTML = data[step].img
+			break;
 	}
 }
 
@@ -291,6 +372,15 @@ const mapViews = [
 		],
 	[
 		[-69.00180, 7.68865], 7
+		],
+	[
+		[-67.71257, 4.03263], 8
+		],
+	[
+		[-66.41512, 2.58098], 8
+		],
+	[
+		[-67.03520, 7.07561], 8
 		]
 	];
 
