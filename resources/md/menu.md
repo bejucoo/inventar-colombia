@@ -11,7 +11,7 @@
 <br>
 
 - ## III. Epílogo
-- [El lugar del Orinoco en la invención de Colombia](epilogo.html)
+- [El Orinoco en la invención de Colombia](epilogo.html)
 <br>
 
 - ## IV. [Investigación](investigacion.html)
