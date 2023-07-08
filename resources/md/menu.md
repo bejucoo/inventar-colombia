@@ -10,14 +10,14 @@
 - [Datos y Capta](datos.html)
 <br>
 
-- ## III. Epílogo
-- [El Orinoco en la invención de Colombia](epilogo.html)
+- ## [III. Epílogo](epilogo.html)
+- El Orinoco en la invención de Colombia
 <br>
 
 - ## IV. [Investigación](investigacion.html)
-- [Metodología](#)
+- Metodología
 - [Colección de fuentes primarias](https://mariajoafana.github.io/inventar_colombia/)
-- [Bibliografía](#)
+- Bibliografía
 
 <br>
 

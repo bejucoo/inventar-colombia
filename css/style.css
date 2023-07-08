@@ -87,6 +87,25 @@ details>summary {
 
 
 
+/* TABLES */
+table {
+	text-align: left;
+	border-collapse: collapse;
+}
+
+td, th {
+  border: var(--bd_solidThin);
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--white2);
+}
+
+
+
+
+
 /* TOOLTIP */
 .tippy-box[data-theme~="colombia"] {
 	font-family: 'cormorant';
@@ -167,6 +186,10 @@ details>summary {
 
 .m_auto {
 	margin: auto;
+}
+
+.m0 {
+	margin: 0;
 }
 
 
@@ -285,6 +308,16 @@ details>summary {
 /* BORDER-TOP */
 .borderTop {
 	border-top: var(--bd_solidThin);
+}
+
+
+
+
+
+/* GRID BACKGROUND ¨*/
+.transparentGrid {
+	background-image:url('../resources/images/transparentGrid.png');
+	background-size: cover;
 }
 
 
@@ -601,19 +634,14 @@ button:hover {
 
 
 /* INTRO */
-#introTexto {
-/*	padding: 28% 60px 0 0;*/
-}
-
-#introTextoContenido {
-	position: sticky;
-	top: 0;
-	margin: 0;
-	height: 100vh;
-}
-
-.introTituloStep {
+.introStep {
 	height: 1500px;
+}
+
+.introImg {
+	min-width: 80%;
+	max-width: 80%;
+	font-size: 0.8em;
 }
 
 
@@ -623,6 +651,7 @@ button:hover {
 /* ORINOCO */
 .orinocoSeccion {
 	margin: 15% 0;
+	background-color: var(--white1);
 }
 
 .orinocoSeccion > a > h1,
@@ -634,7 +663,7 @@ button:hover {
 
 
 
-/* FRAGMENTOS */
+/* LEER */
 #seleccionTexto, #seleccionCategorias, #fragmentos {
 	padding: 0 0 10% 0;
 }
@@ -728,7 +757,7 @@ button:hover {
 
 
 
-/* NARRATIVA */
+/* RECORRER */
 .narrativaIndexPopup_sub img {
 	max-width: 300px;
 	transform: translate(-50%, -23%);
@@ -786,6 +815,8 @@ details,
 }
 
 dialog :is(p, ol, ul),
+figcaption,
+table,
 .sectionContent :is(p, mark, ol, ul),
 #sectionContent :is(p, mark, ol, ul),
 .fragmento {
@@ -800,7 +831,7 @@ dialog :is(p, ol, ul),
 }
 
 .parrafoGrande {
-	font-size: 1.75em;
+	font-size: 1.4em;
 	font-family: 'cormorant-up' !important;
 }
 
@@ -847,12 +878,23 @@ dialog :is(p, ol, ul),
 
 
 
+
 	/* NAVBAR */
 	#navBar {
 		position: relative;
 		display: block;
 		top: 70px;
 	}
+
+
+
+
+
+	/* TRANSPARENT GRID */
+	.transparentGrid {
+		background-image: none;
+	}
+
 
 
 
@@ -889,6 +931,7 @@ dialog :is(p, ol, ul),
 		align-items: center;
 		padding: 0;
 	}
+
 
 
 
@@ -938,6 +981,7 @@ dialog :is(p, ol, ul),
 
 
 
+
 	#tira_logos {
 		grid-template-columns: 1fr;
 		grid-gap: 25px;
@@ -971,18 +1015,13 @@ dialog :is(p, ol, ul),
 	/* INTRO */
 	#introTexto {
 		padding: 0;
-	}
-
-	#introTextoContenido {
-		position: fixed;
-		width: 90%;
-	}
+	} 	
 
 	#introImagen {
 		display: none;
 	}
 
-	.introTituloStep {
+	.introStep {
 		height: 1000px;
 	}
 
@@ -1000,7 +1039,7 @@ dialog :is(p, ol, ul),
 
 
 
-	/* FRAGMENTOS */
+	/* LEER */
 	#fragmentos {
 		grid-template-columns: 1fr;
 	}

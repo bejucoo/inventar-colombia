@@ -1,196 +1,196 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Leer</title>
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <script src="./js/libraries/jquery-3.6.3.min.js"></script>
-  <script src="./js/libraries/filter.js"></script>
-  <script type="module" src="./js/libraries/md-block.js"></script>
-  <script src="./js/libraries/pagemap.min.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Leer</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script src="./js/libraries/jquery-3.6.3.min.js"></script>
+	<script src="./js/libraries/filter.js"></script>
+	<script type="module" src="./js/libraries/md-block.js"></script>
+	<script src="./js/libraries/pagemap.min.js"></script>
 </head>
 <body>
-  <div id="menuDiv" class="h100 p_fix">
-    <div id="menuContent" class="h100 d_flex flex_column">
-      <md-block id="menuMDBlock" src="./resources/md/menu.md"></md-block>
-    </div>
-    <div id="menuToggle" class="p_abs">
-      <span>
-        <b>☰</b>
-      </span>
-    </div>
-  </div>
+	<div id="menuDiv" class="h100 p_fix">
+		<div id="menuContent" class="h100 d_flex flex_column">
+			<md-block id="menuMDBlock" src="./resources/md/menu.md"></md-block>
+		</div>
+		<div id="menuToggle" class="p_abs">
+			<span>
+				<b>☰</b>
+			</span>
+		</div>
+	</div>
 
-  <div id="sectionContent" class="w100vw d_grid grid_twoCol_1-3">
-    <div id="fragmentosCol1" class="izq padTop30px">  
-      <h1>Leer</h1>
-      <h6 id="navTitle">
-        <a href="index.html">Inicio</a> &nbsp; / &nbsp; <a href="orinoco.html">El Orinoco</a> &nbsp; / &nbsp;Leer
-      </h6>
-      
-      <p>
-        <button id="openDialog_introduccion">¿Qué es?</button>
-        <button id="openDialog_instrucciones">¿Cómo usar?</button>
-      </p>
+	<div id="sectionContent" class="w100vw d_grid grid_twoCol_1-3">
+		<div id="fragmentosCol1" class="izq padTop30px">  
+			<h1>Leer</h1>
+			<h6 id="navTitle">
+				<a href="index.html">Inicio</a> &nbsp; / &nbsp; <a href="orinoco.html">El Orinoco</a> &nbsp; / &nbsp;Leer
+			</h6>
+			
+			<p>
+				<button id="openDialog_introduccion">¿Qué es?</button>
+				<button id="openDialog_instrucciones">¿Cómo usar?</button>
+			</p>
 
-      <div id="seleccionTexto">
-        <fieldset id="fieldTexto">
-          <legend><b>Cuerpo de Texto:</b></legend>
-          <select name="cuerpoDeTexto" id="cuerpoDeTexto" size="5">
-            <optgroup label="El Orinoco Ilustrado T.I">
-              <option value="orinocoIlustrado_T1_Intro" selected="selected">Introducción</option>
-              <option class="disabledOption" value="orinocoIlustrado_T1_C1">C. I: Primeras noticias del Orinoco </option>
-              <option value="orinocoIlustrado_T1_C2">C. II: Panorama general del río</option>
-              <option class="disabledOption" value="orinocoIlustrado_T1_C3">C. III: Corrientes del río</option>
-              <option class="disabledOption" value="orinocoIlustrado_T1_C4">C. IV: Clima del río</option>
-              <option value="orinocoIlustrado_T1_C5">C. V: Panorama general de los indígenas</option>
-              <option value="orinocoIlustrado_T1_C6">C. VI: Historia del origen de indígenas</option>
-              <option value="orinocoIlustrado_T1_C7">C. VII: Desnudez y otras formas de llevar el cuerpo</option>
-              <option value="orinocoIlustrado_T1_C8">C. VIII: Gobierno y educación de los indígenas</option>
-              <option value="orinocoIlustrado_T1_C9">C. IX: Otros grupos indígenas del Orinoco hasta el río Apure</option>
-              <option value="orinocoIlustrado_T1_C10">C. X: Indígenas Guarauna</option>
-              <option value="orinocoIlustrado_T1_C11">C. XI: Indígenas Otomacos y Guamos</option>
-              <option value="orinocoIlustrado_T1_C12">C. XII: Características de los Otomacos</option>
-              <option value="orinocoIlustrado_T1_C13">C. XIII: Indígenas Saliva</option>
-              <option value="orinocoIlustrado_T1_C14">C. XIV: Ceremonias de entierro</option>
-              <option value="orinocoIlustrado_T1_C15">C. XV: Medicina, enfermedad y muerte en varios grupos indígenas</option>
-              <option class="disabledOption" value="orinocoIlustrado_T1_C16">C. XVI: Reseña de la obra de Monsiuer Noblot</option>
-              <option class="disabledOption" value="orinocoIlustrado_T1_C17">C. XVII: Creencias de los indígenas</option>
-              <option value="orinocoIlustrado_T1_C18">C. XVIII: Resumen de indígenas encontrados hasta 1740</option>
-              <option value="orinocoIlustrado_T1_C19">C. XIX: Cacería</option>
-              <option value="orinocoIlustrado_T1_C20">C. XX: Plantas medicinales, frutas y resinas</option>
-              <option value="orinocoIlustrado_T1_C21">C. XXI: Peces y sus cualidades</option>
-              <option value="orinocoIlustrado_T1_C22">C. XXII: Tortugas</option>
-              <option value="orinocoIlustrado_T1_C23">C. XXIII: Recomendaciones a misioneros</option>
-              <option value="orinocoIlustrado_T1_C24">C. XXIV: Fertilidad y abundancia del Orinoco</option>
-              <option class="disabledOption" value="orinocoIlustrado_T1_C25">C. XXV: El Dorado o ciudad de Manoa</option>
-            </optgroup>
-            
-            <optgroup label="El Orinoco Ilustrado T.II">
-              <option class="disabledOption" value="orinocoIlustrado_T2_Intro">Introducción</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C1">C. I: Catolicismo e historia de la religión entre los indígenas</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C2">C. II: Bautismo de indígenas</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C3">C. III: Idolatría y el demonio entre los indígenas</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C4">C. IV: Lenguajes indígenas</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C5">C. V: Origen de los lenguajes</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C6">C. VI: Poblamiento en América</option>
-              <option value="orinocoIlustrado_T2_C7">C. VII: Razones del poco poblamiento del Orinoco</option>
-              <option value="orinocoIlustrado_T2_C8">C. VIII: Guerras entre indígenas</option>
-              <option value="orinocoIlustrado_T2_C9">C. IX: Daños de los Caribes a las misiones</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C10">C. X: Jefes militares indígenas</option>
-              <option value="orinocoIlustrado_T2_C11">C. XI: Armas y fábrica de canoas de los indígenas</option>
-              <option value="orinocoIlustrado_T2_C12">C. XII: Venenos que usan los indígenas</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C13">C. XIII: Otros venenos</option>
-              <option value="orinocoIlustrado_T2_C14">C. XIV: Serpientes y remedios a sus venenos</option>
-              <option value="orinocoIlustrado_T2_C15">C. XV: Otros animales venenosos</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C16">C. XVI: Más animales venenosos</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C17">C. XVII: Peces venenosos</option>
-              <option value="orinocoIlustrado_T2_C18">C. XVIII: Caimanes y cocodrilos</option>
-              <option value="orinocoIlustrado_T2_C19">C. XIX: Agricultura en grupos indígenas</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C20">C. XX: Comida y otros productos de los indígenas </option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C21">C. XXI: Frutas, yerbas y raíces medicinales</option>
-              <option value="orinocoIlustrado_T2_C22">C. XXII: Cacería de aves y otros animales</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C23">C. XXIII: Efectos de eclipses lunares en los indígenas</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C24">C. XXIV: Matrimonio y poligamia en los indígenas</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C25">C. XXV: Variación de la población indígena con la evangelización</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C26">C. XXVI: Continuación de explicaciones sobre variación de la población indígena</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_C27">C. XXVII: Razones de la disminución de la población indígena</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_Apostrofe">Apóstrofe</option>
-              <option class="disabledOption" value="orinocoIlustrado_T2_Indice">Índice</option>
-            </optgroup>
-          </select>
-        </fieldset>
-      </div>
+			<div id="seleccionTexto">
+				<fieldset id="fieldTexto">
+					<legend><b>Cuerpo de Texto:</b></legend>
+					<select name="cuerpoDeTexto" id="cuerpoDeTexto" size="5">
+						<optgroup label="El Orinoco Ilustrado T.I">
+							<option value="orinocoIlustrado_T1_Intro" selected="selected">Introducción</option>
+							<option class="disabledOption" value="orinocoIlustrado_T1_C1">C. I: Primeras noticias del Orinoco </option>
+							<option value="orinocoIlustrado_T1_C2">C. II: Panorama general del río</option>
+							<option class="disabledOption" value="orinocoIlustrado_T1_C3">C. III: Corrientes del río</option>
+							<option class="disabledOption" value="orinocoIlustrado_T1_C4">C. IV: Clima del río</option>
+							<option value="orinocoIlustrado_T1_C5">C. V: Panorama general de los indígenas</option>
+							<option value="orinocoIlustrado_T1_C6">C. VI: Historia del origen de indígenas</option>
+							<option value="orinocoIlustrado_T1_C7">C. VII: Desnudez y otras formas de llevar el cuerpo</option>
+							<option value="orinocoIlustrado_T1_C8">C. VIII: Gobierno y educación de los indígenas</option>
+							<option value="orinocoIlustrado_T1_C9">C. IX: Otros grupos indígenas del Orinoco hasta el río Apure</option>
+							<option value="orinocoIlustrado_T1_C10">C. X: Indígenas Guarauna</option>
+							<option value="orinocoIlustrado_T1_C11">C. XI: Indígenas Otomacos y Guamos</option>
+							<option value="orinocoIlustrado_T1_C12">C. XII: Características de los Otomacos</option>
+							<option value="orinocoIlustrado_T1_C13">C. XIII: Indígenas Saliva</option>
+							<option value="orinocoIlustrado_T1_C14">C. XIV: Ceremonias de entierro</option>
+							<option value="orinocoIlustrado_T1_C15">C. XV: Medicina, enfermedad y muerte en varios grupos indígenas</option>
+							<option class="disabledOption" value="orinocoIlustrado_T1_C16">C. XVI: Reseña de la obra de Monsiuer Noblot</option>
+							<option class="disabledOption" value="orinocoIlustrado_T1_C17">C. XVII: Creencias de los indígenas</option>
+							<option value="orinocoIlustrado_T1_C18">C. XVIII: Resumen de indígenas encontrados hasta 1740</option>
+							<option value="orinocoIlustrado_T1_C19">C. XIX: Cacería</option>
+							<option value="orinocoIlustrado_T1_C20">C. XX: Plantas medicinales, frutas y resinas</option>
+							<option value="orinocoIlustrado_T1_C21">C. XXI: Peces y sus cualidades</option>
+							<option value="orinocoIlustrado_T1_C22">C. XXII: Tortugas</option>
+							<option value="orinocoIlustrado_T1_C23">C. XXIII: Recomendaciones a misioneros</option>
+							<option value="orinocoIlustrado_T1_C24">C. XXIV: Fertilidad y abundancia del Orinoco</option>
+							<option class="disabledOption" value="orinocoIlustrado_T1_C25">C. XXV: El Dorado o ciudad de Manoa</option>
+						</optgroup>
+						
+						<optgroup label="El Orinoco Ilustrado T.II">
+							<option class="disabledOption" value="orinocoIlustrado_T2_Intro">Introducción</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C1">C. I: Catolicismo e historia de la religión entre los indígenas</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C2">C. II: Bautismo de indígenas</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C3">C. III: Idolatría y el demonio entre los indígenas</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C4">C. IV: Lenguajes indígenas</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C5">C. V: Origen de los lenguajes</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C6">C. VI: Poblamiento en América</option>
+							<option value="orinocoIlustrado_T2_C7">C. VII: Razones del poco poblamiento del Orinoco</option>
+							<option value="orinocoIlustrado_T2_C8">C. VIII: Guerras entre indígenas</option>
+							<option value="orinocoIlustrado_T2_C9">C. IX: Daños de los Caribes a las misiones</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C10">C. X: Jefes militares indígenas</option>
+							<option value="orinocoIlustrado_T2_C11">C. XI: Armas y fábrica de canoas de los indígenas</option>
+							<option value="orinocoIlustrado_T2_C12">C. XII: Venenos que usan los indígenas</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C13">C. XIII: Otros venenos</option>
+							<option value="orinocoIlustrado_T2_C14">C. XIV: Serpientes y remedios a sus venenos</option>
+							<option value="orinocoIlustrado_T2_C15">C. XV: Otros animales venenosos</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C16">C. XVI: Más animales venenosos</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C17">C. XVII: Peces venenosos</option>
+							<option value="orinocoIlustrado_T2_C18">C. XVIII: Caimanes y cocodrilos</option>
+							<option value="orinocoIlustrado_T2_C19">C. XIX: Agricultura en grupos indígenas</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C20">C. XX: Comida y otros productos de los indígenas </option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C21">C. XXI: Frutas, yerbas y raíces medicinales</option>
+							<option value="orinocoIlustrado_T2_C22">C. XXII: Cacería de aves y otros animales</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C23">C. XXIII: Efectos de eclipses lunares en los indígenas</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C24">C. XXIV: Matrimonio y poligamia en los indígenas</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C25">C. XXV: Variación de la población indígena con la evangelización</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C26">C. XXVI: Continuación de explicaciones sobre variación de la población indígena</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_C27">C. XXVII: Razones de la disminución de la población indígena</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_Apostrofe">Apóstrofe</option>
+							<option class="disabledOption" value="orinocoIlustrado_T2_Indice">Índice</option>
+						</optgroup>
+					</select>
+				</fieldset>
+			</div>
 
-      <div id="seleccionCategorias">
-        <fieldset id="fieldCategorias" class="d_grid grid_twoCol_1-1">
-          <legend><b>Categorías:</b></legend>
-        </fieldset>
-      </div>
+			<div id="seleccionCategorias">
+				<fieldset id="fieldCategorias" class="d_grid grid_twoCol_1-1">
+					<legend><b>Categorías:</b></legend>
+				</fieldset>
+			</div>
 
-      <div id="fragmentos" class="d_grid grid_oneCol">
-        <legend class="w100"><b>Fragmentos:</b></legend>
-      </div>
-    </div>
+			<div id="fragmentos" class="d_grid grid_oneCol">
+				<legend class="w100"><b>Fragmentos:</b></legend>
+			</div>
+		</div>
 
-    <div id="fragmentosCol2" class="der padTop30px padBot60px">
-    </div>
+		<div id="fragmentosCol2" class="der padTop30px padBot60px">
+		</div>
 
-    <canvas id='miniMap'></canvas>
-  </div>
+		<canvas id='miniMap'></canvas>
+	</div>
 
-  <dialog id="introduccionDialog">
-    <h2>
-      <b>¿Qué es esta herramienta?</b>
-    </h2>
-    <p>
-      Durante los siglos XVI, XVII y XVIII los gabinetes de curiosidades, –pequeñas muestras de territorios lejanos y nuevos–, crecieron y se popularizaron en Europa. Objetos, plantas y animales mostraron el alcance y poderío del imperio español y alimentaron la imaginación de la gente. En 1740 el jesuita Joseph Gumilla presentó uno de los gabinetes más conocidos, el Orinoco ilustrado. Este libro nos muestra que América <i>“no solo se llama Mundo Nuevo, por su nuevo descubrimiento; sino tambien porque comparado con este Mundo antiguo [Europa], aquel es del todo nuevo, y en todo diverso”</i>. En la imaginación de Gumilla, el Orinoco se convierte en un territorio de posibilidades económicas, políticas y espirituales para España. 
-    </p>
-    <p>
-      En esta curaduría mostramos una nueva forma de leer el Orinoco Ilustrado. Por medio de diez categorías proponemos un nuevo gabinete de curiosidades de este pasado, una pequeña muestra de la complejidad de las relaciones entre imperios, indigenas y naturaleza que caracterizaron este Nuevo Mundo. Y cómo la diversidad y la novedad de este territorio implicó un reto para la corona española en sus proyectos de conocer y ordenar las fronteras del Imperio. 
-    </p>
-    <button id="closeDialog_introduccion" value="close">Cerrar</button>
-  </dialog>
+	<dialog id="introduccionDialog">
+		<h2>
+			<b>¿Qué es esta herramienta?</b>
+		</h2>
+		<p>
+			Durante los siglos XVI, XVII y XVIII los gabinetes de curiosidades, –pequeñas muestras de territorios lejanos y nuevos–, crecieron y se popularizaron en Europa. Objetos, plantas y animales mostraron el alcance y poderío del imperio español y alimentaron la imaginación de la gente. En 1740 el jesuita Joseph Gumilla presentó uno de los gabinetes más conocidos, el Orinoco ilustrado. Este libro nos muestra que América <i>“no solo se llama Mundo Nuevo, por su nuevo descubrimiento; sino tambien porque comparado con este Mundo antiguo [Europa], aquel es del todo nuevo, y en todo diverso”</i>. En la imaginación de Gumilla, el Orinoco se convierte en un territorio de posibilidades económicas, políticas y espirituales para España. 
+		</p>
+		<p>
+			En esta curaduría mostramos una nueva forma de leer el Orinoco Ilustrado. Por medio de diez categorías proponemos un nuevo gabinete de curiosidades de este pasado, una pequeña muestra de la complejidad de las relaciones entre imperios, indigenas y naturaleza que caracterizaron este Nuevo Mundo. Y cómo la diversidad y la novedad de este territorio implicó un reto para la corona española en sus proyectos de conocer y ordenar las fronteras del Imperio. 
+		</p>
+		<button id="closeDialog_introduccion" value="close">Cerrar</button>
+	</dialog>
 
-  <dialog id="instructionsDialog">
-    <h2>
-      <b>¿Cómo usar esta herramienta?</b>
-    </h2>
-    <p>
-      La obra de Gumilla está compuesta por dos tomos. El primer tomo consta de 25 capítulos y el segundo tomo de 27 capítulos, con un total de 580 páginas. Al tratarse de una obra extensa, esta herramienta de exploración ofrece al lector una curaduría de fragmentos a partir de categorías temáticas. La curaduría consiste en la selección y organización de materiales dentro de un marco de interpretación.
-    </p>
-    <p>
-      Para usar esta herramienta seleccione en la columna izquierda el capítulo del tomo que quiere explorar. Debajo encontrará un listado de categorías para filtrar los fragmentos resaltados en el cuerpo de texto. Seleccione una o más categorías. Debajo se mostrará un listado de fragmentos de la(s) categoría(s) elegida(s). Cada categoría tiene un color representativo.
-    </p>
-    <p>
-      Para dirigirse al fragmento dentro del capítulo, haga clic en el título del fragmento. En la columna derecha donde se encuentra todo el capítulo desplegado, podrá ver el fragmento resaltado.
-    </p>
-    <details>
-      <summary><b>Explicación de las categorías:</b></summary>
-      <ul>
-        <li>
-          <b>Animales:</b> la fauna del Orinoco.
-        </li>
-        <li>
-          <b>Riqueza:</b> descripción de productos, paisajes, cultivos y ganado posibles para producir riqueza al imperio español.
-        </li>
-        <li>
-          <b>Poblamiento:</b> descripción y ubicación de grupos indígenas.
-        </li>
-        <li>
-          <b>Evangelización:</b> proceso y forma de conversión de los indígenas a la religión católica en las misiones.
-        </li>
-        <li>
-          <b>Conflicto:</b> guerras e invasiones de indígenas u otros imperios a misiones y pueblos españoles.
-        </li>
-        <li>
-          <b>Comercio:</b> productos que se comercializaban entre indígenas y con otros imperios.
-        </li>
-        <li>
-          <b>Medicinas:</b> plantas o animales útiles por sus atributos medicinales.
-        </li>
-        <li>
-          <b>Cuerpo:</b> formas de vestir o no vestir y alteraciones del cuerpo practicadas por grupos indígenas.
-        </li>
-        <li>
-          <b>Rituales:</b> danzas, festividades, música y tradiciones de grupos indígenas.
-        </li>
-        <li>
-          <b>Mujeres:</b> divisiones de tareas por género y papel de las mujeres en diferentes grupos indígenas.
-        </li>
-      </ul>
-    </details>
-    <br>
-    <button id="closeDialog_instrucciones" value="close">Cerrar</button>
-  </dialog>
+	<dialog id="instructionsDialog">
+		<h2>
+			<b>¿Cómo usar esta herramienta?</b>
+		</h2>
+		<p>
+			La obra de Gumilla está compuesta por dos tomos. El primer tomo consta de 25 capítulos y el segundo tomo de 27 capítulos, con un total de 580 páginas. Al tratarse de una obra extensa, esta herramienta de exploración ofrece al lector una curaduría de fragmentos a partir de categorías temáticas. La curaduría consiste en la selección y organización de materiales dentro de un marco de interpretación.
+		</p>
+		<p>
+			Para usar esta herramienta seleccione en la columna izquierda el capítulo del tomo que quiere explorar. Debajo encontrará un listado de categorías para filtrar los fragmentos resaltados en el cuerpo de texto. Seleccione una o más categorías. Debajo se mostrará un listado de fragmentos de la(s) categoría(s) elegida(s). Cada categoría tiene un color representativo.
+		</p>
+		<p>
+			Para dirigirse al fragmento dentro del capítulo, haga clic en el título del fragmento. En la columna derecha donde se encuentra todo el capítulo desplegado, podrá ver el fragmento resaltado.
+		</p>
+		<details>
+			<summary><b>Explicación de las categorías:</b></summary>
+			<ul>
+				<li>
+					<b>Animales:</b> la fauna del Orinoco.
+				</li>
+				<li>
+					<b>Riqueza:</b> descripción de productos, paisajes, cultivos y ganado posibles para producir riqueza al imperio español.
+				</li>
+				<li>
+					<b>Poblamiento:</b> descripción y ubicación de grupos indígenas.
+				</li>
+				<li>
+					<b>Evangelización:</b> proceso y forma de conversión de los indígenas a la religión católica en las misiones.
+				</li>
+				<li>
+					<b>Conflicto:</b> guerras e invasiones de indígenas u otros imperios a misiones y pueblos españoles.
+				</li>
+				<li>
+					<b>Comercio:</b> productos que se comercializaban entre indígenas y con otros imperios.
+				</li>
+				<li>
+					<b>Medicinas:</b> plantas o animales útiles por sus atributos medicinales.
+				</li>
+				<li>
+					<b>Cuerpo:</b> formas de vestir o no vestir y alteraciones del cuerpo practicadas por grupos indígenas.
+				</li>
+				<li>
+					<b>Rituales:</b> danzas, festividades, música y tradiciones de grupos indígenas.
+				</li>
+				<li>
+					<b>Mujeres:</b> divisiones de tareas por género y papel de las mujeres en diferentes grupos indígenas.
+				</li>
+			</ul>
+		</details>
+		<br>
+		<button id="closeDialog_instrucciones" value="close">Cerrar</button>
+	</dialog>
 
-  <script id="templateFragmentos" type="text/html">
-    <div class="fragmento <%= clase %>">
-      <div><b><%= link %></b></div>
-    </div>
-  </script>
-  <script src="./js/menu.js"></script>
-  <script src="./js/fragmentos.js"></script>
+	<script id="templateFragmentos" type="text/html">
+		<div class="fragmento <%= clase %>">
+			<div><b><%= link %></b></div>
+		</div>
+	</script>
+	<script src="./js/menu.js"></script>
+	<script src="./js/fragmentos.js"></script>
 </body>
 </html>

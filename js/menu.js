@@ -12,9 +12,11 @@ menuDiv.addEventListener("click", () => {
 
 		contentDiv.classList.remove("non_blurred");
 		contentDiv.classList.add("blurred");
-
-		navBarDiv.classList.remove("non_blurred");
-		navBarDiv.classList.add("blurred");
+		
+		if(navBarDiv) {
+			navBarDiv.classList.remove("non_blurred");
+			navBarDiv.classList.add("blurred");
+		}
 	} else {
 		menuOpen = false;
 		menuDiv.classList.remove("active");
@@ -22,7 +24,9 @@ menuDiv.addEventListener("click", () => {
 		contentDiv.classList.add("non_blurred");
 		contentDiv.classList.remove("blurred");
 
-		navBarDiv.classList.add("non_blurred");
-		navBarDiv.classList.remove("blurred");
+		if(navBarDiv) {
+			navBarDiv.classList.add("non_blurred");
+			navBarDiv.classList.remove("blurred");
+		}
 	}
 });

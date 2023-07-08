@@ -1,8 +1,5 @@
-const introContent = document.getElementById("introTextoContenido");
-const introImage = document.getElementById("introImagen")
-
 // Obtener el archivo de los popups y ejecutar las funciones.
-async function fetchIntro() {
+async function fetchSteps() {
 	try {
 		const response = await fetch("./resources/json/intro/intro.json")
 		const data = await response.json();
@@ -13,20 +10,23 @@ async function fetchIntro() {
 }
 
 // Ejecutar las funciones cuando se reciba la respuesta.
-fetchIntro().then(data => scrollIntro(data));
+fetchSteps().then(data => scrollSteps(data));
 
 
-const scrollIntro = (text) => {
+const scrollSteps = (data) => {
 	const scroller = scrollama();
 
 	scroller
 	.setup({
-		step: ".introTituloStep"
+		step: ".introStep"
 	})
-	.onStepEnter(response => changeIntroContent(text, response));
+	.onStepEnter(response => changeIntroContent(data, response));
 }
 
-const changeIntroContent = (text, step) => {
-	introContent.innerHTML = text[step.element.id].content;
-	introImage.innerHTML = `<img class="centered w100" src="./resources/images/intro/intro_${step.element.id}.png">`
+const changeIntroContent = (data, step) => {
+	const introContent = document.getElementById("introTexto");
+	const introImage = document.getElementById("introImagen");
+
+	introContent.innerHTML = data[step.element.id].text;
+	introImage.innerHTML = data[step.element.id].image;
 }
