@@ -166,6 +166,8 @@ materialesMap_1.on('load', async() => {
 	enableLineAnim(materialesMap_1, 'orinoco', 0.1, 6, 6);
 });
 
+
+// Crear flechas SVG para agregar a las lineas. Tomado de https://qiita.com/kkdd/items/6a6df29903aa73a9d383
 function arrowHeadImage(color) {
 	const param = {"color": color, "size": 34, "rotation": 90};
 	const data = `<svg width='${param.size}' height='${param.size}' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg' version='1.1'><polygon fill='${param.color}' stroke='gray' stroke-width='1' points='20,90 50,10 80,90 50,70' transform='rotate(${param.rotation} 50 50)'/></svg>`;
@@ -184,7 +186,7 @@ const changeContent = (data, step) => {
 }
 
 
-// Cambiar el contenido del mapa
+// Cambiar el contenido del mapa según el paso.
 const changeMap = (step) => {
 	if (materialesMap_1.getSource('habitatsOrinoco')) {
 		switch(step) {
@@ -354,38 +356,38 @@ const changeMapView = (index, vel) => {
 const mapViews = [
 	[
 		[-66.7, 5.61499], 5.8
-		],
+	],
 	[
 		[-68.34478, 6.45987], 8
-		],
+	],
 	[
 		[-67.23140, 5.57416], 9 
-		],
+	],
 	[
 		[-72.92327, 5.54615], 6.5
-		],
+	],
 	[
 		[-63.76068, 9.05238], 8
-		],
+	],
 	[
 		[-69.87530, 5.26663], 7
-		],
+	],
 	[
 		[-69.00180, 7.68865], 7
-		],
+	],
 	[
 		[-67.71257, 4.03263], 8
-		],
+	],
 	[
 		[-66.41512, 2.58098], 8
-		],
+	],
 	[
 		[-67.03520, 7.07561], 8
-		]
-	];
+	]
+];
 
 
-// Animación de las lineas.
+// Animación de las lineas. Original en https://stackoverflow.com/a/43079655/10102175
 var step = 0;
 const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength) => {
 	const dashSteps = 40 * dashLength / (gapLength + dashLength);

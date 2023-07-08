@@ -284,7 +284,7 @@ const mapViews = [
 ];
 
 
-// Animación de las lineas.
+// Animación de las lineas. Original en https://stackoverflow.com/a/43079655/10102175
 var step = 0;
 const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength) => {
 	const dashSteps = 40 * dashLength / (gapLength + dashLength);

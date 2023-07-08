@@ -13,6 +13,7 @@ async function fetchSteps() {
 fetchSteps().then(data => scrollSteps(data));
 
 
+// Iniciar Scrollama y ejecutar funciones cuando se cargue el DOM y se entre en cada paso.
 const scrollSteps = (data) => {
 	const scroller = scrollama();
 
@@ -23,6 +24,8 @@ const scrollSteps = (data) => {
 	.onStepEnter(response => changeIntroContent(data, response));
 }
 
+
+// Cambiar el contenido de texto e imagen.
 const changeIntroContent = (data, step) => {
 	const introContent = document.getElementById("introTexto");
 	const introImage = document.getElementById("introImagen");

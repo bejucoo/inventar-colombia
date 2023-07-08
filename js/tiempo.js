@@ -59,6 +59,7 @@ tiempoMap_1.on('load', () => {
 		data: './resources/geojson/narrativa/transformacionOrinoco.geojson'
 	});
 
+	// Línea sólida.
 	tiempoMap_1.addLayer({
 		id: 'stepSolid',
 		type: 'line',
@@ -70,6 +71,7 @@ tiempoMap_1.on('load', () => {
 			}
 	});
 
+	// Línea animada.
 	tiempoMap_1.addLayer({
 		id: 'stepAnim',
 		type: 'line',
@@ -91,6 +93,7 @@ tiempoMap_2.on('load', () => {
 		data: './resources/geojson/narrativa/transformacionOrinoco.geojson'
 	});
 
+	// Línea sólida.
 	tiempoMap_2.addLayer({
 		id: 'step_6_solid',
 		type: 'line',
@@ -103,6 +106,7 @@ tiempoMap_2.on('load', () => {
 		}
 	});
 
+	// Línea animada.
 	tiempoMap_2.addLayer({
 		id: 'step_6_anim',
 		type: 'line',
@@ -185,11 +189,8 @@ const mapViews = [
 ];
 
 
-// Variable para las animaciones.
+// Animación de las lineas. Original en https://stackoverflow.com/a/43079655/10102175
 var stepInit = 0;
-
-
-// Animación de las lineas.
 const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength, step) => {
 	if (mapId.getLayer(layerId)) {
 		const dashSteps = 40 * dashLength / (gapLength + dashLength);

@@ -1,4 +1,6 @@
-// Agregar un nuevo mapa de MapLibre GL JS.
+console.log(' Desarrollado por Pierre Puentes Gómez @ 2023 \n https://bejuco.co/ ')
+
+// Agregar mapa.
 let map = new maplibregl.Map({
 	container: "indexMapElm",
 	style: "./resources/json/map_styles/indexMap.json",
@@ -21,6 +23,7 @@ async function fetchPopups() {
 		console.error(error); 
 	}
 }
+
 
 // Ejecutar las funciones cuando se reciba la respuesta.
 fetchPopups().then(data => {
@@ -46,7 +49,7 @@ const addIndexPopups = (json) => {
 };
 
 
-// Ir a cada popup y dibujar o quitar el ícono de scroll según la posición del scroll 
+// Ir a cada popup y dibujar o quitar el ícono de scroll según la posición del scroll.
 const scrollToPoint = (json) => {
 	const scrollIcon = document.getElementById("scrollAnim");
 	let scrollIconHidden = false;
