@@ -787,6 +787,14 @@ button:hover {
 	z-index: 100;
 }
 
+#recorrerContent {
+	display: block;
+}
+
+#disclaimerMovil {
+	display: none;
+}
+
 
 
 
@@ -1046,5 +1054,18 @@ table,
 
 	#miniMap {
 		display: none;
+	}
+
+
+
+
+
+	/* RECORRER */
+	#recorrerContent {
+		display: none;
+	}
+
+	#disclaimerMovil {
+		display: block;
 	}
 }
