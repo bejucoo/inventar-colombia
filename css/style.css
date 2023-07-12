@@ -400,6 +400,7 @@ button:hover {
 	background: var(--white1);
 	align-items: center;
 	font-size: 1.1em;
+	max-width: 27%;
 }
 
 #navTitle {
@@ -892,6 +893,7 @@ table,
 		position: relative;
 		display: block;
 		top: 70px;
+		max-width: unset;
 	}
 
 
