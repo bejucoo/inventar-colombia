@@ -15,9 +15,7 @@
 <br>
 
 - ## IV. [Investigación](investigacion.html)
-- Metodología
-- [Colección de fuentes primarias](https://mariajoafana.github.io/inventar_colombia/)
-- Bibliografía
+
 
 <br>
 
