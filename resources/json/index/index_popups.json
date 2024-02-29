@@ -10,7 +10,7 @@
 		"zoom": 10,
 		"pitch": 60,
 		"bearing": -124,
-		"html": "<img src='./resources/images/index/popup_1.svg' alt=''><div><h2>Inventar Colombia</h2><h3 style='font-weight: lighter;'>Una mirada desde el Orinoco</h3><p style='font-size: 0.8em; max-width: 500px; line-height: 1em'>Un recurso digital interactivo sobre la cuenca del Orinoco en escala geológica, en tiempos prehispánicos, durante el proceso colonializador y en la transición entre colonia y república en lo que hoy son Colombia y Venezuela. [Versión beta].</p><a style='font-size: 0.8em;' href='./about.html'>Más información</a></div>"
+		"html": "<img src='./resources/images/index/popup_1.svg' alt=''><div><h2>Inventar Colombia</h2><h3 style='font-weight: lighter;'>Una mirada desde el Orinoco</h3><p style='font-size: 0.8em; max-width: 500px; line-height: 1em'>Un recurso digital interactivo sobre la cuenca del Orinoco en escala geológica, en tiempos prehispánicos, durante el proceso colonializador y en la transición entre colonia y república. [Versión beta].</p><a style='font-size: 0.8em;' href='./about.html'>Más información</a></div>"
 	},
 	{
 		"id": "intro",
