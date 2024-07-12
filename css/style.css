@@ -94,12 +94,12 @@ table {
 }
 
 td, th {
-  border: var(--bd_solidThin);
-  padding: 10px;
+	border: var(--bd_solidThin);
+	padding: 10px;
 }
 
 tr:nth-child(even) {
-  background-color: var(--white2);
+	background-color: var(--white2);
 }
 
 
@@ -429,7 +429,7 @@ button:hover {
 	justify-content: start;
 	font-size: 1.2em;
 	line-height: 1em;
-	overflow: scroll;
+	overflow: hidden;
 	padding: 0 10%;
 }
 
@@ -765,8 +765,8 @@ button:hover {
 }
 
 #narrativaIndexMapElm {
-		display: block;
-	}
+	display: block;
+}
 
 .bg_black {
 	background-color: var(--black2);
@@ -930,6 +930,7 @@ table,
 		font-size: 1.1em;
 		text-align: center;
 		line-height: 0.7em;
+		overflow: auto;
 	}
 
 	#menuToggle {
@@ -981,11 +982,16 @@ table,
 	.indexPopup_inf img {
 		max-width: unset;
 		height: 260px;
-		transform: translate(-50%, -11%);
+		transform: translate(-50%, -15%);
 	}
 
 	#indexMapControlWrap {
 		padding: 10px 10px 30px 10px;
+		line-height: 1;
+	}
+
+	#indexMapControl {
+		font-size: 1.2em;
 	}
 
 
