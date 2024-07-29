@@ -12,9 +12,9 @@ const fetchFragments = async () => {
 
 // Ejecutar las funciones cuando se reciba la respuesta.
 fetchFragments().then(data => {
-	addFullText();
 	addCategoryCheck(uniqueKeyValues(data, "categoria"));
 	filterJSON(data);
+	addFullText();
 });
 
 
