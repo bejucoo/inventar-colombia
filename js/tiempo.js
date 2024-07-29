@@ -1,5 +1,5 @@
 // Obtener el archivo JSON de pasos.
-async function fetchSteps() {
+const fetchSteps = async () => {
 	try {
 		const response = await fetch('./resources/json/narrativa/tiempoSteps.json')
 		const data = await response.json();
@@ -125,8 +125,8 @@ tiempoMap_2.on('load', () => {
 
 // Cambiar el contenido de los divs de texto e imagen.
 const changeContent = (data, step) => {
-	let divTxt = document.getElementById('tiempoTxt_' + data[step.element.id].div);
-	let divImg = document.getElementById('tiempoImg_' + data[step.element.id].div);
+	let divTxt = document.getElementById(`tiempoTxt_${data[step.element.id].div}`);
+	let divImg = document.getElementById(`tiempoImg_${data[step.element.id].div}`);
 
 	if (divTxt) divTxt.innerHTML = data[step.element.id].text;
 	if (divImg) divImg.innerHTML = data[step.element.id].img;
@@ -190,7 +190,7 @@ const mapViews = [
 
 
 // Animación de las lineas. Original en https://stackoverflow.com/a/43079655/10102175
-var stepInit = 0;
+let stepInit = 0;
 const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength, step) => {
 	if (mapId.getLayer(layerId)) {
 		const dashSteps = 40 * dashLength / (gapLength + dashLength);
@@ -199,7 +199,7 @@ const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength, step) 
 		step = step + animSpeed;
 		if (step >= 40) step = 0;
 
-		var t, a, b, c, d;
+		let t, a, b, c, d;
 		if (step < dashSteps) {
 			t = step / dashSteps;
 			a = (1 - t) * dashLength;

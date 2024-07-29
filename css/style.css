@@ -223,6 +223,10 @@ tr:nth-child(even) {
 	height: fit-content;
 }
 
+p.centered {
+	padding: inherit;
+}
+
 .top0 {
 	top: 0;
 }
@@ -419,6 +423,7 @@ button:hover {
 	color: var(--white1);
 	transition: left 0.4s;
 	z-index: 999;
+	cursor: pointer;
 }
 
 #menuDiv.active {
@@ -884,6 +889,14 @@ table,
 		border: none;
 	}
 
+	p.centered {
+		padding: unset;
+	}
+
+	.parrafoGrande {
+		font-size: 1.1em;
+	}
+
 
 
 
@@ -918,6 +931,7 @@ table,
 		top: -94%;
 		left: 0;
 		transition: top 0.4s;
+		cursor: pointer;
 	}
 
 	#menuDiv.active {
@@ -1029,11 +1043,11 @@ table,
 
 
 	/* INTRO */
-	#introTexto {
+	.introTexto {
 		padding: 0;
 	} 	
 
-	#introImagen {
+	.introImagen {
 		display: none;
 	}
 

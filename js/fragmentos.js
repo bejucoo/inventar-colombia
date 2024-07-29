@@ -1,5 +1,5 @@
 // Obtener el archivo JSON de los fragmentos.
-async function fetchFragments() {
+const fetchFragments = async () => {
 	try {
 		const response = await fetch("./resources/json/fragmentos/fragmentos.json")
 		const data = await response.json();
@@ -12,9 +12,9 @@ async function fetchFragments() {
 
 // Ejecutar las funciones cuando se reciba la respuesta.
 fetchFragments().then(data => {
+	addFullText();
 	addCategoryCheck(uniqueKeyValues(data, "categoria"));
 	filterJSON(data);
-	addFullText();
 });
 
 
@@ -178,6 +178,7 @@ const toggleTextHighlight = () => {
 	highlight();
 	highlightOnChange();
 }
+
 
 // Agregar el cuerpo de texto. Resaltar fragmentos y agregar minimap cuando se cargue.
 const addFullText = () => {

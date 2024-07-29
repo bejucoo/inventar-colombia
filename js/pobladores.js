@@ -1,7 +1,7 @@
 // Obtener el archivo JSON de pasos.
-async function fetchSteps() {
+const fetchSteps = async () => {
 	try {
-		const response = await fetch('./resources/json/narrativa/pobladoresSteps.json')
+		const response = await fetch('./resources/json/narrativa/pobladoresSteps.json');
 		const data = await response.json();
 		return data;
 	} catch(error) {
@@ -17,6 +17,7 @@ fetchSteps().then(data => scrollSteps(data));
 // Iniciar Scrollama y ejecutar funciones cuando se cargue el DOM y se entre en cada paso.
 const scrollSteps = (data) => {
 	const scroller = scrollama();
+	
 	scroller
 	.setup({
 		step: '.narrativaStep'
@@ -48,10 +49,19 @@ const actividades = ['pescadores', 'recolectores', 'cazadores', 'cultivadores'];
 
 // Agregar sources, layers y animar.
 pobladoresMap_1.on('load', () => {
+	// Imágenes para íconos.
+	actividades.forEach(async (e) => {
+		image = await pobladoresMap_1.loadImage(`./resources/images/narrativa/pobladores/${e}.png`);
+		pobladoresMap_1.addImage(e, image.data);
+	});
+
+
+	// Hábitats.
 	pobladoresMap_1.addSource('habitatsOrinoco', {
 		type: 'geojson',
 		data: './resources/geojson/narrativa/habitatsRibereñosOrinoco.geojson'
 	});
+
 
 	// Tributarios animados
 	pobladoresMap_1.addLayer({
@@ -102,14 +112,7 @@ pobladoresMap_1.on('load', () => {
 		}
 	});
 
-	// Imágenes para íconos.
-	actividades.forEach(e => {
-		pobladoresMap_1.loadImage('./resources/images/narrativa/pobladores/' + e + '.png', (error, img) => {
-			if (error) throw error;
-			pobladoresMap_1.addImage(e, img);
-		})
-	});
-
+	
 	// Etiquetas e íconos.
 	pobladoresMap_1.addLayer({
 		id: 'labels',
@@ -152,7 +155,7 @@ pobladoresMap_1.on('load', () => {
 
 // Cambiar el contenido de los divs de texto.
 const changeContent = (data, step) => {
-	let divTxt = document.getElementById('pobladoresTxt_' + data[step.element.id].div);
+	let divTxt = document.getElementById(`pobladoresTxt_${data[step.element.id].div}`);
 	if (divTxt) divTxt.innerHTML = data[step.element.id].text;
 }
 
@@ -262,30 +265,30 @@ const changeMapView = (index, vel) => {
 const mapViews = [
 	[
 		[-66.7, 6.61499], 5.9
-	],
+		],
 	[
 		[-71.12313, 4.87724], 6.5
-	],
+		],
 	[
 		[-69.52653, 3.58252], 6.5
-	],
+		],
 	[
 		[-63.86517, 6.03455], 6.5
-	],
+		],
 	[
 		[-66.19598, 8.44916], 6.2
-	],
+		],
 	[
 		[-68.75561, 6.83224], 6.8
-	],
+		],
 	[
 		[-68.14159, 7.16971], 7.5
-	]
-];
+		]
+	];
 
 
 // Animación de las lineas. Original en https://stackoverflow.com/a/43079655/10102175
-var step = 0;
+let step = 0;
 const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength) => {
 	const dashSteps = 40 * dashLength / (gapLength + dashLength);
 	const gapSteps = 40 - dashSteps;
@@ -293,7 +296,7 @@ const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength) => {
 	step = step + animSpeed;
 	if (step >= 40) step = 0;
 
-	var t, a, b, c, d;
+	let t, a, b, c, d;
 	if (step < dashSteps) {
 		t = step / dashSteps;
 		a = (1 - t) * dashLength;

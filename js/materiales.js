@@ -1,5 +1,5 @@
 // Obtener el archivo JSON de pasos.
-async function fetchSteps() {
+const fetchSteps = async () => {
 	try {
 		const response = await fetch('./resources/json/narrativa/materialesSteps.json')
 		const data = await response.json();
@@ -173,7 +173,8 @@ function arrowHeadImage(color) {
 	const data = `<svg width='${param.size}' height='${param.size}' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg' version='1.1'><polygon fill='${param.color}' stroke='gray' stroke-width='1' points='20,90 50,10 80,90 50,70' transform='rotate(${param.rotation} 50 50)'/></svg>`;
 	return new Promise((resolve) => {
 		const img = new Image(param.size, param.size);
-		img.src = "data:image/svg+xml;base64," + btoa(data);
+		img.src = `data:image/svg+xml;base64,${btoa(data)}`;
+		//img.src = "data:image/svg+xml;base64," + btoa(data);
 		img.onload = () => resolve(createImageBitmap(img));
 	});
 }
@@ -181,7 +182,7 @@ function arrowHeadImage(color) {
 
 // Cambiar el contenido de los divs de texto.
 const changeContent = (data, step) => {
-	let divTxt = document.getElementById('materialesTxt_' + data[step.element.id].div);
+	let divTxt = document.getElementById(`materialesTxt_${data[step.element.id].div}`);
 	if (divTxt) divTxt.innerHTML = data[step.element.id].text;
 }
 
@@ -388,7 +389,7 @@ const mapViews = [
 
 
 // Animación de las lineas. Original en https://stackoverflow.com/a/43079655/10102175
-var step = 0;
+let step = 0;
 const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength) => {
 	const dashSteps = 40 * dashLength / (gapLength + dashLength);
 	const gapSteps = 40 - dashSteps;
@@ -396,7 +397,7 @@ const enableLineAnim = (mapId, layerId, animSpeed, dashLength, gapLength) => {
 	step = step + animSpeed;
 	if (step >= 40) step = 0;
 
-	var t, a, b, c, d;
+	let t, a, b, c, d;
 	if (step < dashSteps) {
 		t = step / dashSteps;
 		a = (1 - t) * dashLength;

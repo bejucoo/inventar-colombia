@@ -1,4 +1,4 @@
-console.log(' Desarrollado por Pierre Puentes Gómez @ 2023 \n https://bejuco.co/ ')
+console.log(' Desarrollado por Pierre Puentes Gómez\n https://bejuco.co/ ')
 
 // Agregar mapa.
 let map = new maplibregl.Map({
